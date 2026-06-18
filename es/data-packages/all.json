@@ -2165,7 +2165,7 @@
           }
         ]
       },
-      "title": "Tasa de alfabetización de adultos/jóvenes"
+      "title": "Proporción de la población en un grupo de edad determinado que ha alcanzado al menos un nivel fijo de competencia funcional en a) alfabetización y b) aritmética, desglosada por sexo"
     },
     {
       "path": "6-5-2/data.csv",
@@ -11644,7 +11644,7 @@
           }
         ]
       },
-      "title": "Proporción del valor añadido total del sector industrial correspondiente a las pequeñas industrias, según a) la clasificación internacional y b) las clasificaciones nacionales"
+      "title": "Proporción del valor añadido total del sector industrial correspondiente a las pequeñas industrias"
     },
     {
       "path": "3-5-1/data.csv",
