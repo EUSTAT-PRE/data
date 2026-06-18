@@ -2165,7 +2165,7 @@
           }
         ]
       },
-      "title": "a) alfabetatzean eta b) aritmetikan gutxienez gaitasun funtzionaleko maila finkoa lortu duen adin-talde jakin bateko biztanleriaren proportzioa, sexuaren arabera banakatuta"
+      "title": "Helduen/gazteen alfabetatze-tasa"
     },
     {
       "path": "6-5-2/data.csv",
@@ -11644,7 +11644,7 @@
           }
         ]
       },
-      "title": "Industria txikiei dagokien industri sektorearen balio erantsi osoaren proportzioa"
+      "title": "Industria txikiei dagokien industria-sektorearen balio erantsi osoaren proportzioa, a) nazioarteko sailkapena eta b) sailkapen nazionalak kontuan hartuta"
     },
     {
       "path": "3-5-1/data.csv",
