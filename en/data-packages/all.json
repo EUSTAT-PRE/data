@@ -2165,7 +2165,7 @@
           }
         ]
       },
-      "title": "Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex"
+      "title": "Youth/adult literacy rate"
     },
     {
       "path": "6-5-2/data.csv",
@@ -11644,7 +11644,7 @@
           }
         ]
       },
-      "title": "Proportion of small-scale industries in total industry value added"
+      "title": "Proportion of small-scale industries in total industry value added, based on (a) international classification and (b) national classifications"
     },
     {
       "path": "3-5-1/data.csv",
