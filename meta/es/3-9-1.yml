@@ -68,8 +68,8 @@ justificacion_global: |
 
 comparabilidad: |
 
-El indicador disponible no cumple con los metadatos del indicador de Naciones Unidas, pero aporta información similar.
-El indicador disponible es comparable con el indicador europeo.
+  El indicador disponible no cumple con los metadatos del indicador de Naciones Unidas, pero aporta información similar.
+  El indicador disponible es comparable con el indicador europeo.
 
 indicador_meta_enlace: |
   <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-01.pdf">Metadatos 3-9-1.pdf</a> (solo en inglés)
