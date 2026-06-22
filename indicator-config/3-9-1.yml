@@ -19,10 +19,15 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_target_lines:
-  - series: ''
+  - series: TASA
     unit: ''
     label_content: indicator.annotation_2030_target
     value: 30.5
+    graph_target_lines:
+  - series: NUM_MUERTES
+    unit: ''
+    label_content: indicator.annotation_2030_target
+    value: 645    
 graph_title: GRAFICO.3-9-1-titulo
 graph_titles: []
 graph_type: line    
