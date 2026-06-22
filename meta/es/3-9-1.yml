@@ -9,7 +9,7 @@ meta_global: meta_largo.3-9-titulo
 
 
 definicion: >-
-  tasa de mortalidad prematura por cada 100.000 habitantes y número de muertes prematuras  atribuibles a exposiciones prolongadas de concentraciones de partículas finas PM2,5 superiores a 5 $\mu\mathrm{g}/\mathrm{m}^3$
+  Tasa de mortalidad prematura por cada 100.000 habitantes y número de muertes prematuras atribuibles a exposiciones prolongadas de concentraciones de partículas finas (PM2,5) superiores a 5 $\mu\mathrm{g}/\mathrm{m}^3$
 
 formula: |
 
