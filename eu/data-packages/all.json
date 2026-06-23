@@ -2583,6 +2583,79 @@
       "title": "Azken 12 hilabeteetan egungo edo aurreko bikotekidearen eskutik indarkeria fisikoa, sexuala edo psikologikoa jasan duten 15 urtetik gorako emakumeen eta nesken proportzioa, indarkeria motaren eta adinaren arabera banakatuta"
     },
     {
+      "path": "3-9-1/data.csv",
+      "name": "3-9-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "EU_SDG_11_52_NR",
+                "EU_SDG_11_52_PER_100000",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Sexo",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Emakumea",
+                "Gizona",
+                ""
+              ]
+            },
+            "title": "Sexua"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Araba / Álava",
+                "Bizkaia",
+                "Gipuzkoa",
+                ""
+              ]
+            },
+            "title": "Lurralde historikoa"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "NR",
+                "100.000 biztanleko",
+                ""
+              ]
+            },
+            "title": "Unitatea"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Balioa"
+          }
+        ]
+      },
+      "title": "Etxeetako eta giroko airearen kutsadurari egotzitako heriotza-tasa"
+    },
+    {
       "path": "3-b-1/data.csv",
       "name": "3-b-1",
       "profile": "tabular-data-resource",
@@ -16496,30 +16569,6 @@
         ]
       },
       "title": "a) Zenbat herrialdek ezarri dituzten Kunming-Montrealgo Biodibertsitatearen Munduko Esparruaren 14. helburuarekin bat datozen edo antzekoak diren jomuga nazionalak dibertsitate biologikoaren arloko estrategia eta ekintza-plan nazionaletan eta xede horiek lortzeko jakinarazitako aurrerapenetan; eta b) aniztasun biologikoa integratzea kontabilitaterako eta txostenak aurkezteko sistema nazionaletan, Ingurumen eta Ekonomia Kontabilitate Sistemaren aplikazio gisa definituta"
-    },
-    {
-      "path": "3-9-1/data.csv",
-      "name": "3-9-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Urtea"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Balioa"
-          }
-        ]
-      },
-      "title": "Etxeetako eta giroko airearen kutsadurari egotzitako heriotza-tasa"
     },
     {
       "path": "17-5-1/data.csv",
