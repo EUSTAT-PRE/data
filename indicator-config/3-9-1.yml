@@ -19,12 +19,12 @@ graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
 graph_target_lines:
-  - series: TASA
+  - series: EU_SDG_11_52_PER_100000
     unit: ''
     label_content: indicator.annotation_2030_target
     value: 30.5
     graph_target_lines:
-  - series: NUM_MUERTES
+  - series: EU_SDG_11_52_NR
     unit: ''
     label_content: indicator.annotation_2030_target
     value: 645    
