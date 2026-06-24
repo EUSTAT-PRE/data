@@ -15,7 +15,7 @@ definicion: >-
 
 formula: |
 
-  <b>Partikula finekiko esposizioagatiko hilkortasun goiztiarren tasa 100.000 biztanleko</b>
+  <b>Partikula finekiko esposizioagatiko heriotza goiztiarren tasa 100.000 biztanleko</b>
 
 
   $$TM_{partikula }^{t} = \frac{D_{partikula }^{t}}{PA^{t}} \cdot 100.000$$
