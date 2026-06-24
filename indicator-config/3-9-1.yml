@@ -27,7 +27,7 @@ graph_target_lines:
   - series: EU_SDG_11_52_NR
     unit: ''
     label_content: indicator.annotation_2030_target
-    value: 645    
+    value: 645
 graph_title: GRAFICO.3-9-1-titulo
 graph_titles: []
 graph_type: line    
