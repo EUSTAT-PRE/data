@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "EU_SDG_11_52_NR",
-                "EU_SDG_11_52_PER_100000",
+                "Partikula finekiko esposizioagatiko heriotza goiztiarren kopurua",
+                "Partikula finekiko esposizioagatiko heriotza goiztiarren tasa 100.000 biztanleko",
                 ""
               ]
             },
@@ -57,7 +57,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "NR",
+                "Zenbakia",
                 "100.000 biztanleko",
                 ""
               ]
