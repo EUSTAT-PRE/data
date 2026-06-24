@@ -2602,8 +2602,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "EU_SDG_11_52_NR",
-                "EU_SDG_11_52_PER_100000",
+                "Number of premature deaths due to exposure to fine particulate matter",
+                "Premature deaths rate due to exposure to fine particulate matter per 100,000 inhabitants",
                 ""
               ]
             },
@@ -2639,7 +2639,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "NR",
+                "Number",
                 "Per 100,000",
                 ""
               ]
