@@ -2494,8 +2494,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "EU_SDG_11_52_NR",
                 "EU_SDG_11_52_PER_100000",
+                "EU_SDG_11_52_NR",
                 ""
               ]
             }
@@ -2528,8 +2528,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "NR",
                 "PER_100000",
+                "NR",
                 ""
               ]
             }

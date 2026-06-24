@@ -2602,8 +2602,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Number of premature deaths due to exposure to fine particulate matter",
                 "Premature deaths rate due to exposure to fine particulate matter per 100,000 inhabitants",
+                "Number of premature deaths due to exposure to fine particulate matter",
                 ""
               ]
             },
@@ -2639,8 +2639,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Number",
                 "Per 100,000",
+                "Number",
                 ""
               ]
             },

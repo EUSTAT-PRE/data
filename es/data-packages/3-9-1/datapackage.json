@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Número de muertes prematuras por exposición a partículas finas",
                 "Tasa de mortalidad prematura por exposición a partículas finas por 100.000 habitantes",
+                "Número de muertes prematuras por exposición a partículas finas",
                 ""
               ]
             },
@@ -57,8 +57,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Número",
                 "Por 100.000",
+                "Número",
                 ""
               ]
             },
