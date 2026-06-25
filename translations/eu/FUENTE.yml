@@ -12,6 +12,7 @@ EC_REG: DG Eskualde eta Hiri Politika, Europako Batzordea
 EEA: Europako Ingurumen Agentzia
 EVE: Energiaren Euskal Erakundea (EEE)
 Ekolurra: Euskadiko Nekazaritza eta Elikadura Ekologikoaren Kontseilua
+Elankidetza: Lankidetzarako eta Elkartasunerako Euskal Agentzia
 ELIKA: ELIKA
 Euskadi: Eusko Jaurlaritza
 Euskadi_Lehendakaritza: Lehendakaritza
@@ -187,6 +188,7 @@ CGPD_ejud: Estatistika Judiziala
 KBA_kba: Key Biodiversity Areas
 ELIKA_xahu: Elikagaien Xahuketaren Analisia Euskadiko Nekazaritzako Elikagaien Katean
 INE_icv: Bizi-kalitatearen adierazleak
+elankidetza_ataria: Euskal lankidetza publikoaren ataria
 
 # URL
 
@@ -318,6 +320,7 @@ ELIKA_xahu_url: https://zerodespilfarro.elika.eus/wp-content/uploads/2023/03/Res
 Ihobe_verde_url: https://www.ihobe.eus/eu/erosketa-berdea
 hacienda_url: https://www.euskadi.eus/eusko-jaurlaritza/ogasun-finantza-saila/hasiera/
 INE_icv_url: https://www.ine.es/dynt3/ICV/index.html
+elankidetza_ataria_url: https://euskalankidetza.hegoa.ehu.eus/eu/agents
 
 
 # LOGOS
@@ -340,6 +343,7 @@ BM_logo: '/assets/img/fuentes/BM.png'
 OMS_logo: '/assets/img/fuentes/OMS.png' 
 KBA_logo: '/assets/img/fuentes/KBA.png'
 ELIKA_logo: '/assets/img/fuentes/Elika.png'
+elankidetza_logo: '/assets/img/fuentes/Elankidetza.png'
   
 # FRECUENCIA
 
