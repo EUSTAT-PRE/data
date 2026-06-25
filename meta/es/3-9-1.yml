@@ -9,7 +9,8 @@ meta_global: meta_largo.3-9-titulo
 
 
 definicion: >-
-  Tasa de mortalidad prematura por cada 100.000 habitantes y número de muertes prematuras atribuibles a exposiciones prolongadas de concentraciones de partículas finas (PM2,5) superiores a 5 $\mu\mathrm{g}/\mathrm{m}^3$
+  Tasa de mortalidad prematura por cada 100.000 habitantes y número de muertes prematuras atribuibles a 
+  exposiciones prolongadas de concentraciones de partículas finas (PM2,5) superiores a 5 $\mu\mathrm{g}/\mathrm{m}^3$
 
 formula: |
 
@@ -38,7 +39,9 @@ periodicidad: FUENTE.FREQ_A
 
 
 observaciones: >-
-  El número de muertes prematuras se ha calculado según la metodología descrita en las directrices globales de calidad del aire de la OMS (2021) y en la sesión informativa de 2025 de la Agencia Europea del Medio Ambiente sobre los impactos en la salud de la contaminación del aire.
+  El número de muertes prematuras se ha calculado según la metodología descrita en las directrices globales de 
+  calidad del aire de la OMS (2021) y en la sesión informativa de 2025 de la Agencia Europea del Medio Ambiente 
+  sobre los impactos en la salud de la contaminación del aire
 
 
 # Metadatos mundiales (Descripción del indicador)  
