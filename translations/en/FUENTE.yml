@@ -12,6 +12,7 @@ EC_REG: Directorate-General for Regional and Urban Policy, European Commission
 EEA: European Environment Agency
 EVE: Basque Energy Agency (EVE)
 Ekolurra: Basque Council of Organic Agriculture and Food
+Elankidetza: Basque Agency for Cooperation and Solidarity
 ELIKA: ELIKA
 Euskadi: Basque Government
 Euskadi_Lehendakaritza: Lehendakaritza (Presidency of the Basque Government)
@@ -187,6 +188,7 @@ CGPD_ejud: Judicial Statistics
 KBA_kba: Key Biodiversity Areas
 ELIKA_xahu: Analysis of Food Waste in the Agri-food Chain of the Basque Country
 INE_icv: Quality of Life Indicators
+elankidetza_ataria: Basque public cooperation portal
 
 
 # URL
@@ -319,6 +321,7 @@ ELIKA_xahu_url: https://zerodespilfarro.elika.eus/wp-content/uploads/2023/03/Res
 Ihobe_verde_url: https://www.ihobe.eus/eu/erosketa-berdea
 hacienda_url: https://www.euskadi.eus/eusko-jaurlaritza/ogasun-finantza-saila/hasiera/
 INE_icv_url: https://www.ine.es/dynt3/ICV/en/index.html
+elankidetza_ataria_url: https://euskalankidetza.hegoa.ehu.eus/eu/agents
 
 
 # LOGOS
@@ -342,6 +345,7 @@ BM_logo: '/assets/img/fuentes/BM.png'
 OMS_logo: '/assets/img/fuentes/OMS.png'  
 KBA_logo: '/assets/img/fuentes/KBA.png' 
 ELIKA_logo: '/assets/img/fuentes/Elika.png'
+elankidetza_logo: '/assets/img/fuentes/Elankidetza.png'
   
 # FRECUENCY
 
