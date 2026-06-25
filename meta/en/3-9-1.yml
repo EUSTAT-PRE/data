@@ -9,7 +9,8 @@ meta_global: meta_largo.3-9-titulo
 
 
 definicion: >-
-  Premature deaths rate per 100,000 inhabitants and number of premature deaths attributable to long-term exposure to fine particulate matter (PM2.5) concentrations   above 5 $\mu\mathrm{g}/\mathrm{m}^3$
+  Premature deaths rate per 100,000 inhabitants and number of premature deaths attributable to long-term 
+  exposure to fine particulate matter (PM2.5) concentrations   above 5 $\mu\mathrm{g}/\mathrm{m}^3$
 
 formula: |
 
@@ -38,7 +39,7 @@ periodicidad: FUENTE.FREQ_A
 
 observaciones: >-
    The number of premature deaths have been calculated according to methodology described in the WHO global air quality
-   guidelines (2021) and in the 2025 European Environment Agency briefing on Health impacts on air pollution. 
+   guidelines (2021) and in the 2025 European Environment Agency briefing on Health impacts on air pollution
 
 
  # Metadatos mundiales (Descripción del indicador)  
