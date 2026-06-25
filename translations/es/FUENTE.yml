@@ -12,6 +12,7 @@ EC_REG: DG Política Regional y Urbana, Comisión Europea
 EEA: Agencia Europea del Medio Ambiente
 EVE: Ente Vasco de la Energía (EVE)
 Ekolurra: Consejo de Agricultura y Alimentación Ecológica de Euskadi
+Elankidetza: Agencia Vasca de Cooperación y Solidaridad
 ELIKA: ELIKA
 Euskadi: Gobierno Vasco
 Euskadi_Lehendakaritza: Lehendakaritza
@@ -189,6 +190,7 @@ CGPD_ejud: Estadística Judicial
 KBA_kba: Key Biodiversity Areas
 ELIKA_xahu: Análisis del Desperdicio Alimentario en la Cadena Agroalimentaria de Euskadi
 INE_icv: Indicadores de calidad de vida
+elankidetza_ataria: Portal de la cooperación pública vasca
 
 
 # URL
@@ -321,6 +323,7 @@ ELIKA_xahu_url: https://zerodespilfarro.elika.eus/wp-content/uploads/2023/03/Res
 Ihobe_verde_url: https://www.ihobe.eus/es/compraverde
 hacienda_url: https://www.euskadi.eus/gobierno-vasco/departamento-hacienda-finanzas/inicio/
 INE_icv_url: https://www.ine.es/dynt3/ICV/index.html
+elankidetza_ataria_url: https://euskalankidetza.hegoa.ehu.eus/es/agents
 
 
 
@@ -344,6 +347,7 @@ BM_logo: '/assets/img/fuentes/BM.png'
 OMS_logo: '/assets/img/fuentes/OMS.png' 
 KBA_logo: '/assets/img/fuentes/KBA.png'
 ELIKA_logo: '/assets/img/fuentes/Elika.png'
+elankidetza_logo: '/assets/img/fuentes/Elankidetza.png'
   
 # FRECUENCIA
 
