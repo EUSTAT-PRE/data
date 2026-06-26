@@ -9,8 +9,8 @@ indicador_disponible: >-
 
 
 definicion: >-
-  Ayuda Oficial al Desarrollo dirigida a la reducción de la pobreza de la Administración Autonómica 
-  y Local de la CAPV (desembolso bruto total) 
+  Ayuda Oficial al Desarrollo de la Administración Autonómica y Local de la CAPV 
+  dirigida a la reducción de la pobreza (desembolso bruto total) 
 
 formula: |
 
@@ -28,8 +28,8 @@ periodicidad:
 observaciones: |
 
   Los servicios sociales básicos y la ayuda alimentaria para el desarrollo, centrados en la reducción 
-  de la pobreza, se definen mediante los siguientes códigos de finalidad del Sistema de Notificación 
-  de Ayuda a los Países Receptores (CRS) de la OCDE: Educación básica (códigos CRS 112xx), Salud básica 
+  de la pobreza, se definen mediante los siguientes códigos de finalidad del Creditor Reporting System 
+  (CRS) de la OCDE: Educación básica (códigos CRS 112xx), Salud básica 
   (códigos CRS 122xx), Abastecimiento de agua y saneamiento (códigos CRS 140xx), Ayuda multisectorial 
   para servicios sociales básicos (código CRS 16050), Ayuda alimentaria para el desarrollo (código CRS 
   52010).
