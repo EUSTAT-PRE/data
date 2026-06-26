@@ -9,8 +9,8 @@ indicador_disponible: >-
 
 
 definicion: >-
-  Official Development Assistance for poverty reduction from the regional and local 
-  administrations of the Basque Autonomous Community (total gross disbursement)
+  Official Development Assistance from the regional and local 
+  administrations of the Basque Autonomous Community for poverty reduction (total gross disbursement)
 
   
 formula: |
@@ -19,7 +19,7 @@ formula: |
 
   where: 
 
-  $ODA_{poverty}^{t} $= Amount of Official Development Assistance for poverty reduction in year $t$ 
+  $ODA_{poverty}^{t} $= amount of Official Development Assistance for poverty reduction in year $t$ 
 
 desagregacion: 
 
