@@ -12385,6 +12385,52 @@
       "title": "Jaioberrien heriotza-tasa"
     },
     {
+      "path": "2-a-2/data.csv",
+      "name": "2-a-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nekazaritzara bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Milioi euroak",
+                ""
+              ]
+            },
+            "title": "Unitatea"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Balioa"
+          }
+        ]
+      },
+      "title": "Nekazaritza-sektorerako baliabide-korronte ofizialen guztizkoa (garapenerako laguntza ofiziala gehi beste korronte ofizial batzuk)"
+    },
+    {
       "path": "9-4-E1/data.csv",
       "name": "9-4-E1",
       "profile": "tabular-data-resource",
@@ -16711,30 +16757,6 @@
         ]
       },
       "title": "Enplegu informalaren proportzioa guztizko enpleguarekiko, sektorearen eta sexuaren arabera banakatuta"
-    },
-    {
-      "path": "2-a-2/data.csv",
-      "name": "2-a-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Urtea"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Balioa"
-          }
-        ]
-      },
-      "title": "Nekazaritza-sektorerako baliabide-korronte ofizialen guztizkoa (garapenerako laguntza ofiziala gehi beste korronte ofizial batzuk)"
     },
     {
       "path": "10-a-1/data.csv",
