@@ -261,7 +261,7 @@ Elikagaien artean kontatzen dira jangarriak diren zatiak eta jangarriak ez diren
 ",1
 "
 Garapenerako oinarrizko gizarte-zerbitzuak eta elikadura-laguntza, pobrezia murriztera bideratuta daudenak, 
-ELGEren Herrialde Hartzaileei Laguntza Jakinarazteko Sistemaren (CRS) helburu-kode hauen bidez definitzen dira: 
+ELGEren Creditor Reporting System-eko (CRS) helburu-kode hauen bidez definitzen dira: 
 Oinarrizko hezkuntza (CRS 112xx kodeak), Oinarrizko osasuna (CRS 122xx kodeak), Ur-hornidura eta saneamendua 
 (CRS 140xx kodeak), Oinarrizko gizarte-zerbitzuetarako sektore anitzeko laguntza (CRS 16050 kodea), Garapenerako 
 elikagai-laguntza (CRS 52010 kodea). 
@@ -391,6 +391,9 @@ eta Beijingo Ekintza Plataforman ezarritako lau arlotan zatitzen da:
  2. Emakumeen aurkako indarkeria (13-21 galderak)
  3. Enplegua eta dirulaguntza ekonomikoak (22-31 galderak)
  4. Ezkontza eta familia (32-42 galderak)
+",1
+"
+Nekazaritza-sektoreak ELGEko Creditor Reporting System-eko (CRS) 311 serieko kode sektorial guztiak hartzen ditu. 
 ",1
 "
 Nekazaritzari esleitutako amoniako-isuriak ondoko NFR (Nomenclature for Reporting) kodeak dituzten 

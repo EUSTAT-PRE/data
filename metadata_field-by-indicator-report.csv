@@ -66,7 +66,7 @@ eta 1.000 eta 5.000 biztanle arteko udalerrien % 25ek Udal Larrialdi Plan homolo
 ",EAEn eskuragarri dagoen adierazleak Nazio Batuen metadatuak betetzen ditu.,
 #1-a-1,complete,retroceso,,line,,2026-06-26,,"
 Garapenerako oinarrizko gizarte-zerbitzuak eta elikadura-laguntza, pobrezia murriztera bideratuta daudenak, 
-ELGEren Herrialde Hartzaileei Laguntza Jakinarazteko Sistemaren (CRS) helburu-kode hauen bidez definitzen dira: 
+ELGEren Creditor Reporting System-eko (CRS) helburu-kode hauen bidez definitzen dira: 
 Oinarrizko hezkuntza (CRS 112xx kodeak), Oinarrizko osasuna (CRS 122xx kodeak), Ur-hornidura eta saneamendua 
 (CRS 140xx kodeak), Oinarrizko gizarte-zerbitzuetarako sektore anitzeko laguntza (CRS 16050 kodea), Garapenerako 
 elikagai-laguntza (CRS 52010 kodea). 
@@ -334,7 +334,9 @@ jarduerei dagozkienak dira: 3B1a, 3B1b, 3B2, 3B3, 3B4a, 3B4d, 3B4e, 3B4f, 3B4gi,
 #2-5-1,notstarted,notstarted,,line,,,,,,
 #2-5-2,notstarted,notstarted,,line,,,,,,
 #2-a-1,complete,noevaluado,True,line,FUENTE.oceca,2026-05-15,,Udal BPGan argitaratutako datuak Kontuen Europako Sisteman (KSE-2010) ezarritako metodologian oinarrituta egindako zenbatespenen bidez egiten dira.,"Eskuragarri dagoen adierazlea Nazio Batuen adierazlearen serieetako bat da, baina ez da adierazle nagusia.",
-#2-a-2,notstarted,notstarted,,line,,,,,,
+#2-a-2,notstarted,notstarted,,line,,,,"
+Nekazaritza-sektoreak ELGEko Creditor Reporting System-eko (CRS) 311 serieko kode sektorial guztiak hartzen ditu. 
+",,
 #2-b-1,notstarted,notstarted,,line,,,,,,
 #2-c-1,complete,noevaluado,,bar,"
 ""Elikagaien kontsumo-prezioen indizea"" seriea autonomia-erkidegoetako estatistika-organo nagusien  arteko metodologia harmonizatua erabiliz kalkulatu da. ",2025-06-09,,,"EAEn eskuragarri dagoen adierazleak ez ditu betetzen Nazio Batuen adierazlearen metadatuak, baina  informazio osagarria ematen du.",
