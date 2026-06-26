@@ -9,8 +9,8 @@ indicador_disponible: >-
 
 
 definicion: >-
-  EAEko administrazio autonomikoaren eta toki administrazioen garapenerako 
-  laguntza ofiziala, pobrezia murriztera bideratutakoa (guztizko ordainketa gordina) 
+  EAEko administrazio autonomikoaren eta toki administrazioen Garapenerako 
+  Laguntza Ofiziala, pobrezia murriztera bideratutakoa (guztizko ordainketa gordina) 
 
 formula: |
 
@@ -18,8 +18,8 @@ formula: |
 
   non: 
 
-  $GLO_{pobrezia}^{t} $= Pobrezia murriztera bideratutako garapenerako 
-  laguntza ofizialaren kopurua $t$ urtean
+  $GLO_{pobrezia}^{t} $= Pobrezia murriztera bideratutako Garapenerako 
+  Laguntza Ofizialaren kopurua $t$ urtean
 
 
 desagregacion: 

@@ -8,8 +8,8 @@ indicador_disponible: >-
 #  indicador_onu_global: indicador_largo.3-b-2-titulo
 
 definicion: >-
-  EAEko administrazio autonomikoaren eta toki administrazioen garapenerako 
-  laguntza ofiziala, osasun-ikerketara eta oinarrizko osasun-arretara 
+  EAEko administrazio autonomikoaren eta toki administrazioen Garapenerako 
+  Laguntza Ofiziala, osasun-ikerketara eta oinarrizko osasun-arretara 
   bideratutakoa (guztizko ordainketa gordina) 
 
 formula: |
@@ -18,8 +18,8 @@ formula: |
 
   non: 
 
-  $GLO_{osasuna}^{t} $= osasun-ikerketara eta oinarrizko osasun-arretara bideratutako garapenerako 
-  laguntza ofizialaren kopurua $t$ urtean
+  $GLO_{osasuna}^{t} $= osasun-ikerketara eta oinarrizko osasun-arretara bideratutako Garapenerako 
+  Laguntza Ofizialaren kopurua $t$ urtean
 
 
 desagregacion: 
