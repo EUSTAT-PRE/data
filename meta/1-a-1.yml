@@ -9,8 +9,8 @@ indicador_disponible: >-
 
 
 definicion: >-
-  EAEko administrazio autonomikoaren eta toki administrazioen pobrezia murriztera bideratutako garapenerako 
-  laguntza ofiziala (guztizko ordainketa gordina) 
+  EAEko administrazio autonomikoaren eta toki administrazioen garapenerako 
+  laguntza ofiziala, pobrezia murriztera bideratutakoa (guztizko ordainketa gordina) 
 
 formula: |
 
@@ -29,7 +29,7 @@ periodicidad:
 observaciones: |
 
   Garapenerako oinarrizko gizarte-zerbitzuak eta elikadura-laguntza, pobrezia murriztera bideratuta daudenak, 
-  ELGEren Herrialde Hartzaileei Laguntza Jakinarazteko Sistemaren (CRS) helburu-kode hauen bidez definitzen dira: 
+  ELGEren Creditor Reporting System-eko (CRS) helburu-kode hauen bidez definitzen dira: 
   Oinarrizko hezkuntza (CRS 112xx kodeak), Oinarrizko osasuna (CRS 122xx kodeak), Ur-hornidura eta saneamendua 
   (CRS 140xx kodeak), Oinarrizko gizarte-zerbitzuetarako sektore anitzeko laguntza (CRS 16050 kodea), Garapenerako 
   elikagai-laguntza (CRS 52010 kodea). 
