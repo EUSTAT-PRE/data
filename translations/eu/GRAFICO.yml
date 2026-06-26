@@ -10,7 +10,7 @@ nodisponible: Euskal AEk ez du estatistika jarraitu eta ofizialik egiten adieraz
 1-5-1-titulo: "Hondamendiei zuzenean egotzitako hildakoen kopurua 100.000 biztanleko"
 1-5-2-titulo: "Kalte pertsonalengatik, diruzko galerengatik eta ondasunen gaineko kalteengatik ordaindutako edo/eta hornitutako kalte-ordainak, BPGarekiko proportzioan"
 1-5-4-titulo: "Hondamendi-arriskua murrizteko tokiko estrategiak hartzen eta ezartzen dituzten tokiko gobernuen proportzioa"
-1-a-1-titulo: “Pobrezia murriztera bideratutako garapenerako laguntza ofiziala”
+1-a-1-titulo: "Pobrezia murriztera bideratutako garapenerako laguntza ofiziala"
 1-a-2-titulo: "Funtsezko zerbitzuetara (hezkuntza, osasuna eta gizarte-babesa) bideratzen den guztizko gastu orokorraren proportzioa"
 1-b-1-titulo: "Diru-sarrerak bermatzeko prestazioetan (DBE) eta gizarte-larrialdietako laguntzetan (GLL) egindako gastua"
 
@@ -37,7 +37,7 @@ nodisponible: Euskal AEk ez du estatistika jarraitu eta ofizialik egiten adieraz
 3-8-2-titulo: "Etxeko osasun-gastu handiak dituzten biztanleen proportzioa, etxeko gastu osoaren ehuneko gisa"
 3-9-1-titulo: "Partikula finekiko (PM2,5) esposizioagatiko heriotza goiztiarrak (EBren sdg_11_52 adierazlea)"
 3-a-1-titulo: "Egunero erretzen duten 15 urte eta gehiagoko pertsonen proportzioa"
-3-b-2-titulo: “Osasun-ikerketara eta oinarrizko osasun-arretara bideratutako garapenerako laguntza ofiziala”
+3-b-2-titulo: "Osasun-ikerketara eta oinarrizko osasun-arretara bideratutako garapenerako laguntza ofiziala"
 3-b-3-titulo: "Osasun-produktuetarako irismen-indizea"
 
 4-1-1-titulo: "Irakurtzeko eta matematikarako gutxienez 2. gaitasun-maila lortu duten 15 urteko pertsonen proportzioa"
@@ -47,7 +47,7 @@ nodisponible: Euskal AEk ez du estatistika jarraitu eta ofizialik egiten adieraz
 4-3-1-titulo: "Gazteek eta helduek hezkuntza eta prestakuntza akademikoan eta ez-akademikoan duten parte-hartzearen tasa, sexuaren arabera banatuta"
 4-5-1-titulo: "Parekotasun-indizeak (emakume eta gizonen artean, goi- eta behe-aberastasuneko kintilak, 10.000 biztanle baino gehiagoko eta gutxiagoko udalerriak eta osasun-arazoak dituzten eta ez dituzten pertsonen artean), azken 12 edo 4 asteetan hezkuntza-jarduerak (formalak edo ez-formalak) egitean"
 4-6-1-titulo: "Irakurmen-eskalan eta matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa"
-4-b-1-titulo: “Beketara bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)”
+4-b-1-titulo: "Beketara bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)"
 
 5-1-1-titulo: "Genero-berdintasuna sustatzeko, indartzeko eta gainbegiratzeko esparru juridikoak izatea"
 5-2-1-titulo: "Egungo edo aurreko bikotekideak emakumeen aurka egindako biktimizazioen tasa"
@@ -63,9 +63,9 @@ nodisponible: Euskal AEk ez du estatistika jarraitu eta ofizialik egiten adieraz
 6-3-2-titulo: "Kalitate oneko ur-masen proportzioa"
 6-4-2-titulo: "Ur-kontsumoa (ur-erauzketa)"
 6-5-2-titulo: "Uren arloko lankidetzarako eragiketen konponketei lotutako mugaz gaindiko arroen azaleraren proportzioa"
-6-a-1-titulo: “Ura eta saneamendua garatzera bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)”
+6-a-1-titulo: "Ura eta saneamendua garatzera bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)"
 
-7-a-1-titulo: “Garapenerako laguntza ofiziala energia garbien ikerketa eta garapena bultzatzeko eta energia berriztagarrien ekoizpenerako, sistema hibridoak barne (guztizko ordainketa gordina)”
+7-a-1-titulo: "Garapenerako laguntza ofiziala energia garbien ikerketa eta garapena bultzatzeko eta energia berriztagarrien ekoizpenerako, sistema hibridoak barne (guztizko ordainketa gordina)"
 7-b-1-titulo: "Energia berriztagarria sortzeko instalatutako ahalmena (biztanleko wattetan)" 
 
 8-5-1-titulo: "Enplegatutako pertsonen batez besteko diru-sarrera orduko, sexuaren eta desgaitasuna duten edo ez duten pertsonen arabera banakatuta"
@@ -75,19 +75,19 @@ nodisponible: Euskal AEk ez du estatistika jarraitu eta ofizialik egiten adieraz
 8-9-2-titulo: "Turismoaren sektoreko langileak"
 8-10-1-titulo: "Merkataritza-bankuen sukurtsalen kopurua 15 urte eta gehiagoko 100.000 biztanleko"
 8-10-2-titulo: "Kontu korrontea duten 18 eta 79 urte bitarteko pertsonen proportzioa"
-8-a-1-titulo: “Merkataritzarako laguntzara bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)”
+8-a-1-titulo: "Merkataritzarako laguntzara bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)"
 8-b-1-titulo: "Administrazio publiko autonomikoek enplegua sustatzeko egindako gastua"
 
 9-1-2-titulo: "Airez garraiatutako bidaiariak eta salgaiak"
 9-4-E1-titulo: "Manufaktura-industriaren emisio atmosferikoen intentsitatea (EBren sdg_09_70 adierazlea)" 
-9-a-1-titulo: “Azpiegituretara bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)”
+9-a-1-titulo: "Azpiegituretara bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)"
 
 
 10-2-1-titulo: "Diru-sarreren medianaren %50etik behera bizi diren pertsonen proportzioa"
 10-3-1-titulo: "Diskriminatuta sentitzen diren pertsonen prebalentzia ( %) (adinagatik, sexuagatik, jaioterriagatik...), sexuaren arabera"
 10-4-2-titulo: "Eskura dagoen diru-sarrera baliokidearen Gini indizea (postfiskala)"
 10-7-4-titulo: "Errefuxiatu estatusa edo nazioarteko babesa duten pertsonen kopurua 100.000 biztanleko"
-10-b-1-titulo: “Garapenerako laguntza ofiziala guztira (ordainketa gordina)”
+10-b-1-titulo: "Garapenerako laguntza ofiziala guztira (ordainketa gordina)"
 
 
 11-1-1-titulo: "Gabezia jakin batzuk dituzten etxebizitzetan bizi diren pertsonen proportzioa"
@@ -121,8 +121,8 @@ nodisponible: Euskal AEk ez du estatistika jarraitu eta ofizialik egiten adieraz
 15-4-1-titulo: "Mendietako biodibertsitaterako leku garrantzitsuak, eremu babestuetan sartuak"
 15-4-2-titulo: "Mendien estaldura berdearen indizea"
 15-8-1-titulo: "Legeria nazional egokia dago, eta baliabideak bideratzen dira espezie exotiko inbaditzaileak prebenitzeko edo kontrolatzeko"
-15-a-1-titulo: “Biodibertsitatea eta ekosistemak kontserbatzeko eta modu iraunkorrean erabiltzeko garapenerako laguntza ofiziala (guztizko ordainketa gordina)”
-15-b-1-titulo: “Biodibertsitatea eta ekosistemak kontserbatzeko eta modu iraunkorrean erabiltzeko garapenerako laguntza ofiziala (guztizko ordainketa gordina)”
+15-a-1-titulo: "Biodibertsitatea eta ekosistemak kontserbatzeko eta modu iraunkorrean erabiltzeko garapenerako laguntza ofiziala (guztizko ordainketa gordina)"
+15-b-1-titulo: "Biodibertsitatea eta ekosistemak kontserbatzeko eta modu iraunkorrean erabiltzeko garapenerako laguntza ofiziala (guztizko ordainketa gordina)"
 
 16-1-1-titulo: "Nahita eragindako hilketen biktimen kopurua 100.000 biztanleko"
 16-1-2-titulo: "Gatazkekin lotura duten heriotzak 100.000 biztanleko"
