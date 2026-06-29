@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Nekazaritzara bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)",
+                "Nekazaritzara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina)",
                 ""
               ]
             },

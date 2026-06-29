@@ -901,7 +901,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pobrezia murriztera bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)",
+                "Pobrezia murriztera bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina)",
                 ""
               ]
             },
@@ -2934,6 +2934,52 @@
         ]
       },
       "title": "Elikagaien prezioen anomalien adierazlea"
+    },
+    {
+      "path": "3-b-2/data.csv",
+      "name": "3-b-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Osasun-ikerketara eta oinarrizko osasun-arretara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina)",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Milioi euroak",
+                ""
+              ]
+            },
+            "title": "Unitatea"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Balioa"
+          }
+        ]
+      },
+      "title": "Ikerketa medikoaren eta oinarrizko osasun-arretaren sektoreetarako garapenerako laguntza ofizialaren guztizko garbia"
     },
     {
       "path": "7-1-2/data.csv",
@@ -9638,8 +9684,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Administrazio publiko autonomikoen eta tokiko administrazio publikoen garapenerako laguntza ofizial garbia",
-                "Administrazio publiko autonomikoen eta tokiko administrazio publikoen garapenerako laguntza ofizial garbia, BPGrekiko proportzioan",
+                "Administrazio publiko autonomikoen eta tokiko administrazio publikoen Garapenerako Laguntza Ofizial garbia",
+                "Administrazio publiko autonomikoen eta tokiko administrazio publikoen Garapenerako Laguntza Ofizial garbia, BPGrekiko proportzioan",
                 ""
               ]
             },
@@ -12404,7 +12450,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Nekazaritzara bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)",
+                "Nekazaritzara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina)",
                 ""
               ]
             },
@@ -17237,30 +17283,6 @@
         ]
       },
       "title": "Zein mailatan sartzen dira i) munduko herritartasunerako hezkuntza eta ii) garapen iraunkorrerako hezkuntza a) hezkuntza-politika nazionaletan, b) ikasketa-planetan, c) irakasleen prestakuntzan eta d) ikasleen ebaluazioan"
-    },
-    {
-      "path": "3-b-2/data.csv",
-      "name": "3-b-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Urtea"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Balioa"
-          }
-        ]
-      },
-      "title": "Ikerketa medikoaren eta oinarrizko osasun-arretaren sektoreetarako garapenerako laguntza ofizialaren guztizko garbia"
     },
     {
       "path": "16-2-3/data.csv",

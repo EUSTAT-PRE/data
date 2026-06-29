@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Pobrezia murriztera bideratutako garapenerako laguntza ofiziala (guztizko ordainketa gordina)",
+                "Pobrezia murriztera bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina)",
                 ""
               ]
             },
