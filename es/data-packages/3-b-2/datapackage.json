@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Asistencia oficial para el desarollo destinada a la investigación médica y la atención sanitaria básica (desembolso bruto total)",
+                "Ayuda Oficial al Desarrollo destinada a la investigación médica y la atención sanitaria básica (desembolso bruto total)",
                 ""
               ]
             },

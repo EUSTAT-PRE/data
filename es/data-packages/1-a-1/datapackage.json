@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Ayuda oficial al desarrollo para la reducción de la pobreza (desembolso bruto total)",
+                "Ayuda Oficial al Desarrollo para la reducción de la pobreza (desembolso bruto total)",
                 ""
               ]
             },
