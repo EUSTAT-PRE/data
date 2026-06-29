@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Official Development Assistance for poverty reduction (total gross disbursement)",
+                "Official development assistance for poverty reduction (total gross disbursement)",
                 ""
               ]
             },
