@@ -9,8 +9,10 @@ CNMC: Merkatuen eta Lehiaren Batzorde Nazionala (CNMC)
 CGPD: Botere Judizialaren Kontseilu Nagusia
 Consorcio: Aseguruen Konpentsazio Partzuergoa
 EC_REG: DG Eskualde eta Hiri Politika, Europako Batzordea
+EEA: Europako Ingurumen Agentzia
 EVE: Energiaren Euskal Erakundea (EEE)
 Ekolurra: Euskadiko Nekazaritza eta Elikadura Ekologikoaren Kontseilua
+Elankidetza: Lankidetzarako eta Elkartasunerako Euskal Agentzia
 ELIKA: ELIKA
 Euskadi: Eusko Jaurlaritza
 Euskadi_Lehendakaritza: Lehendakaritza
@@ -64,6 +66,7 @@ CSIC: Ikerketa Zientifikoen Kontseilu Gorena (CSIC)
 Aena_eta: Aire-trafikoaren estatistika
 Geoeuskadi: Geoeuskadi
 GE_Inclusion_ebcss: Gizarte Segurantzaren kotizazio-oinarrien estatistika
+EEA_muertes: Partikula finekiko esposizioagatiko heriotza goiztiarrak Europan
 Euskadi_Bienestar_esses: Gizarte-zerbitzuen eta gizarte-ekintzaren estatistika
 Euskadi_Alimentacion_edgt: Lurren banaketa orokorraren eta nekazaritzako produkzioen estatistika
 Euskadi_Alimentacion_ricav: Euskal Nekazaritzako Kontaduritza Argipederako Sarea (ENKAS)
@@ -184,12 +187,15 @@ Euskadi_Hacienda_presup: Aurrekontu egikaritzaren estatistika
 CGPD_ejud: Estatistika Judiziala
 KBA_kba: Key Biodiversity Areas
 ELIKA_xahu: Elikagaien Xahuketaren Analisia Euskadiko Nekazaritzako Elikagaien Katean
+INE_icv: Bizi-kalitatearen adierazleak
+elankidetza_ataria: Euskal lankidetza publikoaren ataria
 
 # URL
 
 Aena_eta_url: https://www.aena.es/es/estadisticas/informes-anuales.html
 BM_url: https://data.worldbank.org/
 OMS_url: https://www.who.int/data/gho/data/themes/air-pollution/household-air-pollution
+EEA_muertes_url: https://www.eea.europa.eu/en/analysis/indicators/health-impacts-of-exposure-to/premature-deaths-attributable-to-exposure
 Geoeuskadi_url: https://www.geo.euskadi.eus/hasiera/
 GE_Inclusion_ebcss_url: https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/c9bd51e5-79bc-44f2-9618-14d6094eb585?changeLanguage=eu
 Euskadi_Bienestar_esses_url: https://www.euskadi.eus/web01-a2inghon/eu/contenidos/informacion/essec_oe/eu_def/index.shtml
@@ -313,6 +319,8 @@ KBA_kba_url: https://www.keybiodiversityareas.org/sites/search
 ELIKA_xahu_url: https://zerodespilfarro.elika.eus/wp-content/uploads/2023/03/Resumen-Diagnostico-Desperdicio-Euskadi_2022EU.pdf
 Ihobe_verde_url: https://www.ihobe.eus/eu/erosketa-berdea
 hacienda_url: https://www.euskadi.eus/eusko-jaurlaritza/ogasun-finantza-saila/hasiera/
+INE_icv_url: https://www.ine.es/dynt3/ICV/index.html
+elankidetza_ataria_url: https://euskalankidetza.hegoa.ehu.eus/?locale=eu
 
 
 # LOGOS
@@ -320,6 +328,7 @@ AENA_logo: '/assets/img/fuentes/AENA.png'
 BE_logo: '/assets/img/fuentes/BE.png'
 CIS_logo: '/assets/img/fuentes/CIS.png'
 CNMC_logo: '/assets/img/fuentes/CNMC.png'
+EEA_logo: '/assets/img/fuentes/EEA.png'
 EVE_logo: '/assets/img/fuentes/EVE.png'
 Ekolurra_logo: '/assets/img/fuentes/Ekolurra.png'
 Euskadi_logo: '/assets/img/fuentes/Euskadi.png'
@@ -334,6 +343,7 @@ BM_logo: '/assets/img/fuentes/BM.png'
 OMS_logo: '/assets/img/fuentes/OMS.png' 
 KBA_logo: '/assets/img/fuentes/KBA.png'
 ELIKA_logo: '/assets/img/fuentes/Elika.png'
+elankidetza_logo: '/assets/img/fuentes/Elankidetza.png'
   
 # FRECUENCIA
 
