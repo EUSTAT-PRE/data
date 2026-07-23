@@ -1,9 +1,9 @@
 Indicator,Reporting status,Progress status,Show map,Tipo de gráfico,OCECA,Fecha última actualización datos,Indicador no estadístico,Observaciones,Comparabilidad NNUU,Indicadores relacionados
-#1-1-1,complete,alcanzado,,line,,2025-05-08,,"
+#1-1-1,complete,alcanzado,,line,,2026-07-23,,"
 Diru-sarrera baliokidea etxeko diru-sarrera erabilgarria da, etxeko kontsumo-unitate kopuruaren arabera  zatitua, ELGAren (Ekonomia Lankidetza eta Garapenerako Erakundea) baliokidetasun-eskala aldatua erabiliz. Helburua da tamaina eta osaera desberdina duten etxeen arteko bizi-mailak modu parekatuan alderatzea.","EAEn eskuragarri dagoen adierazleak ez ditu betetzen Nazio Batuen adierazlearen metadatuak, baina 
 antzeko informazioa ematen du. 
 ",
-#1-2-1,complete,progreso,,line,FUENTE.oceca,2026-07-13,,"Diru-sarrera baliokidea etxeko diru-sarrera erabilgarria da, etxeko  kontsumo-unitate kopuruaren arabera zatitua, ELGAren (Ekonomia Lankidetza eta Garapenerako Erakundea) baliokidetasun-eskala aldatua erabiliz. Eskala horren arabera, 1eko pisua ematen zaio 14 urteko edo gehiagoko lehen pertsonari, 0,5eko pisua 14 urteko edo  gehiagoko gainerako pertsonei, eta 0,3koa, azkenik, 14 urtetik beherakoei. Helburua da tamaina eta osaera desberdina duten etxeen arteko bizi-mailak modu parekatuan alderatzea.",,indicator.relacionados
+#1-2-1,complete,progreso,,line,FUENTE.oceca,2026-07-23,,"Diru-sarrera baliokidea etxeko diru-sarrera erabilgarria da, etxeko  kontsumo-unitate kopuruaren arabera zatitua, ELGAren (Ekonomia Lankidetza eta Garapenerako Erakundea) baliokidetasun-eskala aldatua erabiliz. Eskala horren arabera, 1eko pisua ematen zaio 14 urteko edo gehiagoko lehen pertsonari, 0,5eko pisua 14 urteko edo  gehiagoko gainerako pertsonei, eta 0,3koa, azkenik, 14 urtetik beherakoei. Helburua da tamaina eta osaera desberdina duten etxeen arteko bizi-mailak modu parekatuan alderatzea.",,indicator.relacionados
 #1-2-2,complete,progreso,,line,FUENTE.oceca,2026-07-10,,"Adierazleak irizpide hauetako bat gutxienez betetzen duten pertsonen proportzioa neurtzen du: 
 
 Pobrezia erlatiboaren arriskuan dauden pertsonak: kontsumo-unitate bakoitzeko diru-sarrerak 
@@ -93,10 +93,10 @@ egituratzen du:
 #1-b-1,notstarted,notstarted,,line,,,,,,
 #10-1-1,complete,alcanzado,,line,FUENTE.oceca,2025-05-08,,"
 Etxeko kontsumo-unitateen kopurua kalkulatzeko, ELGA eskala aldatua erabiltzen da.  Eskala horrek 1 pisua esleitzen dio 14 urte edo gehiagoko lehen pertsonari, 0,5 pisua 14 urte edo  gehiagoko gainerako pertsonei eta 0,3 pisua 14 urtetik beherako pertsonei.",EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
-#10-2-1,complete,progreso,,line,FUENTE.oceca,2025-05-08,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,indicator.relacionados
+#10-2-1,complete,progreso,,line,FUENTE.oceca,2026-07-23,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,indicator.relacionados
 #10-3-1,complete,retroceso,,bar,,2025-08-19,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #10-4-1,complete,retroceso,,line,FUENTE.oceca,2025-10-21,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
-#10-4-2,complete,noevaluado,,line,,2025-05-08,,"
+#10-4-2,complete,noevaluado,,line,,2026-07-23,,"
 Errenta baliokidea etxe bateko guztizko diru-sarreretatik eta diru-sarrera horietatik bizi diren pertsonen kopuru eta adinetik eratorritako balio bat da.","
 
 Adierazleak partzialki betetzen ditu Nazio Batuen adierazlearen metadatuak. Zergen ondoko Gini  indizeari dagokion seriea aurkezten da, baina ez zergen aurreko Gini indizeari dagokiona. ",
