@@ -11,8 +11,8 @@ meta_global: meta_largo.1-1-titulo
 
 definicion: >- 
   Proporción de personas cuyo ingreso neto equivalente, después de las transferencias sociales, 
-  es inferior al umbral internacional de pobreza, establecido en 2,15 dólares estadounidenses 
-  en paridad de poder adquisitivo (PPA) de 2017.
+  es inferior al umbral internacional de pobreza, establecido en 3 dólares estadounidenses 
+  en paridad de poder adquisitivo (PPA) de 2021.
 
 formula: |
 
