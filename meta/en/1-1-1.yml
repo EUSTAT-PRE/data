@@ -10,8 +10,8 @@ meta_global: meta_largo.1-1-titulo
 
 definicion: >- 
   Proportion of people whose net equivalent income, after social transfers, 
-  is below the international poverty line of USD2.15 
-  in purchasing power parity (PPP) of 2017.
+  is below the international poverty line of USD3 
+  in purchasing power parity (PPP) of 2021.
 
 formula: |
 
