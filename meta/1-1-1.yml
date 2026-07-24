@@ -11,7 +11,7 @@ meta_global: meta_largo.1-1-titulo
 
 definicion: >- 
   Diru-sarrera baliokidea pobreziaren nazioarteko atalasea baino txikiagoa duten pertsonen proportzioa. Muga hori 
-  AEBetako 2,15 dolarretan dago ezarrita, 2017ko erosteko ahalmenaren parekotasunean.  
+  AEBetako 3 dolarretan dago ezarrita, 2021eko erosteko ahalmenaren parekotasunean.  
 
 formula: |
 
@@ -19,7 +19,7 @@ formula: |
 
   non:
 
-  $P_{UIP}^{t} =$ pobreziaren nazioarteko atalasea (2,15 dolar/eguneko) baino diru-sarrera baliokide 
+  $P_{UIP}^{t} =$ pobreziaren nazioarteko atalasea (3 dolar/eguneko) baino diru-sarrera baliokide 
   txikiagoa duten biztanleak, $t$ urtean
 
   $P^{t} =$ biztanleria $t$ urtean
