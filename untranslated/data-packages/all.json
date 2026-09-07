@@ -5737,6 +5737,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "SL_CPA_YEMP",
                 "EU_EXP_EMP",
                 "EU_EXP_EMPGDP",
                 ""
@@ -5748,6 +5749,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "IX",
                 "EUR_1000000",
                 "PT",
                 ""
