@@ -11,7 +11,7 @@ meta_global: meta_largo.1-1-titulo
 
 definicion: >- 
   Diru-sarrera baliokidea pobreziaren nazioarteko atalasea baino txikiagoa duten pertsonen proportzioa. Muga hori 
-  AEBetako 2,15 dolarretan dago ezarrita, 2017ko erosteko ahalmenaren parekotasunean.  
+  AEBetako 3 dolarretan dago ezarrita, 2021eko erosteko ahalmenaren parekotasunean.  
 
 formula: |
 
@@ -19,7 +19,7 @@ formula: |
 
   non:
 
-  $P_{UIP}^{t} =$ pobreziaren nazioarteko atalasea (2,15 dolar/eguneko) baino diru-sarrera baliokide 
+  $P_{UIP}^{t} =$ pobreziaren nazioarteko atalasea (3 dolar/eguneko) baino diru-sarrera baliokide 
   txikiagoa duten biztanleak, $t$ urtean
 
   $P^{t} =$ biztanleria $t$ urtean
@@ -57,8 +57,8 @@ justificacion_global: |
   Mundu Mailako Garapenari buruzko 1990eko Txostenerako aukeratu zen, garai hartan diru-sarrera baxuko 
   herrialdeetako pobrezia-lerroetan ohikoa zelako. Mundu-mailan bizitzaren kostuan dauden aldeak aldatu 
   ahala, nazioarteko pobrezia-lerroa eguneratu egin behar da, EAP prezioen datu berriak erabilita, aldaketa 
-  horiek islatzek aldera. Azken aldaketa 2022ko irailean izan zen. Munduko Bankuak 2,15 dolar ezarri zituen 
-  nazioarteko pobrezia-lerro gisa, 2017ko EAP baliatuta.  
+  horiek islatzek aldera. Azken aldaketa 2025eko ekainean izan zen. Munduko Bankuak 3 dolar ezarri zituen 
+  nazioarteko pobrezia-lerro gisa, 2021eko EAP baliatuta.  
 
 
   Iturria: Nazio Batuen Estatistika Sekzioa
