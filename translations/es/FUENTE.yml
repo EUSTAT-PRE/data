@@ -101,6 +101,8 @@ Eustat_cemaf: Encuesta de medio ambiente - Familias
 Eustat_emh: Censo de población y viviendas. Estructura de la población
 Eustat_pra: Encuesta de población en relación con la actividad
 Euskadi_Bienestar_epds: Encuesta de pobreza y desigualdades sociales (EPDS)
+Euskadi_gazte_emantzipazioa: Plan Joven de Euskadi y Estrategia vasca 2030 para favorecer la emancipación juvenil
+Euskadi_enplegua: Plan de Empleo de Euskadi y Estrategia Vasca de Empleo
 Eustat_ept: Encuesta de presupuestos de tiempo
 Euskadi_Salud_escav: Encuesta de salud
 INE_ees: Encuesta Europea de Salud
@@ -324,6 +326,10 @@ Ihobe_verde_url: https://www.ihobe.eus/es/compraverde
 hacienda_url: https://www.euskadi.eus/gobierno-vasco/departamento-hacienda-finanzas/inicio/
 INE_icv_url: https://www.ine.es/dynt3/ICV/index.html
 elankidetza_ataria_url: https://euskalankidetza.hegoa.ehu.eus/es/site
+Euskadi_gazte_emantzipazioa_url: https://www.euskadi.eus/planes-proyectos-juventud/web01-a2gazter/es/
+Euskadi_enplegua_url : https://www.euskadi.eus/planes-informes-planificacion-innovacion-empleo/web01-s2enple/es/
+
+
 
 
 # LOGOS
