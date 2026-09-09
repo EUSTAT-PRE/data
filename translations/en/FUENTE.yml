@@ -99,6 +99,8 @@ Eustat_cemaf: Survey on the Environment -Families
 Eustat_emh: Population and Housing Census. Population Structure
 Eustat_pra: Survey on the population in relation to activity
 Euskadi_Bienestar_epds: Survey on Poverty and Social Inequalities (EPDS)
+Euskadi_gazte_emantzipazioa: Basque Youth Plan and Basque Strategy 2030 to Foster Youth Emancipation
+Euskadi_enplegua: Basque Employment Plan and Basque Employment Strategy
 Eustat_ept: Time allowance survey
 Euskadi_Salud_escav: Health Survey
 INE_ees: European Survey of Health
@@ -322,6 +324,10 @@ Ihobe_verde_url: https://www.ihobe.eus/eu/erosketa-berdea
 hacienda_url: https://www.euskadi.eus/eusko-jaurlaritza/ogasun-finantza-saila/hasiera/
 INE_icv_url: https://www.ine.es/dynt3/ICV/en/index.html
 elankidetza_ataria_url: https://euskalankidetza.hegoa.ehu.eus/?locale=eu
+Euskadi_gazte_emantzipazioa_url: https://www.euskadi.eus/planak-egitasmoak-gazteria/web01-a2gazter/eu/
+Euskadi_enplegua_url: https://www.euskadi.eus/planak-txostenak-plangintza-berrikuntza-enpleguan/web01-s2enple/eu/
+
+
 
 # LOGOS
 
