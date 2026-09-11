@@ -99,6 +99,8 @@ Eustat_cemaf: Ingurumenaren inkesta - Familiak
 Eustat_emh: Biztanleriaren eta etxebizitzen errolda. Biztanleriaren egitura
 Eustat_pra: Biztanleria jardueraren arabera sailkatzeko inkesta
 Euskadi_Bienestar_epds: Pobreziaren eta Gizarte Desparekotasunei buruzko Inkesta (PGDI)
+Euskadi_gazte_emantzipazioa: Euskadiko Gazte Plana eta Gazteen emantzipazioa laguntzeko 2030 euskal estrategia
+Euskadi_enplegua: Euskadiko Enplegu Plana eta Enpleguaren Euskal Estrategia
 Eustat_ept: Denbora-aurrekontuen inkesta
 Euskadi_Salud_escav: Osasun Inkesta
 INE_ees: Europako Osasun Inkesta
@@ -321,6 +323,10 @@ Ihobe_verde_url: https://www.ihobe.eus/eu/erosketa-berdea
 hacienda_url: https://www.euskadi.eus/eusko-jaurlaritza/ogasun-finantza-saila/hasiera/
 INE_icv_url: https://www.ine.es/dynt3/ICV/index.html
 elankidetza_ataria_url: https://euskalankidetza.hegoa.ehu.eus/?locale=eu
+Euskadi_gazte_emantzipazioa_url: https://www.euskadi.eus/planak-egitasmoak-gazteria/web01-a2gazter/eu/
+Euskadi_enplegua_url: https://www.euskadi.eus/planak-txostenak-plangintza-berrikuntza-enpleguan/web01-s2enple/eu/
+
+
 
 
 # LOGOS
