@@ -2,35 +2,35 @@
   1-1-1:
     base_value: 0.1490340749
     base_year: 2016.0
-    current_value: 0.17
-    current_year: 2022.0
+    current_value: 0.1045528172
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.7893659694952404
-    score: -5.0
+    progress_value: 1.5425619066269907
+    score: 5.0
     sign: 1
-    status: significant_deterioration
+    status: significant_progress
     target: 0.1
     target_year: 2030.0
-  progress_status: significant_deterioration
-  score: -5.0
+  progress_status: significant_progress
+  score: 5.0
   target_variant: con_target
 1-2-1:
   1-2-1:
     base_value: 16.4
     base_year: 2016.0
-    current_value: 16.5
-    current_year: 2022.0
+    current_value: 17.8
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.02098521874625286
-    score: -2.58743841144272
+    progress_value: -0.21306857311214195
+    score: -3.3877857213005917
     sign: 1
     status: significant_deterioration
     target: 8.2
     target_year: 2030.0
   progress_status: significant_deterioration
-  score: -2.58743841144272
+  score: -3.3877857213005917
   target_variant: con_target
 1-2-2:
   1-2-2:
@@ -183,20 +183,20 @@
   target_variant: sin_target
 1-a-1:
   1-a-1 / Pobrezia murriztera bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina):
-    base_value: 1.0
+    base_value: 6.13
     base_year: 2015.0
-    current_value: 1.01
-    current_year: 2016.0
+    current_value: 5.91
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.010000000000000009
-    score: 2.500000000000002
+    progress_value: -0.004052756274800062
+    score: -1.0131890687000156
     sign: 1
-    status: significant_progress
+    status: moderate_deterioration
     target: null
     target_year: 2030.0
-  progress_status: significant_progress
-  score: 2.500000000000002
+  progress_status: moderate_deterioration
+  score: -1.0131890687000156
   target_variant: sin_target
 1-a-2:
   1-a-2:
@@ -227,18 +227,18 @@
   10-2-1:
     base_value: 10.0
     base_year: 2016.0
-    current_value: 10.0
-    current_year: 2022.0
+    current_value: 11.4
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.0
-    score: -0.0
+    progress_value: -0.016513396251598644
+    score: -4.128349062899661
     sign: 1
-    status: no_progress
+    status: significant_deterioration
     target: null
     target_year: 2030.0
-  progress_status: no_progress
-  score: -0.0
+  progress_status: significant_deterioration
+  score: -4.128349062899661
   target_variant: sin_target
 10-3-1:
   10-3-1:
@@ -849,20 +849,20 @@
   target_variant: sin_target
 14-3-1:
   14-3-1:
-    base_value: 8.07
+    base_value: 8.069
     base_year: 2015.0
-    current_value: 8.05
+    current_value: 8.048
     current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.0002756720900630727
-    score: -0.06891802251576817
+    progress_value: -0.00028950758558732304
+    score: -0.07237689639683076
     sign: 1
     status: no_progress
     target: null
     target_year: 2030.0
   progress_status: no_progress
-  score: -0.06891802251576817
+  score: -0.07237689639683076
   target_variant: sin_target
 14-4-1:
   progress_status: notstarted
