@@ -52,6 +52,11 @@
             "title": "Unitatea"
           },
           {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Balioa"

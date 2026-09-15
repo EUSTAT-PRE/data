@@ -52,6 +52,11 @@
             "title": "Unidad"
           },
           {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Valor"

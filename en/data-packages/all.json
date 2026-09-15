@@ -293,6 +293,11 @@
             "title": "Unit"
           },
           {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
@@ -4528,6 +4533,11 @@
             "title": "GeoCode"
           },
           {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
@@ -5026,6 +5036,11 @@
               ]
             },
             "title": "Unit"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "Value",
@@ -5643,6 +5658,11 @@
               ]
             },
             "title": "Unit"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "Value",
@@ -9400,6 +9420,11 @@
             "title": "Unit"
           },
           {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
@@ -9990,6 +10015,11 @@
             "title": "Unit"
           },
           {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
@@ -10050,6 +10080,11 @@
               ]
             },
             "title": "Unit"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "Value",

@@ -48,6 +48,10 @@
             }
           },
           {
+            "name": "Progress",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

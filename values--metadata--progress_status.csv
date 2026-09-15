@@ -1,7 +1,13 @@
 Value,Number of indicators
-alcanzado,99
-noevaluado,14
+alcanzado,4
+moderate_deterioration,21
+moderate_progress,15
+no_progress,7
+noevaluado,11
+not_available,1
 notapplicable,9
 notstarted,82
-progreso,24
-retroceso,33
+progreso,1
+retroceso,3
+significant_deterioration,17
+significant_progress,90

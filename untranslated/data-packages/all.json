@@ -269,6 +269,10 @@
             }
           },
           {
+            "name": "Progress",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
@@ -4260,6 +4264,10 @@
             "type": "string"
           },
           {
+            "name": "Progress",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "number"
           }
@@ -4717,6 +4725,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "Progress",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -5283,6 +5295,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "Progress",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -8856,6 +8872,10 @@
             }
           },
           {
+            "name": "Progress",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "number"
           }
@@ -9419,6 +9439,10 @@
             }
           },
           {
+            "name": "Progress",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "number"
           }
@@ -9474,6 +9498,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "Progress",
+            "type": "string"
           },
           {
             "name": "Value",
