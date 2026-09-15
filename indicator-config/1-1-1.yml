@@ -38,12 +38,17 @@ national_geographical_coverage: ''
 page_content: GRAFICO.1-1-1-contenido
 permalink: ''
 placeholder: ''
-precision: []
+precision:
+  - unit: PT
+    decimals: 1
 proxy: ''
 proxy_series: []
 publications: []
 related_indicators: []
-progress_status: alcanzado
+auto_progress_calculation: true
+progress_calculation_options:
+  - direction: negative
+    target: 0.1
 reporting_status: complete
 sort: ''
 sources:

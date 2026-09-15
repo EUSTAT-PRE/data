@@ -26,7 +26,10 @@ national_geographical_coverage: ''
 page_content: GRAFICO.3-b-2-contenido
 permalink: ''
 precision: []
-progress_status: retroceso
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: EU_ODA_HLTHL
+    direction: positive
 reporting_status: complete
 sort: ''
 sources:

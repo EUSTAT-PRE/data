@@ -3,7 +3,6 @@ reporting_status: Monitoring report
 overall_reporting_status: Overall progress status
 reported_online: Reported online
 statistics_in_progress: Statistics in progress
-exploring_data_sources: Exploring data sources
 not_applicable: Not applicable
 no_data_available: No data available
 # Describing a section where the status is reported for each goal
@@ -35,7 +34,30 @@ alcanzado: On track or target met
 en_progreso: Fair progress but acceleration needed
 retroceso: Stagnation or regression
 no_evaluado: Not evaluable
+progreso_significativo: Significant progress towards SD objectives
+progreso_moderado: Moderate progress towards SD objectives
+sin_progreso: No progress towards nor movement away from SD objectives
+retroceso_moderado: Moderate movement away from SD objectives
+retroceso_significativo: Significant movement away from SD objectives
+meta_alcanzada: Target achieved
 territorio: 'Province'
 sexo: Sex
 municipio: Municipality
 europeo: European indicator
+# Progress categories with target variant
+significant_progress_sin_target: Significant progress
+significant_progress_mixto: Significant progress / Target met or on track
+significant_progress_con_target: Target met or on track
+moderate_progress_sin_target: Moderate progress
+moderate_progress_mixto: Moderate progress
+moderate_progress_con_target: Moderate progress towards target
+no_progress_sin_target: Stagnation
+no_progress_mixto: Stagnation
+moderate_deterioration_sin_target: Moderate regression
+moderate_deterioration_mixto: Moderate regression / Insufficient progress towards target
+moderate_deterioration_con_target: Insufficient progress towards target
+significant_deterioration_sin_target: Significant regression
+significant_deterioration_mixto: Significant regression / Movement away from target
+significant_deterioration_con_target: Movement away from target
+download_progress_csv: Download monitoring report data (.csv)
+print_page: Print monitoring report
