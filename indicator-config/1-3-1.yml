@@ -26,7 +26,12 @@ national_geographical_coverage: ''
 page_content: GRAFICO.1-3-1-contenido
 permalink: ''
 precision: []
-progress_status: progreso
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: SI_COV_UEMP
+    direction: positive
+  - series: SI_COV_PENSN
+    direction: positive
 reporting_status: complete
 sort: ''
 sources:

@@ -40,7 +40,12 @@ proxy: ''
 proxy_series: []
 publications: []
 related_indicators: []
-progress_status: alcanzado
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: EU_SDG_02_60_KG_PER_HA
+    direction: negative
+  - series: EU_SDG_02_60_KT
+    direction: negative
 reporting_status: complete
 sort: ''
 sources:

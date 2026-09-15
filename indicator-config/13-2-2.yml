@@ -26,7 +26,13 @@ national_geographical_coverage: ''
 page_content: GRAFICO.13-2-2-contenido
 permalink: ''
 precision: []
-progress_status: alcanzado
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: EN_ATM_GHGT_AIP
+    direction: negative
+  - series: EU_GHG_TV1990
+    direction: negative
+    target: -45.0
 reporting_status: complete
 sort: ''
 sources:

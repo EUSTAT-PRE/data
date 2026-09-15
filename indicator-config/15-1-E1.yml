@@ -26,7 +26,12 @@ national_geographical_coverage: ''
 page_content: GRAFICO.15-1-E1-contenido
 permalink: ''
 precision: []
-progress_status: progreso
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: EU_SDG_15_20_KM2
+    direction: positive
+  - series: EU_SDG_15_20_PT
+    direction: positive
 reporting_status: complete
 sort: ''
 sources:
