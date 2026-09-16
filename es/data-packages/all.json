@@ -756,7 +756,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tasa de finalización (educación secundaria inferior y educación secundaria superior)",
+                "SE_TOT_CPLR",
                 ""
               ]
             },
@@ -1170,8 +1170,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Comprensión lectora",
-                "Matemáticas",
+                "SKILL_READ",
+                "SKILL_MATH",
                 ""
               ]
             },
@@ -2778,8 +2778,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Matemáticas",
-                "Comprensión lectora",
+                "SKILL_NMRCY",
+                "SKILL_LTRCY",
                 ""
               ]
             },
@@ -7000,15 +7000,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Electricidad",
-                "Conexión a internet",
-                "Baños separados por sexo",
-                "Agua potable",
-                "Lavado de manos",
+                "Proporción de escuelas con acceso a electricidad",
+                "Proporción de escuelas con conexión a internet",
+                "Proporción de escuelas con baños separados por sexo",
+                "Proporción de escuelas con suministro de agua potable",
+                "Proporción de escuelas con instalaciones para el lavado de manos",
                 ""
               ]
             },
-            "title": "Servicios básicos"
+            "title": "ServBasico"
           },
           {
             "name": "Units",
@@ -8067,7 +8067,7 @@
                 ""
               ]
             },
-            "title": "Tipo de vacuna"
+            "title": "Vacuna"
           },
           {
             "name": "Units",

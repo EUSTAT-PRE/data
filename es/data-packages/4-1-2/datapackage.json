@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tasa de finalización (educación secundaria inferior y educación secundaria superior)",
+                "SE_TOT_CPLR",
                 ""
               ]
             },

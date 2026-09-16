@@ -1,6 +1,6 @@
 Value,eu,es,en,Disaggregation combinations using this value,Number of indicators
-SE_ACS_ELECT,Elektrizitatea,Electricidad,Electricity,1,1
-SE_ACS_H2O,Edateko ura,Agua potable,Drinking water,1,1
-SE_ACS_HNDWSH,Eskuak garbitzeko lekua,Lavado de manos,Handwashing,1,1
-SE_ACS_INTNT,Interneterako konexioa,Conexión a internet,Internet connection,1,1
-SE_ACS_SANIT,Bainuak sexuaren arabera bereizita,Baños separados por sexo,Single-sex restrooms,1,1
+SE_ACS_ELECT,Elektrizitatea,Proporción de escuelas con acceso a electricidad,Electricity,1,1
+SE_ACS_H2O,Edateko ura,Proporción de escuelas con suministro de agua potable,Drinking water,1,1
+SE_ACS_HNDWSH,Eskuak garbitzeko lekua,Proporción de escuelas con instalaciones para el lavado de manos,Handwashing,1,1
+SE_ACS_INTNT,Interneterako konexioa,Proporción de escuelas con conexión a internet,Internet connection,1,1
+SE_ACS_SANIT,Bainuak sexuaren arabera bereizita,Proporción de escuelas con baños separados por sexo,Single-sex restrooms,1,1
