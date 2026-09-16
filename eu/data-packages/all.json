@@ -756,7 +756,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Amaiera-tasa (beheko bigarren hezkuntza eta goi-mailako bigarren hezkuntza)",
+                "SE_TOT_CPLR",
                 ""
               ]
             },
@@ -1170,8 +1170,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Irakurmena",
-                "Matematika",
+                "SKILL_READ",
+                "SKILL_MATH",
                 ""
               ]
             },
@@ -1335,9 +1335,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "CO2 isurketak",
-                "CO2 isurketak balio erantsiko unitate bakoitzeko",
-                "Manufaktura-sektorearen CO2 isurketak, manufaktura-sektorearen balio erantsiaren unitateko",
+                "$CO_2$ isuriak",
+                "CO2 isuriak balio erantsiko unitate bakoitzeko",
+                "Manufaktura-sektorearen CO2 isuriak, manufaktura-sektorearen balio erantsiaren unitateko",
                 ""
               ]
             },
@@ -2778,8 +2778,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Matematika",
-                "Irakurmena",
+                "SKILL_NMRCY",
+                "SKILL_LTRCY",
                 ""
               ]
             },
@@ -7000,15 +7000,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Elektrizitatea",
-                "Interneterako konexioa",
-                "Bainuak sexuaren arabera bereizita",
-                "Edateko ura",
-                "Eskuak garbitzeko lekua",
+                "Elektrizitaterako sarbidea duten eskolen proportzioa",
+                "Interneterako konexioa duten eskolen proportzioa",
+                "Bainuak sexuaren arabera bereizita dituzten eskolen proportzioa",
+                "Edateko uraren hornidura duten eskolen proportzioa",
+                "Eskuak garbitzeko instalazioak dituzten eskolen proportzioa",
                 ""
               ]
             },
-            "title": "Oinarrizko zerbitzuak"
+            "title": "ServBasico"
           },
           {
             "name": "Units",
@@ -8067,7 +8067,7 @@
                 ""
               ]
             },
-            "title": "Txerto mota"
+            "title": "Vacuna"
           },
           {
             "name": "Units",

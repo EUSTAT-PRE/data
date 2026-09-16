@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Functional numeracy",
-                "Functional literacy",
+                "SKILL_NMRCY",
+                "SKILL_LTRCY",
                 ""
               ]
             },

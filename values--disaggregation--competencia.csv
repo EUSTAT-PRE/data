@@ -1,5 +1,5 @@
 Value,eu,es,en,Disaggregation combinations using this value,Number of indicators
-SKILL_LTRCY,Irakurmena,SKILL_LTRCY,Functional literacy,3,1
-SKILL_MATH,Matematika,SKILL_MATH,Mathematics,3,1
-SKILL_NMRCY,Matematika,SKILL_NMRCY,Functional numeracy,3,1
-SKILL_READ,Irakurmena,SKILL_READ,Reading,3,1
+SKILL_LTRCY,SKILL_LTRCY,SKILL_LTRCY,SKILL_LTRCY,3,1
+SKILL_MATH,SKILL_MATH,SKILL_MATH,SKILL_MATH,3,1
+SKILL_NMRCY,SKILL_NMRCY,SKILL_NMRCY,SKILL_NMRCY,3,1
+SKILL_READ,SKILL_READ,SKILL_READ,SKILL_READ,3,1

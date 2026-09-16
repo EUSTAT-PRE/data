@@ -756,7 +756,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Completion rate (lower secondary and upper secondary education)",
+                "SE_TOT_CPLR",
                 ""
               ]
             },
@@ -1170,8 +1170,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Reading",
-                "Mathematics",
+                "SKILL_READ",
+                "SKILL_MATH",
                 ""
               ]
             },
@@ -2778,8 +2778,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Functional numeracy",
-                "Functional literacy",
+                "SKILL_NMRCY",
+                "SKILL_LTRCY",
                 ""
               ]
             },
@@ -7000,15 +7000,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Electricity",
-                "Internet connection",
-                "Single-sex restrooms",
-                "Drinking water",
-                "Handwashing",
+                "Proportion of schools with access to electricity",
+                "Proportion of schools with an internet connection",
+                "Proportion of schools with single-sex restrooms",
+                "Proportion of schools with drinking water supply",
+                "Proportion of schools with handwashing facilities",
                 ""
               ]
             },
-            "title": "Basic services"
+            "title": "ServBasico"
           },
           {
             "name": "Units",
@@ -8067,7 +8067,7 @@
                 ""
               ]
             },
-            "title": "Type of vaccine"
+            "title": "Vacuna"
           },
           {
             "name": "Units",

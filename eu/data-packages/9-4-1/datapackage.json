@@ -20,9 +20,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "CO2 isurketak",
-                "CO2 isurketak balio erantsiko unitate bakoitzeko",
-                "Manufaktura-sektorearen CO2 isurketak, manufaktura-sektorearen balio erantsiaren unitateko",
+                "$CO_2$ isuriak",
+                "CO2 isuriak balio erantsiko unitate bakoitzeko",
+                "Manufaktura-sektorearen CO2 isuriak, manufaktura-sektorearen balio erantsiaren unitateko",
                 ""
               ]
             },

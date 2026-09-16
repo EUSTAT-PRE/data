@@ -20,15 +20,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Elektrizitatea",
-                "Interneterako konexioa",
-                "Bainuak sexuaren arabera bereizita",
-                "Edateko ura",
-                "Eskuak garbitzeko lekua",
+                "Elektrizitaterako sarbidea duten eskolen proportzioa",
+                "Interneterako konexioa duten eskolen proportzioa",
+                "Bainuak sexuaren arabera bereizita dituzten eskolen proportzioa",
+                "Edateko uraren hornidura duten eskolen proportzioa",
+                "Eskuak garbitzeko instalazioak dituzten eskolen proportzioa",
                 ""
               ]
             },
-            "title": "Oinarrizko zerbitzuak"
+            "title": "ServBasico"
           },
           {
             "name": "Units",

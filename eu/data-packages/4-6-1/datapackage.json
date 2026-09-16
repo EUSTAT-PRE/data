@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Matematika",
-                "Irakurmena",
+                "SKILL_NMRCY",
+                "SKILL_LTRCY",
                 ""
               ]
             },

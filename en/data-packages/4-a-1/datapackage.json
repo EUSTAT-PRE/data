@@ -20,15 +20,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Electricity",
-                "Internet connection",
-                "Single-sex restrooms",
-                "Drinking water",
-                "Handwashing",
+                "Proportion of schools with access to electricity",
+                "Proportion of schools with an internet connection",
+                "Proportion of schools with single-sex restrooms",
+                "Proportion of schools with drinking water supply",
+                "Proportion of schools with handwashing facilities",
                 ""
               ]
             },
-            "title": "Basic services"
+            "title": "ServBasico"
           },
           {
             "name": "Units",
