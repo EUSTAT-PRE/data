@@ -3459,7 +3459,7 @@
   score: null
   target_variant: sin_target
 9-4-1:
-  9-4-1 / CO2 isurketak:
+  9-4-1 / $CO_2$ isuriak:
     base_value: 14537114.24
     base_year: 2015.0
     current_value: 13605046.24
@@ -3472,7 +3472,7 @@
     status: moderate_progress
     target: null
     target_year: 2030.0
-  9-4-1 / CO2 isurketak balio erantsiko unitate bakoitzeko:
+  9-4-1 / CO2 isuriak balio erantsiko unitate bakoitzeko:
     base_value: 0.19
     base_year: 2015.0
     current_value: 0.15
@@ -3485,7 +3485,7 @@
     status: significant_progress
     target: null
     target_year: 2030.0
-  9-4-1 / Manufaktura-sektorearen CO2 isurketak, manufaktura-sektorearen balio erantsiaren unitateko:
+  9-4-1 / Manufaktura-sektorearen CO2 isuriak, manufaktura-sektorearen balio erantsiaren unitateko:
     base_value: 0.37
     base_year: 2015.0
     current_value: 0.32
