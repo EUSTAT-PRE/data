@@ -22,8 +22,6 @@ formula: |
   $DIR_{men}^{t} =$ men in the corresponding occupation in the year $t$
 
 desagregacion: |
-  Occupation
-
   Province
 
 periodicidad: FUENTE.FREQ_A
