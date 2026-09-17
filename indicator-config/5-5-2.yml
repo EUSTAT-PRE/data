@@ -7,9 +7,7 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values:
-  - field: Ocupacion
-    value: CNO2011_1
+data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -28,7 +26,20 @@ national_geographical_coverage: ''
 page_content: GRAFICO.5-5-2-contenido
 permalink: ''
 precision: []
-progress_status: retroceso
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: IC_GEN_MGTL
+    direction: negative
+    target: 60
+    goldilocks_transform: "50+abs(Value-50)"
+  - series: IC_GEN_MGTN
+    direction: negative
+    target: 60
+    goldilocks_transform: "50+abs(Value-50)"
+  - series: EU_SELF_EMP
+    direction: negative
+    target: 60
+    goldilocks_transform: "50+abs(Value-50)"
 reporting_status: complete
 sort: ''
 sources:

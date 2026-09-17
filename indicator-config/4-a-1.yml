@@ -7,17 +7,7 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values:
-  - field: ServBasico
-    value: SE_ACS_ELECT
-  - field: ServBasico
-    value: SE_ACS_INTNT
-  - field: ServBasico
-    value: SE_ACS_H2O
-  - field: ServBasico
-    value: SE_ACS_SANIT
-  - field: ServBasico
-    value: SE_ACS_HNDWSH
+data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -36,7 +26,23 @@ national_geographical_coverage: ''
 page_content: GRAFICO.4-a-1-contenido
 permalink: ''
 precision: []
-progress_status: alcanzado
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: SE_ACS_ELECT
+    direction: positive
+    target: 99.9
+  - series: SE_ACS_INTNT
+    direction: positive
+    target: 99.9
+  - series: SE_ACS_SANIT
+    direction: positive
+    target: 99.9
+  - series: SE_ACS_H2O
+    direction: positive
+    target: 99.9
+  - series: SE_ACS_HNDWSH
+    direction: positive
+    target: 99.9
 reporting_status: complete
 sort: ''
 sources:
