@@ -24,8 +24,6 @@ formula: |
   $DIR_{gizonak}^{t} =$ gizonak dagokion jardueran $t$ urtean
 
 desagregacion: |
-  Okupazioa
-
   Lurralde historikoa
 
 periodicidad: FUENTE.FREQ_A
