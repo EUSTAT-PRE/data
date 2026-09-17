@@ -22,8 +22,7 @@ formula: |
   $CENU^{t} =$ non-university educational institutions in school year $t-1/t$
 
 
-desagregacion: >- 
-  Basic services
+desagregacion: 
 
 periodicidad: FUENTE.FREQ_A
 
