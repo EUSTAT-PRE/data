@@ -22,8 +22,6 @@ formula: |
   $DIR_{hombres}^{t} =$ hombres en la ocupación correspondiente en en el año $t$
 
 desagregacion: |
-  Ocupación
-
   Territorio histórico
 
 periodicidad: FUENTE.FREQ_A
