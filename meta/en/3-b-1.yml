@@ -24,8 +24,7 @@ formula: |
 
   ${c}=$ interval of years that defines the specific cohort for each vaccine (c=1 or cohort born at t-1 for DPTa and VNC, c=5 for SRP and c=13 for VPH)
 
-desagregacion:  |
-  Vaccine type
+desagregacion:
 
 
 periodicidad: FUENTE.FREQ_A
