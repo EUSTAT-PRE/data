@@ -16,16 +16,16 @@
             "title": "Urtea"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2,5",
-                "PM 10",
+                "Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",
+                "Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",
                 ""
               ]
             },
-            "title": "Partikula esekiak"
+            "title": "Seriea"
           },
           {
             "name": "Units",

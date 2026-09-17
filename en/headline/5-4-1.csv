@@ -1,4 +1,7 @@
-Year,Value,Units,Progress
-2013,173,Minutes,1.8983050847457628
-2018,161,Minutes,1.9174311926605505
-2023,154,Minutes,1.467741935483871
+Year,Value,Units,Series,Progress
+2018,161.0,Minutes,Time devoted to home and family care on an average day,1.9174311926605505
+2023,161.0,Minutes,Time devoted to home and family care on an average day,1.4615384615384617
+2013,173.0,Minutes,Time devoted to home and family care on an average day,1.8983050847457628
+2013,1.9,Ratio,Gender parity index in average time on home and family care,1.8983050847457628
+2023,1.5,Ratio,Gender parity index in average time on home and family care,1.4615384615384617
+2018,1.9,Ratio,Gender parity index in average time on home and family care,1.9174311926605505

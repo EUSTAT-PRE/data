@@ -16,16 +16,16 @@
             "title": "Year"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_READ",
-                "SKILL_MATH",
+                "Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading",
+                "Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics",
                 ""
               ]
             },
-            "title": "Type of skill"
+            "title": "Series"
           },
           {
             "name": "Sexo",

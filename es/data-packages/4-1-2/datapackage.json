@@ -20,23 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SE_TOT_CPLR",
+                "Tasa de finalización de la primera etapa de enseñanza secundaria (población de 18 a 20 años)",
+                "Tasa de finalización de la segunda etapa de enseñanza secundaria (población de 20 a 22 años)",
                 ""
               ]
             },
             "title": "Serie"
-          },
-          {
-            "name": "Educacion",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Secundaria inferior",
-                "Secundaria superior",
-                ""
-              ]
-            },
-            "title": "Nivel educativo"
           },
           {
             "name": "Units",

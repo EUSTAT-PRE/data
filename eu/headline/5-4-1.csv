@@ -1,4 +1,7 @@
-Year,Value,Units,Progress
-2013,173,Minutuak,1.8983050847457628
-2018,161,Minutuak,1.9174311926605505
-2023,154,Minutuak,1.467741935483871
+Year,Value,Units,Series,Progress
+2018,161.0,Minutuak,Batez besteko egun batean etxeari eta familiari eskainitako denbora,1.9174311926605505
+2023,161.0,Minutuak,Batez besteko egun batean etxeari eta familiari eskainitako denbora,1.4615384615384617
+2013,173.0,Minutuak,Batez besteko egun batean etxeari eta familiari eskainitako denbora,1.8983050847457628
+2013,1.9,Ratioa,Genero-parekotasunaren indizea etxeari eta familiari eskainitako batez besteko denboran,1.8983050847457628
+2023,1.5,Ratioa,Genero-parekotasunaren indizea etxeari eta familiari eskainitako batez besteko denboran,1.4615384615384617
+2018,1.9,Ratioa,Genero-parekotasunaren indizea etxeari eta familiari eskainitako batez besteko denboran,1.9174311926605505

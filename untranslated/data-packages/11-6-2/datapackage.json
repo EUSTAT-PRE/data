@@ -15,12 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM25",
-                "PM10",
+                "EN_ATM_PM25",
+                "EU_EN_ATM_PM10",
                 ""
               ]
             }

@@ -1,29 +1,29 @@
-Year,Particulate matter,Units,COL2,Value
-2017,PM 2.5,Grams per euro of GDP,,0.06
-2018,PM 2.5,Grams per euro of GDP,,0.06
-2019,PM 2.5,Grams per euro of GDP,,0.05
-2012,PM 2.5,Grams per euro of GDP,,0.08
-2020,PM 2.5,Grams per euro of GDP,,0.05
-2014,PM 2.5,Grams per euro of GDP,,0.08
-2016,PM 2.5,Grams per euro of GDP,,0.07
-2022,PM 2.5,Grams per euro of GDP,,0.05
-2015,PM 2.5,Grams per euro of GDP,,0.07
-2021,PM 2.5,Grams per euro of GDP,,0.05
-2010,PM 2.5,Grams per euro of GDP,,0.1
-2013,PM 2.5,Grams per euro of GDP,,0.08
-2011,PM 2.5,Grams per euro of GDP,,0.08
-2023,PM 2.5,Grams per euro of GDP,,0.05
-2020,PM 10,Grams per euro of GDP,,0.11
-2017,PM 10,Grams per euro of GDP,,0.13
-2011,PM 10,Grams per euro of GDP,,0.18
-2010,PM 10,Grams per euro of GDP,,0.2
-2015,PM 10,Grams per euro of GDP,,0.15
-2022,PM 10,Grams per euro of GDP,,0.12
-2016,PM 10,Grams per euro of GDP,,0.14
-2018,PM 10,Grams per euro of GDP,,0.16
-2013,PM 10,Grams per euro of GDP,,0.18
-2012,PM 10,Grams per euro of GDP,,0.16
-2021,PM 10,Grams per euro of GDP,,0.11
-2019,PM 10,Grams per euro of GDP,,0.14
-2023,PM 10,Grams per euro of GDP,,0.11
-2014,PM 10,Grams per euro of GDP,,0.18
+Year,Series,Units,Value
+2017,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.06
+2018,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.06
+2019,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.05
+2012,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.08
+2020,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.05
+2014,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.08
+2016,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.07
+2022,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.05
+2015,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.07
+2021,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.05
+2010,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.1
+2013,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.08
+2011,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.08
+2023,PM2.5 emission intensity from the manufacturing industry,Grams per euro of GDP,0.05
+2020,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.11
+2017,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.13
+2011,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.18
+2010,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.2
+2015,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.15
+2022,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.12
+2016,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.14
+2018,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.16
+2013,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.18
+2012,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.16
+2021,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.11
+2019,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.14
+2023,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.11
+2014,PM10 emission intensity from the manufacturing industry,Grams per euro of GDP,0.18

@@ -16,6 +16,18 @@
             "title": "Año"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tiempo dedicado al hogar y la familia en un día promedio",
+                "Índice de paridad de género en el tiempo medio dedicado al hogar y la familia",
+                ""
+              ]
+            },
+            "title": "Serie"
+          },
+          {
             "name": "Sexo",
             "type": "string",
             "constraints": {
@@ -46,6 +58,7 @@
             "constraints": {
               "enum": [
                 "Minutos",
+                "Ratio",
                 ""
               ]
             },
@@ -58,7 +71,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valor"
           }
         ]

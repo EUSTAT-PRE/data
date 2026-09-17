@@ -1,25 +1,25 @@
-Year,Type of skill,Sex,Units,Value
-2015,SKILL_READ,,%,82.6
-2012,SKILL_READ,,%,85.6
-2018,SKILL_READ,,%,77.0
-2022,SKILL_READ,,%,74.2
-2022,SKILL_READ,Female,%,80.1
-2015,SKILL_READ,Female,%,86.6
-2012,SKILL_READ,Female,%,90.1
-2018,SKILL_READ,Female,%,83.6
-2022,SKILL_READ,Male,%,68.3
-2015,SKILL_READ,Male,%,78.4
-2018,SKILL_READ,Male,%,70.2
-2012,SKILL_READ,Male,%,81.1
-2015,SKILL_MATH,,%,80.5
-2012,SKILL_MATH,,%,84.5
-2018,SKILL_MATH,,%,81.9
-2022,SKILL_MATH,,%,77.3
-2018,SKILL_MATH,Female,%,83.4
-2022,SKILL_MATH,Female,%,78.0
-2012,SKILL_MATH,Female,%,83.4
-2015,SKILL_MATH,Female,%,79.9
-2018,SKILL_MATH,Male,%,80.3
-2015,SKILL_MATH,Male,%,81.1
-2012,SKILL_MATH,Male,%,85.6
-2022,SKILL_MATH,Male,%,76.7
+Year,Series,Sex,Units,Value
+2015,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,,%,82.6
+2012,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,,%,85.6
+2018,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,,%,77.0
+2022,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,,%,74.2
+2022,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,Female,%,80.1
+2015,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,Female,%,86.6
+2012,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,Female,%,90.1
+2018,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,Female,%,83.6
+2022,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,Male,%,68.3
+2015,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,Male,%,78.4
+2018,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,Male,%,70.2
+2012,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading,Male,%,81.1
+2015,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,,%,80.5
+2012,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,,%,84.5
+2018,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,,%,81.9
+2022,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,,%,77.3
+2018,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,Female,%,83.4
+2022,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,Female,%,78.0
+2012,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,Female,%,83.4
+2015,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,Female,%,79.9
+2018,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,Male,%,80.3
+2015,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,Male,%,81.1
+2012,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,Male,%,85.6
+2022,Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics,Male,%,76.7

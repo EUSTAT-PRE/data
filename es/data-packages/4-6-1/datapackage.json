@@ -16,16 +16,16 @@
             "title": "Año"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_NMRCY",
-                "SKILL_LTRCY",
+                "Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora",
+                "Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas",
                 ""
               ]
             },
-            "title": "Tipo de competencia"
+            "title": "Serie"
           },
           {
             "name": "Sexo",

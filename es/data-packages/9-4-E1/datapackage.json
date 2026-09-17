@@ -16,16 +16,16 @@
             "title": "Año"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2,5",
-                "PM 10",
+                "Intensidad de las emisiones PM2,5 de la industria manufacturera",
+                "Intensidad de las emisiones PM10 de la industria manufacturera",
                 ""
               ]
             },
-            "title": "Partículas en suspensión"
+            "title": "Serie"
           },
           {
             "name": "Units",
@@ -37,16 +37,6 @@
               ]
             },
             "title": "Unidad"
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL2"
           },
           {
             "name": "Value",

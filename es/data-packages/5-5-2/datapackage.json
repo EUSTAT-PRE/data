@@ -16,17 +16,17 @@
             "title": "Año"
           },
           {
-            "name": "Ocupacion",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Cargo directivo",
-                "Alta dirección",
-                "Empresaria",
+                "Proporción de mujeres en cargos directivos",
+                "Proporción de mujeres en alta dirección",
+                "Proporción de mujeres empresarias",
                 ""
               ]
             },
-            "title": "Ocupacion"
+            "title": "Serie"
           },
           {
             "name": "Territorio",

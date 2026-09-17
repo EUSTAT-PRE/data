@@ -16,16 +16,16 @@
             "title": "Year"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2.5",
-                "PM 10",
+                "PM2.5 emission intensity from the manufacturing industry",
+                "PM10 emission intensity from the manufacturing industry",
                 ""
               ]
             },
-            "title": "Particulate matter"
+            "title": "Series"
           },
           {
             "name": "Units",
@@ -37,16 +37,6 @@
               ]
             },
             "title": "Unit"
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL2"
           },
           {
             "name": "Value",

@@ -1,25 +1,25 @@
-Year,Tipo de competencia,Sexo,Units,Value
-2015,SKILL_READ,,%,82.6
-2012,SKILL_READ,,%,85.6
-2018,SKILL_READ,,%,77.0
-2022,SKILL_READ,,%,74.2
-2022,SKILL_READ,Mujer,%,80.1
-2015,SKILL_READ,Mujer,%,86.6
-2012,SKILL_READ,Mujer,%,90.1
-2018,SKILL_READ,Mujer,%,83.6
-2022,SKILL_READ,Hombre,%,68.3
-2015,SKILL_READ,Hombre,%,78.4
-2018,SKILL_READ,Hombre,%,70.2
-2012,SKILL_READ,Hombre,%,81.1
-2015,SKILL_MATH,,%,80.5
-2012,SKILL_MATH,,%,84.5
-2018,SKILL_MATH,,%,81.9
-2022,SKILL_MATH,,%,77.3
-2018,SKILL_MATH,Mujer,%,83.4
-2022,SKILL_MATH,Mujer,%,78.0
-2012,SKILL_MATH,Mujer,%,83.4
-2015,SKILL_MATH,Mujer,%,79.9
-2018,SKILL_MATH,Hombre,%,80.3
-2015,SKILL_MATH,Hombre,%,81.1
-2012,SKILL_MATH,Hombre,%,85.6
-2022,SKILL_MATH,Hombre,%,76.7
+Year,Series,Sexo,Units,Value
+2015,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,,%,82.6
+2012,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,,%,85.6
+2018,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,,%,77.0
+2022,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,,%,74.2
+2022,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,Mujer,%,80.1
+2015,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,Mujer,%,86.6
+2012,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,Mujer,%,90.1
+2018,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,Mujer,%,83.6
+2022,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,Hombre,%,68.3
+2015,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,Hombre,%,78.4
+2018,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,Hombre,%,70.2
+2012,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura,Hombre,%,81.1
+2015,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,,%,80.5
+2012,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,,%,84.5
+2018,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,,%,81.9
+2022,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,,%,77.3
+2018,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,Mujer,%,83.4
+2022,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,Mujer,%,78.0
+2012,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,Mujer,%,83.4
+2015,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,Mujer,%,79.9
+2018,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,Hombre,%,80.3
+2015,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,Hombre,%,81.1
+2012,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,Hombre,%,85.6
+2022,Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas,Hombre,%,76.7

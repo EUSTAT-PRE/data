@@ -16,16 +16,16 @@
             "title": "Urtea"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2,5",
-                "PM 10",
+                "Manufaktura-industriaren PM2,5 isuri-intentsitatea",
+                "Manufaktura-industriaren PM10 isuri-intentsitatea",
                 ""
               ]
             },
-            "title": "Partikula esekiak"
+            "title": "Seriea"
           },
           {
             "name": "Units",
@@ -37,16 +37,6 @@
               ]
             },
             "title": "Unitatea"
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL2"
           },
           {
             "name": "Value",

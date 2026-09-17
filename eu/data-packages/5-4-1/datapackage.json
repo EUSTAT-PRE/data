@@ -16,6 +16,18 @@
             "title": "Urtea"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Batez besteko egun batean etxeari eta familiari eskainitako denbora",
+                "Genero-parekotasunaren indizea etxeari eta familiari eskainitako batez besteko denboran",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
             "name": "Sexo",
             "type": "string",
             "constraints": {
@@ -46,6 +58,7 @@
             "constraints": {
               "enum": [
                 "Minutuak",
+                "Ratioa",
                 ""
               ]
             },
@@ -58,7 +71,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Balioa"
           }
         ]

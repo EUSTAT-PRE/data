@@ -15,12 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_READ",
-                "SKILL_MATH",
+                "EU_SKILL_READ",
+                "EU_SKILL_MATH",
                 ""
               ]
             }

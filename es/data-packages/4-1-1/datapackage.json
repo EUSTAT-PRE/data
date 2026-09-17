@@ -16,16 +16,16 @@
             "title": "Año"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_READ",
-                "SKILL_MATH",
+                "Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura",
+                "Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas",
                 ""
               ]
             },
-            "title": "Tipo de competencia"
+            "title": "Serie"
           },
           {
             "name": "Sexo",

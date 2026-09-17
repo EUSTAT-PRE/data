@@ -236,6 +236,17 @@
             "type": "integer"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SL_DOM_TSPD",
+                "EU_SL_DOM_TSPD_RATIO",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Sexo",
             "type": "string",
             "constraints": {
@@ -264,6 +275,7 @@
             "constraints": {
               "enum": [
                 "MN",
+                "RO",
                 ""
               ]
             }
@@ -274,7 +286,7 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
@@ -715,18 +727,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SE_TOT_CPLR",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Educacion",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "ISCED11_2",
-                "ISCED11_3",
+                "EU_SE_TOT_CPLR_2",
+                "EU_SE_TOT_CPLR_3",
                 ""
               ]
             }
@@ -1091,12 +1093,12 @@
             "type": "integer"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_READ",
-                "SKILL_MATH",
+                "EU_SKILL_READ",
+                "EU_SKILL_MATH",
                 ""
               ]
             }
@@ -2586,12 +2588,12 @@
             "type": "integer"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_NMRCY",
-                "SKILL_LTRCY",
+                "EU_SKILL_LTRCY",
+                "EU_SKILL_NMRCY",
                 ""
               ]
             }
@@ -5263,13 +5265,13 @@
             "type": "integer"
           },
           {
-            "name": "Ocupacion",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "CNO2011_1",
-                "CNO2011_11_12_13",
-                "SELF_EMP",
+                "IC_GEN_MGTL",
+                "IC_GEN_MGTN",
+                "EU_SELF_EMP",
                 ""
               ]
             }
@@ -6435,12 +6437,12 @@
             "type": "integer"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM25",
-                "PM10",
+                "EU_SDG_09_70_25",
+                "EU_SDG_09_70_10",
                 ""
               ]
             }
@@ -6451,15 +6453,6 @@
             "constraints": {
               "enum": [
                 "G_PER_GDP_EUR",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
                 ""
               ]
             }
@@ -6564,7 +6557,7 @@
             "type": "integer"
           },
           {
-            "name": "ServBasico",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -6583,87 +6576,6 @@
             "constraints": {
               "enum": [
                 "PT",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COL3",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COL4",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COL5",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COL6",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COL7",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COL8",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COL9",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COL10",
-            "type": "number",
-            "constraints": {
-              "enum": [
                 ""
               ]
             }
@@ -6691,12 +6603,12 @@
             "type": "integer"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM25",
-                "PM10",
+                "EN_ATM_PM25",
+                "EU_EN_ATM_PM10",
                 ""
               ]
             }
@@ -7578,7 +7490,7 @@
             "type": "integer"
           },
           {
-            "name": "Vacuna",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [

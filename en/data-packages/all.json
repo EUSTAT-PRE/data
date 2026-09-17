@@ -257,6 +257,18 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Time devoted to home and family care on an average day",
+                "Gender parity index in average time on home and family care",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Sexo",
             "type": "string",
             "constraints": {
@@ -287,6 +299,7 @@
             "constraints": {
               "enum": [
                 "Minutes",
+                "Ratio",
                 ""
               ]
             },
@@ -299,7 +312,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
@@ -756,23 +769,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SE_TOT_CPLR",
+                "Lower secondary education completion rate (people aged 18-20)",
+                "Upper secondary education completion rate (people aged 20-22)",
                 ""
               ]
             },
             "title": "Series"
-          },
-          {
-            "name": "Educacion",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Lower secondary",
-                "Upper secondary",
-                ""
-              ]
-            },
-            "title": "Educational level"
           },
           {
             "name": "Units",
@@ -1166,16 +1168,16 @@
             "title": "Year"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_READ",
-                "SKILL_MATH",
+                "Proportion of 15-year-olds who have achieved at least level 2 of proficiency in reading",
+                "Proportion of 15-year-olds who have achieved at least level 2 of proficiency in mathematics",
                 ""
               ]
             },
-            "title": "Type of skill"
+            "title": "Series"
           },
           {
             "name": "Sexo",
@@ -2774,16 +2776,16 @@
             "title": "Year"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_NMRCY",
-                "SKILL_LTRCY",
+                "Proportion of people aged 16–65 who have achieved at least level 2 of proficiency in reading",
+                "Proportion of people aged 16–65 who have achieved at least level 2 of proficiency in mathematics",
                 ""
               ]
             },
-            "title": "Type of skill"
+            "title": "Series"
           },
           {
             "name": "Sexo",
@@ -5623,17 +5625,17 @@
             "title": "Year"
           },
           {
-            "name": "Ocupacion",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Managerial position",
-                "Senior management",
-                "Businesswoman",
+                "Proportion of women in managerial positions",
+                "Proportion of women in senior managerial positions",
+                "Proportion of women among businesspeople",
                 ""
               ]
             },
-            "title": "Occupation"
+            "title": "Series"
           },
           {
             "name": "Territorio",
@@ -6855,16 +6857,16 @@
             "title": "Year"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2.5",
-                "PM 10",
+                "PM2.5 emission intensity from the manufacturing industry",
+                "PM10 emission intensity from the manufacturing industry",
                 ""
               ]
             },
-            "title": "Particulate matter"
+            "title": "Series"
           },
           {
             "name": "Units",
@@ -6876,16 +6878,6 @@
               ]
             },
             "title": "Unit"
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL2"
           },
           {
             "name": "Value",
@@ -6996,7 +6988,7 @@
             "title": "Year"
           },
           {
-            "name": "ServBasico",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -7008,7 +7000,7 @@
                 ""
               ]
             },
-            "title": "ServBasico"
+            "title": "Series"
           },
           {
             "name": "Units",
@@ -7020,96 +7012,6 @@
               ]
             },
             "title": "Unit"
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL2"
-          },
-          {
-            "name": "COL3",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL3"
-          },
-          {
-            "name": "COL4",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL4"
-          },
-          {
-            "name": "COL5",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL5"
-          },
-          {
-            "name": "COL6",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL6"
-          },
-          {
-            "name": "COL7",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL7"
-          },
-          {
-            "name": "COL8",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL8"
-          },
-          {
-            "name": "COL9",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL9"
-          },
-          {
-            "name": "COL10",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL10"
           },
           {
             "name": "Value",
@@ -7136,16 +7038,16 @@
             "title": "Year"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2.5",
-                "PM 10",
+                "Average levels of PM2.5 particulate matter in cities weighted by population",
+                "Average levels of PM10 particulate matter in cities weighted by population",
                 ""
               ]
             },
-            "title": "Particulate matter"
+            "title": "Series"
           },
           {
             "name": "Units",
@@ -8056,7 +7958,7 @@
             "title": "Year"
           },
           {
-            "name": "Vacuna",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -8067,7 +7969,7 @@
                 ""
               ]
             },
-            "title": "Vacuna"
+            "title": "Series"
           },
           {
             "name": "Units",

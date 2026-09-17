@@ -16,16 +16,16 @@
             "title": "Año"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2,5",
-                "PM 10",
+                "Nivel medio de partículas PM2,5 en las ciudades ponderado según la población",
+                "Nivel medio de partículas PM10 en las ciudades ponderado según la población",
                 ""
               ]
             },
-            "title": "Partículas en suspensión"
+            "title": "Serie"
           },
           {
             "name": "Units",

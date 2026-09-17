@@ -20,23 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SE_TOT_CPLR",
+                "Lower secondary education completion rate (people aged 18-20)",
+                "Upper secondary education completion rate (people aged 20-22)",
                 ""
               ]
             },
             "title": "Series"
-          },
-          {
-            "name": "Educacion",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Lower secondary",
-                "Upper secondary",
-                ""
-              ]
-            },
-            "title": "Educational level"
           },
           {
             "name": "Units",

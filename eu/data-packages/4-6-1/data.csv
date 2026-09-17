@@ -1,13 +1,13 @@
-Year,Konpetentzia,Sexua,Units,Value
-2023,SKILL_NMRCY,,%,81.0
-2012,SKILL_NMRCY,,%,69.2
-2012,SKILL_NMRCY,Emakumea,%,67.0
-2023,SKILL_NMRCY,Emakumea,%,78.7
-2012,SKILL_NMRCY,Gizona,%,71.5
-2023,SKILL_NMRCY,Gizona,%,83.4
-2023,SKILL_LTRCY,,%,77.6
-2012,SKILL_LTRCY,,%,68.1
-2012,SKILL_LTRCY,Emakumea,%,68.2
-2023,SKILL_LTRCY,Emakumea,%,80.1
-2023,SKILL_LTRCY,Gizona,%,74.9
-2012,SKILL_LTRCY,Gizona,%,67.9
+Year,Series,Sexua,Units,Value
+2012,Irakurmenean gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,,%,68.1
+2023,Irakurmenean gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,,%,77.6
+2012,Irakurmenean gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,Emakumea,%,68.2
+2023,Irakurmenean gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,Emakumea,%,80.1
+2023,Irakurmenean gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,Gizona,%,74.9
+2012,Irakurmenean gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,Gizona,%,67.9
+2012,Matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,,%,69.2
+2023,Matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,,%,81.0
+2023,Matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,Emakumea,%,78.7
+2012,Matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,Emakumea,%,67.0
+2023,Matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,Gizona,%,83.4
+2012,Matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa,Gizona,%,71.5

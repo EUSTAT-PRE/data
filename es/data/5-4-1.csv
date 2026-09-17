@@ -1,37 +1,49 @@
-Year,Sexo,Territorio histórico,Units,Progress,Value
-2013,,,Minutos,1.8983050847457628,173
-2018,,,Minutos,1.9174311926605505,161
-2023,,,Minutos,1.467741935483871,154
-2018,,Araba/Álava,Minutos,1.9174311926605505,166
-2023,,Araba/Álava,Minutos,1.467741935483871,155
-2013,,Araba/Álava,Minutos,1.8983050847457628,175
-2013,,Bizkaia,Minutos,1.8983050847457628,176
-2023,,Bizkaia,Minutos,1.467741935483871,156
-2018,,Bizkaia,Minutos,1.9174311926605505,160
-2018,,Gipuzkoa,Minutos,1.9174311926605505,158
-2023,,Gipuzkoa,Minutos,1.467741935483871,152
-2013,,Gipuzkoa,Minutos,1.8983050847457628,166
-2018,Mujer,,Minutos,,209
-2013,Mujer,,Minutos,,224
-2023,Mujer,,Minutos,,182
-2023,Mujer,Araba/Álava,Minutos,,189
-2013,Mujer,Araba/Álava,Minutos,,223
-2018,Mujer,Araba/Álava,Minutos,,217
-2013,Mujer,Bizkaia,Minutos,,229
-2023,Mujer,Bizkaia,Minutos,,181
-2018,Mujer,Bizkaia,Minutos,,208
-2023,Mujer,Gipuzkoa,Minutos,,180
-2018,Mujer,Gipuzkoa,Minutos,,206
-2013,Mujer,Gipuzkoa,Minutos,,217
-2013,Hombre,,Minutos,,118
-2018,Hombre,,Minutos,,109
-2023,Hombre,,Minutos,,124
-2023,Hombre,Araba/Álava,Minutos,,118
-2013,Hombre,Araba/Álava,Minutos,,127
-2018,Hombre,Araba/Álava,Minutos,,111
-2013,Hombre,Bizkaia,Minutos,,118
-2023,Hombre,Bizkaia,Minutos,,128
-2018,Hombre,Bizkaia,Minutos,,108
-2013,Hombre,Gipuzkoa,Minutos,,113
-2023,Hombre,Gipuzkoa,Minutos,,121
-2018,Hombre,Gipuzkoa,Minutos,,108
+Year,Series,Sexo,Territorio histórico,Units,Progress,Value
+2018,Tiempo dedicado al hogar y la familia en un día promedio,,,Minutos,1.9174311926605505,161.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,,,Minutos,1.4615384615384617,161.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,,,Minutos,1.8983050847457628,173.0
+2018,Tiempo dedicado al hogar y la familia en un día promedio,,Araba/Álava,Minutos,1.9174311926605505,166.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,,Araba/Álava,Minutos,1.4615384615384617,161.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,,Araba/Álava,Minutos,1.8983050847457628,175.0
+2018,Tiempo dedicado al hogar y la familia en un día promedio,,Bizkaia,Minutos,1.9174311926605505,160.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,,Bizkaia,Minutos,1.4615384615384617,164.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,,Bizkaia,Minutos,1.8983050847457628,176.0
+2018,Tiempo dedicado al hogar y la familia en un día promedio,,Gipuzkoa,Minutos,1.9174311926605505,158.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,,Gipuzkoa,Minutos,1.8983050847457628,166.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,,Gipuzkoa,Minutos,1.4615384615384617,157.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,,Minutos,,224.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,,Minutos,,190.0
+2018,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,,Minutos,,209.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,Araba/Álava,Minutos,,197.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,Araba/Álava,Minutos,,223.0
+2018,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,Araba/Álava,Minutos,,217.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,Bizkaia,Minutos,,229.0
+2018,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,Bizkaia,Minutos,,208.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,Bizkaia,Minutos,,190.0
+2018,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,Gipuzkoa,Minutos,,206.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,Gipuzkoa,Minutos,,217.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,Mujer,Gipuzkoa,Minutos,,187.0
+2018,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,,Minutos,,109.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,,Minutos,,118.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,,Minutos,,130.0
+2018,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,Araba/Álava,Minutos,,111.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,Araba/Álava,Minutos,,122.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,Araba/Álava,Minutos,,127.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,Bizkaia,Minutos,,118.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,Bizkaia,Minutos,,135.0
+2018,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,Bizkaia,Minutos,,108.0
+2013,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,Gipuzkoa,Minutos,,113.0
+2018,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,Gipuzkoa,Minutos,,108.0
+2023,Tiempo dedicado al hogar y la familia en un día promedio,Hombre,Gipuzkoa,Minutos,,125.0
+2013,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,,Ratio,1.8983050847457628,1.9
+2023,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,,Ratio,1.4615384615384617,1.5
+2018,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,,Ratio,1.9174311926605505,1.9
+2018,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,Araba/Álava,Ratio,1.9174311926605505,2.0
+2023,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,Araba/Álava,Ratio,1.4615384615384617,1.6
+2013,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,Araba/Álava,Ratio,1.8983050847457628,1.8
+2023,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,Bizkaia,Ratio,1.4615384615384617,1.4
+2013,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,Bizkaia,Ratio,1.8983050847457628,1.9
+2018,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,Bizkaia,Ratio,1.9174311926605505,1.9
+2023,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,Gipuzkoa,Ratio,1.4615384615384617,1.5
+2013,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,Gipuzkoa,Ratio,1.8983050847457628,1.9
+2018,Índice de paridad de género en el tiempo medio dedicado al hogar y la familia,,Gipuzkoa,Ratio,1.9174311926605505,1.9

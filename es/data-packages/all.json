@@ -257,6 +257,18 @@
             "title": "Año"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tiempo dedicado al hogar y la familia en un día promedio",
+                "Índice de paridad de género en el tiempo medio dedicado al hogar y la familia",
+                ""
+              ]
+            },
+            "title": "Serie"
+          },
+          {
             "name": "Sexo",
             "type": "string",
             "constraints": {
@@ -287,6 +299,7 @@
             "constraints": {
               "enum": [
                 "Minutos",
+                "Ratio",
                 ""
               ]
             },
@@ -299,7 +312,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Valor"
           }
         ]
@@ -756,23 +769,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SE_TOT_CPLR",
+                "Tasa de finalización de la primera etapa de enseñanza secundaria (población de 18 a 20 años)",
+                "Tasa de finalización de la segunda etapa de enseñanza secundaria (población de 20 a 22 años)",
                 ""
               ]
             },
             "title": "Serie"
-          },
-          {
-            "name": "Educacion",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Secundaria inferior",
-                "Secundaria superior",
-                ""
-              ]
-            },
-            "title": "Nivel educativo"
           },
           {
             "name": "Units",
@@ -1166,16 +1168,16 @@
             "title": "Año"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_READ",
-                "SKILL_MATH",
+                "Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura",
+                "Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas",
                 ""
               ]
             },
-            "title": "Tipo de competencia"
+            "title": "Serie"
           },
           {
             "name": "Sexo",
@@ -2774,16 +2776,16 @@
             "title": "Año"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_NMRCY",
-                "SKILL_LTRCY",
+                "Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora",
+                "Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas",
                 ""
               ]
             },
-            "title": "Tipo de competencia"
+            "title": "Serie"
           },
           {
             "name": "Sexo",
@@ -5623,17 +5625,17 @@
             "title": "Año"
           },
           {
-            "name": "Ocupacion",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Cargo directivo",
-                "Alta dirección",
-                "Empresaria",
+                "Proporción de mujeres en cargos directivos",
+                "Proporción de mujeres en alta dirección",
+                "Proporción de mujeres empresarias",
                 ""
               ]
             },
-            "title": "Ocupacion"
+            "title": "Serie"
           },
           {
             "name": "Territorio",
@@ -6855,16 +6857,16 @@
             "title": "Año"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2,5",
-                "PM 10",
+                "Intensidad de las emisiones PM2,5 de la industria manufacturera",
+                "Intensidad de las emisiones PM10 de la industria manufacturera",
                 ""
               ]
             },
-            "title": "Partículas en suspensión"
+            "title": "Serie"
           },
           {
             "name": "Units",
@@ -6876,16 +6878,6 @@
               ]
             },
             "title": "Unidad"
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL2"
           },
           {
             "name": "Value",
@@ -6996,7 +6988,7 @@
             "title": "Año"
           },
           {
-            "name": "ServBasico",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -7008,7 +7000,7 @@
                 ""
               ]
             },
-            "title": "ServBasico"
+            "title": "Serie"
           },
           {
             "name": "Units",
@@ -7020,96 +7012,6 @@
               ]
             },
             "title": "Unidad"
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL2"
-          },
-          {
-            "name": "COL3",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL3"
-          },
-          {
-            "name": "COL4",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL4"
-          },
-          {
-            "name": "COL5",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL5"
-          },
-          {
-            "name": "COL6",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL6"
-          },
-          {
-            "name": "COL7",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL7"
-          },
-          {
-            "name": "COL8",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL8"
-          },
-          {
-            "name": "COL9",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL9"
-          },
-          {
-            "name": "COL10",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL10"
           },
           {
             "name": "Value",
@@ -7136,16 +7038,16 @@
             "title": "Año"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2,5",
-                "PM 10",
+                "Nivel medio de partículas PM2,5 en las ciudades ponderado según la población",
+                "Nivel medio de partículas PM10 en las ciudades ponderado según la población",
                 ""
               ]
             },
-            "title": "Partículas en suspensión"
+            "title": "Serie"
           },
           {
             "name": "Units",
@@ -8056,7 +7958,7 @@
             "title": "Año"
           },
           {
-            "name": "Vacuna",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -8067,7 +7969,7 @@
                 ""
               ]
             },
-            "title": "Vacuna"
+            "title": "Serie"
           },
           {
             "name": "Units",

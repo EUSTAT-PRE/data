@@ -15,12 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM25",
-                "PM10",
+                "EU_SDG_09_70_25",
+                "EU_SDG_09_70_10",
                 ""
               ]
             }
@@ -31,15 +31,6 @@
             "constraints": {
               "enum": [
                 "G_PER_GDP_EUR",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
                 ""
               ]
             }

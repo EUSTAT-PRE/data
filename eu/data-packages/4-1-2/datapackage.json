@@ -20,23 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SE_TOT_CPLR",
+                "Bigarren hezkuntzako lehen etaparen amaiera-tasa (18-20 urteko biztanleria)",
+                "Bigarren hezkuntzako bigarren etaparen amaiera-tasa (20-22 urteko biztanleria)",
                 ""
               ]
             },
             "title": "Seriea"
-          },
-          {
-            "name": "Educacion",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Behe-mailako bigarren hezkuntza",
-                "Goi-mailako bigarren hezkuntza",
-                ""
-              ]
-            },
-            "title": "Hezkuntza-maila"
           },
           {
             "name": "Units",

@@ -1,13 +1,13 @@
-Year,Tipo de competencia,Sexo,Units,Value
-2023,SKILL_NMRCY,,%,81.0
-2012,SKILL_NMRCY,,%,69.2
-2012,SKILL_NMRCY,Mujer,%,67.0
-2023,SKILL_NMRCY,Mujer,%,78.7
-2012,SKILL_NMRCY,Hombre,%,71.5
-2023,SKILL_NMRCY,Hombre,%,83.4
-2023,SKILL_LTRCY,,%,77.6
-2012,SKILL_LTRCY,,%,68.1
-2012,SKILL_LTRCY,Mujer,%,68.2
-2023,SKILL_LTRCY,Mujer,%,80.1
-2023,SKILL_LTRCY,Hombre,%,74.9
-2012,SKILL_LTRCY,Hombre,%,67.9
+Year,Series,Sexo,Units,Value
+2012,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora,,%,68.1
+2023,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora,,%,77.6
+2012,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora,Mujer,%,68.2
+2023,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora,Mujer,%,80.1
+2023,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora,Hombre,%,74.9
+2012,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora,Hombre,%,67.9
+2012,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas,,%,69.2
+2023,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas,,%,81.0
+2023,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas,Mujer,%,78.7
+2012,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas,Mujer,%,67.0
+2023,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas,Hombre,%,83.4
+2012,Proporción de personas de entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas,Hombre,%,71.5

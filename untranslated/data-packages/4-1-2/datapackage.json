@@ -19,18 +19,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SE_TOT_CPLR",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Educacion",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "ISCED11_2",
-                "ISCED11_3",
+                "EU_SE_TOT_CPLR_2",
+                "EU_SE_TOT_CPLR_3",
                 ""
               ]
             }

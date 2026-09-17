@@ -16,17 +16,17 @@
             "title": "Year"
           },
           {
-            "name": "Ocupacion",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Managerial position",
-                "Senior management",
-                "Businesswoman",
+                "Proportion of women in managerial positions",
+                "Proportion of women in senior managerial positions",
+                "Proportion of women among businesspeople",
                 ""
               ]
             },
-            "title": "Occupation"
+            "title": "Series"
           },
           {
             "name": "Territorio",

@@ -16,6 +16,18 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Time devoted to home and family care on an average day",
+                "Gender parity index in average time on home and family care",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Sexo",
             "type": "string",
             "constraints": {
@@ -46,6 +58,7 @@
             "constraints": {
               "enum": [
                 "Minutes",
+                "Ratio",
                 ""
               ]
             },
@@ -58,7 +71,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

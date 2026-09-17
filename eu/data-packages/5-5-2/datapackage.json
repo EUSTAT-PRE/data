@@ -16,17 +16,17 @@
             "title": "Urtea"
           },
           {
-            "name": "Ocupacion",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Zuzendaritza-kargua",
-                "Goi-zuzendaritza",
-                "Enpresaria",
+                "Emakumeen proportzioa zuzendaritza-kargudunen artean",
+                "Emakumeen proportzioa goi-zuzendaritza kargudunen artean",
+                "Emakumeen proportzioa enpresarien artean",
                 ""
               ]
             },
-            "title": "Okupazioa"
+            "title": "Seriea"
           },
           {
             "name": "Territorio",

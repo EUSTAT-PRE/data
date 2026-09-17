@@ -1,31 +1,31 @@
-Year,Particulate matter,Units,Value
-2017,PM 2.5,Micrograms per cubic meter,9.8
-2019,PM 2.5,Micrograms per cubic meter,9.0
-2018,PM 2.5,Micrograms per cubic meter,9.9
-2015,PM 2.5,Micrograms per cubic meter,10.1
-2022,PM 2.5,Micrograms per cubic meter,10.4
-2013,PM 2.5,Micrograms per cubic meter,10.5
-2021,PM 2.5,Micrograms per cubic meter,10.0
-2023,PM 2.5,Micrograms per cubic meter,9.5
-2014,PM 2.5,Micrograms per cubic meter,9.2
-2011,PM 2.5,Micrograms per cubic meter,11.1
-2020,PM 2.5,Micrograms per cubic meter,8.8
-2016,PM 2.5,Micrograms per cubic meter,8.6
-2012,PM 2.5,Micrograms per cubic meter,10.1
-2010,PM 2.5,Micrograms per cubic meter,11.3
-2024,PM 2.5,Micrograms per cubic meter,8.4
-2017,PM 10,Micrograms per cubic meter,17.9
-2020,PM 10,Micrograms per cubic meter,15.6
-2011,PM 10,Micrograms per cubic meter,27.0
-2016,PM 10,Micrograms per cubic meter,15.3
-2014,PM 10,Micrograms per cubic meter,17.4
-2023,PM 10,Micrograms per cubic meter,16.4
-2022,PM 10,Micrograms per cubic meter,17.7
-2010,PM 10,Micrograms per cubic meter,24.2
-2018,PM 10,Micrograms per cubic meter,16.7
-2024,PM 10,Micrograms per cubic meter,14.6
-2015,PM 10,Micrograms per cubic meter,17.9
-2021,PM 10,Micrograms per cubic meter,16.1
-2019,PM 10,Micrograms per cubic meter,16.3
-2012,PM 10,Micrograms per cubic meter,26.7
-2013,PM 10,Micrograms per cubic meter,15.9
+Year,Series,Units,Value
+2022,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,10.4
+2024,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,8.4
+2018,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,9.9
+2014,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,9.2
+2015,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,10.1
+2011,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,11.1
+2010,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,11.3
+2012,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,10.1
+2023,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,9.5
+2017,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,9.8
+2021,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,10.0
+2016,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,8.6
+2020,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,8.8
+2019,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,9.0
+2013,Average levels of PM2.5 particulate matter in cities weighted by population,Micrograms per cubic meter,10.5
+2010,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,24.2
+2011,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,27.0
+2012,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,26.7
+2014,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,17.4
+2015,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,17.9
+2016,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,15.3
+2013,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,15.9
+2017,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,17.9
+2021,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,16.1
+2018,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,16.7
+2019,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,16.3
+2020,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,15.6
+2022,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,17.7
+2023,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,16.4
+2024,Average levels of PM10 particulate matter in cities weighted by population,Micrograms per cubic meter,14.6

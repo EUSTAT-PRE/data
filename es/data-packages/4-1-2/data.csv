@@ -1,17 +1,17 @@
-Year,Series,Nivel educativo,Units,Value
-2016,SE_TOT_CPLR,Secundaria inferior,%,95.5
-2022,SE_TOT_CPLR,Secundaria inferior,%,94.9
-2020,SE_TOT_CPLR,Secundaria inferior,%,99.4
-2015,SE_TOT_CPLR,Secundaria inferior,%,94.7
-2021,SE_TOT_CPLR,Secundaria inferior,%,98.1
-2019,SE_TOT_CPLR,Secundaria inferior,%,97.0
-2018,SE_TOT_CPLR,Secundaria inferior,%,95.2
-2017,SE_TOT_CPLR,Secundaria inferior,%,96.0
-2016,SE_TOT_CPLR,Secundaria superior,%,79.1
-2018,SE_TOT_CPLR,Secundaria superior,%,80.9
-2019,SE_TOT_CPLR,Secundaria superior,%,82.7
-2020,SE_TOT_CPLR,Secundaria superior,%,81.5
-2021,SE_TOT_CPLR,Secundaria superior,%,82.9
-2015,SE_TOT_CPLR,Secundaria superior,%,79.4
-2017,SE_TOT_CPLR,Secundaria superior,%,77.9
-2022,SE_TOT_CPLR,Secundaria superior,%,84.7
+Year,Series,Units,Value
+2017,Tasa de finalización de la primera etapa de enseñanza secundaria (población de 18 a 20 años),%,96.0
+2016,Tasa de finalización de la primera etapa de enseñanza secundaria (población de 18 a 20 años),%,95.5
+2018,Tasa de finalización de la primera etapa de enseñanza secundaria (población de 18 a 20 años),%,95.2
+2020,Tasa de finalización de la primera etapa de enseñanza secundaria (población de 18 a 20 años),%,99.4
+2019,Tasa de finalización de la primera etapa de enseñanza secundaria (población de 18 a 20 años),%,97.0
+2021,Tasa de finalización de la primera etapa de enseñanza secundaria (población de 18 a 20 años),%,98.1
+2015,Tasa de finalización de la primera etapa de enseñanza secundaria (población de 18 a 20 años),%,94.7
+2022,Tasa de finalización de la primera etapa de enseñanza secundaria (población de 18 a 20 años),%,94.9
+2016,Tasa de finalización de la segunda etapa de enseñanza secundaria (población de 20 a 22 años),%,79.1
+2017,Tasa de finalización de la segunda etapa de enseñanza secundaria (población de 20 a 22 años),%,77.9
+2021,Tasa de finalización de la segunda etapa de enseñanza secundaria (población de 20 a 22 años),%,82.9
+2015,Tasa de finalización de la segunda etapa de enseñanza secundaria (población de 20 a 22 años),%,79.4
+2018,Tasa de finalización de la segunda etapa de enseñanza secundaria (población de 20 a 22 años),%,80.9
+2019,Tasa de finalización de la segunda etapa de enseñanza secundaria (población de 20 a 22 años),%,82.7
+2020,Tasa de finalización de la segunda etapa de enseñanza secundaria (población de 20 a 22 años),%,81.5
+2022,Tasa de finalización de la segunda etapa de enseñanza secundaria (población de 20 a 22 años),%,84.7

@@ -16,16 +16,16 @@
             "title": "Year"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2.5",
-                "PM 10",
+                "Average levels of PM2.5 particulate matter in cities weighted by population",
+                "Average levels of PM10 particulate matter in cities weighted by population",
                 ""
               ]
             },
-            "title": "Particulate matter"
+            "title": "Series"
           },
           {
             "name": "Units",

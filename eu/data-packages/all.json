@@ -257,6 +257,18 @@
             "title": "Urtea"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Batez besteko egun batean etxeari eta familiari eskainitako denbora",
+                "Genero-parekotasunaren indizea etxeari eta familiari eskainitako batez besteko denboran",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
             "name": "Sexo",
             "type": "string",
             "constraints": {
@@ -287,6 +299,7 @@
             "constraints": {
               "enum": [
                 "Minutuak",
+                "Ratioa",
                 ""
               ]
             },
@@ -299,7 +312,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Balioa"
           }
         ]
@@ -756,23 +769,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SE_TOT_CPLR",
+                "Bigarren hezkuntzako lehen etaparen amaiera-tasa (18-20 urteko biztanleria)",
+                "Bigarren hezkuntzako bigarren etaparen amaiera-tasa (20-22 urteko biztanleria)",
                 ""
               ]
             },
             "title": "Seriea"
-          },
-          {
-            "name": "Educacion",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Behe-mailako bigarren hezkuntza",
-                "Goi-mailako bigarren hezkuntza",
-                ""
-              ]
-            },
-            "title": "Hezkuntza-maila"
           },
           {
             "name": "Units",
@@ -1166,16 +1168,16 @@
             "title": "Urtea"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_READ",
-                "SKILL_MATH",
+                "Irakurmenean gutxienez 2. gaitasun-maila lortu duten 15 urteko pertsonen proportzioa",
+                "Matematikan gutxienez 2. gaitasun-maila lortu duten 15 urteko pertsonen proportzioa",
                 ""
               ]
             },
-            "title": "Konpetentzia"
+            "title": "Seriea"
           },
           {
             "name": "Sexo",
@@ -2774,16 +2776,16 @@
             "title": "Urtea"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_NMRCY",
-                "SKILL_LTRCY",
+                "Irakurmenean gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa",
+                "Matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa",
                 ""
               ]
             },
-            "title": "Konpetentzia"
+            "title": "Seriea"
           },
           {
             "name": "Sexo",
@@ -5623,17 +5625,17 @@
             "title": "Urtea"
           },
           {
-            "name": "Ocupacion",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Zuzendaritza-kargua",
-                "Goi-zuzendaritza",
-                "Enpresaria",
+                "Emakumeen proportzioa zuzendaritza-kargudunen artean",
+                "Emakumeen proportzioa goi-zuzendaritza kargudunen artean",
+                "Emakumeen proportzioa enpresarien artean",
                 ""
               ]
             },
-            "title": "Okupazioa"
+            "title": "Seriea"
           },
           {
             "name": "Territorio",
@@ -6855,16 +6857,16 @@
             "title": "Urtea"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2,5",
-                "PM 10",
+                "Manufaktura-industriaren PM2,5 isuri-intentsitatea",
+                "Manufaktura-industriaren PM10 isuri-intentsitatea",
                 ""
               ]
             },
-            "title": "Partikula esekiak"
+            "title": "Seriea"
           },
           {
             "name": "Units",
@@ -6876,16 +6878,6 @@
               ]
             },
             "title": "Unitatea"
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL2"
           },
           {
             "name": "Value",
@@ -6996,7 +6988,7 @@
             "title": "Urtea"
           },
           {
-            "name": "ServBasico",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -7008,7 +7000,7 @@
                 ""
               ]
             },
-            "title": "ServBasico"
+            "title": "Seriea"
           },
           {
             "name": "Units",
@@ -7020,96 +7012,6 @@
               ]
             },
             "title": "Unitatea"
-          },
-          {
-            "name": "COL2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL2"
-          },
-          {
-            "name": "COL3",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL3"
-          },
-          {
-            "name": "COL4",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL4"
-          },
-          {
-            "name": "COL5",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL5"
-          },
-          {
-            "name": "COL6",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL6"
-          },
-          {
-            "name": "COL7",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL7"
-          },
-          {
-            "name": "COL8",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL8"
-          },
-          {
-            "name": "COL9",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL9"
-          },
-          {
-            "name": "COL10",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "COL10"
           },
           {
             "name": "Value",
@@ -7136,16 +7038,16 @@
             "title": "Urtea"
           },
           {
-            "name": "PM",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "PM 2,5",
-                "PM 10",
+                "Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",
+                "Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",
                 ""
               ]
             },
-            "title": "Partikula esekiak"
+            "title": "Seriea"
           },
           {
             "name": "Units",
@@ -8056,7 +7958,7 @@
             "title": "Urtea"
           },
           {
-            "name": "Vacuna",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -8067,7 +7969,7 @@
                 ""
               ]
             },
-            "title": "Vacuna"
+            "title": "Seriea"
           },
           {
             "name": "Units",

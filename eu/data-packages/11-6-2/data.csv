@@ -1,31 +1,31 @@
-Year,Partikula esekiak,Units,Value
-2017,"PM 2,5",Mikrogramoak metro kubikoko,9.8
-2019,"PM 2,5",Mikrogramoak metro kubikoko,9.0
-2018,"PM 2,5",Mikrogramoak metro kubikoko,9.9
-2015,"PM 2,5",Mikrogramoak metro kubikoko,10.1
-2022,"PM 2,5",Mikrogramoak metro kubikoko,10.4
-2013,"PM 2,5",Mikrogramoak metro kubikoko,10.5
-2021,"PM 2,5",Mikrogramoak metro kubikoko,10.0
-2023,"PM 2,5",Mikrogramoak metro kubikoko,9.5
-2014,"PM 2,5",Mikrogramoak metro kubikoko,9.2
-2011,"PM 2,5",Mikrogramoak metro kubikoko,11.1
-2020,"PM 2,5",Mikrogramoak metro kubikoko,8.8
-2016,"PM 2,5",Mikrogramoak metro kubikoko,8.6
-2012,"PM 2,5",Mikrogramoak metro kubikoko,10.1
-2010,"PM 2,5",Mikrogramoak metro kubikoko,11.3
-2024,"PM 2,5",Mikrogramoak metro kubikoko,8.4
-2017,PM 10,Mikrogramoak metro kubikoko,17.9
-2020,PM 10,Mikrogramoak metro kubikoko,15.6
-2011,PM 10,Mikrogramoak metro kubikoko,27.0
-2016,PM 10,Mikrogramoak metro kubikoko,15.3
-2014,PM 10,Mikrogramoak metro kubikoko,17.4
-2023,PM 10,Mikrogramoak metro kubikoko,16.4
-2022,PM 10,Mikrogramoak metro kubikoko,17.7
-2010,PM 10,Mikrogramoak metro kubikoko,24.2
-2018,PM 10,Mikrogramoak metro kubikoko,16.7
-2024,PM 10,Mikrogramoak metro kubikoko,14.6
-2015,PM 10,Mikrogramoak metro kubikoko,17.9
-2021,PM 10,Mikrogramoak metro kubikoko,16.1
-2019,PM 10,Mikrogramoak metro kubikoko,16.3
-2012,PM 10,Mikrogramoak metro kubikoko,26.7
-2013,PM 10,Mikrogramoak metro kubikoko,15.9
+Year,Series,Units,Value
+2022,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,10.4
+2024,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,8.4
+2018,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,9.9
+2014,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,9.2
+2015,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,10.1
+2011,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,11.1
+2010,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,11.3
+2012,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,10.1
+2023,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,9.5
+2017,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,9.8
+2021,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,10.0
+2016,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,8.6
+2020,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,8.8
+2019,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,9.0
+2013,"Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,10.5
+2010,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,24.2
+2011,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,27.0
+2012,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,26.7
+2014,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,17.4
+2015,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,17.9
+2016,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,15.3
+2013,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,15.9
+2017,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,17.9
+2021,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,16.1
+2018,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,16.7
+2019,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,16.3
+2020,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,15.6
+2022,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,17.7
+2023,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,16.4
+2024,"Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak",Mikrogramoak metro kubikoko,14.6

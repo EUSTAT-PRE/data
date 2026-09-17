@@ -16,16 +16,16 @@
             "title": "Urtea"
           },
           {
-            "name": "Competencia",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "SKILL_NMRCY",
-                "SKILL_LTRCY",
+                "Irakurmenean gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa",
+                "Matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa",
                 ""
               ]
             },
-            "title": "Konpetentzia"
+            "title": "Seriea"
           },
           {
             "name": "Sexo",

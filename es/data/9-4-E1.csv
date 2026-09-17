@@ -1,29 +1,29 @@
-Year,Partículas en suspensión,Units,COL2,Value
-2017,"PM 2,5",Gramo por euro de PIB,,0.06
-2018,"PM 2,5",Gramo por euro de PIB,,0.06
-2019,"PM 2,5",Gramo por euro de PIB,,0.05
-2012,"PM 2,5",Gramo por euro de PIB,,0.08
-2020,"PM 2,5",Gramo por euro de PIB,,0.05
-2014,"PM 2,5",Gramo por euro de PIB,,0.08
-2016,"PM 2,5",Gramo por euro de PIB,,0.07
-2022,"PM 2,5",Gramo por euro de PIB,,0.05
-2015,"PM 2,5",Gramo por euro de PIB,,0.07
-2021,"PM 2,5",Gramo por euro de PIB,,0.05
-2010,"PM 2,5",Gramo por euro de PIB,,0.1
-2013,"PM 2,5",Gramo por euro de PIB,,0.08
-2011,"PM 2,5",Gramo por euro de PIB,,0.08
-2023,"PM 2,5",Gramo por euro de PIB,,0.05
-2020,PM 10,Gramo por euro de PIB,,0.11
-2017,PM 10,Gramo por euro de PIB,,0.13
-2011,PM 10,Gramo por euro de PIB,,0.18
-2010,PM 10,Gramo por euro de PIB,,0.2
-2015,PM 10,Gramo por euro de PIB,,0.15
-2022,PM 10,Gramo por euro de PIB,,0.12
-2016,PM 10,Gramo por euro de PIB,,0.14
-2018,PM 10,Gramo por euro de PIB,,0.16
-2013,PM 10,Gramo por euro de PIB,,0.18
-2012,PM 10,Gramo por euro de PIB,,0.16
-2021,PM 10,Gramo por euro de PIB,,0.11
-2019,PM 10,Gramo por euro de PIB,,0.14
-2023,PM 10,Gramo por euro de PIB,,0.11
-2014,PM 10,Gramo por euro de PIB,,0.18
+Year,Series,Units,Value
+2017,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.06
+2018,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.06
+2019,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.05
+2012,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.08
+2020,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.05
+2014,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.08
+2016,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.07
+2022,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.05
+2015,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.07
+2021,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.05
+2010,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.1
+2013,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.08
+2011,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.08
+2023,"Intensidad de las emisiones PM2,5 de la industria manufacturera",Gramo por euro de PIB,0.05
+2020,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.11
+2017,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.13
+2011,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.18
+2010,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.2
+2015,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.15
+2022,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.12
+2016,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.14
+2018,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.16
+2013,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.18
+2012,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.16
+2021,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.11
+2019,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.14
+2023,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.11
+2014,Intensidad de las emisiones PM10 de la industria manufacturera,Gramo por euro de PIB,0.18
