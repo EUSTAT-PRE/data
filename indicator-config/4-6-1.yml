@@ -30,10 +30,8 @@ auto_progress_calculation: true
 progress_calculation_options:
   - series: EU_SKILL_LTRCY
     direction: positive
-    limit: 100
   - series: EU_SKILL_NMRCY
     direction: positive
-    limit: 100
 reporting_status: complete
 sort: ''
 sources:
