@@ -25,8 +25,7 @@ formula: |
   $CENU^{t} =$ unibertsitatez kanpoko ikastetxeak $t-1/t$ ikasturtean 
 
 
-desagregacion: >- 
-  Oinarrizko zerbitzua
+desagregacion:
 
 periodicidad: FUENTE.FREQ_A
 
