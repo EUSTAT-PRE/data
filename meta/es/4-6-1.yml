@@ -24,9 +24,7 @@ formula: |
   $P_{16-65}^{t} =$ población entre 16 y 65 años años en el año $t$
 
 
-desagregacion: | 
-  Tipo de competencia
-
+desagregacion: |
   Sexo
 
 periodicidad: FUENTE.FREQ_A10
