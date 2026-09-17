@@ -33,7 +33,6 @@ progress_calculation_options:
   - series: EU_SKILL_MATH
     direction: positive
 reporting_status: complete
-reporting_status: complete
 sort: ''
 sources:
   - organisation: FUENTE.OCDE
