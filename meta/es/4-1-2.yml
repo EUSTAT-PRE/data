@@ -27,8 +27,7 @@ formula: |
   $n =$ Nivel CINE 2 (primera etapa de la educación secundaria) y CINE 3 (segunda etapa de la educación secundaria)
 
 
-desagregacion: |
-  Nivel educativo 
+desagregacion:
 
 periodicidad: FUENTE.FREQ_A
 
