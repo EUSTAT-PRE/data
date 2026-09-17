@@ -24,8 +24,7 @@ formula: |
   $CENU^{t} =$ centros educativos no universitarios en el curso escolar $t-1/t$
 
 
-desagregacion: >- 
-  Servicios básicos
+desagregacion:
 
 periodicidad: FUENTE.FREQ_A
 
