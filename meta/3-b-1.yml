@@ -23,8 +23,7 @@ formula: |
 
   ${c}=$ txerto bakoitzerako kohorte espezifikoa definitzen duen urte-tartea (c = 1 edo t-1ean jaiotako kohortea DTPa eta VNCrako, c = 5 SRPrako eta c = 13 VPHrako)
 
-desagregacion:  |
-  Txerto mota
+desagregacion:
  
 periodicidad: FUENTE.FREQ_A
 
