@@ -22,8 +22,7 @@ formula: |
 
   $P_{m}^{t}$ población del municipio $m$ en el año $t$
 
-desagregacion: |
-  Partículas en suspensión 
+desagregacion:
 
 
 observaciones:
