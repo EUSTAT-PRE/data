@@ -27,8 +27,7 @@ formula: |
   $n =$ HNSN 2 (Bigarren Hezkuntzako lehen etapa) eta HNSN 3 (Bigarren Hezkuntzako bigarren etapa)
 
 
-desagregacion: >-
-  Hezkuntza-maila
+desagregacion:
 
 periodicidad: FUENTE.FREQ_A
 
