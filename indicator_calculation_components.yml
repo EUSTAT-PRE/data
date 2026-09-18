@@ -2456,15 +2456,15 @@
     current_value: 94.9
     current_year: 2022.0
     direction: 1
-    limit: null
+    limit: 100
     progress_value: 0.0003014319105922869
-    score: 0.07535797764807173
+    score: 0.3508687859861149
     sign: 1
-    status: no_progress
+    status: moderate_progress
     target: null
     target_year: 2030.0
   progress_status: moderate_progress
-  score: 1.8463899196887126
+  score: 1.9841453238577342
   target_variant: sin_target
 4-1-E1:
   4-1-E1:
