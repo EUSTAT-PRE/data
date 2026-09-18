@@ -19,7 +19,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "_L_ES_120701_01",
+                "SG_SCP_PROCN",
                 ""
               ]
             }

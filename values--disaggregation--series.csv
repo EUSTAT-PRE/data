@@ -1,5 +1,4 @@
 Value,eu,es,en,Disaggregation combinations using this value,Number of indicators
-_L_ES_120701_01,Kontratazio publiko jasangarrirako politiken ezarpen maila,Nivel de implementación de las políticas de contratación pública sostenible,Level of implementation of sustainable public procurement (SPP) policies,1,1
 AES_EDUCTRN,18 eta 64 urte bitarteko biztanleriak azken 12 hilabeteetan hezkuntza-jardueretan izandako parte-hartze tasa,Tasa de participación de la población de entre 18 y 64 años en actividades educativas en los últimos 12 meses,Participation rate of the population aged 18 to 64 in educational activities in the last 12 months,3,1
 AG_FOOD_WST,Elikagai xahuketa,Desperdicio alimentario,Food waste,1,1
 AG_FOOD_WST_PC,Elikagai xahuketa per capita,Desperdicio alimentario per cápita,Food waste per capita,1,1
@@ -133,6 +132,7 @@ SG_LGL_GENEQMAR,4. arloa: Ezkontza eta familia,Area 4: matrimonio y familia,Area
 SG_LGL_GENEQVAW,2. arloa: emakumearen aurkako indarkeria,Area 2: violencia contra la mujer,Area 2: Violence against women,1,1
 SG_REG_BRTH100N,"Jaiotzen % 100 erregistratu dira, eta gutxienez heriotzen % 80",Se ha registrado el 100% de los nacimientos y al menos el 80% de las defunciones,100% of births and at least 80% of deaths have been registered.,1,1
 SG_REG_CENSUSN,Gutxienez biztanleriaren eta etxebizitzen errolda bat egin da azken hamar urteetan,Se ha realizado al menos un censo de población y vivienda en los últimos diez años,At least one population and housing census has been conducted in the last ten years.,1,1
+SG_SCP_PROCN,SG_SCP_PROCN,SG_SCP_PROCN,SG_SCP_PROCN,1,1
 SH_ACS_DTP3,"Difteriaren, tetanosaren eta kukutxeztula haurrengan","Difteria, tétanos y tosferina en la población infantil ","Diphtheria, tetanus, and pertussis in children",1,1
 SH_ACS_HPV,Giza papilomaren birusa (GPB) nerabeetan,Papiloma humano (VPH) en las adolescentes ,Human papillomavirus (HPV) in adolescents,1,1
 SH_ACS_MCV2,"Elgorria, parotiditis eta errubeola haurrengan","Sarampión, rubeola y parotiditis en la población infantil","Measles, mumps, and rubella in children",1,1

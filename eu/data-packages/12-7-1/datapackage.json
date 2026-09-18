@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Kontratazio publiko jasangarrirako politiken ezarpen maila",
+                "SG_SCP_PROCN",
                 ""
               ]
             },
