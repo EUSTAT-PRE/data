@@ -30,7 +30,7 @@ auto_progress_calculation: true
 progress_calculation_options:
   - series: EU_SE_TOT_CPLR_2
     direction: positive
-    lilit: 100
+    limit: 100
   - series: EU_SE_TOT_CPLR_3
     direction: positive
     limit: 100
