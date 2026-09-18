@@ -26,15 +26,7 @@ national_geographical_coverage: ''
 page_content: GRAFICO.8-b-1-contenido
 permalink: ''
 precision: []
-auto_progress_calculation: true
-progress_calculation_options:
-  - series: EU_EXP_EMP
-    direction: positive
-  - series: EU_EXP_EMPGDP
-    direction: positive
-  - series: SL_CPA_YEMP
-    direction: positive
-    limit: 3
+progress_status: alcanzado
 reporting_status: complete
 sort: ''
 sources:
