@@ -2443,12 +2443,12 @@
     current_value: 84.7
     current_year: 2022.0
     direction: 1
-    limit: null
-    progress_value: 0.6010516274532776
-    score: 0.00751162466626844
+    limit: 100
+    progress_value: 0.009273770734058662
+    score: 3.6174218617293534
     sign: 1
-    status: moderate_progress
-    target: 99.9
+    status: significant_progress
+    target: null
     target_year: 2030.0
   4-1-2 / Bigarren hezkuntzako lehen etaparen amaiera-tasa (18-20 urteko biztanleria):
     base_value: 94.7
@@ -2457,15 +2457,15 @@
     current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: 0.08443305478890742
-    score: -2.148195605046219
+    progress_value: 0.0003014319105922869
+    score: 0.07535797764807173
     sign: 1
-    status: moderate_deterioration
-    target: 99.9
+    status: no_progress
+    target: null
     target_year: 2030.0
-  progress_status: moderate_deterioration
-  score: -1.0703419901899753
-  target_variant: con_target
+  progress_status: moderate_progress
+  score: 1.8463899196887126
+  target_variant: sin_target
 4-1-E1:
   4-1-E1:
     base_value: 8.9
