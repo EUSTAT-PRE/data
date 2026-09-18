@@ -2414,11 +2414,11 @@
     current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: -0.015204023824132995
-    score: -3.801005956033249
+    progress_value: -1.191721744890319
+    score: -5.0
     sign: 1
     status: significant_deterioration
-    target: null
+    target: 99.9
     target_year: 2030.0
   4-1-1 / Matematikan gutxienez 2. gaitasun-maila lortu duten 15 urteko pertsonen proportzioa:
     base_value: 80.5
@@ -2427,15 +2427,15 @@
     current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: -0.005777989813083861
-    score: -1.4444974532709653
+    progress_value: -0.39852983512503937
+    score: -4.160540979687664
     sign: 1
-    status: moderate_deterioration
-    target: null
+    status: significant_deterioration
+    target: 99.9
     target_year: 2030.0
   progress_status: significant_deterioration
-  score: -2.6227517046521074
-  target_variant: sin_target
+  score: -4.580270489843832
+  target_variant: con_target
 4-1-2:
   4-1-2 / Bigarren hezkuntzako bigarren etaparen amaiera-tasa (20-22 urteko biztanleria):
     base_value: 79.4
@@ -2444,11 +2444,11 @@
     current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: 0.009273770734058662
-    score: 2.3184426835146654
+    progress_value: 0.6010516274532776
+    score: 0.00751162466626844
     sign: 1
     status: moderate_progress
-    target: null
+    target: 99.9
     target_year: 2030.0
   4-1-2 / Bigarren hezkuntzako lehen etaparen amaiera-tasa (18-20 urteko biztanleria):
     base_value: 94.7
@@ -2457,15 +2457,15 @@
     current_year: 2022.0
     direction: 1
     limit: null
-    progress_value: 0.0003014319105922869
-    score: 0.07535797764807173
+    progress_value: 0.08443305478890742
+    score: -2.148195605046219
     sign: 1
-    status: no_progress
-    target: null
+    status: moderate_deterioration
+    target: 99.9
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 1.1969003305813686
-  target_variant: sin_target
+  progress_status: moderate_deterioration
+  score: -1.0703419901899753
+  target_variant: con_target
 4-1-E1:
   4-1-E1:
     base_value: 8.9
