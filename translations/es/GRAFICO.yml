@@ -37,6 +37,7 @@ nodisponible: La CA de Euskadi no elabora estadísticas oficiales continuas con 
 3-9-1-titulo: "Muertes prematuras por exposición a partículas finas (PM2,5) (Indicador UE sdg_11_52)"
 3-8-2-titulo: "Proporción de la población con grandes gastos sanitarios por hogar como porcentaje del total de gasto del hogar"
 3-a-1-titulo: "Proporción de personas de 15 y más años que fuman a diario"
+3-b-1-titulo: "Proporción de la población inmunizada con las vacunas incluidas en el calendario vacunal"
 3-b-2-titulo: "Ayuda Oficial al Desarrollo destinada a la investigación médica y la atención sanitaria básica" 
 3-b-3-titulo: "Índice de acceso a los productos sanitarios"
 
@@ -47,6 +48,7 @@ nodisponible: La CA de Euskadi no elabora estadísticas oficiales continuas con 
 4-3-1-titulo: "Tasa de participación de personas jóvenes y adultas en la educación y formación académica y no académica, desglosada por sexo"
 4-5-1-titulo: "Índices de paridad (entre mujeres y hombres, quintiles de riqueza superior e inferior, municipios de más y menos de 10.000 habitantes y personas con y sin limitaciones por problemas de salud) en la realización de actividades educativas (formales o no formales) en los últimos 12 meses o 4 semanas"
 4-6-1-titulo: "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora y en matemáticas"
+4-a-1-titulo: "Proporción de centros educativos no universitarios con acceso a servicios básicos"
 4-b-1-titulo: "Ayuda Oficial al Desarrollo destinada a becas (desembolso bruto total)"
 
 5-1-1-titulo: "Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género"
@@ -55,6 +57,7 @@ nodisponible: La CA de Euskadi no elabora estadísticas oficiales continuas con 
 5-3-1-titulo: "Proporción de mujeres de 16 y 17 años que han contraído matrimonio con un hombre"
 5-4-1-titulo: "Tiempo dedicado al hogar y familia en un día promedio"
 5-5-1-titulo: "Proporción de cargos ocupados por mujeres en instituciones legislativas y gubernamentales autonómicas, forales y locales"
+5-5-2-titulo: "Proporción de mujeres en cargos directivos, alta dirección y empresarias"
 5-a-2-titulo: "Grado en que el marco jurídico garantiza la igualdad de derechos de la mujer a la propiedad o el control de tierras"
 5-b-1-titulo: "Proporción de personas entre 16 y 74 años que han usado el móvil en los últimos tres meses"
 
@@ -386,6 +389,7 @@ OCECA-10-2-1-1A: Proporción de personas que viven por debajo del 50% de la medi
 16-1-E1-contenido:  "<b>Dirección deseada:</b> Descenso"
 16-2-2-contenido: "<b>Dirección deseada:</b> Descenso"
 16-3-2-contenido: "<b>Dirección deseada:</b> Descenso"
+16-6-1-contenido: "<b>Dirección deseada:</b> El objetivo es 100%, aunque se considera adecuado si el valor está entre 95-105 %"
 16-6-2-contenido: "<b>Dirección deseada:</b> Ascenso"
 16-7-1-contenido: "<b>Dirección deseada:</b> El objetivo es 1, aunque se considera adecuado si el valor está entre 0,8 y 1,2"
 16-9-1-contenido: "<b>Dirección deseada:</b> Ascenso"
