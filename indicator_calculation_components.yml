@@ -1249,11 +1249,11 @@
     current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: 1.5667737031453586
+    progress_value: 41.664992888862066
     score: 5.0
     sign: 1
     status: significant_progress
-    target: 100.0
+    target: 105.0
     target_year: 2030.0
   16-6-1 / Toki administrazioaren gastu likidatua, hasieran onartutako aurrekontuaren proportzioan:
     base_value: 101.95
@@ -1262,14 +1262,14 @@
     current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: -1.2884787170229182
-    score: -5.0
+    progress_value: -0.8427704429582261
+    score: 5.0
     sign: 1
-    status: significant_deterioration
-    target: 100.0
+    status: significant_progress
+    target: 105.0
     target_year: 2030.0
-  progress_status: no_progress
-  score: 0.0
+  progress_status: significant_progress
+  score: 5.0
   target_variant: con_target
 16-6-2:
   16-6-2:
