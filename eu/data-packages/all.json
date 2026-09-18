@@ -15383,7 +15383,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SG_SCP_PROCN",
+                "Kontratazio publiko jasangarrirako politiken ezarpen maila",
                 ""
               ]
             },

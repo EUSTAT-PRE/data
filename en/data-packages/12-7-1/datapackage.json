@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SG_SCP_PROCN",
+                "Level of implementation of sustainable public procurement (SPP) policies",
                 ""
               ]
             },

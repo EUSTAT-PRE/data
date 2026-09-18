@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SG_SCP_PROCN",
+                "Nivel de implementación de las políticas de contratación pública sostenible",
                 ""
               ]
             },
