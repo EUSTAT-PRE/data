@@ -37,6 +37,7 @@ nodisponible: Euskal AEk ez du estatistika jarraitu eta ofizialik egiten adieraz
 3-8-2-titulo: "Etxeko osasun-gastu handiak dituzten biztanleen proportzioa, etxeko gastu osoaren ehuneko gisa"
 3-9-1-titulo: "Partikula finekiko (PM2,5) esposizioagatiko heriotza goiztiarrak (EBren sdg_11_52 adierazlea)"
 3-a-1-titulo: "Egunero erretzen duten 15 urte eta gehiagoko pertsonen proportzioa"
+3-b-1-titulo: "Txertaketa egutegiko txertoekin inmunizatutako biztanleriaren proportzioa"
 3-b-2-titulo: "Osasun-ikerketara eta oinarrizko osasun-arretara bideratutako Garapenerako Laguntza Ofiziala"
 3-b-3-titulo: "Osasun-produktuetarako irismen-indizea"
 
@@ -47,6 +48,7 @@ nodisponible: Euskal AEk ez du estatistika jarraitu eta ofizialik egiten adieraz
 4-3-1-titulo: "Gazteek eta helduek hezkuntza eta prestakuntza akademikoan eta ez-akademikoan duten parte-hartzearen tasa, sexuaren arabera banatuta"
 4-5-1-titulo: "Parekotasun-indizeak (emakume eta gizonen artean, goi- eta behe-aberastasuneko kintilak, 10.000 biztanle baino gehiagoko eta gutxiagoko udalerriak eta osasun-arazoak dituzten eta ez dituzten pertsonen artean), azken 12 edo 4 asteetan hezkuntza-jarduerak (formalak edo ez-formalak) egitean"
 4-6-1-titulo: "Irakurmen-eskalan eta matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa"
+4-a-1-titulo: "Oinarrizko zerbitzuak dituzten unibertsitatez kanpoko ikastetxeen proportzioa"
 4-b-1-titulo: "Beketara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina)"
 
 5-1-1-titulo: "Genero-berdintasuna sustatzeko, indartzeko eta gainbegiratzeko esparru juridikoak izatea"
@@ -55,6 +57,7 @@ nodisponible: Euskal AEk ez du estatistika jarraitu eta ofizialik egiten adieraz
 5-3-1-titulo: "Gizon batekin ezkondu diren 16 eta 17 urteko emakumeen proportzioa"
 5-4-1-titulo: "Batez besteko egun batean etxeari eta familiari eskainitako denbora"
 5-5-1-titulo: "Autonomia-, foru- eta toki-erakundeetako legegintza- eta gobernu-erakundeetan emakumeek betetako karguen proportzioa"
+5-5-2-titulo: "Emakumeen proportzioa zuzendaritza, goi-zuzendaritza kargudunen eta enpresarien artean"
 5-a-2-titulo: "Lege-esparruak zenbateraino bermatzen duen emakumeek lurren jabetza edo kontrolerako duten eskubide-berdintasuna"
 5-b-1-titulo: "Azken hiru hilabeteetan mugikorra erabili duten 16 eta 74 urte bitarteko pertsonen proportzioa"
 
@@ -386,6 +389,7 @@ OCECA-10-2-1-1A: "Diru-sarreren medianaren % 50etik behera bizi diren pertsonen 
 16-1-E1-contenido:  "<b>Nahi den norabidea:</b> Jaitsiera"
 16-2-2-contenido: "<b>Nahi den norabidea:</b> Jaitsiera"
 16-3-2-contenido: "<b>Nahi den norabidea:</b> Jaitsiera"
+16-6-1-contenido: "<b>Nahi den norabidea:</b> Helburua % 100 da, baina egokitzat jotzen da balioa % 95-105 bitartekoa bada"
 16-6-2-contenido: "<b>Nahi den norabidea:</b> Igoera"
 16-7-1-contenido: "<b>Nahi den norabidea:</b> Helburua 1 da, baina egokitzat jotzen da balioa  0,8-1,2 bitartekoa bada"
 16-9-1-contenido: "<b>Nahi den norabidea:</b> Igoera"
