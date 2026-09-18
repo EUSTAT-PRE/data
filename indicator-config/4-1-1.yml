@@ -30,8 +30,10 @@ auto_progress_calculation: true
 progress_calculation_options:
   - series: EU_SKILL_READ
     direction: positive
+    target: 99.9
   - series: EU_SKILL_MATH
     direction: positive
+    target: 99.9
 reporting_status: complete
 sort: ''
 sources:
