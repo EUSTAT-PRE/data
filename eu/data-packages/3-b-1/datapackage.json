@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Difteriaren, tetanosaren eta kukutxeztula haurrengan",
+                "Difteria, tetanosa eta kukutxeztula haurrengan",
                 "Gaixotasun pneumokozikoa haurrengan",
                 "Elgorria, parotiditis eta errubeola haurrengan",
                 "Giza papilomaren birusa (GPB) nerabeetan",
