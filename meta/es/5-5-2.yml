@@ -1,7 +1,7 @@
  # Metadatos nacionales (ficha metodológica)
  
 indicador_disponible: >-
-  global_indicators.5-5-2-title
+  GRAFICO.5-5-2-titulo
 
 objetivo_global: objetivo_largo.5-titulo
 meta_global: meta_largo.5-5-titulo
@@ -25,6 +25,8 @@ desagregacion: |
   Territorio histórico
 
 periodicidad: FUENTE.FREQ_A
+
+texto_oceca: FUENTE.oceca
 
 observaciones: |
   Se entiende por cargos directivos todas las ocupaciones incluidas en el grupo 1 de la CNO-2011, 
