@@ -1,7 +1,7 @@
  # Metadatos nacionales (ficha metodológica)
  
 indicador_disponible: >- 
-  global_indicators.3-b-1-title
+  GRAFICO.3-b-1-titulo
 
 objetivo_global: objetivo_largo.3-titulo
 meta_global: meta_largo.3-b-titulo
@@ -9,7 +9,12 @@ meta_global: meta_largo.3-b-titulo
 
 
 definicion: >-
-  Programa nazional bakoitzean sartutako txerto guztiekin immunizatutako biztanleriaren proportzioa
+  Lau serie aurkezten dira: 
+    - Difteriaren, tetanosaren eta kukutxeztularen (DTPa) aurkako txertoaren gutxienez hiru dosirekin txertatutako urtebeteko edo gehiagoko kohorteko pertsonen proportzioa  
+    - Pneumokokoaren (VNC) aurkako txertoaren gutxienez hiru dosirekin txertatuako urtebeteko edo gehiagoko kohorteko pertsonen proportzioa  
+    - Elgorriaren, errubeolaren eta parotiditisaren (SRP) aurkako txertoaren bigarren dosiarekin txertatuako 5 urte edo gehiagoko kohorteko pertsonen proportzioa
+    - Giza papilomaren birusaren (VPH) aurkako txertoaren bigarren dosiarekin txertatuaako13 urte edo gehiagoko kohorteko pertsonen proportzioa
+
 
 formula: |
 
