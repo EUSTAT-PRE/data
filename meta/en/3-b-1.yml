@@ -1,7 +1,7 @@
  # Metadatos nacionales (ficha metodológica)
  
 indicador_disponible: >- 
-  global_indicators.3-b-1-title
+  GRAFICO.3-b-1-titulo
 
 objetivo_global: objetivo_largo.3-titulo
 meta_global: meta_largo.3-b-titulo
@@ -9,7 +9,11 @@ meta_global: meta_largo.3-b-titulo
 
 
 definicion: >-
-  Proportion of the target population covered by all vaccines included in their national programme
+  Four series are presented: 
+    - Proportion of the population in the cohort aged 1 year and older vaccinated with at least three doses of the diphtheria, tetanus, and pertussis (DTaP) vaccine  
+    - Proportion of the population in the cohort aged 1 year and older vaccinated with at least 3 doses of pneumococcal vaccine (VNC)  
+    - Proportion of the population in the cohort aged 5 year and older vaccinated with the second dose of measles, mumps and rubella vaccine (SRP)
+    - Proportion of the population in the cohort aged 13 year and older vaccinated with the second dose of the vaccine against human papillomavirus (VPH)
 
 formula: |
 
