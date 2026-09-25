@@ -8,11 +8,15 @@ meta_global: meta_largo.5-4-titulo
 #  indicador_onu_global: indicador_largo.5-4-1-titulo
 
 
-definicion: >-
-  Average number of minutes dedicated each day to activities related to home and family per inhabitant
-  (domestic chores and care of people in the household)
+definicion: |
+  Available series:
 
-formula: |
+   - Average number of minutes dedicated each day to activities related to home and family per inhabitant (domestic chores and care of people in the household), by sex
+   - Relationship between the minutes devoted to home and family care between women and men
+
+
+formula:  |
+  <b> Time devoted to home and family care on an average day</b>
 
   $$THFP^{t} = \frac{THF^{t}}{PHF^{t}}$$
 
@@ -20,7 +24,19 @@ formula: |
 
   $THF^{t} =$ minutes dedicated by the population to home and family (domestic chores orcare of people in the household) on an average day in year $t$
 
-  $PHF^{t} =$  population in year $t$
+  $PHF^{t} =$ population in year $t$
+  <br>
+
+  <b> Gender parity index in average time on home and family care</b>
+
+  $$ITHF^{t} = \frac{THFM^{t}}{THFH^{t}}$$
+
+  where:
+
+  $THFM^{t} =$ minutes dedicated by the women to home and family (domestic chores orcare of people in the household) on an average day in year $t$
+
+  $THFH^{t} =$ minutes dedicated by the men to home and family (domestic chores orcare of people in the household) on an average day in year $t$
+
 
 desagregacion: |
   Sex
