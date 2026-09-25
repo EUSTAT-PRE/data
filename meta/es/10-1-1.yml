@@ -25,9 +25,7 @@ formula: |
   El crecimiento del ingreso real per cápita medio o del consumo de la población total 
   se calcula de la misma manera utilizando datos de la población total.
 
-desagregacion: | 
-  Grupo de ingresos 
-
+desagregacion: |
   Territorio histórico 
 
 observaciones: >-
