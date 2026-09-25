@@ -28,9 +28,7 @@ formula: |
   The growth in average real per capita income or consumption of the total population is 
   calculated in the same way using data for the total population. 
 
-desagregacion: | 
-  Income group
-
+desagregacion: |
   Province
 
 observaciones: >-
