@@ -8,18 +8,34 @@ meta_global: meta_largo.5-4-titulo
 #  indicador_onu_global: indicador_largo.5-4-1-titulo
 
 
-definicion: >-
-  Batez besteko egun batean etxearekin eta familiarekin lotutako jardueretan(etxeko lanak eta etxeko lagunez arduratzea) emandako minutuak, biztanleko.
+definicion: |
+  Eskuragarri dauden serieak:
 
-formula: |
+   - Batez besteko egun batean etxearekin eta familiarekin lotutako jardueretan (etxeko lanak eta etxeko lagunez arduratzea) emandako minutuak, biztanleko, sexuaren arabera
+   - Etxeari eta familiari eskainitako minutuen emakume eta eta gizonen arteko proportzioa
+
+formula:  |
+  <b> Batez besteko egun batean etxeari eta familiari eskainitako denbora</b>
 
   $$THFP^{t} = \frac{THF^{t}}{PHF^{t}}$$
 
   non:
 
-  $THF^{t} =$ biztanleriak batez besteko egun batean etxeko lanetan edo etxeko lagunez arduratzen emandako minutuak $t$ urtean 
+  $THF^{t} =$ biztanleriak batez besteko egun batean etxeko lanetan edo etxeko lagunez arduratzen emandako minutuak $t$ urtean
 
-  $PHF^{t} =$ biztanleria $t$ urtean 
+  $PHF^{t} =$ biztanleria $t$ urtean
+  <br>
+
+  <b> Genero-parekotasunaren indizea etxeari eta familiari eskainitako batez besteko denboran</b>
+
+  $$ITHF^{t} = \frac{THFM^{t}}{THFH^{t}}$$
+
+  non:
+
+  $THFM^{t} =$ emakumeek batez besteko egun batean etxeko lanetan edo etxeko lagunez arduratzen emandako minutuak $t$ urtean
+
+  $THFH^{t} =$ gizonek batez besteko egun batean etxeko lanetan edo etxeko lagunez arduratzen emandako minutuak $t$ urtean
+
 
 desagregacion: |
   Sexua
