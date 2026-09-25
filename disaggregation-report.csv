@@ -14,7 +14,7 @@ Energia,Teknologia berriztagarri mota,Tipo de tecnología renovable,Type of rene
 Explotacion,Esplotazio mota,Tipo de explotación,Type of operation,1,4
 Gasto,Gastua,Nivel de gasto,Expenditure,1,2
 Habilidad_IT,Trebetasun informatikoa,Habilidad informática,Computer skills,1,7
-Ingreso_cuantil,Diru-sarreren taldea,Grupo de ingresos,Income group,1,1
+Ingreso_cuantil,Ingreso_cuantil,Ingreso_cuantil,Ingreso_cuantil,1,1
 Institucion,Erakundea,Institución,Institution,1,13
 Municipio,Udalerria,Municipio,Municipality,21,252
 Nacionalidad,Nazionalitatea,Nacionalidad,Nationality,1,2
