@@ -23,22 +23,13 @@
             "constraints": {
               "enum": [
                 "Familiako gastuaren hazkunde-tasa per capita",
+                "Familiako %40 pobreenarena gastuaren hazkunde-tasa per capita",
                 "Familiako diru-sarreraren hazkunde-tasa per capita",
+                "Familiako %40 pobreenarena biztanle bakoitzeko diru-sarreraren hazkunde-tasa",
                 ""
               ]
             },
             "title": "Seriea"
-          },
-          {
-            "name": "Ingreso_cuantil",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "% 40 pobreena",
-                ""
-              ]
-            },
-            "title": "Ingreso_cuantil"
           },
           {
             "name": "Territorio",
@@ -8725,8 +8716,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Emakumeen proportzioa nekazaritza-lurren jabeen edo eskubideen titularren artean, edukitze-motaren arabera banakatuta",
                 "Jabetza-eskubideak edo nekazaritza-lurren gaineko eskubide seguruak dituzten nekazarien guztizkoaren proportzioa",
+                "Emakumeen proportzioa nekazaritza-lurren jabeen edo eskubideen titularren artean, edukitze-motaren arabera banakatuta",
                 ""
               ]
             },

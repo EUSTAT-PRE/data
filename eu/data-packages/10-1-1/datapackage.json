@@ -21,22 +21,13 @@
             "constraints": {
               "enum": [
                 "Familiako gastuaren hazkunde-tasa per capita",
+                "Familiako %40 pobreenarena gastuaren hazkunde-tasa per capita",
                 "Familiako diru-sarreraren hazkunde-tasa per capita",
+                "Familiako %40 pobreenarena biztanle bakoitzeko diru-sarreraren hazkunde-tasa",
                 ""
               ]
             },
             "title": "Seriea"
-          },
-          {
-            "name": "Ingreso_cuantil",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "% 40 pobreena",
-                ""
-              ]
-            },
-            "title": "Ingreso_cuantil"
           },
           {
             "name": "Territorio",

@@ -22,17 +22,9 @@
             "constraints": {
               "enum": [
                 "UE_HEI_HE",
+                "UE_HEI_HE_40",
                 "UE_HEI_HI",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Ingreso_cuantil",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "B40",
+                "UE_HEI_HI_40",
                 ""
               ]
             }
@@ -8324,8 +8316,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "SP_GNP_WNOWNS",
                 "SP_LGL_LNDAGSEC",
+                "SP_GNP_WNOWNS",
                 ""
               ]
             }

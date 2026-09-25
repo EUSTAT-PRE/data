@@ -21,22 +21,13 @@
             "constraints": {
               "enum": [
                 "Growth rate of household expenditure per capita",
+                "Growth rate of household expenditure among the bottom 40 per cent of the population per capita",
                 "Growth rate of household income per capita",
+                "Growth rate of household income among the bottom 40 per cent of the population per capita",
                 ""
               ]
             },
             "title": "Series"
-          },
-          {
-            "name": "Ingreso_cuantil",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "The poorest 40%",
-                ""
-              ]
-            },
-            "title": "Ingreso_cuantil"
           },
           {
             "name": "Territorio",
