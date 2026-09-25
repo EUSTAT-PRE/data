@@ -26,7 +26,12 @@ national_geographical_coverage: ''
 page_content: GRAFICO.10-1-1-contenido
 permalink: ''
 precision: []
-progress_status: significant_progress
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: UE_HEI_HI
+    target: 0.0001
+    direction: positive
+    goldilocks_transform: "UE_HEI_HI_40 - UE_HEI_HI"
 reporting_status: complete
 sort: ''
 sources:
