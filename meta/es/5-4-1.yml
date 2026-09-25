@@ -8,11 +8,15 @@ meta_global: meta_largo.5-4-titulo
 #  indicador_onu_global: indicador_largo.5-4-1-titulo
 
 
-definicion: >-
-  Promedio diario de minutos dedicados a actividades destinadas al hogar y la familia (trabajos domésticos o 
-  cuidar las personas del hogar) por habitante
+definicion: |
+  Series disponibles:
 
-formula: |
+   - Promedio diario de minutos dedicados a actividades destinadas al hogar y la familia (trabajos domésticos o cuidar las personas del hogar) por habitante, por sexo
+   - Relación entre los minutos dedicados al hogar y la familia entre mujeres y hombres
+
+
+formula:  |
+  <b>Tiempo dedicado al hogar y la familia en un día promedio</b>
 
   $$THFP^{t} = \frac{THF^{t}}{PHF^{t}}$$
 
@@ -21,6 +25,18 @@ formula: |
   $THF^{t} =$ minutos dedicados por la población a los trabajos domésticos o a cuidar las personas del hogar en un día promedio en el año $t$
 
   $PHF^{t} =$ población en el año $t$
+  <br>
+
+  <b>Índice de paridad de género en el tiempo medio dedicado al hogar y la familia</b>
+
+  $$ITHF^{t} = \frac{THFM^{t}}{THFH^{t}}$$
+
+  donde:
+
+  $THFM^{t} =$ minutos dedicados por las mujeres a los trabajos domésticos o a cuidar las personas del hogar en un día promedio en el año $t$
+
+  $THFH^{t} =$ minutos dedicados por los hombres a los trabajos domésticos o a cuidar las personas del hogar en un día promedio en el año $t$
+
 
 desagregacion: |
   Sexo
