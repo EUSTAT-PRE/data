@@ -220,9 +220,22 @@
   score: null
   target_variant: sin_target
 10-1-1:
+  10-1-1 / Familiako diru-sarreraren hazkunde-tasa per capita:
+    base_value: 1.0
+    base_year: 2016.0
+    current_value: 3.2
+    current_year: 2022.0
+    direction: 1
+    limit: null
+    progress_value: 0.4437783182761445
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: 0.0001
+    target_year: 2030.0
   progress_status: significant_progress
-  score: null
-  target_variant: sin_target
+  score: 5.0
+  target_variant: con_target
 10-2-1:
   10-2-1:
     base_value: 10.0
