@@ -7,9 +7,7 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values:
-  - field: Ingreso_cuantil
-    value: B40
+data_start_values: []
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -28,7 +26,12 @@ national_geographical_coverage: ''
 page_content: GRAFICO.10-1-1-contenido
 permalink: ''
 precision: []
-progress_status: significant_progress
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: UE_HEI_HI
+    target: 0.0001
+    direction: positive
+    goldilocks_transform: "UE_HEI_HI_40 - UE_HEI_HI"
 reporting_status: complete
 sort: ''
 sources:
