@@ -135,7 +135,7 @@ indicator,goal,status
 9-a-1,9,notstarted
 9-b-1,9,moderate_progress
 9-c-1,9,significant_progress
-10-1-1,10,significant_deterioration
+10-1-1,10,moderate_progress
 10-2-1,10,significant_deterioration
 10-3-1,10,significant_deterioration
 10-4-1,10,moderate_deterioration

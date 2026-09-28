@@ -220,22 +220,9 @@
   score: null
   target_variant: sin_target
 10-1-1:
-  10-1-1 / Familiako %40 pobreenarena biztanle bakoitzeko diru-sarreraren hazkunde-tasa:
-    base_value: -0.5
-    base_year: 2016.0
-    current_value: -0.1
-    current_year: 2024.0
-    direction: 1
-    limit: null
-    progress_value: .nan
-    score: -5.0
-    sign: -1
-    status: significant_deterioration
-    target: 0.001
-    target_year: 2030.0
-  progress_status: significant_deterioration
-  score: -5.0
-  target_variant: con_target
+  progress_status: moderate_progress
+  score: null
+  target_variant: sin_target
 10-2-1:
   10-2-1:
     base_value: 10.0
