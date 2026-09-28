@@ -29,8 +29,8 @@ precision: []
 auto_progress_calculation: true
 progress_calculation_options:
   - series: UE_HEI_HI_40
-    target: 0.0001
     direction: positive
+    target: 0.001
 reporting_status: complete
 sort: ''
 sources:
