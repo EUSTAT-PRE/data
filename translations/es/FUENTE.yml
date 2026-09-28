@@ -234,7 +234,7 @@ Eustat_cegf_url: https://es.eustat.eus/estadisticas/tema_237/opt_1/temas.html
 Eustat_cemaf_url: https://es.eustat.eus/estadisticas/tema_217/opt_1/temas.html
 Eustat_iig_url: https://es.eustat.eus/estadisticas/tema_515/opt_0/temas.html
 Eustat_emh_url: https://es.eustat.eus/estadisticas/tema_268/opt_1/temas.html
-Eustat_pra_url: https://es.eustat.eus/estadisticas/tema_57/opt_1/temas.html
+Eustat_pra_url: "https://es.eustat.eus/estadisticas/tema_57/opt_1/temas.html"
 Euskadi_Bienestar_epds_url: https://www.euskadi.eus/encuesta-de-pobreza-y-desigualdades-sociales-epds/web01-s2enple/es/
 Eustat_ept_url: https://es.eustat.eus/estadisticas/tema_77/opt_1/temas.html
 Euskadi_Salud_escav_url: https://www.euskadi.eus/encuesta-salud/inicio/
