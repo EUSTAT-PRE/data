@@ -54,11 +54,6 @@
             "title": "Unit"
           },
           {
-            "name": "Progress",
-            "type": "number",
-            "title": "Progress"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"

@@ -50,10 +50,6 @@
             }
           },
           {
-            "name": "Progress",
-            "type": "number"
-          },
-          {
             "name": "Value",
             "type": "number"
           }
