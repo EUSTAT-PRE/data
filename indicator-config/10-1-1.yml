@@ -26,11 +26,7 @@ national_geographical_coverage: ''
 page_content: GRAFICO.10-1-1-contenido
 permalink: ''
 precision: []
-auto_progress_calculation: true
-progress_calculation_options:
-  - series: UE_HEI_HI_40
-    direction: positive
-    target: 0.001
+progress_status: moderate_progress
 reporting_status: complete
 sort: ''
 sources:
