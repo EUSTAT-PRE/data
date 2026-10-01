@@ -8,11 +8,15 @@ meta_global: meta_largo.5-4-titulo
 #  indicador_onu_global: indicador_largo.5-4-1-titulo
 
 
-definicion: >-
-  Promedio diario de minutos dedicados a actividades destinadas al hogar y la familia (trabajos domésticos o 
-  cuidar las personas del hogar) por habitante
+definicion: |
+  Series disponibles:
 
-formula: |
+   - Promedio diario de minutos dedicados a actividades destinadas al hogar y la familia (trabajos domésticos o cuidar las personas del hogar) por habitante, por sexo
+   - Relación entre los minutos dedicados al hogar y la familia entre mujeres y hombres
+
+
+formula:  |
+  <b>Tiempo dedicado al hogar y la familia en un día promedio</b>
 
   $$THFP^{t} = \frac{THF^{t}}{PHF^{t}}$$
 
@@ -21,6 +25,18 @@ formula: |
   $THF^{t} =$ minutos dedicados por la población a los trabajos domésticos o a cuidar las personas del hogar en un día promedio en el año $t$
 
   $PHF^{t} =$ población en el año $t$
+  <br>
+
+  <b>Índice de paridad de género en el tiempo medio dedicado al hogar y la familia</b>
+
+  $$ITHF^{t} = \frac{THFM^{t}}{THFH^{t}}$$
+
+  donde:
+
+  $THFM^{t} =$ minutos dedicados por las mujeres a los trabajos domésticos o a cuidar las personas del hogar en un día promedio en el año $t$
+
+  $THFH^{t} =$ minutos dedicados por los hombres a los trabajos domésticos o a cuidar las personas del hogar en un día promedio en el año $t$
+
 
 desagregacion: |
   Sexo
@@ -57,6 +73,7 @@ justificacion_global: |
 
 
 dato_global: >-
+  <a href="https://unstats.un.org/sdgs/dataportal/analytics/MultiSeries?indicators=5.4.1,5.4.1&seriesCode=SL_DOM_TSPD-15%2B%20%7C%20ALLAREA%20%7C%20FEMALE%2CSL_DOM_TSPD-15%2B%20%7C%20ALLAREA%20%7C%20MALE&areaCode=  276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3"> Proporción de tiempo dedicado a tareas domésticas y de cuidados no remuneradas, por sexo (%) SL_DOM_TSPD</a> UNSTATS<br>
 
 
 comparabilidad: >-

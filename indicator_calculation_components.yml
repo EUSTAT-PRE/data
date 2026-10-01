@@ -2,35 +2,35 @@
   1-1-1:
     base_value: 0.1490340749
     base_year: 2016.0
-    current_value: 0.17
-    current_year: 2022.0
+    current_value: 0.1045528172
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.7893659694952404
-    score: -5.0
+    progress_value: 1.5425619066269907
+    score: 5.0
     sign: 1
-    status: significant_deterioration
+    status: significant_progress
     target: 0.1
     target_year: 2030.0
-  progress_status: significant_deterioration
-  score: -5.0
+  progress_status: significant_progress
+  score: 5.0
   target_variant: con_target
 1-2-1:
   1-2-1:
     base_value: 16.4
     base_year: 2016.0
-    current_value: 16.5
-    current_year: 2022.0
+    current_value: 17.8
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.02098521874625286
-    score: -2.58743841144272
+    progress_value: -0.21306857311214195
+    score: -3.3877857213005917
     sign: 1
     status: significant_deterioration
     target: 8.2
     target_year: 2030.0
   progress_status: significant_deterioration
-  score: -2.58743841144272
+  score: -3.3877857213005917
   target_variant: con_target
 1-2-2:
   1-2-2:
@@ -183,20 +183,20 @@
   target_variant: sin_target
 1-a-1:
   1-a-1 / Pobrezia murriztera bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina):
-    base_value: 1.0
+    base_value: 6.13
     base_year: 2015.0
-    current_value: 1.01
-    current_year: 2016.0
+    current_value: 5.91
+    current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.010000000000000009
-    score: 2.500000000000002
+    progress_value: -0.004052756274800062
+    score: -1.0131890687000156
     sign: 1
-    status: significant_progress
+    status: moderate_deterioration
     target: null
     target_year: 2030.0
-  progress_status: significant_progress
-  score: 2.500000000000002
+  progress_status: moderate_deterioration
+  score: -1.0131890687000156
   target_variant: sin_target
 1-a-2:
   1-a-2:
@@ -220,25 +220,25 @@
   score: null
   target_variant: sin_target
 10-1-1:
-  progress_status: alcanzado
+  progress_status: moderate_progress
   score: null
   target_variant: sin_target
 10-2-1:
   10-2-1:
     base_value: 10.0
     base_year: 2016.0
-    current_value: 10.0
-    current_year: 2022.0
+    current_value: 11.4
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: -0.0
-    score: -0.0
+    progress_value: -0.016513396251598644
+    score: -4.128349062899661
     sign: 1
-    status: no_progress
+    status: significant_deterioration
     target: null
     target_year: 2030.0
-  progress_status: no_progress
-  score: -0.0
+  progress_status: significant_deterioration
+  score: -4.128349062899661
   target_variant: sin_target
 10-3-1:
   10-3-1:
@@ -494,8 +494,34 @@
   score: 3.4691674091191897
   target_variant: sin_target
 11-6-2:
-  progress_status: alcanzado
-  score: null
+  11-6-2 / Hirietako PM10 partikulen batez besteko mailak, populazioaren arabera haztatuak:
+    base_value: 17.9
+    base_year: 2015.0
+    current_value: 14.6
+    current_year: 2024.0
+    direction: -1
+    limit: null
+    progress_value: 0.0223877222498422
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  11-6-2 / Hirietako PM2,5 partikulen batez besteko mailak, populazioaren arabera haztatuak:
+    base_value: 10.1
+    base_year: 2015.0
+    current_value: 8.4
+    current_year: 2024.0
+    direction: -1
+    limit: null
+    progress_value: 0.020269936716445947
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 5.0
   target_variant: sin_target
 11-7-1:
   11-7-1:
@@ -849,20 +875,20 @@
   target_variant: sin_target
 14-3-1:
   14-3-1:
-    base_value: 8.07
+    base_value: 8.069
     base_year: 2015.0
-    current_value: 8.05
+    current_value: 8.048
     current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: -0.0002756720900630727
-    score: -0.06891802251576817
+    progress_value: -0.00028950758558732304
+    score: -0.07237689639683076
     sign: 1
     status: no_progress
     target: null
     target_year: 2030.0
   progress_status: no_progress
-  score: -0.06891802251576817
+  score: -0.07237689639683076
   target_variant: sin_target
 14-4-1:
   progress_status: notstarted
@@ -1223,11 +1249,11 @@
     current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: 1.5667737031453586
+    progress_value: 41.664992888862066
     score: 5.0
     sign: 1
     status: significant_progress
-    target: 100.0
+    target: 105.0
     target_year: 2030.0
   16-6-1 / Toki administrazioaren gastu likidatua, hasieran onartutako aurrekontuaren proportzioan:
     base_value: 101.95
@@ -1236,14 +1262,14 @@
     current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: -1.2884787170229182
-    score: -5.0
+    progress_value: -0.8427704429582261
+    score: 5.0
     sign: 1
-    status: significant_deterioration
-    target: 100.0
+    status: significant_progress
+    target: 105.0
     target_year: 2030.0
-  progress_status: no_progress
-  score: 0.0
+  progress_status: significant_progress
+  score: 5.0
   target_variant: con_target
 16-6-2:
   16-6-2:
@@ -1268,42 +1294,42 @@
     base_year: 2015.0
     current_value: 1.3
     current_year: 2024.0
-    direction: -1
+    direction: 1
     limit: null
-    progress_value: -5.630965191877049
-    score: -5.0
+    progress_value: 1.2940399151168367
+    score: 5.0
     sign: 1
-    status: significant_deterioration
-    target: 1.2
+    status: significant_progress
+    target: 1.0
     target_year: 2030.0
   16-7-1 / Botere judizialeko emakumeen proportzioa, biztanleriako emakumeen proportzioari dagokionez:
     base_value: 1.24
     base_year: 2015.0
     current_value: 1.24
     current_year: 2025.0
-    direction: -1
+    direction: 1
     limit: null
-    progress_value: -0.0
-    score: -2.5
+    progress_value: 0.0
+    score: 5.0
     sign: 1
-    status: moderate_deterioration
-    target: 1.2
+    status: significant_progress
+    target: 1.0
     target_year: 2030.0
   16-7-1 / Legebiltzarreko emakumeen proportzioa, biztanleriako emakumeen proportzioari dagokionez:
     base_value: 1.01
     base_year: 2015.0
     current_value: 1.01
     current_year: 2023.0
-    direction: -1
+    direction: 1
     limit: null
-    progress_value: -0.0
+    progress_value: 0.0
     score: 5.0
     sign: 1
     status: significant_progress
-    target: 1.2
+    target: 1.0
     target_year: 2030.0
-  progress_status: moderate_deterioration
-  score: -0.8333333333333334
+  progress_status: significant_progress
+  score: 5.0
   target_variant: con_target
 16-7-2:
   progress_status: notstarted
@@ -2279,8 +2305,60 @@
   score: 5.0
   target_variant: sin_target
 3-b-1:
-  progress_status: retroceso
-  score: null
+  3-b-1 / Difteria, tetanosa eta kukutxeztula haurrengan:
+    base_value: 93.0
+    base_year: 2017.0
+    current_value: 95.2
+    current_year: 2024.0
+    direction: 1
+    limit: null
+    progress_value: 0.0033456483215759114
+    score: 0.8364120803939779
+    sign: 1
+    status: moderate_progress
+    target: null
+    target_year: 2030.0
+  3-b-1 / Elgorria, parotiditis eta errubeola haurrengan:
+    base_value: 94.7
+    base_year: 2017.0
+    current_value: 88.0
+    current_year: 2024.0
+    direction: 1
+    limit: null
+    progress_value: -0.010427705639413865
+    score: -2.6069264098534664
+    sign: 1
+    status: significant_deterioration
+    target: null
+    target_year: 2030.0
+  3-b-1 / Gaixotasun pneumokozikoa haurrengan:
+    base_value: 88.3
+    base_year: 2017.0
+    current_value: 94.9
+    current_year: 2024.0
+    direction: 1
+    limit: null
+    progress_value: 0.010350860192782863
+    score: 2.5877150481957156
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  3-b-1 / Giza papilomaren birusa (GPB) nerabeetan:
+    base_value: 93.4
+    base_year: 2017.0
+    current_value: 91.8
+    current_year: 2024.0
+    direction: 1
+    limit: null
+    progress_value: -0.0024653912912485643
+    score: -0.6163478228121411
+    sign: 1
+    status: moderate_deterioration
+    target: null
+    target_year: 2030.0
+  progress_status: no_progress
+  score: 0.050213223981021515
   target_variant: sin_target
 3-b-2:
   3-b-2 / Osasun-ikerketara eta oinarrizko osasun-arretara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainke...:
@@ -2329,12 +2407,64 @@
   score: null
   target_variant: sin_target
 4-1-1:
-  progress_status: retroceso
-  score: null
-  target_variant: sin_target
+  4-1-1 / Irakurmenean gutxienez 2. gaitasun-maila lortu duten 15 urteko pertsonen proportzioa:
+    base_value: 82.6
+    base_year: 2015.0
+    current_value: 74.2
+    current_year: 2022.0
+    direction: 1
+    limit: null
+    progress_value: -1.191721744890319
+    score: -5.0
+    sign: 1
+    status: significant_deterioration
+    target: 99.9
+    target_year: 2030.0
+  4-1-1 / Matematikan gutxienez 2. gaitasun-maila lortu duten 15 urteko pertsonen proportzioa:
+    base_value: 80.5
+    base_year: 2015.0
+    current_value: 77.3
+    current_year: 2022.0
+    direction: 1
+    limit: null
+    progress_value: -0.39852983512503937
+    score: -4.160540979687664
+    sign: 1
+    status: significant_deterioration
+    target: 99.9
+    target_year: 2030.0
+  progress_status: significant_deterioration
+  score: -4.580270489843832
+  target_variant: con_target
 4-1-2:
-  progress_status: progreso
-  score: null
+  4-1-2 / Bigarren hezkuntzako bigarren etaparen amaiera-tasa (20-22 urteko biztanleria):
+    base_value: 79.4
+    base_year: 2015.0
+    current_value: 84.7
+    current_year: 2022.0
+    direction: 1
+    limit: 100
+    progress_value: 0.009273770734058662
+    score: 3.6174218617293534
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  4-1-2 / Bigarren hezkuntzako lehen etaparen amaiera-tasa (18-20 urteko biztanleria):
+    base_value: 94.7
+    base_year: 2015.0
+    current_value: 94.9
+    current_year: 2022.0
+    direction: 1
+    limit: 100
+    progress_value: 0.0003014319105922869
+    score: 0.3508687859861149
+    sign: 1
+    status: moderate_progress
+    target: null
+    target_year: 2030.0
+  progress_status: moderate_progress
+  score: 1.9841453238577342
   target_variant: sin_target
 4-1-E1:
   4-1-E1:
@@ -2478,30 +2608,108 @@
   score: -0.8761578600787137
   target_variant: con_target
 4-6-1:
-  4-6-1:
-    base_value: null
-    base_year: 2015.0
-    current_value: null
-    current_year: null
+  4-6-1 / Irakurmenean gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa:
+    base_value: 68.1
+    base_year: 2012.0
+    current_value: 77.6
+    current_year: 2023.0
     direction: 1
-    limit: 100
-    progress_value: null
-    score: null
-    sign: null
-    status: not_available
+    limit: null
+    progress_value: 0.011942587604054422
+    score: 2.9856469010136055
+    sign: 1
+    status: significant_progress
     target: null
     target_year: 2030.0
-  progress_status: not_available
-  score: null
+  4-6-1 / Matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa:
+    base_value: 69.2
+    base_year: 2012.0
+    current_value: 81.0
+    current_year: 2023.0
+    direction: 1
+    limit: null
+    progress_value: 0.014416409467326252
+    score: 3.604102366831563
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 3.2948746339225843
   target_variant: sin_target
 4-7-1:
   progress_status: notstarted
   score: null
   target_variant: sin_target
 4-a-1:
-  progress_status: alcanzado
-  score: null
-  target_variant: sin_target
+  4-a-1 / Bainuak sexuaren arabera bereizita dituzten eskolen proportzioa:
+    base_value: 100.0
+    base_year: 2015.0
+    current_value: 100.0
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: 0.0
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: 99.9
+    target_year: 2030.0
+  4-a-1 / Edateko uraren hornidura duten eskolen proportzioa:
+    base_value: 100.0
+    base_year: 2015.0
+    current_value: 100.0
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: 0.0
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: 99.9
+    target_year: 2030.0
+  4-a-1 / Elektrizitaterako sarbidea duten eskolen proportzioa:
+    base_value: 100.0
+    base_year: 2015.0
+    current_value: 100.0
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: 0.0
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: 99.9
+    target_year: 2030.0
+  4-a-1 / Eskuak garbitzeko instalazioak dituzten eskolen proportzioa:
+    base_value: 100.0
+    base_year: 2015.0
+    current_value: 100.0
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: 0.0
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: 99.9
+    target_year: 2030.0
+  4-a-1 / Interneterako konexioa duten eskolen proportzioa:
+    base_value: 100.0
+    base_year: 2015.0
+    current_value: 99.9
+    current_year: 2023.0
+    direction: 1
+    limit: null
+    progress_value: -1.8749452868103302
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: 99.9
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 5.0
+  target_variant: con_target
 4-b-1:
   progress_status: notstarted
   score: null
@@ -2635,21 +2843,34 @@
   score: null
   target_variant: sin_target
 5-4-1:
-  5-4-1:
+  5-4-1 / Batez besteko egun batean etxeari eta familiari eskainitako denbora:
     base_value: 1.8983050847457628
     base_year: 2013.0
-    current_value: 1.467741935483871
+    current_value: 1.4615384615384617
     current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: 0.7188964007310248
-    score: 0.8492600052216058
+    progress_value: 0.7305792547065143
+    score: 0.932708962189388
+    sign: 1
+    status: moderate_progress
+    target: 1.03
+    target_year: 2030.0
+  5-4-1 / Genero-parekotasunaren indizea etxeari eta familiari eskainitako batez besteko denboran:
+    base_value: 1.8983050847457628
+    base_year: 2013.0
+    current_value: 1.4615384615384617
+    current_year: 2023.0
+    direction: -1
+    limit: null
+    progress_value: 0.7305792547065143
+    score: 0.932708962189388
     sign: 1
     status: moderate_progress
     target: 1.03
     target_year: 2030.0
   progress_status: moderate_progress
-  score: 0.8492600052216058
+  score: 0.932708962189388
   target_variant: con_target
 5-5-1:
   5-5-1 / Emakumezkoen proportzioa Batzar Nagusietako batzarkideen artean:
@@ -2734,9 +2955,48 @@
   score: 3.0105628163992066
   target_variant: con_target
 5-5-2:
-  progress_status: retroceso
-  score: null
-  target_variant: sin_target
+  5-5-2 / Emakumeen proportzioa enpresarien artean:
+    base_value: 66.3
+    base_year: 2015.0
+    current_value: 62.8
+    current_year: 2024.0
+    direction: -1
+    limit: null
+    progress_value: 0.9055989694939527
+    score: 2.1828497820996624
+    sign: 1
+    status: moderate_progress
+    target: 60.0
+    target_year: 2030.0
+  5-5-2 / Emakumeen proportzioa goi-zuzendaritza kargudunen artean:
+    base_value: 70.5
+    base_year: 2015.0
+    current_value: 70.0
+    current_year: 2024.0
+    direction: -1
+    limit: null
+    progress_value: 0.07392416879777332
+    score: -2.191982630009278
+    sign: 1
+    status: moderate_deterioration
+    target: 60.0
+    target_year: 2030.0
+  5-5-2 / Emakumeen proportzioa zuzendaritza-kargudunen artean:
+    base_value: 63.3
+    base_year: 2015.0
+    current_value: 65.5
+    current_year: 2024.0
+    direction: -1
+    limit: null
+    progress_value: -1.0674379495397326
+    score: -5.0
+    sign: 1
+    status: significant_deterioration
+    target: 60.0
+    target_year: 2030.0
+  progress_status: moderate_deterioration
+  score: -1.6697109493032052
+  target_variant: con_target
 5-6-1:
   progress_status: notstarted
   score: null
@@ -3459,7 +3719,7 @@
   score: null
   target_variant: sin_target
 9-4-1:
-  9-4-1 / CO2 isurketak:
+  9-4-1 / $CO_2$ isuriak:
     base_value: 14537114.24
     base_year: 2015.0
     current_value: 13605046.24
@@ -3472,7 +3732,7 @@
     status: moderate_progress
     target: null
     target_year: 2030.0
-  9-4-1 / CO2 isurketak balio erantsiko unitate bakoitzeko:
+  9-4-1 / CO2 isuriak balio erantsiko unitate bakoitzeko:
     base_value: 0.19
     base_year: 2015.0
     current_value: 0.15
@@ -3485,7 +3745,7 @@
     status: significant_progress
     target: null
     target_year: 2030.0
-  9-4-1 / Manufaktura-sektorearen CO2 isurketak, manufaktura-sektorearen balio erantsiaren unitateko:
+  9-4-1 / Manufaktura-sektorearen CO2 isuriak, manufaktura-sektorearen balio erantsiaren unitateko:
     base_value: 0.37
     base_year: 2015.0
     current_value: 0.32
@@ -3502,8 +3762,34 @@
   score: 3.852740754468544
   target_variant: sin_target
 9-4-E1:
-  progress_status: alcanzado
-  score: null
+  9-4-E1 / Manufaktura-industriaren PM10 isuri-intentsitatea:
+    base_value: 0.15
+    base_year: 2015.0
+    current_value: 0.11
+    current_year: 2023.0
+    direction: -1
+    limit: null
+    progress_value: 0.03802745289640708
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  9-4-E1 / Manufaktura-industriaren PM2,5 isuri-intentsitatea:
+    base_value: 0.07
+    base_year: 2015.0
+    current_value: 0.05
+    current_year: 2023.0
+    direction: -1
+    limit: null
+    progress_value: 0.041186819435131805
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 5.0
   target_variant: sin_target
 9-5-1:
   9-5-1:

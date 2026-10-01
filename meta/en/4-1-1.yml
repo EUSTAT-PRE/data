@@ -25,9 +25,7 @@ formula: |
   $P_{15}^{t} =$ population aged 15 in year $t$
 
 
-desagregacion: | 
-  Type of competence
-
+desagregacion: |
   Sex 
 
 periodicidad: FUENTE.FREQ_A3

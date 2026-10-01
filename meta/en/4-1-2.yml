@@ -29,8 +29,7 @@ formula: |
   $n =$ ISCED level 2 (lower secondary education) and ISCED level 3 (upper secondary education)
 
 
-desagregacion: |
-  Educational level
+desagregacion:
 
 
 periodicidad: FUENTE.FREQ_A

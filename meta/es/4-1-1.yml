@@ -24,9 +24,7 @@ formula: |
   $P_{15}^{t} =$ población de 15 años en el año $t$
 
 
-desagregacion: | 
-  Tipo de competencia 
-
+desagregacion: |
   Sexo 
 
 periodicidad: FUENTE.FREQ_A3

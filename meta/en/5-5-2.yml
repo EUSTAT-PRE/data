@@ -1,7 +1,7 @@
  # Metadatos nacionales (ficha metodológica)
  
 indicador_disponible: >-
-  global_indicators.5-5-2-title
+  GRAFICO.5-5-2-titulo
 
 objetivo_global: objetivo_largo.5-titulo
 meta_global: meta_largo.5-5-titulo
@@ -22,11 +22,11 @@ formula: |
   $DIR_{men}^{t} =$ men in the corresponding occupation in the year $t$
 
 desagregacion: |
-  Occupation
-
   Province
 
 periodicidad: FUENTE.FREQ_A
+
+texto_oceca: FUENTE.oceca
 
 observaciones: |
   Management positions are defined as all occupations included in Group 1 of the CNO-2011, while senior 

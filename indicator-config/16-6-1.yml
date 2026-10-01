@@ -23,18 +23,18 @@ graph_type: line
 indicator_name: global_indicators.16-6-1-title
 indicator_number: '16.6.1'
 national_geographical_coverage: ''
-page_content: ''
+page_content: GRAFICO.16-6-1-contenido
 permalink: ''
 precision: []
 auto_progress_calculation: true
 progress_calculation_options:
   - series: GF_XPD_GBPC
     direction: negative
-    target: 100
+    target: 105
     goldilocks_transform: "100+abs(Value-100)"
   - series: EU_XPD_LOCALGBPC
     direction: negative
-    target: 100
+    target: 105
     goldilocks_transform: "100+abs(Value-100)"
 reporting_status: complete
 sort: ''
