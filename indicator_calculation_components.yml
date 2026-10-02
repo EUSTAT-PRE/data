@@ -664,7 +664,33 @@
   score: 5.0
   target_variant: sin_target
 12-3-1:
-  progress_status: noevaluado
+  12-3-1 / Elikagai xahuketa:
+    base_value: 241279.0
+    base_year: 2024.0
+    current_value: 241279.0
+    current_year: 2024.0
+    direction: -1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: null
+    target_year: 2030.0
+  12-3-1 / Elikagai xahuketa per capita:
+    base_value: 109.0
+    base_year: 2024.0
+    current_value: 109.0
+    current_year: 2024.0
+    direction: -1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: null
+    target_year: 2030.0
+  progress_status: not_available
   score: null
   target_variant: sin_target
 12-4-1:
