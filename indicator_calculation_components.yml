@@ -1775,19 +1775,6 @@
   score: -2.0670534
   target_variant: sin_target
 2-3-1:
-  2-3-1 / Elikagaien ekoizle handien produktibitatea:
-    base_value: 43924.4
-    base_year: 2015.0
-    current_value: 50293.1
-    current_year: 2021.0
-    direction: 1
-    limit: null
-    progress_value: 0.0228228649
-    score: 5.0
-    sign: 1
-    status: significant_progress
-    target: null
-    target_year: 2030.0
   2-3-1 / Elikagaien ekoizle txikien produktibitatea:
     base_value: 10150.0
     base_year: 2015.0
@@ -1801,23 +1788,10 @@
     status: moderate_deterioration
     target: 20300.0
     target_year: 2030.0
-  progress_status: moderate_progress
-  score: 1.5059279748
-  target_variant: mixto
+  progress_status: moderate_deterioration
+  score: -1.9881440504
+  target_variant: con_target
 2-3-2:
-  2-3-2 / Elikagaien ekoizle handien batez besteko diru-sarrerak:
-    base_value: 13529.1
-    base_year: 2015.0
-    current_value: 18226.4
-    current_year: 2021.0
-    direction: 1
-    limit: null
-    progress_value: 0.0509256654
-    score: 5.0
-    sign: 1
-    status: significant_progress
-    target: null
-    target_year: 2030.0
   2-3-2 / Elikagaien ekoizle txikien batez besteko diru-sarrerak:
     base_value: 7680.2
     base_year: 2015.0
@@ -1831,9 +1805,9 @@
     status: significant_deterioration
     target: 15360.4
     target_year: 2030.0
-  progress_status: no_progress
-  score: 0.0
-  target_variant: mixto
+  progress_status: significant_deterioration
+  score: -5.0
+  target_variant: con_target
 2-4-1:
   2-4-1 / Hektarea bakoitzeko nekazaritza-ekoizpenaren balio onargarria edo desiragarria lortu duen nekazaritza-azalerare...:
     base_value: 30.21

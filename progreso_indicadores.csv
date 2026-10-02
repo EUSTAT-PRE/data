@@ -19,8 +19,8 @@ indicator,goal,status
 2-2-3,2,notstarted
 2-2-4,2,notstarted
 2-2-E1,2,moderate_deterioration
-2-3-1,2,moderate_progress
-2-3-2,2,no_progress
+2-3-1,2,moderate_deterioration
+2-3-2,2,significant_deterioration
 2-4-1,2,moderate_deterioration
 2-4-E1,2,significant_progress
 2-4-E2,2,significant_progress
