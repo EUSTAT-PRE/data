@@ -26,7 +26,12 @@ national_geographical_coverage: ''
 page_content: GRAFICO.12-3-1-contenido
 permalink: ''
 precision: []
-progress_status: noevaluado
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: AG_FOOD_WST
+    direction: negative
+  - series: AG_FOOD_WST_PC
+    direction: negative
 reporting_status: complete
 sources:
   - organisation: FUENTE.ELIKA
