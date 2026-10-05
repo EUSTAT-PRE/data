@@ -35,7 +35,7 @@ progress_calculation_options:
 reporting_status: complete
 sources:
   - organisation: FUENTE.ELIKA
-    periodicity: FUENTE.FREQ_A4
+    periodicity: FUENTE.FREQ_A2
     url: FUENTE.ELIKA_xahu_url
     url_text: FUENTE.ELIKA_xahu
     logo: FUENTE.ELIKA_logo
