@@ -18,7 +18,7 @@ graph_annotations: []
 graph_limits:
   - unit: PT
     minimum: 0
-    maximum: 5
+    maximum: 1
 graph_stacked_disaggregation: ''
 graph_title: GRAFICO.5-3-1-titulo
 graph_titles: []
@@ -26,13 +26,13 @@ graph_type: line
 indicator_name: global_indicators.5-3-1-title
 indicator_number: '5.3.1'
 national_geographical_coverage: ''
-page_content: GRAFICO.5-3-1-contenido
+page_content: ''
 permalink: ''
 precision: []
 auto_progress_calculation: true
 progress_calculation_options:
   - direction: negative
-    target: 0.05
+    target: 0.1
 reporting_status: complete
 sort: ''
 sources:

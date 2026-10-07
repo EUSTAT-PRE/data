@@ -23,13 +23,13 @@ graph_type: line
 indicator_name: global_indicators.4-2-2-title
 indicator_number: '4.2.2'
 national_geographical_coverage: ''
-page_content: GRAFICO.4-2-2-contenido
+page_content: ''
 permalink: ''
 precision: []
 auto_progress_calculation: true
 progress_calculation_options:
   - direction: positive
-    target: 99.8
+    target: 99.9
 reporting_status: complete
 sort: ''
 sources:

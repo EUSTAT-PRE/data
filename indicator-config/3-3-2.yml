@@ -24,13 +24,12 @@ graph_type: line
 indicator_name: global_indicators.3-3-2-title
 indicator_number: '3.3.2'
 national_geographical_coverage: ''
-page_content: GRAFICO.3-3-2-contenido
+page_content: ''
 permalink: ''
 precision: []
 auto_progress_calculation: true
 progress_calculation_options:
   - direction: negative
-    target: 2.4
 reporting_status: complete
 sort: ''
 sources:
