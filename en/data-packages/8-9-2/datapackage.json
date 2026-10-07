@@ -12,8 +12,57 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of employed persons in the tourism industries",
+                "Proportion of employed persons in the tourism industries relative to the total number of employed persons",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Sexo",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2.0",
+                "1.0",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Araba/Álava",
+                "Bizkaia",
+                "Gipuzkoa",
+                ""
+              ]
+            },
+            "title": "Province"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Employed persons",
+                "%",
+                ""
+              ]
+            },
+            "title": "Unit"
           },
           {
             "name": "Value",

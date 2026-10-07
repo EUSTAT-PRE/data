@@ -12,8 +12,57 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Turismoaren sektorean okupatutako pertsonen kopurua",
+                "Turismoaren sektorean okupatutako pertsonen proportzioa, okupatutako pertsona guztiekiko",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Sexo",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2.0",
+                "1.0",
+                ""
+              ]
+            },
+            "title": "Sexua"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Araba / Álava",
+                "Bizkaia",
+                "Gipuzkoa",
+                ""
+              ]
+            },
+            "title": "Lurralde historikoa"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Okupatutako pertsonak",
+                "%",
+                ""
+              ]
+            },
+            "title": "Unitatea"
           },
           {
             "name": "Value",
