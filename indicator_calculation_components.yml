@@ -2010,16 +2010,16 @@
     current_value: 0.06
     current_year: 2024.0
     direction: -1
-    limit: null
-    progress_value: 0.0875495883
-    score: 5.0
+    limit: 0
+    progress_value: 0.0169820055
+    score: 4.245501375
     sign: 1
     status: significant_progress
-    target: 1.0
+    target: null
     target_year: 2030.0
   progress_status: significant_progress
-  score: 5.0
-  target_variant: con_target
+  score: 4.245501375
+  target_variant: sin_target
 3-3-2:
   3-3-2:
     base_value: 11.8
@@ -2028,15 +2028,15 @@
     current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.1073527096
-    score: -2.0526970433
+    progress_value: 0.0108139696
+    score: 2.7034924
     sign: 1
-    status: moderate_deterioration
-    target: 2.4
+    status: significant_progress
+    target: null
     target_year: 2030.0
-  progress_status: moderate_deterioration
-  score: -2.0526970433
-  target_variant: con_target
+  progress_status: significant_progress
+  score: 2.7034924
+  target_variant: sin_target
 3-3-3:
   3-3-3:
     base_value: 0.001
@@ -2044,16 +2044,16 @@
     current_value: 0.0
     current_year: 2024.0
     direction: -1
-    limit: null
-    progress_value: 1.7097138638
+    limit: 0
+    progress_value: 1.0
     score: 5.0
     sign: 1
     status: significant_progress
-    target: 1.0
+    target: null
     target_year: 2030.0
   progress_status: significant_progress
   score: 5.0
-  target_variant: con_target
+  target_variant: sin_target
 3-3-4:
   3-3-4:
     base_value: 0.7
@@ -2061,16 +2061,16 @@
     current_value: 0.5
     current_year: 2024.0
     direction: -1
-    limit: null
-    progress_value: 0.3016113721
-    score: -1.2432859496
+    limit: 0
+    progress_value: 0.0366955831
+    score: 5.0
     sign: 1
-    status: moderate_deterioration
-    target: 0.1
+    status: significant_progress
+    target: null
     target_year: 2030.0
-  progress_status: moderate_deterioration
-  score: -1.2432859496
-  target_variant: con_target
+  progress_status: significant_progress
+  score: 5.0
+  target_variant: sin_target
 3-3-5:
   progress_status: notstarted
   score: null
@@ -2508,11 +2508,11 @@
     current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 1.6671148413
+    progress_value: 1.5395962384
     score: 5.0
     sign: 1
     status: significant_progress
-    target: 99.8
+    target: 99.9
     target_year: 2030.0
   progress_status: significant_progress
   score: 5.0
@@ -2842,11 +2842,11 @@
     current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 3.3560421429
+    progress_value: 2.7827527919
     score: 5.0
     sign: 1
     status: significant_progress
-    target: 0.05
+    target: 0.1
     target_year: 2030.0
   progress_status: significant_progress
   score: 5.0
