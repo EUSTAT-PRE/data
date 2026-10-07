@@ -2568,11 +2568,11 @@
   4-5-1 / Bizileku-parekotasunaren indizea hezkuntza-jarduerak egitean (10.000 biztanletik gorako eta beherako udalerriak):
     base_value: 1.0989010989010988
     base_year: 2015.0
-    current_value: 1.0309278350515465
-    current_year: 2024.0
+    current_value: 1.0101010101010102
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: 1.6412119788
+    progress_value: 1.947918392
     score: 5.0
     sign: 1
     status: significant_progress
@@ -2592,16 +2592,16 @@
     target: 1.03
     target_year: 2030.0
   4-5-1 / Genero-parekotasunaren indizea hezkuntza-jarduerak egitean:
-    base_value: 1.0
-    base_year: 2016.0
-    current_value: 1.07
-    current_year: 2022.0
+    base_value: 1.15
+    base_year: 2015.0
+    current_value: 1.1
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: -5.3654440162
-    score: -5.0
+    progress_value: 0.6059206483
+    score: 0.042290345
     sign: 1
-    status: significant_deterioration
+    status: moderate_progress
     target: 1.03
     target_year: 2030.0
   4-5-1 / Osasun-parekotasunaren indizea hezkuntza-jarduerak egitean:
@@ -2617,8 +2617,8 @@
     status: moderate_deterioration
     target: 1.03
     target_year: 2030.0
-  progress_status: moderate_deterioration
-  score: -0.8761578601
+  progress_status: moderate_progress
+  score: 0.3844147261
   target_variant: con_target
 4-6-1:
   4-6-1 / Irakurmenean gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa:
