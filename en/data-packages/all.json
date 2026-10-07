@@ -14496,7 +14496,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Employed persons",
+                "Thousands of employed persons",
                 "%",
                 ""
               ]

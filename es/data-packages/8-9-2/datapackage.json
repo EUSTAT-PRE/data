@@ -57,7 +57,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Personas ocupadas",
+                "Miles de personas ocupadas",
                 "%",
                 ""
               ]
