@@ -2971,12 +2971,12 @@
   5-5-2 / Emakumeen proportzioa enpresarien artean:
     base_value: 66.3
     base_year: 2015.0
-    current_value: 62.8
-    current_year: 2024.0
+    current_value: 62.6
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: 0.9055989695
-    score: 2.1828497821
+    progress_value: 0.8630974793
+    score: 1.8792677093
     sign: 1
     status: moderate_progress
     target: 60.0
@@ -2984,12 +2984,12 @@
   5-5-2 / Emakumeen proportzioa goi-zuzendaritza kargudunen artean:
     base_value: 70.5
     base_year: 2015.0
-    current_value: 70.0
-    current_year: 2024.0
+    current_value: 67.5
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: 0.0739241688
-    score: -2.19198263
+    progress_value: 0.4057624301
+    score: -0.8093232079
     sign: 1
     status: moderate_deterioration
     target: 60.0
@@ -2997,18 +2997,18 @@
   5-5-2 / Emakumeen proportzioa zuzendaritza-kargudunen artean:
     base_value: 63.3
     base_year: 2015.0
-    current_value: 65.5
-    current_year: 2024.0
+    current_value: 66.2
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: -1.0674379495
+    progress_value: -1.2600432083
     score: -5.0
     sign: 1
     status: significant_deterioration
     target: 60.0
     target_year: 2030.0
   progress_status: moderate_deterioration
-  score: -1.6697109493
+  score: -1.3100184995
   target_variant: con_target
 5-6-1:
   progress_status: notstarted
