@@ -2483,11 +2483,11 @@
   4-1-E1:
     base_value: 8.9
     base_year: 2021.0
-    current_value: 8.4
+    current_value: 8.5
     current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: 11.5523736951
+    progress_value: 9.2014165269
     score: 5.0
     sign: 1
     status: significant_progress
