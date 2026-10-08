@@ -8,26 +8,24 @@ meta_global: meta_largo.6-5-titulo
 #  indicador_onu_global: indicador_largo.6-5-2-titulo
 
 definicion: >-
-  Uraren arloko lankidetzarako akordio operatibo batek estalitako mugaz gaindiko arroen eremuaren proportzioa
+  Proportion of transboundary basin area with an operational arrangement for water 
+  cooperation
 
 formula: |
 
   $$PSTCOOP^{t} = \frac{STCOOP^{t}}{ST^{t}} \cdot 100$$
 
-  non:
+  where:
 
-  $STCOOP^{t} =$ mugaz gaindiko arroen eremua, uraren arloko lankidetza-akordio operatibo batek estalia $t$ urtean 
+  $STCOOP^{t} =$ transboundary basin area covered by an operational arrangement for water in the year $t$ 
 
-  $ST^{t} =$ mugaz gaindiko arroen eremua $t$ urtean
+  $ST^{t} =$ transboundary basin area in the year $t$
 
 desagregacion:
 
 observaciones: |
 
-  Ibaien eta lakuen kudeaketa integratua arro hidrografiko osoetarako nazioarteko batzordeetan antolatzen da, mugaz gaindiko uren kasuan.
-  Batzordeen jarduerak nazioarteko akordioetan oinarritzen dira. Euskal Autonomia Erkidegoaren zati bat Garonne – Kantauri – Ebroko nazioarteko arro hidrografikoan dago.
-  2006ko otsailean, lankidetza-akordioa sinatu zen Toulousen, mugaren bi aldeetako arro hidrografikoetan hartutako neurriak ahalik eta ondoen koordinatzeko, Uraren Esparru Zuzentaraua (UEZ) aplikatuz, eta administrazio-lankidetza erregularra ezartzeko.
-
+  Integrated river and lake management is organized into international commissions for entire river basins in the case of transboundary waters. The commissions' activities are based on international agreements. Part of the Basque Country is located in the Garonne-Cantabrian-Ebro international river basin. In February 2006, a cooperation agreement was signed in Toulouse to coordinate, as effectively as possible, the measures taken in the river basins located on both sides of the border, in implementation of the Water Framework Directive (WFD), as well as to establish regular administrative cooperation.
 
 periodicidad: FUENTE.FREQ_A
 
@@ -35,31 +33,28 @@ periodicidad: FUENTE.FREQ_A
 
 justificacion_global: |
 
-  Munduko ur-baliabide gehienak partekatuak dira: 2021ean mugaz gaindiko 468 akuifero identifikatu ziren, 
-  eta mugaz gaindiko 310 ibai-arro eta aintzirek lurrazalaren ia erdia hartzen dute, eta munduko ur gezaren 
-  % 60 inguru dira. Munduko biztanleriaren % 40, gutxi gorabehera, bi herrialdek edo gehiagok partekatzen 
-  dituzten ibai-arro eta aintziretan bizi da, eta % 90 baino gehiago arroak partekatzen dituzten herrialdeetan 
-  bizi da. 
+  The majority of the world’s water resources are shared: 468 transboundary aquifers 
+  have been identified in 2021 and 310 transboundary lake and river basins cover nearly 
+  one half of the Earth’s land surface and account for an estimated 60% of global freshwater. 
+  Approximately 40% of the world’s population lives in river and lake basins shared by two 
+  or more countries and over 90% lives in countries that share basins. 
 
-  Baliabide hidrikoen garapenak inpaktuak ditu mugaz haraindiko arroetan, horiek partekatzen dituzten 
-  herrialdeetan potentzialki, eta lurrazaleko edo lurpeko uren erabilerak eragina izan dezake beste baliabide 
-  horietan, askotan elkarri lotuta baitaude. Uraren erabilera intentsiboak, emariaren erregulazioak edo 
-  kutsadurak arriskuan jar ditzakete mugaz gaindiko arroak partekatzen dituzten herrialdeen garapen-asmoak, 
-  eta, beraz, mugaz gaindiko lankidetza behar da. Hala ere, kasu askotan, lankidetzak ez du aurrera egin. 
-
-
-  Iturria: Nazio Batuen Estatistika Sekzioa 
-
+  Development of water resources has impacts across transboundary basins, potentially on 
+  countries sharing transboundary basins, and use of surface water or groundwater may affect 
+  the other resource, which are often interlinked. Intensive water use, flow regulation or 
+  pollution risks going as far as compromising the development aspirations of countries 
+  sharing transboundary basins and therefore transboundary cooperation is required. However, 
+  cooperation is in many cases not advanced. 
+  
+  Source: United Nations Statistics Division
 
 dato_global: |
 
-  <a href="https://unstats.un.org/sdgs/dataportal/analytics/SingleSeries?indicators=6.5.2&seriesCode=EG_TBA_H2CO&areaCode=276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3&table=Total">Mugaz gaindiko arroen proportzioa (ibai-arroak, aintzira-arroak eta akuiferoak), uraren arloko lankidetza akordio operatiboa dutenak (%) EG_TBA_H2CO</a> UNSTATS
+  <a href="https://unstats.un.org/sdgs/dataportal/analytics/SingleSeries?indicators=6.5.2&seriesCode=EG_TBA_H2CO&areaCode=276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3&table=Total">Proportion of transboundary basins (river and lake basins and aquifers) with an operational arrangement for water cooperation (%) EG_TBA_H2CO</a> UNSTATS
 
 comparabilidad: >-
-  Adierazleak Nazio Batuen metadatuak betetzen ditu.
+  The available indicator complies with United Nations metadata.
 
-indicador_meta_enlace: '<a href="https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-02.pdf">Metadatuak 6-5-2.pdf</a> (ingelesez bakarrik)'
+indicador_meta_enlace: '<a href="https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-02.pdf">Metadata 6-5-2.pdf</a>'
 
 
-national_data_updated_date: ''
-national_metadata_updated_date: ''

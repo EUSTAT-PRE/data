@@ -8,31 +8,31 @@ meta_global: meta_largo.16-6-titulo
 #  indicador_onu_global: indicador_largo.16-6-1-titulo
 
 definicion: >-
-  Administrazio autonomikoaren eta tokiko administrazioen gastu likidatua, hasieran onartutako aurrekontuaren proportzioan 
+  Liquidated expenditure in proportion to the initial expenditure of the budgets of regional and 
+  local public administrations 
 
 formula: |
 
-  $$PG_{administrazio\, publikoa}^{t} = \frac{GL_{administrazio\, publikoa}^{t}}{GI_{administrazio\, publikoa}^{t}} \cdot 100$$ <br>
+  $$PG_{public\, aministration}^{t} = \frac{GL_{public\, administration}^{t}}{GI_{public\, administration}^{t}} \cdot 100$$ <br>
 
-  non:
+  where:
 
-  $GL_{administrazio\, publikoa}^{t} =$ administrazio publikoaren (administrazio autonomikoa edo toki-administrazioa) guztizko gastu likidatu bateratua $t$ urtean
+  $GL_{public\, administration}^{t} =$ total expenditure on the settlement of consolidated budgets of the public administration (autonomous administration or local administration) in year $t$
 
-  $GI_{administrazio\, publikoa}^{t} =$ administrazio publikoaren (autonomia-administrazioa edo toki-administrazioa) gastuen hasierako aurrekontu bateratua $t$ urtean
+  $GI_{public\, administration}^{t} =$ total expenditure in the initial consolidated budget of the public administration (autonomous administration or local administration) in year $t$
 
 
-desagregacion: | 
+desagregacion: |
 
-  Lurralde historikoa
-  
-  Eskualdea
-  
-  Udalerria
+  Province
 
-  
-observaciones: | 
+  County
 
-  Helburua litzateke adierazlearen balioa % 100 izatea, baina egokitzat jotzen da % 95 eta % 105 bitartekoa bada.
+  Municipality
+
+observaciones: |
+
+  The target value for the indicator is 100%, although a value between 95% and 105% is considered adequate.
 
 periodicidad: FUENTE.FREQ_A
 texto_oceca: FUENTE.oceca
@@ -41,23 +41,19 @@ texto_oceca: FUENTE.oceca
 
 
 justificacion_global: |
-  Adierazlea gobernuaren aurrekontuen fidagarritasuna atzematen saiatzen da: Gobernuek gastatzen 
-  al dute aurreikusita dutena eta biltzen al dute bildu nahi dutena? 
+  The indicator attempts to capture the reliability of government budgets: do governments spend what they 
+  intend to and do they collect what they set out to collect? 
+ 
+  It is a simple and intuitive indicator that is easily 
+  understood and the methodology is transparent and every rating easily verifiable. 
 
-  Adierazle erraza eta intuitiboa da, erraz ulertzen dena, metodologia gardena da eta kalifikazio 
-  bakoitza erraz egiazta daiteke. 
-
-
-  Iturria: Nazio Batuen Estatistika Sekzioa 
-
+  Source: United Nations Statistics Division 
 
 dato_global: 
 
 comparabilidad: >-
-  EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.
+  The available indicator complies with United Nations metadata.
 
-indicador_meta_enlace: '<a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-01.pdf">Metadatuak 16-6-1.pdf</a> (ingelesez bakarrik)'
+indicador_meta_enlace: '<a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-01.pdf">Metadata 16-6-1.pdf</a>'
 
 
-national_data_updated_date: ''
-national_metadata_updated_date: ''
