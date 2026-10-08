@@ -22,7 +22,12 @@ formula: |
 
 desagregacion:
 
-observaciones: 
+observaciones: |
+
+  Ibaien eta lakuen kudeaketa integratua arro hidrografiko osoetarako nazioarteko batzordeetan antolatzen da, mugaz gaindiko uren kasuan.
+  Batzordeen jarduerak nazioarteko akordioetan oinarritzen dira. Euskal Autonomia Erkidegoaren zati bat Garonne – Kantauri – Ebroko nazioarteko arro hidrografikoan dago.
+  2006ko otsailean, lankidetza-akordioa sinatu zen Toulousen, mugaren bi aldeetako arro hidrografikoetan hartutako neurriak ahalik eta ondoen koordinatzeko, Uraren Esparru Zuzentaraua (UEZ) aplikatuz, eta administrazio-lankidetza erregularra ezartzeko.
+
 
 periodicidad: FUENTE.FREQ_A
 

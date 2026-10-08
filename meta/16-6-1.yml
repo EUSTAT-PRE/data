@@ -30,7 +30,9 @@ desagregacion: |
   Udalerria
 
   
-observaciones:
+observaciones: | 
+
+  Helburua litzateke adierazlearen balioa % 100 izatea, baina egokitzat jotzen da % 95 eta % 105 bitartekoa bada.
 
 periodicidad: FUENTE.FREQ_A
 texto_oceca: FUENTE.oceca

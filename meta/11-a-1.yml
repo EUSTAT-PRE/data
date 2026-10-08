@@ -50,7 +50,13 @@ desagregacion: |
   
   Udalerria 
 
-observaciones: >-
+observaciones: |
+
+  <a href="https://www.euskadi.eus/lurralde-antolamenduaren-gidalerroak-lag/web01-a3lurral/eu/">
+  Lurralde Antolamenduaren Gidalerroek</a> EAEko udalerrietako plangintzaren bizitegi-kuantifikazioari buruzko irizpideak ematen dituzte, biztanleria egoiliarraren aldakuntza, familiaren batez besteko tamainaren aldaketa edo etxebizitza-eskaera kontuan hartuta. 
+  <a href="https://www.euskadi.eus/informazioa/lurralde-plan-partzialak-lpp/web01-a3lurral/eu/">
+  Lurralde Plan Partzialek</a> Lurralde Antolamenduaren Gidalerroak garatzen dituzte Eremu Funtzionalak izeneko hamabost eremu geografikoetan, eta antolamenduaren helburuak zehazten dituzte lurraldearen egoeraren, egoera sozioekonomikoaren eta bilakaera-aukeren azterketatik abiatuta. 
+
 
 periodicidad: FUENTE.FREQ_A
 

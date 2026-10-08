@@ -31,6 +31,12 @@ formula: |
 desagregacion: |
   Lurralde historikoa
 
+observaciones: |
+
+   Helburua litzateke adierazlearen balioa % 50 izatea, baina egokitzat jotzen da % 40 eta % 60 bitartekoa bada.
+
+
+
 periodicidad: FUENTE.FREQ_A
 
 
