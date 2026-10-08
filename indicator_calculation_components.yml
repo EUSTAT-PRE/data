@@ -3579,8 +3579,34 @@
   score: -1.4347507875
   target_variant: sin_target
 8-9-2:
-  progress_status: notstarted
-  score: null
+  8-9-2 / Turismoaren sektorean okupatutako pertsonen kopurua:
+    base_value: 89.6
+    base_year: 2015.0
+    current_value: 112.1
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: 0.0226564464
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  8-9-2 / Turismoaren sektorean okupatutako pertsonen proportzioa, okupatutako pertsona guztiekiko:
+    base_value: 10.0
+    base_year: 2015.0
+    current_value: 11.1
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: 0.0104906465
+    score: 2.622661625
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 3.8113308125
   target_variant: sin_target
 8-a-1:
   progress_status: notstarted
@@ -3697,18 +3723,18 @@
   9-2-2:
     base_value: 19.7
     base_year: 2015.0
-    current_value: 19.0
-    current_year: 2024.0
+    current_value: 18.9
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: -0.0040118926
-    score: -1.00297315
+    progress_value: -0.0041370899
+    score: -1.034272475
     sign: 1
     status: moderate_deterioration
     target: null
     target_year: 2030.0
   progress_status: moderate_deterioration
-  score: -1.00297315
+  score: -1.034272475
   target_variant: sin_target
 9-3-1:
   9-3-1:
