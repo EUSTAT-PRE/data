@@ -21,12 +21,12 @@ graph_stacked_disaggregation: ''
 graph_target_lines:
   - series: EU_SDG_11_52_PER_100000
     unit: ''
-    label_content: indicator.annotation_2030_target
+    label_content: indicator.meta_europea
     value: 30.5
     graph_target_lines:
   - series: EU_SDG_11_52_NR
     unit: ''
-    label_content: indicator.annotation_2030_target
+    label_content: indicator.meta_europea
     value: 645
 graph_title: GRAFICO.3-9-1-titulo
 graph_titles: []
@@ -35,7 +35,7 @@ indicator_available: ''
 indicator_name: global_indicators.3-9-1-title
 indicator_number: 3.9.1
 national_geographical_coverage: ''
-page_content: GRAFICO.3-9-1-contenido
+page_content: ''
 permalink: ''
 placeholder: ''
 precision: []

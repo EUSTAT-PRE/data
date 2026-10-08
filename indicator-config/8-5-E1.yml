@@ -20,11 +20,11 @@ graph_stacked_disaggregation: ''
 graph_target_lines:
   - series: EU_EMP_LFS
     unit: ''
-    label_content: GRAFICO.8-5-E1-anotacion
+    label_content: indicator.meta_europea
     value: 78.0
   - series: EU_EMP_LFS_GAP
     unit: ''
-    label_content: GRAFICO.8-5-E1-anotacion
+    label_content: indicator.meta_europea
     value: 5.8
 graph_title: GRAFICO.8-5-E1-titulo
 graph_titles: []
@@ -32,7 +32,7 @@ graph_type: line
 indicator_name: GRAFICO.8-5-E1-titulo
 indicator_number: '8.5.E1'
 national_geographical_coverage: ''
-page_content: GRAFICO.8-5-E1-contenido
+page_content: ''
 permalink: ''
 precision: []
 auto_progress_calculation: true
