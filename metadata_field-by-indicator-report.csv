@@ -57,12 +57,14 @@ handiagoa ere.
 #1-5-2,complete,significant_progress,,line,FUENTE.oceca,2025-11-07,,"Kalte-ordainak ezbeharra gertatu den lekuari eta urteari esleituko zaizkie, atzerrian  gertatutako ezbeharrak kontuan hartu gabe.","EAEn eskuragarri dagoen adierazleak ez ditu Nazio Batuen metadatuak betetzen, baina  antzeko informazioa ematen du  ",
 #1-5-3,complete,significant_progress,,line,,,True,,,
 #1-5-4,complete,significant_progress,True,line,,2025-08-14,,"
-Euskadin, Euskadiko Babes Zibileko Planak (LABI) ezarritakoaren arabera, 20.000 biztanletik gorako 
+Euskadiko Babes Zibileko Planak (LABI) ezarritakoaren arabera, 20.000 biztanletik gorako 
 udalerriek larrialdietarako udal-planak egin eta onartu behar dituzte.
 
 5.000 biztanletik gorako udalerrietan, Toki Araubidearen Oinarriak arautzen dituen Estatuko araudiarekin 
 bat etorriz, jarraibide hau gomendagarria da. 2024an, 5.000 eta 20.000 biztanle arteko udalerrien % 96k 
 eta 1.000 eta 5.000 biztanle arteko udalerrien % 25ek Udal Larrialdi Plan homologatua dute.
+
+Udal Larrialdi Planik ez duten udalerriak dagokion lurralde historikoko larrialdi-planaren babespean daude.
 ",EAEn eskuragarri dagoen adierazleak Nazio Batuen metadatuak betetzen ditu.,
 #1-a-1,complete,moderate_deterioration,,line,,2026-06-26,,"
 Garapenerako oinarrizko gizarte-zerbitzuak eta elikadura-laguntza, pobrezia murriztera bideratuta daudenak, 
@@ -130,7 +132,12 @@ baina informazio osagarria ematen du. Nazio Batuen adierazleak biztanlerian jaza
 biztanleriari egindako inkesta batetik abiatuta; EAEn eskuragarri dagoen adierazlea, berriz, 
 erregistro administratiboetan oinarritzen da, eta errealitatea gutxietsi dezake.
 ",
-#11-a-1,complete,significant_progress,True,line,,2026-01-16,,,EAEn eskuragarri dagoen adierazleak partzialki betetzen ditu Nazio Batuen metadatuak.,
+#11-a-1,complete,significant_progress,True,line,,2026-01-16,,"
+
+Lurralde Antolamenduaren Gidalerroek EAEko udalerrietako plangintzaren bizitegi-kuantifikazioari buruzko irizpideak ematen dituzte, biztanleria egoiliarraren aldakuntza, familiaren batez besteko tamainaren aldaketa edo etxebizitza-eskaera kontuan hartuta. 
+
+Lurralde Plan Partzialek Lurralde Antolamenduaren Gidalerroak garatzen dituzte Eremu Funtzionalak izeneko hamabost eremu geografikoetan, eta antolamenduaren helburuak zehazten dituzte lurraldearen egoeraren, egoera sozioekonomikoaren eta bilakaera-aukeren azterketatik abiatuta. 
+",EAEn eskuragarri dagoen adierazleak partzialki betetzen ditu Nazio Batuen metadatuak.,
 #11-b-1,complete,significant_progress,,line,,,True,,,
 #11-b-2,complete,significant_progress,True,line,,2025-08-14,,"
 Euskadin, Euskadiko Babes Zibileko Planak (LABI) ezarritakoaren arabera, 20.000 biztanletik gorako 
@@ -151,7 +158,8 @@ Elikagaien artean kontatzen dira jangarriak diren zatiak eta jangarriak ez diren
 ",EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #12-4-1,notapplicable,notapplicable,,line,,,,,,
 #12-4-2,complete,moderate_deterioration,,line,,2026-06-01,,"
-Tratamendu-eragiketak, Hondakinei buruzko 2008/98/CE Zuzentarauaren arabera. ",EAEn eskuragarri dagoen adierazleak partzialki betetzen ditu Nazio Batuen metadatuak.,
+Tratamendu-eragiketak, Hondakinei buruzko 2008/98/CE Zuzentarauaren arabera. 
+Hondakinak ekologikoki tratatzeko modutzat hartzen dira birziklatzea eta errausketa energia berreskurapenarekin.",EAEn eskuragarri dagoen adierazleak partzialki betetzen ditu Nazio Batuen metadatuak.,
 #12-5-1,complete,moderate_deterioration,,line,FUENTE.oceca,2026-06-02,,,EAEn eskuragarri dagoen adierazleak partzialki betetzen ditu Nazio Batuen metadatuak.,
 #12-6-1,complete,significant_progress,,line,FUENTE.oceca,2025-06-11,,,EAEn eskuragarri dagoen adierazleak partzialki betetzen ditu Nazio Batuen metadatuak.,
 #12-7-1,complete,significant_progress,,bar,FUENTE.oceca,2026-09-18,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
@@ -233,7 +241,9 @@ esklabotza edo antzeko praktikak, morrontza edo organoen erauzketa.
 #16-4-2,notstarted,notstarted,,line,,,,,,
 #16-5-1,notstarted,notstarted,,line,,,,,,
 #16-5-2,notstarted,notstarted,,line,,,,,,
-#16-6-1,complete,significant_progress,True,line,FUENTE.oceca,2026-09-10,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
+#16-6-1,complete,significant_progress,True,line,FUENTE.oceca,2026-09-10,,"
+Helburua litzateke adierazlearen balioa % 100 izatea, baina egokitzat jotzen da % 95 eta % 105 bitartekoa bada.
+",EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #16-6-2,complete,significant_progress,,line,FUENTE.oceca,2025-10-24,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #16-7-1,complete,significant_progress,,line,"
 ""Administrazio publikoko emakumeen proportzioa, biztanleriako emakumeen proportzioari dagokionez"" seriea  autonomia-erkidegoetako estatistika-organo nagusien arteko metodologia harmonizatua erabiliz kalkulatu da",2026-09-10,,"Adierazle horren erreferentzia-balioa 1 da, aztertutako instituzioan emakumeak duen 
@@ -517,8 +527,11 @@ eta Beijingo Ekintza Plataforman ezarritako lau arlotan zatitzen da:
 #5-2-2,complete,significant_deterioration,True,line,,2026-01-16,,,"EAEn eskuragarri dagoen adierazleak ez ditu betetzen Nazio Batuen adierazlearen metadatuak, baina informazio  osagarria ematen du.",
 #5-3-1,complete,significant_progress,,line,,2025-10-24,,,"EAEn eskuragarri dagoen adierazleak ez ditu Nazio Batuen adierazlearen metadatuak betetzen, baina antzeko informazioa ematen du. Definizio ofizialaren arabera, adierazleak erreferentziako biztanleria gisa 20 eta 24 urte bitarteko emakumeak  hartzen ditu neurketa unean. Hala ere, Euskadiko AEan kalkulatzeko, urte erreferenteko 16 eta 17 urteko emakumeen  biztanleria hartzen da izendatzaile gisa.",
 #5-3-2,notstarted,notstarted,,line,,,,,,
-#5-4-1,complete,moderate_progress,,line,,2026-09-17,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
-#5-5-1,complete,significant_progress,,line,,2026-09-09,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
+#5-4-1,complete,moderate_progress,,line,,2026-09-17,,"Genero parekotasunaren indizean erreferentzia-balioa 1 da, parekotasun absolutua adierazten duena. Adierazlearen balioa 1etik zenbat eta urrunago egon, orduan eta handiagoa da desberdintasun-maila; balioa 1 baino handiagoa izateak adierazten du emakumeek batez beste gizonek baino denbora gehiago ematen diotela etxeari eta familiari; balioa 1 baino txikiagoa izateak adierazten du gizonezkoek batez beste emakumeek baino denbora gehiago ematen diotela etxeari eta familiari.
+",EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
+#5-5-1,complete,significant_progress,,line,,2026-09-09,,"
+Helburua litzateke adierazlearen balioa % 50 izatea, baina egokitzat jotzen da % 40 eta % 60 bitartekoa bada.
+",EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #5-5-2,complete,moderate_deterioration,,line,FUENTE.oceca,2026-10-07,,"Zuzendaritza-kargutzat hartzen dira LSN-2011ko 1. taldeko okupazio guztiak; goi-zuzendaritzatzat, 
 berriz, LSN-2011ko 11., 12. eta 13. azpitaldeetako okupazioak hartzen dira.
 
@@ -544,6 +557,7 @@ eskubide seguruak dituzten pertsonen prebalentzia neurtzen du, sexuaren arabera 
 
 5.a.1 (b) azpiadierazleak genero-parekotasuna du ardatz, eta neurtzen du emakumeak jabetzan edo 
 nekazaritza-lurren gaineko eskubide seguruetan zein neurritan dauden desabantailan.
+Azpiadierazle honetan helburua litzateke balioa % 50 izatea, baina egokitzat jotzen da % 40 eta % 60 bitartekoa bada.
 ",EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #5-a-2,complete,significant_progress,,line,,2026-01-16,,"
 Adierazleak neurtzen du lege-esparruak zenbateraino bermatzen duen lurren jabetza edo kontrolerako 
@@ -565,7 +579,9 @@ gobernantza arduratsuari buruzko borondatezko jarraibideetan onartutakoak dira:
 ",EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu ,
 #5-b-1,complete,significant_progress,,line,,2025-10-28,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #5-c-1,notstarted,notstarted,,line,,,,,,
-#6-1-1,complete,significant_progress,,line,,2025-06-09,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,indicator.relacionados
+#6-1-1,complete,significant_progress,,line,,2025-06-09,,"
+Banatutako uraren kalitatea, kutsatzaileen gehieneko mailak eta analisien gutxieneko maiztasuna Europar Batasunaren esparruan ezarri dira (EB 2020/2184 Zuzentaraua), eta Espainiako legeriara ekarri dira (3/2023 Errege Dekretua). Hornidura-sistemak, hala nola uraren kalitatea, estu zaintzen dituzte hornikuntzen titularrek, kontrol- eta zaintza-unitateen (KZU) eta Osasun Sailaren bitartez.
+",EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,indicator.relacionados
 #6-2-1,complete,significant_progress,True,line,FUENTE.oceca,2025-04-22,,Etxebizitza nagusia da urte osoan edo urtearen zatirik handienean pertsona batek edo gehiagok ohiko  bizileku gisa erabiltzen duten etxebizitza.,"EAEn eskuragarri dagoen adierazleak ez ditu Nazio Batuen metadatuak betetzen, baina antzeko informazioa ematen du",
 #6-3-1,complete,significant_progress,,line,FUENTE.oceca,2025-09-08,,"
 Hiri-aglomerazio baten karga kutsatzailea biztanle baliokideetan neurtzen da, eta biztanle baliokide bat 
@@ -604,7 +620,11 @@ Nekazaritza eta abeltzaintzako erabilerak ez du barne hartzen Ureztatzaileen Kom
 ezta EAEko nekazaritza eta abeltzaintzako erabilera orokorrak ere.
 ","EAEn eskuragarri dagoen adierazleak ez ditu Nazio Batuen metadatuak betetzen, baliabide hidrikoen  erauzketa neurtzen du, baina ez estres hidrikoa.",
 #6-5-1,notstarted,notstarted,,line,,,,,,
-#6-5-2,complete,significant_progress,,line,,2026-01-16,,,Adierazleak Nazio Batuen metadatuak betetzen ditu.,
+#6-5-2,complete,significant_progress,,line,,2026-01-16,,"
+Ibaien eta lakuen kudeaketa integratua arro hidrografiko osoetarako nazioarteko batzordeetan antolatzen da, mugaz gaindiko uren kasuan.
+Batzordeen jarduerak nazioarteko akordioetan oinarritzen dira. Euskal Autonomia Erkidegoaren zati bat Garonne – Kantauri – Ebroko nazioarteko arro hidrografikoan dago.
+2006ko otsailean, lankidetza-akordioa sinatu zen Toulousen, mugaren bi aldeetako arro hidrografikoetan hartutako neurriak ahalik eta ondoen koordinatzeko, Uraren Esparru Zuzentaraua (UEZ) aplikatuz, eta administrazio-lankidetza erregularra ezartzeko.
+",Adierazleak Nazio Batuen metadatuak betetzen ditu.,
 #6-6-1,notstarted,notstarted,,line,,,,,,
 #6-a-1,notstarted,notstarted,,line,,,,,,
 #6-b-1,complete,significant_progress,,line,FUENTE.oceca,2026-01-16,,"
