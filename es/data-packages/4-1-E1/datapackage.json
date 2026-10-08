@@ -28,6 +28,19 @@
             "title": "Sexo"
           },
           {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1.0",
+                "48.0",
+                "20.0",
+                ""
+              ]
+            },
+            "title": "Territorio histórico"
+          },
+          {
             "name": "Units",
             "type": "string",
             "constraints": {

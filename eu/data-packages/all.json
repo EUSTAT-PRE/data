@@ -13461,6 +13461,19 @@
             "title": "Sexua"
           },
           {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1.0",
+                "48.0",
+                "20.0",
+                ""
+              ]
+            },
+            "title": "Lurralde historikoa"
+          },
+          {
             "name": "Units",
             "type": "string",
             "constraints": {
