@@ -28,6 +28,31 @@
             "title": "Seriea"
           },
           {
+            "name": "Sexo",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2.0",
+                "1.0",
+                ""
+              ]
+            },
+            "title": "Sexua"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1.0",
+                "48.0",
+                "20.0",
+                ""
+              ]
+            },
+            "title": "Lurralde historikoa"
+          },
+          {
             "name": "Units",
             "type": "string",
             "constraints": {

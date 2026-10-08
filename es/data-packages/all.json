@@ -10412,6 +10412,31 @@
             "title": "Serie"
           },
           {
+            "name": "Sexo",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2.0",
+                "1.0",
+                ""
+              ]
+            },
+            "title": "Sexo"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1.0",
+                "48.0",
+                "20.0",
+                ""
+              ]
+            },
+            "title": "Territorio histórico"
+          },
+          {
             "name": "Units",
             "type": "string",
             "constraints": {
