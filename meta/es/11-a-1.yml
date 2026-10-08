@@ -48,7 +48,15 @@ desagregacion: |
 
   Municipio
 
-observaciones: >-
+observaciones: |
+
+  Las <a href="https://www.euskadi.eus/directrices-de-ordenacion-territorial-dot/web01-a3lurral/es/">
+  Directrices de Ordenación Territorial</a> proporcionan los criterios relativos a la cuantificación residencial del planeamiento de los municipios vascos
+  atendiendo a la variación de la población residente, la variación del tamaño medio familiar o la demanda de vivienda.
+  Los <a href="https://www.euskadi.eus/informacion/planes-territoriales-parciales-ptp/web01-a3lurral/es/">
+  Planes Territoriales Parciales</a> desarrollan las Directrices de Ordenación Territorial en los quince ámbitos geográficos, 
+  denominados Areas Funcionales, y definen los objetivos de la ordenación a partir del análisis del estado del territorio, 
+  de la situación socioeconómica y de sus posibilidades de evolución.
 
 periodicidad: FUENTE.FREQ_A
 

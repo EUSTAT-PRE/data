@@ -43,6 +43,11 @@ desagregacion: |
 
   Territorio histórico
 
+observaciones: |
+
+  En el índice de paridad de género el valor de referencia es 1, que representa la paridad absoluta. Cuanto más lejos de 1 se encuentra el valor del indicador, mayor es el grado de desigualdad; un valor superior a 1 indica que las mujeres dedican de media más tiempo que los hombres al hogar y a la familia; un valor inferior a 1 indica que los hombres dedican de media más tiempo que las mujeres al hogar y a la familia.
+
+
 periodicidad: FUENTE.FREQ_A5
 
 

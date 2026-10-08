@@ -30,7 +30,9 @@ desagregacion: |
   
   Municipio 
  
-observaciones:
+observaciones: |
+
+  El objetivo es que el valor del indicador sea 100%, aunque se considera adecuado si está entre 95 % y 105 %.
 
 periodicidad: FUENTE.FREQ_A
 texto_oceca: FUENTE.oceca

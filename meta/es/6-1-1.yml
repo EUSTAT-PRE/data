@@ -33,6 +33,11 @@ formula:  |
 
 desagregacion: >- 
 
+
+observaciones: |
+  La calidad del agua distribuida, los niveles máximos de contaminantes y la frecuencia mínima de análisis han sido establecidas en el ámbito de la Unión Europea (Directiva UE 2020/2184), y han sido transpuestas a la legislación española (Real Decreto 3/2023). Los sistemas de abastecimiento como la calidad del agua están estrechamente vigilados por los titulares de los abastecimientos a través de las unidades de control y vigilancia (UCV), y por el Departamento de Salud.
+
+
 periodicidad: FUENTE.FREQ_A
 
 
