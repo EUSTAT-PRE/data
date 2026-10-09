@@ -30,7 +30,9 @@ desagregacion: |
 
   Municipality
 
-observaciones:
+observaciones: |
+
+  The target value for the indicator is 100%, although a value between 95% and 105% is considered adequate.
 
 periodicidad: FUENTE.FREQ_A
 texto_oceca: FUENTE.oceca

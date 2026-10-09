@@ -43,6 +43,12 @@ desagregacion: |
 
   Province
 
+observaciones: |
+
+  In the gender parity index, the reference value is 1, representing absolute parity. The further the indicator value is from 1, the greater the degree of inequality; a value above 1 indicates that women devote, on average, more time than men to home and family, while a value below 1 indicates that men devote, on average, more time than women to home and family.
+
+
+
 periodicidad: FUENTE.FREQ_A5
 
 

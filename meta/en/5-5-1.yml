@@ -31,6 +31,11 @@ formula: |
 desagregacion: |
   Province
 
+observaciones: |
+  The target value for the indicator is 50%, although a range of 40% to 60% is considered adequate.
+
+
+
 periodicidad: FUENTE.FREQ_A
 
 
