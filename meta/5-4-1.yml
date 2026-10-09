@@ -9,44 +9,41 @@ meta_global: meta_largo.5-4-titulo
 
 
 definicion: |
-  Available series:
+  Eskuragarri dauden serieak:
 
-   - Average number of minutes dedicated each day to activities related to home and family per inhabitant (domestic chores and care of people in the household), by sex
-   - Relationship between the minutes devoted to home and family care between women and men
-
+   - Batez besteko egun batean etxearekin eta familiarekin lotutako jardueretan (etxeko lanak eta etxeko lagunez arduratzea) emandako minutuak, biztanleko, sexuaren arabera
+   - Etxeari eta familiari eskainitako minutuen emakume eta eta gizonen arteko proportzioa
 
 formula:  |
-  <b> Time devoted to home and family care on an average day</b>
+  <b> Batez besteko egun batean etxeari eta familiari eskainitako denbora</b>
 
   $$THFP^{t} = \frac{THF^{t}}{PHF^{t}}$$
 
-  where:
+  non:
 
-  $THF^{t} =$ minutes dedicated by the population to home and family (domestic chores orcare of people in the household) on an average day in year $t$
+  $THF^{t} =$ biztanleriak batez besteko egun batean etxeko lanetan edo etxeko lagunez arduratzen emandako minutuak $t$ urtean
 
-  $PHF^{t} =$ population in year $t$
+  $PHF^{t} =$ biztanleria $t$ urtean
   <br>
 
-  <b> Gender parity index in average time on home and family care</b>
+  <b> Genero-parekotasunaren indizea etxeari eta familiari eskainitako batez besteko denboran</b>
 
   $$ITHF^{t} = \frac{THFM^{t}}{THFH^{t}}$$
 
-  where:
+  non:
 
-  $THFM^{t} =$ minutes dedicated by the women to home and family (domestic chores orcare of people in the household) on an average day in year $t$
+  $THFM^{t} =$ emakumeek batez besteko egun batean etxeko lanetan edo etxeko lagunez arduratzen emandako minutuak $t$ urtean
 
-  $THFH^{t} =$ minutes dedicated by the men to home and family (domestic chores orcare of people in the household) on an average day in year $t$
+  $THFH^{t} =$ gizonek batez besteko egun batean etxeko lanetan edo etxeko lagunez arduratzen emandako minutuak $t$ urtean
 
 
 desagregacion: |
-  Sex
+  Sexua
 
-  Province
+  Lurralde historikoa
 
 observaciones: |
-
-  In the gender parity index, the reference value is 1, representing absolute parity. The further the indicator value is from 1, the greater the degree of inequality; a value above 1 indicates that women devote, on average, more time than men to home and family, while a value below 1 indicates that men devote, on average, more time than women to home and family.
-
+  Genero parekotasunaren indizean erreferentzia-balioa 1 da, parekotasun absolutua adierazten duena. Adierazlearen balioa 1etik zenbat eta urrunago egon, orduan eta handiagoa da desberdintasun-maila; balioa 1 baino handiagoa izateak adierazten du emakumeek batez beste gizonek baino denbora gehiago ematen diotela etxeari eta familiari; balioa 1 baino txikiagoa izateak adierazten du gizonezkoek batez beste emakumeek baino denbora gehiago ematen diotela etxeari eta familiari.
 
 
 periodicidad: FUENTE.FREQ_A5
@@ -56,31 +53,34 @@ periodicidad: FUENTE.FREQ_A5
 
 
 justificacion_global: |
-  The purpose of the indicator is to measure the amount of time women and men spend doing unpaid 
-  work, to ensure that all work, whether paid or unpaid, is valued. 
+  Adierazlearen helburua da emakumeek eta gizonek ordaindu gabeko lanak egiten ematen duten denbora neurtzea, lan oro, 
+  ordaindua izan ala ez, balioesten dela bermatzeko. 
 
-  In addition, it also provides an assessment of gender equality, by highlighting discrepancies 
-  between how much time women and men spend on unpaid work, like cooking, cleaning, or taking 
-  care of children. 
+  Gainera, genero-berdintasunaren ebaluazioa ere egiten du, emakumeek eta gizonek ordaindu gabeko zereginetan (janaria 
+  prestatzen, garbitzen edo haurrak zaintzen) ematen duten denboraren arteko aldeak nabarmentzen baititu. 
 
-  This indicator measures the average amount of time as a proportion in a day, so that if for a given 
-  country it is reported that women aged 15+ spend 10% of their day on unpaid domestic chores while men 
-  in the same age group spend 1%, it indicates that women spend 2.4 hours (2 hours and 24 minutes), 
-  while men spend 14.4 minutes on it a day, on average. As explained further in 4.c, this daily average is 
-  obtained from an average taken over the reference period for the data collection, and thus not mean 
-  that women and men spend these given amounts of time every single day. 
+  Adierazle horrek egun bateko batez besteko denbora-kopurua neurtzen du proportzio gisa. Hala, adierazten bada herrialde 
+  jakin batean 15 urteko edo gehiagoko emakumeek beren egunaren % 10 ematen dutela ordaindu gabeko etxeko lanetan eta 
+  adin-talde bereko gizonek % 1, emakumeek 2,4 ordu ematen dituzte (2 ordu eta 24 minutu) eta gizonek, aldiz, 14,4 minutu 
+  egunean, batez beste. Aurrerago 4.c atalean azaltzen den bezala, eguneko batezbesteko hori datuak biltzeko erreferentziazko 
+  aldian hartutako batezbesteko batetik ateratzen da, eta, beraz, ez du esan nahi emakumeek eta gizonek egunero ematen 
+  dituztenik denbora-kopuru horiek. 
 
-  Source: United Nations Statistics Division
+
+  Iturria: Nazio Batuen Estatistika Sekzioa 
+
 
 
 
 dato_global: >-
-  <a href="https://unstats.un.org/sdgs/dataportal/analytics/MultiSeries?indicators=5.4.1,5.4.1&seriesCode=SL_DOM_TSPD-15%2B%20%7C%20ALLAREA%20%7C%20FEMALE%2CSL_DOM_TSPD-15%2B%20%7C%20ALLAREA%20%7C%20MALE&areaCode=  276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3">Proportion of time spent on unpaid domestic chores and care work, by sex (%) SL_DOM_TSPD</a> UNSTATS<br>
+  <a href="https://unstats.un.org/sdgs/dataportal/analytics/MultiSeries?indicators=5.4.1,5.4.1&seriesCode=SL_DOM_TSPD-15%2B%20%7C%20ALLAREA%20%7C%20FEMALE%2CSL_DOM_TSPD-15%2B%20%7C%20ALLAREA%20%7C%20MALE&areaCode=  276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3"> Ordaindu gabeko etxeko lanetan eta zaintzan emandako denboraren proportzioa, sexuaren arabera (%) SL_DOM_TSPD</a> UNSTATS<br>
 
 
 comparabilidad: >-
-  The available indicator complies with United Nations metadata.
+  EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.
 
-indicador_meta_enlace: '<a href="https://unstats.un.org/sdgs/metadata/files/Metadata-05-04-01.pdf">Metadata 5-4-1.pdf</a>'
+indicador_meta_enlace: '<a href="https://unstats.un.org/sdgs/metadata/files/Metadata-05-04-01.pdf">Metadatuak 5-4-1.pdf</a> (ingelesez bakarrik)'
 
 
+national_data_updated_date: ''
+national_metadata_updated_date: ''
