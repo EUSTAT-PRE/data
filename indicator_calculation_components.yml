@@ -117,11 +117,11 @@
   1-5-1:
     base_value: 0.09
     base_year: 2015.0
-    current_value: 0.18
-    current_year: 2024.0
+    current_value: 0.23
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: -0.6610459297
+    progress_value: -0.8122293685
     score: 5.0
     sign: 1
     status: significant_progress
@@ -429,11 +429,11 @@
   11-5-1:
     base_value: 0.09
     base_year: 2015.0
-    current_value: 0.18
-    current_year: 2024.0
+    current_value: 0.23
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: -0.6610459297
+    progress_value: -0.8122293685
     score: 5.0
     sign: 1
     status: significant_progress
@@ -798,11 +798,11 @@
   13-1-1:
     base_value: 0.09
     base_year: 2015.0
-    current_value: 0.18
-    current_year: 2024.0
+    current_value: 0.23
+    current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: -0.6610459297
+    progress_value: -0.8122293685
     score: 5.0
     sign: 1
     status: significant_progress
