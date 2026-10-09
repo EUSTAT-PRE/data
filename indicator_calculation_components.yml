@@ -1973,11 +1973,11 @@
   3-2-1:
     base_value: 3.4
     base_year: 2015.0
-    current_value: 2.3
-    current_year: 2024.0
+    current_value: 2.8
+    current_year: 2025.0
     direction: -1
     limit: 0
-    progress_value: 0.2987539339
+    progress_value: 0.13516555
     score: 5.0
     sign: 1
     status: significant_progress
