@@ -355,7 +355,7 @@ Nekazaritza-sektoreak ELGEko Creditor Reporting System-eko (CRS) 311 serieko kod
 #3-1-1,complete,significant_progress,,line,FUENTE.oceca,2026-10-09,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #3-1-2,complete,significant_progress,,line,FUENTE.oceca,2026-06-09,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #3-2-1,complete,significant_progress,,line,FUENTE.oceca,2026-10-09,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
-#3-2-2,complete,significant_progress,,line,FUENTE.oceca,2025-07-17,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
+#3-2-2,complete,significant_progress,,line,FUENTE.oceca,2026-10-09,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #3-3-1,complete,significant_progress,,line,FUENTE.oceca,2026-04-22,,"
 Adierazle horrek ez du kontuan hartzen infekzioaren sorlekua, hau da, infekzio autoktonoak (lurralde nazionalean 
 sortutako infekzioak) eta infekzio ez-autoktonoak (atzerrian sortutako infekzioak) hartzen dira kontuan.
@@ -365,14 +365,14 @@ sortutako infekzioak) eta infekzio ez-autoktonoak (atzerrian sortutako infekzioa
 #3-3-4,complete,significant_progress,,line,FUENTE.oceca,2026-04-22,,Kasu autoktonoak dira gaixotasuna lurralde nazionalean harrapatu dutenak.,"Eskuragarri dagoen adierazleak ez ditu Nazio Batuen metadatuak betetzen, baina antzeko informazioa ematen du",
 #3-3-5,notstarted,notstarted,,line,,,,,,
 #3-4-1,complete,significant_progress,True,line,"
-""Gaixotasun kardiobaskularrei, minbiziari, diabetesari edo arnas gaixotasun kronikoei egotzitako heriotza-tasa  100.000 biztanleko"" seriea autonomia-erkidegoetako estatistika-organo nagusien  arteko metodologia harmonizatua erabiliz kalkulatu da. ",2025-08-04,,"
+""Gaixotasun kardiobaskularrei, minbiziari, diabetesari edo arnas gaixotasun kronikoei egotzitako heriotza-tasa  100.000 biztanleko"" seriea autonomia-erkidegoetako estatistika-organo nagusien  arteko metodologia harmonizatua erabiliz kalkulatu da. ",2026-10-09,,"
 Gaixotasunen Nazioarteko Sailkapenaren kode hauek erabiltzen dira transmititu ezin den gaixotasun bakoitzerako: 
 - gaixotasun kardiobaskularrak (GNS-10eko I00-I99 kodeak)
 - minbizia (GNS-10eko C00-C97 kodeak)
 - diabetesa (GNS-10eko E10-E14 kodeak)
 - arnas gaixotasun kronikoak (GNS-10eko J30-J98 kodeak)  
 ",EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
-#3-4-2,complete,moderate_deterioration,,line,FUENTE.oceca,2025-07-17,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen metadatuak betetzen ditu.,
+#3-4-2,complete,moderate_deterioration,,line,FUENTE.oceca,2026-10-09,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen metadatuak betetzen ditu.,
 #3-4-E1,complete,no_progress,,line,,2026-08-28,,"2023a arte kolon eta ondesteko minbiziaren baheketa-programaren xede-populazioa 50 eta 69 urte bitarteko gizon-emakumeek osatzen zuten. 2023tik aurrera 70 eta 74 urte bitartekoak gehitu zaizkie. 
 ",,
 #3-4-E2,complete,moderate_progress,,line,,2026-01-16,,,"Euskal AEn eskuragarri dagoen adierazlea Europako ""Bizi-itxaropena jaiotzean (demo_mlexpec)"" adierazlearekin aldera daiteke. ",
@@ -388,7 +388,7 @@ Anbulatorioa: pertsonak ez du gaua zentroan igarotzen. Irizpide hori ez zaie apl
 Legez kanpoko drogak: alkohola eta nikotina (tabakoa) ez dira legez kanpoko drogatzat hartzen.  
 ","EAEn eskuragarri dagoen adierazleak ez ditu betetzen Nazio Batuen adierazlearen metadatuak, baina informazio  osagarria ematen du.",
 #3-5-2,complete,moderate_deterioration,,line,FUENTE.oceca,2025-05-08,,,"EAEn eskuragarri dagoen adierazleak ez ditu Nazio Batuen adierazlearen metadatuak betetzen, baina  antzeko informazioa ematen du.",
-#3-6-1,complete,moderate_deterioration,,line,FUENTE.oceca,2025-07-17,,"
+#3-6-1,complete,moderate_deterioration,,line,FUENTE.oceca,2026-10-09,,"
 2016tik aurrera, hauek gehitu dira: motorrik gabeko ibilgailuen trafiko-istripuak, trafikoaren ondoriozkotzat 
 jotzen ez diren garraio-istripuak eta istripuaren unean ibilgailutik igotzen edo jaisten ari ziren trafiko-istripuen 
 biktimak
@@ -403,7 +403,7 @@ EAEn eskuragarri dagoen adierazleak ez ditu Nazio Batuen adierazlearen metadatua
 EAEn eskuragarri dagoen adierazlea Europako adierazlearekin aldera daiteke.
 ",
 #3-9-2,complete,significant_progress,,line,,,True,,,
-#3-9-3,complete,significant_progress,,line,FUENTE.oceca,2025-07-17,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
+#3-9-3,complete,significant_deterioration,,line,FUENTE.oceca,2026-10-09,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #3-a-1,complete,significant_progress,,bar,FUENTE.oceca,2025-08-14,,,"EAEn eskuragarri dagoen adierazleak ez ditu zorrotz betetzen Nazio Batuen adierazlearen metadatuak, baina antzeko informazioa eskaintzen du.",
 #3-b-1,complete,no_progress,,line,FUENTE.oceca,2026-09-16,,"
 Emandako emaitzak lortzeko, Txertaketen Programaren eta Erregistroaren Ponentziak proposatutako 
