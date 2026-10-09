@@ -1940,7 +1940,7 @@
     base_value: 5.3
     base_year: 2015.0
     current_value: 0.0
-    current_year: 2024.0
+    current_year: 2025.0
     direction: -1
     limit: null
     progress_value: 5.3265079914
@@ -3465,15 +3465,15 @@
   target_variant: sin_target
 8-5-E1:
   8-5-E1 / Genero-arrakala okupazioan:
-    base_value: -7.7
+    base_value: 7.7
     base_year: 2015.0
-    current_value: -5.9
+    current_value: 5.9
     current_year: 2025.0
     direction: -1
     limit: null
-    progress_value: -0.1263634388
+    progress_value: 1.4040885149
     score: 5.0
-    sign: -1
+    sign: 1
     status: significant_progress
     target: 5.8
     target_year: 2030.0
