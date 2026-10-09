@@ -31,6 +31,11 @@ formula:  |
 
 desagregacion: >- 
 
+observaciones: |
+
+  The quality of distributed water, maximum contaminant levels, and minimum analysis frequencies have been established within the European Union (Directive EU 2020/2184) and have been transposed into Spanish legislation (Royal Decree 3/2023). Supply systems, like water quality, are closely monitored by supply owners through control and surveillance units (CSUs) and by the Health Department.
+
+
 periodicidad: FUENTE.FREQ_A
 
 

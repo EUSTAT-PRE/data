@@ -9,32 +9,29 @@ meta_global: meta_largo.6-1-titulo
 
 
 definicion:  |
-  The proportion of the population using safely managed drinking 
-  water services is defined as the proportion of population using 
-  an improved drinking water source which is accessible on premises, 
-  available when needed and free from faecal and priority chemical 
-  contamination. 
+  Modu seguruan kudeatutako edateko uraren zerbitzuak erabiltzen dituzten biztanleen proportzioa 
+  honela definitzen da: edateko uraren iturri hobetua, irisgarria, behar denean eskuragarri dagoena 
+  eta kutsadura fekal eta kimikorik ez duena erabiltzen duten biztanleen proportzioa 
 
-  "Improved" drinking water sources include: piped supplies, boreholes 
-  and tubewells, protected dug wells, protected springs, rainwater, water 
-  kiosks, and packaged and delivered water. 
+  Honako hauek dira edateko uraren iturri hobetuak: hodien bidezko hornidura, zulatu eta 
+  hodiratutako putzuak, zulatutako putzu babestuak, iturburu babestuak, euri-ura, ur-kioskoak eta 
+  ontziratutako eta etxera eramandako ura.
 
 formula:  |
 
   $$PPC^{t} = \frac{PC^{t}}{P^{t}} \cdot 100$$
 
-  where:
+  non:
 
-  $PC^{t} =$ population using safely managed drinking water services in the year $t$
+  $PC^{t} =$ modu seguruan kudeatutako edateko uraren zerbitzuak erabiltzen dituzten biztanleak $t$ urtean 
 
-  $P^{t} =$ population on July 1 of year $t$
+  $P^{t} =$ biztanleria $t$ urteko uztailaren 1ean 
 
 desagregacion: >- 
 
 observaciones: |
 
-  The quality of distributed water, maximum contaminant levels, and minimum analysis frequencies have been established within the European Union (Directive EU 2020/2184) and have been transposed into Spanish legislation (Royal Decree 3/2023). Supply systems, like water quality, are closely monitored by supply owners through control and surveillance units (CSUs) and by the Health Department.
-
+  Banatutako uraren kalitatea, kutsatzaileen gehieneko mailak eta analisien gutxieneko maiztasuna Europar Batasunaren esparruan ezarri dira (EB 2020/2184 Zuzentaraua), eta Espainiako legeriara ekarri dira (3/2023 Errege Dekretua). Hornidura-sistemak, hala nola uraren kalitatea, estu zaintzen dituzte hornikuntzen titularrek, kontrol- eta zaintza-unitateen (KZU) eta Osasun Sailaren bitartez.
 
 periodicidad: FUENTE.FREQ_A
 
@@ -44,31 +41,31 @@ periodicidad: FUENTE.FREQ_A
 
 justificacion_global: | 
 
-  Access to safe drinking water is essential for good health, welfare 
-  and productivity and is widely recognized as a human right. Drinking 
-  water may be contaminated with human or animal faeces containing pathogens 
-  or with chemical and physical contaminants, leading to harmful effects on 
-  health. 
+  Edateko ura eskuratzea funtsezkoa da osasun onerako, ongizaterako eta produktibitaterako, eta giza eskubidetzat 
+  hartzen da. Edateko ura patogenoak dituzten gizakien edo animalien gorozkiekin edo kutsatzaile kimiko eta fisikoekin 
+  kutsatuta egon daiteke, eta horrek osasunerako ondorio kaltegarriak eragiten ditu. 
 
-  While improving water quality is critical to prevent the transmission of 
-  many diseases (such as diarrhoea which exacerbates malnutrition and remains 
-  a leading global cause of child deaths), improving the accessibility and 
-  availability of drinking water is equally important for health and welfare, 
-  particularly for women and girls who often bear the primary responsibility 
-  for collecting drinking water from distant sources. 
+  Nahiz eta uraren kalitatea hobetzea funtsezkoa den gaixotasun askoren transmisioa prebenitzeko (beherakoa, esaterako, 
+  malnutrizioa areagotzen duena eta haurren heriotzaren munduko kausa nagusietako bat izaten jarraitzen duena), edateko 
+  uraren eskuragarritasuna eta irisgarritasuna hobetzea ere garrantzitsua da osasunerako eta ongizaterako, bereziki 
+  emakumeentzat eta neskentzat, horiek baitira sarritan urruneko iturrietatik edateko ura biltzearen erantzule nagusiak. 
 
-  SDG indicator 6.1.1 is designed to address safe management of drinking water 
-  services, including dimensions of accessibility, availability and quality. 
+  GJHen 6.1.1 adierazlea edateko uraren zerbitzuen kudeaketa seguruari ekiteko diseinatuta dago, irisgarritasunaren, 
+  erabilgarritasunaren eta kalitatearen dimentsioak barne. 
 
-  Source: United Nations Statistics Division
+
+  Iturria: Nazio Batuen Estatistika Sekzioa 
+
 
 dato_global: >-
 
-  <a href="https://unstats.un.org/sdgs/dataportal/analytics/SingleSeries?indicators=6.1.1&seriesCode=SH_H2O_SAFE&areaCode=  276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3&table=ALLAREA">Proportion of population using safely managed drinking water services (%) SH_H2O_SAFE</a> UNSTATS
+  <a href="https://unstats.un.org/sdgs/dataportal/analytics/SingleSeries?indicators=6.1.1&seriesCode=SH_H2O_SAFE&areaCode=  276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3&table=ALLAREA">Modu seguruan kudeatutako edateko uraren zerbitzuak erabiltzen dituzten biztanleen proportzioa (%) SH_H2O_SAFE</a> UNSTATS
 
 comparabilidad: >- 
-  The available indicator complies with United Nations metadata.
+  EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.
 
-indicador_meta_enlace: '<a href="https://unstats.un.org/sdgs/metadata/files/Metadata-06-01-01.pdf">Metadata 6-1-1.pdf</a>'
+indicador_meta_enlace: '<a href="https://unstats.un.org/sdgs/metadata/files/Metadata-06-01-01.pdf">Metadatuak 6-1-1.pdf</a> (ingelesez bakarrik)'
 
 
+national_data_updated_date: ''
+national_metadata_updated_date: ''

@@ -40,9 +40,11 @@ desagregacion: |
   Province
 
 
-observaciones: >-
+observaciones: |
 
   Treatment operations in accordance with Waste Directive 2008/98/EC.
+
+  Recycling and incineration with energy recovery are considered environmentally sound treatments.
 
 
 periodicidad: FUENTE.FREQ_A

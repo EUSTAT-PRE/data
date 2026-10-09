@@ -33,7 +33,7 @@ desagregacion: |
 
 observaciones: |
 
-  El objetivo sería que el valor del indicador fuera 50%, aunque se considera adecuado si está entre 40 % y 60 %.
+  El objetivo es que el valor del indicador sea 50%, aunque se considera adecuado si está entre 40 % y 60 %.
 
 periodicidad: FUENTE.FREQ_A
 

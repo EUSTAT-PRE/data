@@ -49,7 +49,11 @@ desagregacion: |
   Municipality 
 
 
-observaciones: >-
+observaciones: |
+  The <a href="https://www.euskadi.eus/directrices-de-ordenacion-territorial-dot/web01-a3lurral/es/">Territorial Planning Guidelines</a> provide criteria for the quantification of residential planning in Basque municipalities, taking into account the changes in the resident population, the average family size, and the housing demand. 
+  
+  The <a href="https://www.euskadi.eus/informacion/planes-territoriales-parciales-ptp/web01-a3lurral/es/">Partial Territorial Plans</a> develop the Territorial Planning Guidelines in the fifteen geographical areas, known as Functional Areas, and define planning objectives based on an analysis of the state of the territory, its socioeconomic situation, and its potential for development.
+
 
 periodicidad: FUENTE.FREQ_A
 
