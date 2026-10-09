@@ -19,7 +19,7 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_target_lines:
   - series: EU_GHG_TV1990
-    unit: PT
+    unit: ''
     label_content: indicator.meta_europea
     value: -45.0
 graph_title: global_indicators.13-2-2-title
