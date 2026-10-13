@@ -23,7 +23,7 @@ graph_type: line
 indicator_name: global_indicators.3-b-2-title
 indicator_number: '3.b.2'
 national_geographical_coverage: ''
-page_content: GRAFICO.3-b-2-contenido
+page_content: ''
 permalink: ''
 precision: []
 auto_progress_calculation: true

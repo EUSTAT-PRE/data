@@ -18,7 +18,11 @@ footer_fields: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_target_lines: []
+graph_target_lines:
+  - series: ''
+    unit: ''
+    label_content: indicator.meta_europea
+    value: 25
 graph_title: GRAFICO.2-4-E1-titulo
 graph_titles: []
 graph_type: line
@@ -32,7 +36,7 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 national_geographical_coverage: ''
-page_content: GRAFICO.2-4-E1-contenido
+page_content: ''
 permalink: ''
 placeholder: ''
 precision: []
@@ -43,6 +47,7 @@ related_indicators: []
 auto_progress_calculation: true
 progress_calculation_options:
   - direction: positive
+    target: 25
 reporting_status: complete
 sort: ''
 sources:
