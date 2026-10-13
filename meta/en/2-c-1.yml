@@ -44,8 +44,8 @@ desagregacion: |
 
   Province
 
-observaciones: >-
-
+observaciones: |
+  The food price anomaly indicator is considered normal when its value falls between -0.5 and 0.5.
 
 periodicidad: FUENTE.FREQ_A
 texto_oceca: >- 
