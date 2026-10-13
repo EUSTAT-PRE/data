@@ -45,8 +45,9 @@ desagregacion: |
 
   Lurralde historikoa
 
-observaciones: >-
-
+observaciones: |
+  Elikagaien prezioen anomalien adierazlea normaltzat hartzen da -0,5 eta 0,5en artean dagoenean. 
+  
 
 periodicidad: FUENTE.FREQ_A
 texto_oceca: >-
