@@ -5,7 +5,7 @@ indicator,goal,status
 1-3-1,1,moderate_progress
 1-4-1,1,significant_progress
 1-4-2,1,notstarted
-1-5-1,1,significant_progress
+1-5-1,1,significant_deterioration
 1-5-2,1,significant_progress
 1-5-3,1,significant_progress
 1-5-4,1,significant_progress
@@ -154,7 +154,7 @@ indicator,goal,status
 11-3-1,11,notstarted
 11-3-2,11,significant_progress
 11-4-1,11,significant_progress
-11-5-1,11,significant_progress
+11-5-1,11,significant_deterioration
 11-5-2,11,significant_progress
 11-5-3,11,notstarted
 11-6-1,11,significant_progress
@@ -178,7 +178,7 @@ indicator,goal,status
 12-a-1,12,significant_progress
 12-b-1,12,notstarted
 12-c-1,12,notstarted
-13-1-1,13,significant_progress
+13-1-1,13,significant_deterioration
 13-1-2,13,significant_progress
 13-1-3,13,significant_progress
 13-2-1,13,significant_progress
