@@ -1859,15 +1859,15 @@
     current_year: 2024.0
     direction: 1
     limit: null
-    progress_value: 0.1830139097
-    score: 5.0
+    progress_value: 0.8400267663
+    score: 1.7144769021
     sign: 1
-    status: significant_progress
-    target: null
+    status: moderate_progress
+    target: 25.0
     target_year: 2030.0
-  progress_status: significant_progress
-  score: 5.0
-  target_variant: sin_target
+  progress_status: moderate_progress
+  score: 1.7144769021
+  target_variant: con_target
 2-4-E2:
   2-4-E2 / Nekazaritza eta abeltzaintzako amoniako-isuriak hektareako:
     base_value: 19.1
