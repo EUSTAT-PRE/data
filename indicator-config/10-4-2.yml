@@ -23,10 +23,12 @@ graph_type: line
 indicator_name: global_indicators.10-4-2-title
 indicator_number: '10.4.2'
 national_geographical_coverage: ''
-page_content: GRAFICO.10-4-2-contenido
+page_content: ''
 permalink: ''
 precision: []
-progress_status: noevaluado
+auto_progress_calculation: true
+progress_calculation_options:
+  - direction: negative
 reporting_status: complete
 sort: ''
 sources:
