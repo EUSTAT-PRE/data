@@ -275,8 +275,21 @@
   score: -0.65430255
   target_variant: sin_target
 10-4-2:
-  progress_status: noevaluado
-  score: null
+  10-4-2:
+    base_value: 25.8
+    base_year: 2016.0
+    current_value: 25.9
+    current_year: 2024.0
+    direction: -1
+    limit: null
+    progress_value: -0.0004836765
+    score: -0.120919125
+    sign: 1
+    status: no_progress
+    target: null
+    target_year: 2030.0
+  progress_status: no_progress
+  score: -0.120919125
   target_variant: sin_target
 10-5-1:
   progress_status: notstarted
