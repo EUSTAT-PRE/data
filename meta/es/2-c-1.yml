@@ -49,8 +49,8 @@ desagregacion: |
 
   Territorio histórico
 
-observaciones: >-
-
+observaciones: |
+  El indicador de anomalías de los precios de los alimentos se considera normal cuando su valor se encuentra entre -0,5 y 0,5.
 
 periodicidad: FUENTE.FREQ_A
 texto_oceca: >- 
