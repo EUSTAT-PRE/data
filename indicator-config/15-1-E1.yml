@@ -17,13 +17,17 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
+graph_target_lines:
+  - series: EU_SDG_15_20_PT
+    label_content: indicator.meta_europea
+    value: 30
 graph_title: GRAFICO.15-1-E1-titulo
 graph_titles: []
 graph_type: line
 indicator_name: GRAFICO.15-1-E1-titulo
 indicator_number: '15.1.E1'
 national_geographical_coverage: ''
-page_content: GRAFICO.15-1-E1-contenido
+page_content: ''
 permalink: ''
 precision: []
 auto_progress_calculation: true
@@ -32,6 +36,7 @@ progress_calculation_options:
     direction: positive
   - series: EU_SDG_15_20_PT
     direction: positive
+    target: 30
 reporting_status: complete
 sort: ''
 sources:
