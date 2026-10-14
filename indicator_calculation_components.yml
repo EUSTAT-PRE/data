@@ -3771,7 +3771,7 @@
   score: null
   target_variant: sin_target
 9-4-1:
-  9-4-1 / $CO_2$ isuriak:
+  9-4-1 / CO2 isuriak:
     base_value: 14537114.24
     base_year: 2015.0
     current_value: 13605046.24
