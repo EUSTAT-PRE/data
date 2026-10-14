@@ -23,7 +23,7 @@ graph_type: bar
 indicator_name: global_indicators.16-1-4-title
 indicator_number: '16.1.4'
 national_geographical_coverage: ''
-page_content: GRAFICO.16-1-4-contenido
+page_content: ''
 permalink: ''
 precision: []
 auto_progress_calculation: true

@@ -23,7 +23,7 @@ graph_type: line
 indicator_name: global_indicators.16-9-1-title
 indicator_number: '16.9.1'
 national_geographical_coverage: ''
-page_content: GRAFICO.16-9-1-contenido
+page_content: ''
 permalink: ''
 precision: []
 auto_progress_calculation: true
