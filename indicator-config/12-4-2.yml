@@ -26,7 +26,12 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-progress_status: moderate_deterioration
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: EN_HAZ_PCAP
+    direction: negative
+  - series: EU_HAZ_TREAT
+    direction: positive
 reporting_status: complete
 sort: ''
 sources:
