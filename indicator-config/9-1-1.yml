@@ -32,7 +32,10 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-progress_status: significant_progress
+auto_progress_calculation: true
+progress_calculation_options:
+  - direction: positive
+    limit: 99.7
 reporting_status: complete
 sort: ''
 sources:
