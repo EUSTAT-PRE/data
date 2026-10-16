@@ -21,7 +21,7 @@
             "constraints": {
               "enum": [
                 "Residuos peligrosos generados per cápita",
-                "Proporción de residuos peligrosos tratados, desglosados por tipo de tratamiento",
+                "EN_HAZ_TREAT",
                 ""
               ]
             },

@@ -11271,7 +11271,7 @@
             "constraints": {
               "enum": [
                 "Hondakin arriskutsuak biztanleko",
-                "Tratatutako hondakin arriskutsuen proportzioa, tratamendu motaren arabera banakatuta",
+                "EN_HAZ_TREAT",
                 ""
               ]
             },

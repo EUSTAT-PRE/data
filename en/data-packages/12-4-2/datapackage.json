@@ -21,7 +21,7 @@
             "constraints": {
               "enum": [
                 "Hazardous waste generated per capita",
-                "Proportion of hazardous waste treated, broken down by treatment type",
+                "EN_HAZ_TREAT",
                 ""
               ]
             },

@@ -59,63 +59,63 @@ Year,Series,Waste treatment operation,Province,Units,Value
 2010,Hazardous waste generated per capita,,Gipuzkoa,Kg per capita,109.7
 2012,Hazardous waste generated per capita,,Gipuzkoa,Kg per capita,89.3
 2016,Hazardous waste generated per capita,,Gipuzkoa,Kg per capita,90.3
-2017,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,64.4
-2021,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,65.7
-2015,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,67.7
-2013,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,68.7
-2010,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,62.2
-2012,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,61.5
-2019,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,65.0
-2016,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,66.1
-2023,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,64.2
-2024,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,63.1
-2011,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,66.7
-2022,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,60.4
-2018,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,64.7
-2014,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,66.6
-2020,"Proportion of hazardous waste treated, broken down by treatment type",Recycling,,%,59.1
-2019,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,1.1
-2010,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,0.5
-2013,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,0.5
-2015,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,1.8
-2011,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,0.5
-2022,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,0.0
-2024,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,0.0
-2020,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,1.0
-2021,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,0.0
-2023,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,0.0
-2016,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,1.0
-2017,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,0.9
-2014,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,1.0
-2012,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,0.2
-2018,"Proportion of hazardous waste treated, broken down by treatment type",Incineration with energy recovery,,%,0.9
-2021,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.0
-2019,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.2
-2017,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.2
-2020,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.3
-2015,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.6
-2012,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.1
-2010,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.9
-2016,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.8
-2011,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.1
-2018,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.1
-2023,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.1
-2013,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.1
-2014,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.8
-2024,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.1
-2022,"Proportion of hazardous waste treated, broken down by treatment type",Incineration without energy recovery,,%,0.1
-2012,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,38.1
-2011,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,32.6
-2017,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,34.6
-2015,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,29.9
-2021,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,34.2
-2016,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,32.2
-2014,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,31.5
-2018,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,34.2
-2019,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,33.7
-2013,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,30.6
-2023,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,35.7
-2010,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,36.4
-2024,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,36.8
-2020,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,39.6
-2022,"Proportion of hazardous waste treated, broken down by treatment type",Landfill,,%,39.5
+2017,EN_HAZ_TREAT,Recycling,,%,64.4
+2021,EN_HAZ_TREAT,Recycling,,%,65.7
+2015,EN_HAZ_TREAT,Recycling,,%,67.7
+2013,EN_HAZ_TREAT,Recycling,,%,68.7
+2010,EN_HAZ_TREAT,Recycling,,%,62.2
+2012,EN_HAZ_TREAT,Recycling,,%,61.5
+2019,EN_HAZ_TREAT,Recycling,,%,65.0
+2016,EN_HAZ_TREAT,Recycling,,%,66.1
+2023,EN_HAZ_TREAT,Recycling,,%,64.2
+2024,EN_HAZ_TREAT,Recycling,,%,63.1
+2011,EN_HAZ_TREAT,Recycling,,%,66.7
+2022,EN_HAZ_TREAT,Recycling,,%,60.4
+2018,EN_HAZ_TREAT,Recycling,,%,64.7
+2014,EN_HAZ_TREAT,Recycling,,%,66.6
+2020,EN_HAZ_TREAT,Recycling,,%,59.1
+2019,EN_HAZ_TREAT,Incineration with energy recovery,,%,1.1
+2010,EN_HAZ_TREAT,Incineration with energy recovery,,%,0.5
+2013,EN_HAZ_TREAT,Incineration with energy recovery,,%,0.5
+2015,EN_HAZ_TREAT,Incineration with energy recovery,,%,1.8
+2011,EN_HAZ_TREAT,Incineration with energy recovery,,%,0.5
+2022,EN_HAZ_TREAT,Incineration with energy recovery,,%,0.0
+2024,EN_HAZ_TREAT,Incineration with energy recovery,,%,0.0
+2020,EN_HAZ_TREAT,Incineration with energy recovery,,%,1.0
+2021,EN_HAZ_TREAT,Incineration with energy recovery,,%,0.0
+2023,EN_HAZ_TREAT,Incineration with energy recovery,,%,0.0
+2016,EN_HAZ_TREAT,Incineration with energy recovery,,%,1.0
+2017,EN_HAZ_TREAT,Incineration with energy recovery,,%,0.9
+2014,EN_HAZ_TREAT,Incineration with energy recovery,,%,1.0
+2012,EN_HAZ_TREAT,Incineration with energy recovery,,%,0.2
+2018,EN_HAZ_TREAT,Incineration with energy recovery,,%,0.9
+2021,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.0
+2019,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.2
+2017,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.2
+2020,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.3
+2015,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.6
+2012,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.1
+2010,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.9
+2016,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.8
+2011,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.1
+2018,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.1
+2023,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.1
+2013,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.1
+2014,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.8
+2024,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.1
+2022,EN_HAZ_TREAT,Incineration without energy recovery,,%,0.1
+2012,EN_HAZ_TREAT,Landfill,,%,38.1
+2011,EN_HAZ_TREAT,Landfill,,%,32.6
+2017,EN_HAZ_TREAT,Landfill,,%,34.6
+2015,EN_HAZ_TREAT,Landfill,,%,29.9
+2021,EN_HAZ_TREAT,Landfill,,%,34.2
+2016,EN_HAZ_TREAT,Landfill,,%,32.2
+2014,EN_HAZ_TREAT,Landfill,,%,31.5
+2018,EN_HAZ_TREAT,Landfill,,%,34.2
+2019,EN_HAZ_TREAT,Landfill,,%,33.7
+2013,EN_HAZ_TREAT,Landfill,,%,30.6
+2023,EN_HAZ_TREAT,Landfill,,%,35.7
+2010,EN_HAZ_TREAT,Landfill,,%,36.4
+2024,EN_HAZ_TREAT,Landfill,,%,36.8
+2020,EN_HAZ_TREAT,Landfill,,%,39.6
+2022,EN_HAZ_TREAT,Landfill,,%,39.5
