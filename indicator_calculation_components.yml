@@ -220,9 +220,22 @@
   score: null
   target_variant: sin_target
 10-1-1:
-  progress_status: moderate_progress
-  score: null
-  target_variant: sin_target
+  10-1-1 / Batez bestekoaren gaineko % 40 familia pobreenaren diru-sarreraren hazkundearen indizea:
+    base_value: 0.5
+    base_year: 2016.0
+    current_value: 1.0
+    current_year: 2024.0
+    direction: 1
+    limit: null
+    progress_value: 1.7831703412
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: 1.0
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 5.0
+  target_variant: con_target
 10-2-1:
   10-2-1:
     base_value: 10.0
@@ -711,8 +724,34 @@
   score: null
   target_variant: sin_target
 12-4-2:
+  12-4-2 / Ekologikoki arrazoizkoa den moduren batean tratatutako hondakin arriskutsuen proportzioa:
+    base_value: 69.5
+    base_year: 2015.0
+    current_value: 63.1
+    current_year: 2024.0
+    direction: 1
+    limit: null
+    progress_value: -0.0106765943
+    score: -2.669148575
+    sign: 1
+    status: significant_deterioration
+    target: null
+    target_year: 2030.0
+  12-4-2 / Hondakin arriskutsuak biztanleko:
+    base_value: 150.9
+    base_year: 2015.0
+    current_value: 147.6
+    current_year: 2024.0
+    direction: -1
+    limit: null
+    progress_value: 0.0024538126
+    score: 0.61345315
+    sign: 1
+    status: moderate_progress
+    target: null
+    target_year: 2030.0
   progress_status: moderate_deterioration
-  score: null
+  score: -1.0278477125
   target_variant: sin_target
 12-5-1:
   12-5-1:
