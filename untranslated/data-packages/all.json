@@ -25,6 +25,7 @@
                 "UE_HEI_HE_40",
                 "UE_HEI_HI",
                 "UE_HEI_HI_40",
+                "UE_HEI_HI_RO",
                 ""
               ]
             }
@@ -47,6 +48,7 @@
             "constraints": {
               "enum": [
                 "PT",
+                "RO",
                 ""
               ]
             }
@@ -10678,20 +10680,7 @@
             "constraints": {
               "enum": [
                 "EN_HAZ_PCAP",
-                "EN_HAZ_TREAT",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Tratamiento",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "WT_RECYC",
-                "WT_INCINRT_EGY",
-                "WT_INCINRT",
-                "WT_LANDFIL",
+                "EU_HAZ_TREAT",
                 ""
               ]
             }

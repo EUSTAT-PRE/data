@@ -26,6 +26,7 @@
                 "Familiako %40 pobreenarena gastuaren hazkunde-tasa per capita",
                 "Familiako diru-sarreraren hazkunde-tasa per capita",
                 "Familiako %40 pobreenarena biztanle bakoitzeko diru-sarreraren hazkunde-tasa",
+                "Batez bestekoaren gaineko % 40 familia pobreenaren diru-sarreraren hazkundearen indizea",
                 ""
               ]
             },
@@ -50,6 +51,7 @@
             "constraints": {
               "enum": [
                 "%",
+                "Ratioa",
                 ""
               ]
             },
@@ -11271,25 +11273,11 @@
             "constraints": {
               "enum": [
                 "Hondakin arriskutsuak biztanleko",
-                "EN_HAZ_TREAT",
+                "Ekologikoki arrazoizkoa den moduren batean tratatutako hondakin arriskutsuen proportzioa",
                 ""
               ]
             },
             "title": "Seriea"
-          },
-          {
-            "name": "Tratamiento",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Birziklatzea",
-                "Errausketa, energia berreskurapenarekin",
-                "Errausketa, energia berreskurapenik gabe",
-                "Zabortegia",
-                ""
-              ]
-            },
-            "title": "Hondakinen tratamendua"
           },
           {
             "name": "Territorio",

@@ -21,25 +21,11 @@
             "constraints": {
               "enum": [
                 "Residuos peligrosos generados per cápita",
-                "EN_HAZ_TREAT",
+                "Proporción de residuos peligrosos tratados de manera ecológicamente racional",
                 ""
               ]
             },
             "title": "Serie"
-          },
-          {
-            "name": "Tratamiento",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Reciclaje",
-                "Incineración con recuperación de energía",
-                "Incineración sin recuperación de energía",
-                "Depósito en vertedero",
-                ""
-              ]
-            },
-            "title": "Operación de tratamiento de residuos"
           },
           {
             "name": "Territorio",

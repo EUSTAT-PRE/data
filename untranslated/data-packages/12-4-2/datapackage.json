@@ -20,20 +20,7 @@
             "constraints": {
               "enum": [
                 "EN_HAZ_PCAP",
-                "EN_HAZ_TREAT",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Tratamiento",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "WT_RECYC",
-                "WT_INCINRT_EGY",
-                "WT_INCINRT",
-                "WT_LANDFIL",
+                "EU_HAZ_TREAT",
                 ""
               ]
             }

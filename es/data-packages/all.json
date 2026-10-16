@@ -26,6 +26,7 @@
                 "Tasa de crecimiento del gasto de los hogares del 40% más pobre de la población per cápita",
                 "Tasa de crecimiento del ingreso familiar per cápita",
                 "Tasa de crecimiento del ingreso de los hogares del 40% más pobre de la población per cápita",
+                "Índice de crecimiento del ingreso de los hogares del 40% más pobre sobre la media",
                 ""
               ]
             },
@@ -50,6 +51,7 @@
             "constraints": {
               "enum": [
                 "%",
+                "Ratio",
                 ""
               ]
             },
@@ -11271,25 +11273,11 @@
             "constraints": {
               "enum": [
                 "Residuos peligrosos generados per cápita",
-                "EN_HAZ_TREAT",
+                "Proporción de residuos peligrosos tratados de manera ecológicamente racional",
                 ""
               ]
             },
             "title": "Serie"
-          },
-          {
-            "name": "Tratamiento",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Reciclaje",
-                "Incineración con recuperación de energía",
-                "Incineración sin recuperación de energía",
-                "Depósito en vertedero",
-                ""
-              ]
-            },
-            "title": "Operación de tratamiento de residuos"
           },
           {
             "name": "Territorio",

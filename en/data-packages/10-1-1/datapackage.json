@@ -24,6 +24,7 @@
                 "Growth rate of household expenditure among the bottom 40 per cent of the population per capita",
                 "Growth rate of household income per capita",
                 "Growth rate of household income among the bottom 40 per cent of the population per capita",
+                "Growth of household income among the bottom 40 per cent relative to the average index",
                 ""
               ]
             },
@@ -48,6 +49,7 @@
             "constraints": {
               "enum": [
                 "%",
+                "Ratio",
                 ""
               ]
             },

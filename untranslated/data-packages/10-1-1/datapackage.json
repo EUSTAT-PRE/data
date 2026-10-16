@@ -23,6 +23,7 @@
                 "UE_HEI_HE_40",
                 "UE_HEI_HI",
                 "UE_HEI_HI_40",
+                "UE_HEI_HI_RO",
                 ""
               ]
             }
@@ -45,6 +46,7 @@
             "constraints": {
               "enum": [
                 "PT",
+                "RO",
                 ""
               ]
             }

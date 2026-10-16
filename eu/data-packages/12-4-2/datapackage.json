@@ -21,25 +21,11 @@
             "constraints": {
               "enum": [
                 "Hondakin arriskutsuak biztanleko",
-                "EN_HAZ_TREAT",
+                "Ekologikoki arrazoizkoa den moduren batean tratatutako hondakin arriskutsuen proportzioa",
                 ""
               ]
             },
             "title": "Seriea"
-          },
-          {
-            "name": "Tratamiento",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Birziklatzea",
-                "Errausketa, energia berreskurapenarekin",
-                "Errausketa, energia berreskurapenik gabe",
-                "Zabortegia",
-                ""
-              ]
-            },
-            "title": "Hondakinen tratamendua"
           },
           {
             "name": "Territorio",

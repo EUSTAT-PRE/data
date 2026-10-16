@@ -26,6 +26,7 @@
                 "Growth rate of household expenditure among the bottom 40 per cent of the population per capita",
                 "Growth rate of household income per capita",
                 "Growth rate of household income among the bottom 40 per cent of the population per capita",
+                "Growth of household income among the bottom 40 per cent relative to the average index",
                 ""
               ]
             },
@@ -50,6 +51,7 @@
             "constraints": {
               "enum": [
                 "%",
+                "Ratio",
                 ""
               ]
             },
@@ -11271,25 +11273,11 @@
             "constraints": {
               "enum": [
                 "Hazardous waste generated per capita",
-                "EN_HAZ_TREAT",
+                "Proportion of hazardous waste environmentally sound treated",
                 ""
               ]
             },
             "title": "Series"
-          },
-          {
-            "name": "Tratamiento",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Recycling",
-                "Incineration with energy recovery",
-                "Incineration without energy recovery",
-                "Landfill",
-                ""
-              ]
-            },
-            "title": "Waste treatment operation"
           },
           {
             "name": "Territorio",

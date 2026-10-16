@@ -21,25 +21,11 @@
             "constraints": {
               "enum": [
                 "Hazardous waste generated per capita",
-                "EN_HAZ_TREAT",
+                "Proportion of hazardous waste environmentally sound treated",
                 ""
               ]
             },
             "title": "Series"
-          },
-          {
-            "name": "Tratamiento",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Recycling",
-                "Incineration with energy recovery",
-                "Incineration without energy recovery",
-                "Landfill",
-                ""
-              ]
-            },
-            "title": "Waste treatment operation"
           },
           {
             "name": "Territorio",

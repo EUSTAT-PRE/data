@@ -24,6 +24,7 @@
                 "Familiako %40 pobreenarena gastuaren hazkunde-tasa per capita",
                 "Familiako diru-sarreraren hazkunde-tasa per capita",
                 "Familiako %40 pobreenarena biztanle bakoitzeko diru-sarreraren hazkunde-tasa",
+                "Batez bestekoaren gaineko % 40 familia pobreenaren diru-sarreraren hazkundearen indizea",
                 ""
               ]
             },
@@ -48,6 +49,7 @@
             "constraints": {
               "enum": [
                 "%",
+                "Ratioa",
                 ""
               ]
             },
