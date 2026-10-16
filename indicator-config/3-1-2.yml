@@ -26,11 +26,13 @@ indicator_number: '3.1.2'
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
-precision: []
+precision:
+  - unit: PT
+    decimals: 1
 auto_progress_calculation: true
 progress_calculation_options:
   - direction: positive
-    target: 99.85
+    target: 99.9
 reporting_status: complete
 sort: ''
 sources:
