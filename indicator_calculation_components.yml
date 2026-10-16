@@ -934,8 +934,21 @@
   score: null
   target_variant: sin_target
 14-5-1:
+  14-5-1:
+    base_value: 100.0
+    base_year: 2024.0
+    current_value: 100.0
+    current_year: 2024.0
+    direction: 1
+    limit: 100
+    progress_value: null
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
   progress_status: significant_progress
-  score: null
+  score: 5.0
   target_variant: sin_target
 14-6-1:
   progress_status: notstarted
@@ -3669,8 +3682,21 @@
   score: 1.692773175
   target_variant: sin_target
 9-1-1:
+  9-1-1:
+    base_value: 99.7
+    base_year: 2024.0
+    current_value: 99.7
+    current_year: 2024.0
+    direction: 1
+    limit: 99.7
+    progress_value: null
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
   progress_status: significant_progress
-  score: null
+  score: 5.0
   target_variant: sin_target
 9-1-2:
   9-1-2 / Airez garraiatutako bidaiariak:
