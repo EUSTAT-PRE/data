@@ -28,7 +28,9 @@ formula: |
 
   <b> Ekologikoki arrazoizkoa den moduren batean tratatutako hondakin arriskutsuen proportzioa</b> 
 
-  $$PRP_{ekologiko}^{t} = \frac{RP_{ekologiko}^{t}}{RP^{t}} \cdot 100$$ <br> 
+  $$PRP_{ekologiko}^{t} = \frac{RP_{ekologiko}^{t}}{RP^{t}} \cdot 100$$
+
+  non:
 
   $RP_{ekologiko}^{t} =$ ekologikoki arrazoizkoa den moduren batean tratatutako tratatutako hondakin arriskutsuen kantitatea $t$ urtean 
 
