@@ -22,8 +22,7 @@ formula: |
 
   $P^{t} =$ total population in year $t$
 
-desagregacion: >- 
-  Spending threshold
+desagregacion:
 
 periodicidad: FUENTE.FREQ_A
 

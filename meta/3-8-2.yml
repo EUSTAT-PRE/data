@@ -22,8 +22,7 @@ formula: |
 
   $P^{t} =$ biztanleria $t$ urtean
 
-desagregacion: >- 
-  Gastu maila
+desagregacion:
 
 periodicidad: FUENTE.FREQ_A
 

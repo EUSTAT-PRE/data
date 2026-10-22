@@ -1,7 +1,7 @@
  # Metadatos nacionales (ficha metodológica)
  
 indicador_disponible: >- 
-  global_indicators.10-1-1-title
+  GRAFICO.10-1-1-titulo
 
 objetivo_global: objetivo_largo.10-titulo
 meta_global: meta_largo.10-1-titulo
@@ -9,13 +9,17 @@ meta_global: meta_largo.10-1-titulo
 
 
 definicion: >- 
-  Average annualized growth rate over a five-year period of income and expenditure per 
+  - Average annualized growth rate over a five-year period of income and expenditure per 
   capita of households in the poorest 40% of the population of the autonomous community 
   (40% of people with the lowest income per consumption unit (modified OECD scale)) and 
   of the total population.
 
+  - Growth of household income among the bottom 40 per cent relative to the average index.
+
 
 formula: |
+
+  <b> Growth rates expenditure or income per capita</b> 
 
   The annualized growth in average real per capita income or consumption is calculated by 
   first estimating the average real per capita income or consumption of the bottom 40% of 
@@ -26,7 +30,17 @@ formula: |
 
 
   The growth in average real per capita income or consumption of the total population is 
-  calculated in the same way using data for the total population. 
+  calculated in the same way using data for the total population.
+
+  <b> Relative growth index of the income of the poorest 40 %</b>
+
+  $$I_{relative}^{t} = \frac{TC_{40}^{t}}{TC^{t}}$$
+
+  where:
+
+  $TC_{40}^{t} =$ Growth rate of per capita income of households of the poorest 40 %, in year $t$ 
+
+  $TC^{t} =$ Growth rate of household per capita income, in year $t$
 
 desagregacion: |
   Province
@@ -35,7 +49,10 @@ observaciones: >-
 
   The number of units of consumption of a household is calculated using the modified OECD scale, 
   which assigns a weighting of 1 to the first person aged 14 or over, a weighting of 0.5 to other 
-  persons aged 14 or over and a weighting of 0.3 to persons under the age of 14. 
+  persons aged 14 or over and a weighting of 0.3 to persons under the age of 14.
+
+  In the relative growth index, the objective is sustain income growth of the bottom 40 per cent of the
+  population at a rate higher than the national average. A value above 1 indicates this superiority.
 
 periodicidad: FUENTE.FREQ_A
 

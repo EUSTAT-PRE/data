@@ -1,7 +1,7 @@
  # Metadatos nacionales (ficha metodológica)
  
 indicador_disponible: >- 
-  global_indicators.10-1-1-title
+  GRAFICO.10-1-1-titulo
 
 objetivo_global: objetivo_largo.10-titulo
 meta_global: meta_largo.10-1-titulo
@@ -10,12 +10,16 @@ meta_global: meta_largo.10-1-titulo
 
 definicion: >- 
   
-  Bost urteko aldian, EAEko biztanleriaren % 40 pobreeneko etxeko pertsona bakoitzeko diru-sarrera eta gastuen 
+  - Bost urteko aldian, EAEko biztanleriaren % 40 pobreeneko etxeko pertsona bakoitzeko diru-sarrera eta gastuen 
   urteko batez besteko hazkunde-tasa (diru-sarrera txikienak dituzten pertsonen % 40, kontsumo-unitate bakoitzeko 
-  (ELGA eskala aldatua)), eta biztanleria osoarena
+  (ELGA eskala aldatua)), eta biztanleria osoarena.
+
+  - Batez bestekoaren gaineko % 40 familia pobreenaren diru-sarreraren hazkundearen indizea.
 
 
 formula: |
+
+  <b> Gastuen edo diru-sarreren hazkunde-tasa per capita</b> 
 
   Batez besteko per capita diru-sarrera errealaren edo kontsumoaren urteko hazkundea kalkulatzeko, lehenik eta behin, 
   ongizate-banaketaren % 40 baxuenaren T0 eta T1 urteetako batez besteko per capita diru-sarrera erreala edo kontsumoa 
@@ -28,6 +32,16 @@ formula: |
   Biztanleria osoaren batez besteko per capita diru-sarrera errealaren edo kontsumoaren hazkundea modu berean kalkulatzen 
   da, biztanleria osoaren datuak erabiliz.
 
+  <b> % 40 txiroenen diru-sarreren hazkunde erlatiboaren indizea</b>
+
+  $$I_{erlatibo}^{t} = \frac{TC_{40}^{t}}{TC^{t}}$$
+
+  non:
+
+  $TC_{40}^{t} =$ Etxeko per capita diru-sarreren hazkunde-tasa (biztanleriako % 40 txiroenak), $t$ urtean
+
+  $TC^{t} =$ Etxeko per capita diru-sarreren hazkunde-tasa, $t$ urtean
+
 desagregacion: | 
   Lurralde historikoa
 
@@ -36,6 +50,9 @@ observaciones: >-
   Etxeko kontsumo-unitateen kopurua kalkulatzeko, ELGA eskala aldatua erabiltzen da. 
   Eskala horrek 1 pisua esleitzen dio 14 urte edo gehiagoko lehen pertsonari, 0,5 pisua 14 urte edo 
   gehiagoko gainerako pertsonei eta 0,3 pisua 14 urtetik beherako pertsonei.
+
+  Hazkunde erlatiboaren indizean, helburua biztanleriaren % 40 pobreenaren diru-sarreren hazkundeari batez bestekoa baino tasa
+  handiagoan eustea da. Balioa 1 baino handiagoa izateak nagusitasun hori adierazten du.
 
 
 periodicidad: FUENTE.FREQ_A

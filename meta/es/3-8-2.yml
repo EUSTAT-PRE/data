@@ -21,8 +21,8 @@ formula: |
 
   $P^{t} =$ población total en el año $t$
 
-desagregacion: >- 
-  Nivel de gasto 
+desagregacion:
+
 
 periodicidad: FUENTE.FREQ_A
 

@@ -1,16 +1,15 @@
  # Metadatos nacionales (ficha metodológica)
  
 indicador_disponible: >-
-  global_indicators.12-4-2-title
+  GRAFICO.12-4-2-titulo
 
 objetivo_global: objetivo_largo.12-titulo
 meta_global: meta_largo.12-4-titulo
 #  indicador_onu_global: indicador_largo.12-4-2-titulo
 
 definicion: >-
-  Residuos peligrosos generados per cápita y proporción de residuos peligrosos tratados 
-  según operación de tratamiento (incinerados, 
-  vertidos y reciclados) en relación al total de residuos peligrosos generados y tratados
+  Residuos peligrosos generados per cápita y proporción de residuos peligrosos tratados de manera ecológicamente racional
+  (reciclados e incinerados con recuperación de energía) en relación al total de residuos peligrosos generados y tratados
 
 formula: |
 
@@ -26,17 +25,15 @@ formula: |
 
   <br>
 
-  <b> Proporción de residuos peligrosos tratados, por tipo de tratamiento</b> 
+  <b> Proporción de residuos peligrosos tratados de manera ecológicamente racional</b> 
 
-  $$PRP_{tratamiento}^{t} = \frac{RP_{tratamiento}^{t}}{RP^{t}} \cdot 100$$ <br> 
+  $$PRP_{ecologico}^{t} = \frac{RP_{ecologico}^{t}}{RP^{t}} \cdot 100$$ <br> 
 
-  $RP_{tratamiento}^{t} =$ cantidad de residuos peligrosos tratados (según tipo de tratamiento) en el año $t$
+  $RP_{ecologico}^{t} =$ cantidad de residuos peligrosos tratados de manera ecológicamente racional en el año $t$
 
   $RP^{t} =$ cantidad total de residuos peligrosos generados y tratados en el año $t$
 
 desagregacion: |
-  Operación de tratamiento de residuos 
-
   Territorio histórico
 
 
