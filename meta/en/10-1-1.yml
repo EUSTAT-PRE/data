@@ -45,7 +45,7 @@ formula: |
 desagregacion: |
   Province
 
-observaciones: >-
+observaciones: |
 
   The number of units of consumption of a household is calculated using the modified OECD scale, 
   which assigns a weighting of 1 to the first person aged 14 or over, a weighting of 0.5 to other 
