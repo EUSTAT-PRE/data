@@ -27,7 +27,9 @@ formula: |
 
   <b> Proportion of hazardous waste environmentally sound treated</b> 
 
-  $$PRP_{environmental}^{t} = \frac{RP_{environmental}^{t}}{RP^{t}} \cdot 100$$ <br> 
+  $$PRP_{environmental}^{t} = \frac{RP_{environmental}^{t}}{RP^{t}} \cdot 100$$
+
+  where:
 
   $RP_{environmental}^{t} =$ amount of hazardous waste environmentally sound treated in year $t$
 
