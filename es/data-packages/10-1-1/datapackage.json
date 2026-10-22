@@ -20,11 +20,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tasa de crecimiento del gasto familiar per cápita",
-                "Tasa de crecimiento del gasto de los hogares del 40% más pobre de la población per cápita",
-                "Tasa de crecimiento del ingreso familiar per cápita",
-                "Tasa de crecimiento del ingreso de los hogares del 40% más pobre de la población per cápita",
-                "Índice de crecimiento del ingreso de los hogares del 40% más pobre sobre la media",
+                "Tasa de crecimiento del gasto per cápita de los hogares",
+                "Tasa de crecimiento del gasto per cápita de los hogares del 40 % más pobre",
+                "Tasa de crecimiento del ingreso per cápita de los hogares",
+                "Tasa de crecimiento del ingreso per cápita de los hogares del 40 % más pobre",
+                "Índice de crecimiento relativo de los ingresos del 40 % más pobre",
                 ""
               ]
             },

@@ -22,11 +22,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Familiako gastuaren hazkunde-tasa per capita",
-                "Familiako %40 pobreenarena gastuaren hazkunde-tasa per capita",
-                "Familiako diru-sarreraren hazkunde-tasa per capita",
-                "Familiako %40 pobreenarena biztanle bakoitzeko diru-sarreraren hazkunde-tasa",
-                "Batez bestekoaren gaineko % 40 familia pobreenaren diru-sarreraren hazkundearen indizea",
+                "Etxeko per capita gastuaren hazkunde-tasa",
+                "Etxeko per capita gastuaren hazkunde-tasa (biztanleriako % 40 txiroenak)",
+                "Etxeko per capita diru-sarreren hazkunde-tasa",
+                "Etxeko per capita diru-sarreren hazkunde-tasa (biztanleriako % 40 txiroenak)",
+                "% 40 txiroenen diru-sarreren hazkunde erlatiboaren indizea",
                 ""
               ]
             },
@@ -1783,12 +1783,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "% 25etik gorakoak",
-                "% 10etik gorakoak",
+                "Etxeko guztizko gastuaren % 25 baino gehiagoko osasun-gastua duten etxeetako biztanleriaren proportzioa",
+                "Etxeko guztizko gastuaren % 10 baino gehiagoko osasun-gastua duten etxeetako biztanleriaren proportzioa",
                 ""
               ]
             },
-            "title": "Gastua"
+            "title": "Gasto"
           },
           {
             "name": "Units",

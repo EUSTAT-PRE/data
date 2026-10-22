@@ -22,11 +22,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Growth rate of household expenditure per capita",
-                "Growth rate of household expenditure among the bottom 40 per cent of the population per capita",
-                "Growth rate of household income per capita",
-                "Growth rate of household income among the bottom 40 per cent of the population per capita",
-                "Growth of household income among the bottom 40 per cent relative to the average index",
+                "Growth rate of household per capita expenditure",
+                "Growth rate of per capita household expenditure of the poorest 40 %",
+                "Growth rate of household per capita income",
+                "Growth rate of per capita income of households of the poorest 40 %",
+                "Relative growth index of the income of the poorest 40 %",
                 ""
               ]
             },
@@ -1783,8 +1783,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Over 25%",
-                "Over 10%",
+                "Proportion of the population in households with health large expenditure exceeding 25 % of total household expenditure",
+                "Proportion of the population in households with health large expenditure exceeding 10 % of total household expenditure",
                 ""
               ]
             },

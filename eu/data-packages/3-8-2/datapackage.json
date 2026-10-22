@@ -20,12 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "% 25etik gorakoak",
-                "% 10etik gorakoak",
+                "Etxeko guztizko gastuaren % 25 baino gehiagoko osasun-gastua duten etxeetako biztanleriaren proportzioa",
+                "Etxeko guztizko gastuaren % 10 baino gehiagoko osasun-gastua duten etxeetako biztanleriaren proportzioa",
                 ""
               ]
             },
-            "title": "Gastua"
+            "title": "Gasto"
           },
           {
             "name": "Units",
