@@ -16,7 +16,7 @@
             "title": "Año"
           },
           {
-            "name": "Gasto",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -25,7 +25,7 @@
                 ""
               ]
             },
-            "title": "Nivel de gasto"
+            "title": "Serie"
           },
           {
             "name": "Units",

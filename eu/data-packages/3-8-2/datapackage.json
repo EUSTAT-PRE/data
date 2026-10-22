@@ -16,7 +16,7 @@
             "title": "Urtea"
           },
           {
-            "name": "Gasto",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -25,7 +25,7 @@
                 ""
               ]
             },
-            "title": "Gasto"
+            "title": "Seriea"
           },
           {
             "name": "Units",
