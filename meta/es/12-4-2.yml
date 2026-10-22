@@ -27,7 +27,9 @@ formula: |
 
   <b> Proporción de residuos peligrosos tratados de manera ecológicamente racional</b> 
 
-  $$PRP_{ecologico}^{t} = \frac{RP_{ecologico}^{t}}{RP^{t}} \cdot 100$$ <br> 
+  $$PRP_{ecologico}^{t} = \frac{RP_{ecologico}^{t}}{RP^{t}} \cdot 100$$
+
+  donde:
 
   $RP_{ecologico}^{t} =$ cantidad de residuos peligrosos tratados de manera ecológicamente racional en el año $t$
 
