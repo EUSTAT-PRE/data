@@ -1,7 +1,7 @@
  # Metadatos nacionales (ficha metodológica)
  
 indicador_disponible: >- 
-  global_indicators.10-1-1-title
+  GRAFICO.10-1-1-titulo
 
 objetivo_global: objetivo_largo.10-titulo
 meta_global: meta_largo.10-1-titulo
@@ -9,10 +9,16 @@ meta_global: meta_largo.10-1-titulo
 
 
 definicion: >- 
-  Tasa de crecimiento promedio anualizada en un período de cinco años de los ingresos y gastos por persona de los hogares del 40% más pobre de la población de la comunidad autónoma (40% de las personas con menores ingresos por unidad de consumo (escala OCDE modificada)) y del total de la población.
+  - Tasa de crecimiento promedio anualizada en un período de cinco años de los ingresos y gastos por persona de los hogares del
+  40 % más pobre de la población de la comunidad autónoma (40% de las personas con menores ingresos por unidad de consumo (escala
+  OCDE modificada)) y del total de la población.
+
+  - Índice de crecimiento del ingreso de los hogares del 40 % más pobre sobre la media.
 
 
 formula: |
+
+  <b> Tasas de crecimiento per cápita de los gastos o ingresos</b> 
 
   El crecimiento anualizado del ingreso real medio per cápita o del consumo se calcula 
   estimando primero el ingreso real medio per cápita o el consumo del 40% inferior de la 
@@ -25,6 +31,16 @@ formula: |
   El crecimiento del ingreso real per cápita medio o del consumo de la población total 
   se calcula de la misma manera utilizando datos de la población total.
 
+  <b> Índice de crecimiento relativo de los ingresos del 40 % más pobre</b> 
+
+  $$I_{relativo}^{t} = \frac{TC_{40}^{t}}{TC^{t}}$$
+
+  donde:
+
+  $TC_{40}^{t} =$ Tasa de crecimiento del ingreso per cápita de los hogares del 40 % más pobre, en el año $t$
+
+  $TC^{t} =$ Tasa de crecimiento del ingreso per cápita de los hogares, en el año $t$
+
 desagregacion: |
   Territorio histórico 
 
@@ -33,6 +49,9 @@ observaciones: >-
   El número de unidades de consumo de un hogar se calcula utilizando la escala OCDE modificada, 
   que asigna un peso de 1 a la primera persona de 14 o más años, un peso de 0,5 al resto de 
   personas de 14 o más años y un peso de 0,3 a las personas de menos de 14 años.
+
+  En el índice de crecimiento relativo, el objetivo es mantener el crecimiento de los ingresos del 40% más
+  pobre de la población a una tasa superior a la media. Un valor superior a 1 indica esta superioridad.
 
 periodicidad: FUENTE.FREQ_A
 
