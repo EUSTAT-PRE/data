@@ -1,16 +1,15 @@
  # Metadatos nacionales (ficha metodológica)
  
 indicador_disponible: >-
-  global_indicators.12-4-2-title
+  GRAFICO.12-4-2-titulo
 
 objetivo_global: objetivo_largo.12-titulo
 meta_global: meta_largo.12-4-titulo
 #  indicador_onu_global: indicador_largo.12-4-2-titulo
 
 definicion: >-
-  Hazardous waste generated per capita and proportion of hazardous waste treated 
-  by treatment operation (incinerated, landfilled, and recycled) in relation to 
-  total hazardous waste generated and treated.
+  Hazardous waste generated per capita and proportion of hazardous waste environmentally sound treated
+  (recycling and incineration with energy recovery) in relation to total hazardous waste generated and treated.
 
 formula: |
 
@@ -26,17 +25,15 @@ formula: |
 
   <br>
 
-  <b> Proportion of hazardous waste treated, by type of treatment</b> 
+  <b> Proportion of hazardous waste environmentally sound treated</b> 
 
-  $$PRP_{treatment}^{t} = \frac{RP_{treatment}^{t}}{RP^{t}} \cdot 100$$ <br> 
+  $$PRP_{environmental}^{t} = \frac{RP_{environmental}^{t}}{RP^{t}} \cdot 100$$ <br> 
 
-  $RP_{treatment}^{t} =$ amount of hazardous waste treated, by type of treatment in year $t$
+  $RP_{environmental}^{t} =$ amount of hazardous waste environmentally sound treated in year $t$
 
   $RP^{t} =$ total amount of hazardous waste generated and treated in year $t$
 
 desagregacion: |
-  Waste treatment operation 
-
   Province
 
 
