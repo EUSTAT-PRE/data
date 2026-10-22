@@ -45,7 +45,7 @@ formula: |
 desagregacion: | 
   Lurralde historikoa
 
-observaciones: >-
+observaciones: |
 
   Etxeko kontsumo-unitateen kopurua kalkulatzeko, ELGA eskala aldatua erabiltzen da. 
   Eskala horrek 1 pisua esleitzen dio 14 urte edo gehiagoko lehen pertsonari, 0,5 pisua 14 urte edo 
