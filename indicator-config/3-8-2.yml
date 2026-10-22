@@ -26,7 +26,12 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-progress_status: moderate_deterioration
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: SH_XPD_EARN25
+    direction: negative
+  - series: SH_XPD_EARN10
+    direction: negative
 reporting_status: complete
 sort: ''
 sources:
