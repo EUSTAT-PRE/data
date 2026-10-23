@@ -26,16 +26,18 @@ formula:  |
   $P^{t}_{area} =$ Score obtained on the questionnaire for each area in year $t$ 
 
 
-desagregacion:  |
+desagregacion:
 
 periodicidad: FUENTE.FREQ_A4
 
 
-observaciones: >-
+observaciones:
 
-texto_oceca: | 
 
- # Metadatos mundiales (Descripción del indicador)  
+texto_oceca:
+
+
+# Metadatos mundiales (Descripción del indicador)    
 
 justificacion_global: | 
 
