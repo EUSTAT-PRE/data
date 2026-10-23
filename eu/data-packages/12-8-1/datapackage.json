@@ -12,8 +12,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "MHH eta GJH zenbateraino barneratzen diren hezkuntza-politiketan",
+                "MHH eta GJH zenbateraino barneratzen diren ikasketa-planetan",
+                "MHH eta GJH zenbateraino barneratzen diren irakasleen prestakuntzan",
+                "MHH eta GJH zenbateraino barneratzen diren ikasleen ebaluazioan",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indizea",
+                ""
+              ]
+            },
+            "title": "Unitatea"
           },
           {
             "name": "Value",
@@ -26,5 +51,5 @@
   ],
   "profile": "data-package",
   "name": "12-8-1",
-  "title": "i) munduko herritartasunerako hezkuntza eta ii) garapen iraunkorrerako hezkuntza a) hezkuntza-politika nazionaletan, b) ikasketa-planetan, c) irakasleen prestakuntzan eta d) ikasleen ebaluazioan txertatzen diren gradua"
+  "title": "i) Munduko hiritartasunerako hezkuntza eta ii) garapen jasangarrirako hezkuntza zenbateraino barneratzen diren a) hezkuntza-politika nazionaletan, b) ikasketa-planetan, c) irakasleen prestakuntzan eta d) ikasleen ebaluazioan"
 }

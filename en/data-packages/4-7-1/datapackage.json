@@ -12,8 +12,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Extent to which GCED and ESD are mainstreamed in  education policies",
+                "Extent to which GCED and ESD are mainstreamed in curricula",
+                "Extent to which GCED and ESD are mainstreamed in teacher education",
+                "Extent to which GCED and ESD are mainstreamed in student assessment",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Index",
+                ""
+              ]
+            },
+            "title": "Unit"
           },
           {
             "name": "Value",

@@ -1,1 +1,9 @@
-Year,Value
+Year,Series,Units,Value
+2020,MHH eta GJH zenbateraino barneratzen diren hezkuntza-politiketan,Indizea,1.0
+2024,MHH eta GJH zenbateraino barneratzen diren hezkuntza-politiketan,Indizea,1.0
+2020,MHH eta GJH zenbateraino barneratzen diren ikasketa-planetan,Indizea,0.875
+2024,MHH eta GJH zenbateraino barneratzen diren ikasketa-planetan,Indizea,0.922
+2020,MHH eta GJH zenbateraino barneratzen diren irakasleen prestakuntzan,Indizea,0.95
+2024,MHH eta GJH zenbateraino barneratzen diren irakasleen prestakuntzan,Indizea,0.95
+2020,MHH eta GJH zenbateraino barneratzen diren ikasleen ebaluazioan,Indizea,1.0
+2024,MHH eta GJH zenbateraino barneratzen diren ikasleen ebaluazioan,Indizea,1.0

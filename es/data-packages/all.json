@@ -7853,6 +7853,55 @@
       "title": "Tasa de mortalidad atribuida a la contaminación de los hogares y del aire ambiente"
     },
     {
+      "path": "13-3-1/data.csv",
+      "name": "13-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Grado en que la ECM y la EDS se integran en las políticas educativas",
+                "Grado en que la ECM y la EDS se integran en los planes de estudio",
+                "Grado en la ECM y la EDS se integran en la formación del profesorado",
+                "Grado en que la ECM y la EDS se integran en la evaluación del alumnado",
+                ""
+              ]
+            },
+            "title": "Serie"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Índice",
+                ""
+              ]
+            },
+            "title": "Unidad"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valor"
+          }
+        ]
+      },
+      "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, c) la formación de docentes y d) la evaluación de las y los estudiantes"
+    },
+    {
       "path": "2-3-2/data.csv",
       "name": "2-3-2",
       "profile": "tabular-data-resource",
@@ -8139,6 +8188,55 @@
         ]
       },
       "title": "Número de países que elaboran, adoptan o aplican instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles"
+    },
+    {
+      "path": "12-8-1/data.csv",
+      "name": "12-8-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Grado en que la ECM y la EDS se integran en las políticas educativas",
+                "Grado en que la ECM y la EDS se integran en los planes de estudio",
+                "Grado en la ECM y la EDS se integran en la formación del profesorado",
+                "Grado en que la ECM y la EDS se integran en la evaluación del alumnado",
+                ""
+              ]
+            },
+            "title": "Serie"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Índice",
+                ""
+              ]
+            },
+            "title": "Unidad"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valor"
+          }
+        ]
+      },
+      "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, c) la formación de docentes y d) la evaluación de las y los estudiantes"
     },
     {
       "path": "13-1-1/data.csv",
@@ -10458,6 +10556,55 @@
         ]
       },
       "title": "Tasa de finalización (educación primaria, educación secundaria inferior y educación secundaria superior)"
+    },
+    {
+      "path": "4-7-1/data.csv",
+      "name": "4-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Grado en que la ECM y la EDS se integran en las políticas educativas",
+                "Grado en que la ECM y la EDS se integran en los planes de estudio",
+                "Grado en la ECM y la EDS se integran en la formación del profesorado",
+                "Grado en que la ECM y la EDS se integran en la evaluación del alumnado",
+                ""
+              ]
+            },
+            "title": "Serie"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Índice",
+                ""
+              ]
+            },
+            "title": "Unidad"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valor"
+          }
+        ]
+      },
+      "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, c) la formación de docentes y d) la evaluación de los estudiantes"
     },
     {
       "path": "13-1-3/data.csv",
@@ -13341,6 +13488,41 @@
       "title": "Existencia de una estrategia nacional organizada y en marcha para el empleo de las personas jóvenes, como estrategia independiente o como parte de una estrategia nacional de empleo"
     },
     {
+      "path": "16-10-2/data.csv",
+      "name": "16-10-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Índice",
+                ""
+              ]
+            },
+            "title": "Unidad"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valor"
+          }
+        ]
+      },
+      "title": "Número de países que adoptan y aplican garantías constitucionales, legales o normativas para el acceso público a la información"
+    },
+    {
       "path": "11-7-2/data.csv",
       "name": "11-7-2",
       "profile": "tabular-data-resource",
@@ -16016,30 +16198,6 @@
       "title": "Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‑2030"
     },
     {
-      "path": "13-3-1/data.csv",
-      "name": "13-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Año"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valor"
-          }
-        ]
-      },
-      "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, c) la formación de docentes y d) la evaluación de las y los estudiantes"
-    },
-    {
       "path": "10-a-1/data.csv",
       "name": "10-a-1",
       "profile": "tabular-data-resource",
@@ -16856,30 +17014,6 @@
       "title": "Cuantía de los subsidios a los combustibles fósiles (producción y consumo) por unidad del PIB"
     },
     {
-      "path": "4-7-1/data.csv",
-      "name": "4-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Año"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valor"
-          }
-        ]
-      },
-      "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, c) la formación de docentes y d) la evaluación de los estudiantes"
-    },
-    {
       "path": "2-5-2/data.csv",
       "name": "2-5-2",
       "profile": "tabular-data-resource",
@@ -17408,30 +17542,6 @@
       "title": "Proporción de empleo informal con respecto al empleo total, desglosada por sector y sexo"
     },
     {
-      "path": "16-10-2/data.csv",
-      "name": "16-10-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Año"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valor"
-          }
-        ]
-      },
-      "title": "Número de países que adoptan y aplican garantías constitucionales, legales o normativas para el acceso público a la información"
-    },
-    {
       "path": "14-1-1/data.csv",
       "name": "14-1-1",
       "profile": "tabular-data-resource",
@@ -17838,30 +17948,6 @@
         ]
       },
       "title": "Número de casos verificados de asesinato, secuestro, desaparición forzada, detención arbitraria y tortura de periodistas, miembros asociados/as de los medios de comunicación, sindicalistas y defensores/as de los derechos humanos, en los últimos 12 meses"
-    },
-    {
-      "path": "12-8-1/data.csv",
-      "name": "12-8-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Año"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Valor"
-          }
-        ]
-      },
-      "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, c) la formación de docentes y d) la evaluación de las y los estudiantes"
     },
     {
       "path": "16-3-3/data.csv",

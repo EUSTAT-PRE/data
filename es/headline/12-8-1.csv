@@ -1,1 +1,9 @@
-Year,Value
+Year,Value,Units,Series
+2020,1.0,Índice,Grado en que la ECM y la EDS se integran en las políticas educativas
+2024,1.0,Índice,Grado en que la ECM y la EDS se integran en las políticas educativas
+2020,0.875,Índice,Grado en que la ECM y la EDS se integran en los planes de estudio
+2024,0.922,Índice,Grado en que la ECM y la EDS se integran en los planes de estudio
+2020,0.95,Índice,Grado en la ECM y la EDS se integran en la formación del profesorado
+2024,0.95,Índice,Grado en la ECM y la EDS se integran en la formación del profesorado
+2020,1.0,Índice,Grado en que la ECM y la EDS se integran en la evaluación del alumnado
+2024,1.0,Índice,Grado en que la ECM y la EDS se integran en la evaluación del alumnado

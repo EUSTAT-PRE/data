@@ -7853,6 +7853,55 @@
       "title": "Etxeetako eta giroko airearen kutsadurari egotzitako heriotza-tasa"
     },
     {
+      "path": "13-3-1/data.csv",
+      "name": "13-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "MHH eta GJH zenbateraino barneratzen diren hezkuntza-politiketan",
+                "MHH eta GJH zenbateraino barneratzen diren ikasketa-planetan",
+                "MHH eta GJH zenbateraino barneratzen diren irakasleen prestakuntzan",
+                "MHH eta GJH zenbateraino barneratzen diren ikasleen ebaluazioan",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indizea",
+                ""
+              ]
+            },
+            "title": "Unitatea"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Balioa"
+          }
+        ]
+      },
+      "title": "i) Munduko hiritartasunerako hezkuntza eta ii) garapen jasangarrirako hezkuntza zenbateraino barneratzen diren a) hezkuntza-politika nazionaletan, b) ikasketa-planetan, c) irakasleen prestakuntzan eta d) ikasleen ebaluazioan"
+    },
+    {
       "path": "2-3-2/data.csv",
       "name": "2-3-2",
       "profile": "tabular-data-resource",
@@ -8139,6 +8188,55 @@
         ]
       },
       "title": "Kontsumo eta ekoizpen iraunkorreko modalitateetarako trantsizioa bultzatzeko politika-tresnak egiten, onartzen edo aplikatzen dituzten herrialdeen kopurua"
+    },
+    {
+      "path": "12-8-1/data.csv",
+      "name": "12-8-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "MHH eta GJH zenbateraino barneratzen diren hezkuntza-politiketan",
+                "MHH eta GJH zenbateraino barneratzen diren ikasketa-planetan",
+                "MHH eta GJH zenbateraino barneratzen diren irakasleen prestakuntzan",
+                "MHH eta GJH zenbateraino barneratzen diren ikasleen ebaluazioan",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indizea",
+                ""
+              ]
+            },
+            "title": "Unitatea"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Balioa"
+          }
+        ]
+      },
+      "title": "i) Munduko hiritartasunerako hezkuntza eta ii) garapen jasangarrirako hezkuntza zenbateraino barneratzen diren a) hezkuntza-politika nazionaletan, b) ikasketa-planetan, c) irakasleen prestakuntzan eta d) ikasleen ebaluazioan"
     },
     {
       "path": "13-1-1/data.csv",
@@ -10458,6 +10556,55 @@
         ]
       },
       "title": "Amaiera-tasa (lehen hezkuntza, behe-mailako bigarren hezkuntza eta goi-mailako bigarren hezkuntza)"
+    },
+    {
+      "path": "4-7-1/data.csv",
+      "name": "4-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "MHH eta GJH zenbateraino barneratzen diren hezkuntza-politiketan",
+                "MHH eta GJH zenbateraino barneratzen diren ikasketa-planetan",
+                "MHH eta GJH zenbateraino barneratzen diren irakasleen prestakuntzan",
+                "MHH eta GJH zenbateraino barneratzen diren ikasleen ebaluazioan",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indizea",
+                ""
+              ]
+            },
+            "title": "Unitatea"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Balioa"
+          }
+        ]
+      },
+      "title": "i) Munduko hiritartasunerako hezkuntza eta ii) garapen jasangarrirako hezkuntza zenbateraino barneratzen diren a) hezkuntza-politika nazionaletan, b) ikasketa-planetan, c) irakasleen prestakuntzan eta d) ikasleen ebaluazioan"
     },
     {
       "path": "13-1-3/data.csv",
@@ -13341,6 +13488,41 @@
       "title": "Estrategia nazional antolatua abian dago gazteen enplegurako, estrategia independente gisa edo enplegurako estrategia nazional baten parte gisa"
     },
     {
+      "path": "16-10-2/data.csv",
+      "name": "16-10-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Urtea"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indizea",
+                ""
+              ]
+            },
+            "title": "Unitatea"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Balioa"
+          }
+        ]
+      },
+      "title": "Informazioa publikoki eskuratzeko konstituzio-, lege- edo arau-bermeak hartzen eta aplikatzen dituzten herrialdeen kopurua"
+    },
+    {
       "path": "11-7-2/data.csv",
       "name": "11-7-2",
       "profile": "tabular-data-resource",
@@ -16016,30 +16198,6 @@
       "title": "Hondamendien arriskua murrizteko estrategia nazionalak onartzen eta aplikatzen dituzten herrialdeen kopurua, 2015-2030 aldirako Hondamendi Arriskua Murrizteko Sendai Esparruarekin bat etorriz"
     },
     {
-      "path": "13-3-1/data.csv",
-      "name": "13-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Urtea"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Balioa"
-          }
-        ]
-      },
-      "title": "i) munduko herritartasunerako hezkuntza eta ii) garapen iraunkorrerako hezkuntza a) hezkuntza-politika nazionaletan, b) ikasketa-planetan, c) irakasleen prestakuntzan eta d) ikasleen ebaluazioan txertatzen diren gradua"
-    },
-    {
       "path": "10-a-1/data.csv",
       "name": "10-a-1",
       "profile": "tabular-data-resource",
@@ -16856,30 +17014,6 @@
       "title": "Erregai fosilentzako dirulaguntzen zenbatekoa (ekoizpena eta kontsumoa) BPGaren unitate bakoitzeko"
     },
     {
-      "path": "4-7-1/data.csv",
-      "name": "4-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Urtea"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Balioa"
-          }
-        ]
-      },
-      "title": "Zein mailatan sartzen dira i) munduko herritartasunerako hezkuntza eta ii) garapen iraunkorrerako hezkuntza a) hezkuntza-politika nazionaletan, b) ikasketa-planetan, c) irakasleen prestakuntzan eta d) ikasleen ebaluazioan"
-    },
-    {
       "path": "2-5-2/data.csv",
       "name": "2-5-2",
       "profile": "tabular-data-resource",
@@ -17408,30 +17542,6 @@
       "title": "Enplegu informalaren proportzioa guztizko enpleguarekiko, sektorearen eta sexuaren arabera banakatuta"
     },
     {
-      "path": "16-10-2/data.csv",
-      "name": "16-10-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Urtea"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Balioa"
-          }
-        ]
-      },
-      "title": "Informazioa publikoki eskuratzeko konstituzio-, lege- edo arau-bermeak hartzen eta aplikatzen dituzten herrialdeen kopurua"
-    },
-    {
       "path": "14-1-1/data.csv",
       "name": "14-1-1",
       "profile": "tabular-data-resource",
@@ -17838,30 +17948,6 @@
         ]
       },
       "title": "Kazetariak, komunikabideetako kideak, sindikalistak eta giza eskubideen defendatzaileak hiltzen, bahitzen, bortxaz desagertzen, arbitrarioki atxilotzen eta torturatzen dituzten kasu egiaztatuen kopurua, azken 12 hilabeteetan"
-    },
-    {
-      "path": "12-8-1/data.csv",
-      "name": "12-8-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Urtea"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Balioa"
-          }
-        ]
-      },
-      "title": "i) munduko herritartasunerako hezkuntza eta ii) garapen iraunkorrerako hezkuntza a) hezkuntza-politika nazionaletan, b) ikasketa-planetan, c) irakasleen prestakuntzan eta d) ikasleen ebaluazioan txertatzen diren gradua"
     },
     {
       "path": "16-3-3/data.csv",

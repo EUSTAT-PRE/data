@@ -1,1 +1,9 @@
-Year,Value
+Year,Value,Units,Series
+2020,1.0,Index,Extent to which GCED and ESD are mainstreamed in  education policies
+2024,1.0,Index,Extent to which GCED and ESD are mainstreamed in  education policies
+2020,0.875,Index,Extent to which GCED and ESD are mainstreamed in curricula
+2024,0.922,Index,Extent to which GCED and ESD are mainstreamed in curricula
+2020,0.95,Index,Extent to which GCED and ESD are mainstreamed in teacher education
+2024,0.95,Index,Extent to which GCED and ESD are mainstreamed in teacher education
+2020,1.0,Index,Extent to which GCED and ESD are mainstreamed in student assessment
+2024,1.0,Index,Extent to which GCED and ESD are mainstreamed in student assessment

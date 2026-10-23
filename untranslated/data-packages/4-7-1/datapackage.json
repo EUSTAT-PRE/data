@@ -12,7 +12,30 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SE_GCEDESD_NEP",
+                "SE_GCEDESD_CUR",
+                "SE_GCEDESD_TED",
+                "SE_GCEDESD_SAS",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "IX",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

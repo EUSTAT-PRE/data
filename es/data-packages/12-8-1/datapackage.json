@@ -12,8 +12,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Grado en que la ECM y la EDS se integran en las políticas educativas",
+                "Grado en que la ECM y la EDS se integran en los planes de estudio",
+                "Grado en la ECM y la EDS se integran en la formación del profesorado",
+                "Grado en que la ECM y la EDS se integran en la evaluación del alumnado",
+                ""
+              ]
+            },
+            "title": "Serie"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Índice",
+                ""
+              ]
+            },
+            "title": "Unidad"
           },
           {
             "name": "Value",
