@@ -171,10 +171,7 @@ Hondakinak ekologikoki tratatzeko modutzat hartzen dira birziklatzea eta errausk
 #12-5-1,complete,moderate_deterioration,,line,FUENTE.oceca,2026-06-02,,,EAEn eskuragarri dagoen adierazleak partzialki betetzen ditu Nazio Batuen metadatuak.,
 #12-6-1,complete,significant_progress,,line,FUENTE.oceca,2025-06-11,,,EAEn eskuragarri dagoen adierazleak partzialki betetzen ditu Nazio Batuen metadatuak.,
 #12-7-1,complete,significant_progress,,bar,FUENTE.oceca,2026-09-18,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
-#12-8-1,complete,significant_progress,,bar,"
-
-
-# Metadatos mundiales (Descripción del indicador)  ",2026-10-23,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
+#12-8-1,complete,significant_progress,,bar,,2026-10-23,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #12-a-1,complete,significant_progress,True,line,FUENTE.oceca,2026-05-18,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #12-b-1,notstarted,notstarted,,line,,,,,,
 #12-c-1,notstarted,notstarted,,line,,,,,,
@@ -194,10 +191,7 @@ Udal Larrialdi Planik ez duten udalerriak dagokion lurralde historikoko larriald
 #13-2-2,complete,significant_progress,,line,FUENTE.oceca,2025-11-11,,,"""Berotegi-efektua eragiten duten gasen urteko guztizko isurketak"" serieak Nazio Batuen metadatuak betetzen ditu.
 ""Berotegi-efektuko gasen isuriak, 1990. urtearekiko"" serieak Eurostaten sdg 13_10 adierazlearen metadatuak betetzen ditu.
 ",
-#13-3-1,complete,significant_progress,,bar,"
-
-
-# Metadatos mundiales (Descripción del indicador)  ",2026-10-23,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
+#13-3-1,complete,significant_progress,,bar,,2026-10-23,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #13-a-1,notapplicable,notapplicable,,line,,,,,,
 #13-b-1,notapplicable,notapplicable,,line,,,,,,
 #14-1-1,notstarted,notstarted,,line,,,,,,
@@ -233,10 +227,7 @@ Europar Batasunean ezarritako oinarrizko tipologia komunak erabiltzen dira (EURO
 #16-1-4,complete,moderate_deterioration,,bar,FUENTE.oceca,2025-08-19,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #16-1-E1,complete,significant_deterioration,,bar,FUENTE.oceca,2026-05-27,,,EAEn erabilgarri dagoen adierazleak EBko adierazlearen metadatuak betetzen ditu.,
 #16-10-1,complete,significant_progress,,line,,,True,,,
-#16-10-2,complete,no_progress,,line,"
-
-
-# Metadatos mundiales (Descripción del indicador)  ",2026-10-23,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
+#16-10-2,complete,no_progress,,line,,2026-10-23,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #16-2-1,notstarted,notstarted,,line,,,,,,
 #16-2-2,complete,significant_deterioration,,line,FUENTE.oceca,2025-08-04,,"
 Gerta daiteke adierazle hau gehiegi handitzea, pertsona bera pertsona-trafikoaren biktima izan delako 
@@ -528,10 +519,7 @@ konplexuak interpretatzeko.
 
 2012ko datua 2011ko hirugarren lauhilekoaren eta 2012ko lehen lauhilekoaren artean egindako azterketari dagokio.
 ",EAEn eskuragarri dagoen adierazleak Nazio Batuen metadatuak betetzen ditu.,
-#4-7-1,complete,significant_progress,,bar,"
-
-
-# Metadatos mundiales (Descripción del indicador)  ",2026-10-23,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
+#4-7-1,complete,significant_progress,,bar,,2026-10-23,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #4-a-1,complete,significant_progress,,line,FUENTE.oceca,2026-09-16,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen metadatuak betetzen ditu.,
 #4-b-1,notstarted,notstarted,,line,,,,,,
 #4-c-1,complete,significant_progress,,line,FUENTE.oceca,2026-09-03,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
