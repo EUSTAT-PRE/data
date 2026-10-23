@@ -1,27 +1,44 @@
-# Metadatos nacionales (ficha metodológica)
+ # Metadatos nacionales (ficha metodológica)
  
-indicador_disponible: GRAFICO.nodisponible
+indicador_disponible: >- 
+  GRAFICO.4-7-1-titulo
 
-# objetivo_global: objetivo_largo.4-titulo
-# meta_global: meta_largo.4-7-titulo
+objetivo_global: objetivo_largo.4-titulo
+meta_global: meta_largo.4-7-titulo
 #  indicador_onu_global: indicador_largo.4-7-1-titulo
 
 
-definicion:
+definicion:  | 
+  
+  Scores obtained in each of the four sections of the UNESCO questionnaire on global citizenship 
+  education (GCED) and education for sustainable development (ESD). Each section uses a scale of 0 to 1 to 
+  measure the extent to which global citizenship education and education for sustainable development 
+  are integrated into specific areas of the education system: education policies, curricula, 
+  teacher education, and student assessment.
 
-formula:
 
-desagregacion: 
+formula:  |
 
-periodicidad:  
+  $$P^{t}_{area}$$ 
 
-observaciones:
+  where: 
 
+  $P^{t}_{area} =$ Score obtained on the questionnaire for each area in year $t$ 
+
+
+desagregacion:  |
+
+periodicidad: FUENTE.FREQ_A4
+
+
+observaciones: >-
+
+texto_oceca: | 
 
  # Metadatos mundiales (Descripción del indicador)  
 
+justificacion_global: | 
 
-justificacion_global: |
   In order to achieve SDG targets 4.7, 12.8 and 13.3, it is necessary for 
   governments to ensure that ESD and GCED and their sub-themes are fully 
   integrated in all aspects of their education systems. Students will not 
@@ -46,10 +63,10 @@ justificacion_global: |
 
   Source: United Nations Statistics Division
 
-comparabilidad:
+dato_global: >-
+
+comparabilidad: >- 
+  The available indicator complies with the metadata of the United Nations indicator.
 
 indicador_meta_enlace: >- 
   <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-04-07-01.pdf">Metadata 4-7-1.pdf</a>
-
-dato_global:
-

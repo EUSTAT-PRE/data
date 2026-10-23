@@ -1,21 +1,41 @@
  # Metadatos nacionales (ficha metodológica)
  
-indicador_disponible: GRAFICO.nodisponible
+indicador_disponible: >- 
+  GRAFICO.16-10-2-titulo
 
-# objetivo_global: objetivo_largo.16-titulo
-# meta_global: meta_largo.16-10-titulo
-# indicador_onu_global: indicador_largo.16-10-2-titulo
+objetivo_global: objetivo_largo.16-titulo
+meta_global: meta_largo.16-10-titulo
+#  indicador_onu_global: indicador_largo.16-10-2-titulo
 
-definicion:
-formula:
-desagregacion:
-periodicidad:
 
-observaciones:
- 
+definicion:  | 
+  
+  Scores obtained in the UNESCO questionnaire on the adoption and implementation of 
+  constitutional, statutory and/or policy guarantees for public access to information.
+
+
+formula:  |
+
+  $$P^{t}$$ 
+
+  where: 
+
+  $P^{t} =$ Score obtained on the questionnaire in year $t$ 
+
+
+desagregacion:  |
+
+periodicidad: FUENTE.FREQ_A2
+
+
+observaciones: >-
+
+texto_oceca: | 
+
  # Metadatos mundiales (Descripción del indicador)  
 
-justificacion_global: |
+justificacion_global: | 
+
   The purpose of this indicator is to report the total of number of countries that adopted legal guarantees 
   on ATI, as well as the main tendencies in the implementation of these guarantees. 
 
@@ -29,10 +49,12 @@ justificacion_global: |
 
   Source: United Nations Statistics Division 
 
-dato_global: |
+dato_global: >-
   <a href="https://unstats.un.org/sdgs/dataportal/analytics/SingleSeries?indicators=16.10.2&seriesCode=SG_INF_ACCSS&areaCode=276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3&table=Total">Countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information SG_INF_ACCSS</a> UNSTATS
 
-comparabilidad:
 
-indicador_meta_enlace: '<a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-10-02.pdf">Metadata 16-10-2.pdf</a>'
+comparabilidad: >- 
+  The available indicator complies with the metadata of the United Nations indicator.
 
+indicador_meta_enlace: >- 
+  <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-10-02.pdf">Metadata 16-10-2.pdf</a>

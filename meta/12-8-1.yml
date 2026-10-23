@@ -1,27 +1,46 @@
-# Metadatos nacionales (ficha metodológica)
+ # Metadatos nacionales (ficha metodológica)
  
-indicador_disponible: GRAFICO.nodisponible
+indicador_disponible: >- 
+  GRAFICO.4-7-1-titulo
 
-# objetivo_global: objetivo_largo.12-titulo
-# meta_global: meta_largo.12-8-titulo
+objetivo_global: objetivo_largo.12-titulo
+meta_global: meta_largo.12-8-titulo
 #  indicador_onu_global: indicador_largo.12-8-1-titulo
 
 
-definicion:
+definicion:  | 
+  Munduko hiritartasunerako hezkuntza (MHH) eta garapen jasangarrirako hezkuntzari (GJH) buruzko UNESCOren 
+  galdetegiko 4 ataletako bakoitzean lortutako puntuazioa. Atal bakoitzak 0 eta 1 arteko puntuazio baten bidez 
+  neurtzen du Munduko hiritartasunerako hezkuntza eta garapen jasangarrirako hezkuntza zenbateraino 
+  barneratzen diren hezkuntza-sistemako alderdi jakin batean: Hezkuntza politiketan, ikasketa-planetan, 
+  irakasleen prestakuntzan eta ikasleen ebaluazioan.  
 
-formula:
+ 
+formula:  |
 
-desagregacion: 
+  $$P^{t}_{arloa}$$ 
 
-periodicidad:  
+  non: 
 
-observaciones:
+  $P^{t}_{arloa} =$ Arlo bakoitzeko galdetegian lortutako puntuazioa $t$ urtean 
+
+  
+desagregacion:  |
+
+periodicidad: FUENTE.FREQ_A4
+
+
+observaciones: |
+
+
+texto_oceca: >- 
 
 
 
  # Metadatos mundiales (Descripción del indicador)  
 
-justificacion_global: |
+justificacion_global: | 
+
   GJHen 4.7, 12.8 eta 13.3 xedeak lortzeko, beharrezkoa da gobernuek bermatzea Garapen Jasangarrirako Hezkuntza 
   (GJHe), Munduko Herritartasunerako Hezkuntza (MHE) eta haren azpigaiak erabat integratuko direla hezkuntza-sistemen 
   alderdi guztietan. 
@@ -44,10 +63,15 @@ justificacion_global: |
   Iturria: Nazio Batuen Estatistika Sekzioa 
 
 
-dato_global:
+dato_global: >-
+
+comparabilidad: >- 
+  EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.
 
 indicador_meta_enlace: >- 
+
   <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-12-08-01.pdf">Metadatuak 12-8-1.pdf</a> (ingelesez bakarrik)
+
 
 national_data_updated_date: ''
 national_metadata_updated_date: ''
