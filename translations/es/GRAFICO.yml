@@ -48,6 +48,7 @@ nodisponible: La CA de Euskadi no elabora estadísticas oficiales continuas con 
 4-3-1-titulo: "Tasa de participación de personas jóvenes y adultas en la educación y formación académica y no académica, desglosada por sexo"
 4-5-1-titulo: "Índices de paridad (entre mujeres y hombres, quintiles de riqueza superior e inferior, municipios de más y menos de 10.000 habitantes y personas con y sin limitaciones por problemas de salud) en la realización de actividades educativas (formales o no formales) en los últimos 12 meses o 4 semanas"
 4-6-1-titulo: "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora y en matemáticas"
+4-7-1-titulo: "Grado en que la educación para la ciudadanía mundial (ECM) y la educación para el desarrollo sostenible (EDS) se integran en las políticas educativas, los planes de estudio, la formación del profesorado y la evaluación del alumnado" 
 4-a-1-titulo: "Proporción de centros educativos no universitarios con acceso a servicios básicos"
 4-b-1-titulo: "Ayuda Oficial al Desarrollo destinada a becas (desembolso bruto total)"
 
@@ -93,7 +94,6 @@ nodisponible: La CA de Euskadi no elabora estadísticas oficiales continuas con 
 10-7-4-titulo: "Número de personas refugiadas o bajo protección internacional por cada 100.000 habitantes"
 10-b-1-titulo: "Ayuda Oficial al Desarrollo total (desembolso bruto)"
 
-
 11-1-1-titulo: "Proporción de personas que viven en hogares con determinadas deficiencias en la vivienda"
 11-4-1-titulo: "Gasto per cápita de las administraciones públicas autonómicas y locales en la preservación, protección y conservación del patrimonio cultural"
 11-5-1-titulo: "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes"
@@ -132,11 +132,10 @@ nodisponible: La CA de Euskadi no elabora estadísticas oficiales continuas con 
 16-1-4-titulo: "Proporción de la población que se siente segura al caminar sola en su zona de residencia después de que oscurece"
 16-1-E1-titulo: "Población que reporta ocurrencia de delitos, violencia o vandalismo en su área (Indicador UE sdg_16_20)" 
 16-2-2-titulo: "Número de víctimas detectadas de tráfico de personas por cada 100.000 habitantes, desglosado por tipo de explotación"
-
 16-6-1-titulo: "Gasto liquidado en proporción al gasto inicial de los presupuestos de las administraciones públicas autonómicas y locales"
 16-6-2-titulo: "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos"
-
 16-7-1-titulo: "Proporciones de mujeres en a) el parlamento autonómico, b) la administración pública y c) el poder judicial, en comparación con la distribución de las mujeres en la población"
+16-10-2-titulo: "Grado de adopción y aplicación de garantías constitucionales, legales o normativas para el acceso público a la información"
 
 17-1-1-titulo: "Total de ingresos de las Administraciones Públicas Autonómicas y Locales en proporción al PIB "
 17-1-2-titulo: "Proporción de los ingresos de las administraciones públicas autonómicas y locales provenientes de impuestos"
