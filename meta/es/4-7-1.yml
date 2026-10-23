@@ -1,27 +1,44 @@
-# Metadatos nacionales (ficha metodológica)
+ # Metadatos nacionales (ficha metodológica)
  
-indicador_disponible: GRAFICO.nodisponible
+indicador_disponible: >- 
+  GRAFICO.4-7-1-titulo
 
-# objetivo_global: objetivo_largo.4-titulo
-# meta_global: meta_largo.4-7-titulo
+objetivo_global: objetivo_largo.4-titulo
+meta_global: meta_largo.4-7-titulo
 #  indicador_onu_global: indicador_largo.4-7-1-titulo
 
 
-definicion:
+definicion:  | 
+  Puntuación obtenida en cada una de las 4 secciones del cuestionario de la UNESCO 
+  sobre educación para la ciudadanía mundial (ECM) y educación para el desarrollo sostenible (EDS). 
+  Cada apartado mide con una puntuación de 0 a 1 el grado en que la Educación para la ciudadanía 
+  mundial y la Educación para el desarrollo sostenible se integran en un determinado ámbito del 
+  sistema educativo: las políticas educativas, los planes de estudios, la formación del profesorado 
+  y la evaluación del alumnado.
 
-formula:
 
-desagregacion: 
+formula:  |
 
-periodicidad:  
+  $$P^{t}_{ámbito}$$ 
 
-observaciones:
+  donde: 
 
+  $P^{t}_{ámbito} =$ Puntuación obtenida en el cuestionario de cada ámbito en el año $t$ 
+
+
+desagregacion:  |
+
+periodicidad: FUENTE.FREQ_A4
+
+
+observaciones: |
+
+texto_oceca: |
 
  # Metadatos mundiales (Descripción del indicador)  
 
+justificacion_global: | 
 
-justificacion_global: |
   Para alcanzar las metas 4.7, 12.8 y 13.3 de los ODS, es necesario que los gobiernos 
   garanticen la plena integración de la Educación para el Desarrollo Sostenible (EDS), 
   la Educación para la Ciudadanía Mundial (ECM) y sus subtemas en todos los aspectos 
@@ -51,10 +68,12 @@ justificacion_global: |
 
   Fuente: División de Estadísticas de las Naciones Unidas
 
-comparabilidad:
+dato_global: >-
 
-indicador_meta_enlace: >- 
+comparabilidad: >- 
+  El indicador disponible cumple con los metadatos del indicador de Naciones Unidas.
+
+indicador_meta_enlace: >-
+
   <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-04-07-01.pdf">Metadatos 4-7-1.pdf</a> (solo en inglés)
 
-dato_global:
- 
