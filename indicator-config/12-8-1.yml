@@ -45,5 +45,11 @@ progress_calculation_options:
     limit: 1
 reporting_status: complete
 sort: ''
+sources:
+  - organisation: FUENTE.Euskadi_Educación
+    periodicity: FUENTE.FREQ_A4
+    url: FUENTE.Euskadi_Hezkuntza_url
+    url_text: FUENTE.Euskadi_Hezkuntza
+    logo: FUENTE.Euskadi_logo
 standalone: false
 tags: []
