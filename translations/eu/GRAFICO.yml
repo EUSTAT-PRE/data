@@ -48,6 +48,7 @@ nodisponible: Euskal AEk ez du estatistika jarraitu eta ofizialik egiten adieraz
 4-3-1-titulo: "Gazteek eta helduek hezkuntza eta prestakuntza akademikoan eta ez-akademikoan duten parte-hartzearen tasa, sexuaren arabera banatuta"
 4-5-1-titulo: "Parekotasun-indizeak (emakume eta gizonen artean, goi- eta behe-aberastasuneko kintilak, 10.000 biztanle baino gehiagoko eta gutxiagoko udalerriak eta osasun-arazoak dituzten eta ez dituzten pertsonen artean), azken 12 edo 4 asteetan hezkuntza-jarduerak (formalak edo ez-formalak) egitean"
 4-6-1-titulo: "Irakurmen-eskalan eta matematikan gutxienez 2. gaitasun maila lortu duten 16 eta 65 urte bitarteko pertsonen proportzioa"
+4-7-1-titulo: "Munduko hiritartasunerako hezkuntza (MHH) eta garapen jasangarrirako hezkuntza (GJH) zenbateraino barneratzen diren hezkuntza-politiketan, ikasketa-planetan, irakasleen prestakuntzan eta ikasleen ebaluazioan"
 4-a-1-titulo: "Oinarrizko zerbitzuak dituzten unibertsitatez kanpoko ikastetxeen proportzioa"
 4-b-1-titulo: "Beketara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina)"
 
@@ -134,11 +135,10 @@ nodisponible: Euskal AEk ez du estatistika jarraitu eta ofizialik egiten adieraz
 16-1-4-titulo: "Ilundu ondoren bizi diren zonaldean bakarrik ibiltzean seguru sentitzen den biztanleriaren proportzioa"
 16-1-E1-titulo: "Bizi den eremuan delituak, indarkeria edo bandalismoa gertatzen direla adierazten duen biztanleria (EBren sdg_16_20 adierazlea)" 
 16-2-2-titulo: "Pertsona-trafikoan detektatutako biktimen kopurua 100.000 biztanleko, esplotazio-motaren arabera"
-
 16-6-1-titulo: "Autonomia-erkidegoetako eta tokiko administrazio publikoek likidatutako gastua, aurrekontuetako hasierako gastuarekiko proportzioan"
 16-6-2-titulo: "Zerbitzu publikoen funtzionamenduarekin gustura dauden biztanleen proportzioa"
-
 16-7-1-titulo: "Emakumeen proportzioak a) parlamentu autonomikoan, b) administrazio publikoan eta c) botere judizialean, emakumeek biztanlerian duten banaketarekin alderatuta"
+16-10-2-titulo: "Informazioaren eskuragarritasun publikorako konstituzio-, lege- edo arau-bermeen ezarpen-maila eta aplikazioa"
 
 17-1-1-titulo: "Autonomia-erkidegoetako eta tokiko administrazio publikoen diru-sarrerak, guztira, BPGarekiko proportzioan"
 17-1-2-titulo: "Autonomia-erkidegoetako eta tokiko administrazio publikoen zergetatik datozen diru-sarreren proportzioa"
