@@ -20,7 +20,7 @@ graph_limits:
     minimum: 0
     maximum: 9
 graph_stacked_disaggregation: ''
-graph_title: GRAFICO.16-10-2-title
+graph_title: GRAFICO.16-10-2-titulo
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.16-10-2-title
