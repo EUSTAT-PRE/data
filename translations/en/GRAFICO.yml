@@ -48,6 +48,7 @@ nodisponible: The Basque Country does not produce continuous official statistics
 4-3-1-titulo: "Participation rate of young people and adults in formal and non-formal education and training, by sex"
 4-5-1-titulo: "Parity indices (between women and men, upper and lower wealth quintiles, municipalities with more and less than 10,000 inhabitants, and people with and without limitations due to health problems) in the performance of educational activities (formal or non-formal) in the last 12 months or 4 weeks"
 4-6-1-titulo: "Proportion of people aged 16–65 who have achieved at least level 2 proficiency in reading comprehension and mathematics"
+4-7-1-titulo: "Extent to which global citizenship education (GCED) and education for sustainable development (ESD) are mainstreamed in  education policies, curricula, teacher education and student assessment"
 4-a-1-titulo: "Proportion of non-university educational institutions with access to basic services"
 4-b-1-titulo: "Official Development Assistance for scholarships (total gross disbursement)"
 
@@ -133,11 +134,10 @@ nodisponible: The Basque Country does not produce continuous official statistics
 16-1-4-titulo: "Proportion of the population that feels safe walking alone in their residential area after darke"
 16-1-E1-titulo: "Population that reports the occurrence of crimes, violence or vandalism in their area (EU indicator sdg_16_20)" 
 16-2-2-titulo: "Number of detected victims of human trafficking per 100,000 inhabitants, by type of exploitation"
-
 16-6-1-titulo: "Liquidated expenditure in proportion to the initial expenditure of the budgets of regional and local public administrations"
 16-6-2-titulo: "Proportion of the population that feels satisfied with the functioning of public services"
-
 16-7-1-titulo: "Proportions of women in a) the regional parliament, b) the public administration and c) the judiciary, compared to the distribution of women in the population"
+16-10-2-titulo: "Degree of adoption and implementation of constitutional, legal, or policy guarantees for public access to information"
 
 17-1-1-titulo: "Total revenue of regional and local public administrations as a proportion of GDP"
 17-1-2-titulo: "Proportion of regional and local government revenues from taxes"
