@@ -818,8 +818,60 @@
   score: 5.0
   target_variant: sin_target
 12-8-1:
-  progress_status: notstarted
-  score: null
+  12-8-1 / MHH eta GJH zenbateraino barneratzen diren hezkuntza-politiketan:
+    base_value: 1.0
+    base_year: 2020.0
+    current_value: 1.0
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  12-8-1 / MHH eta GJH zenbateraino barneratzen diren ikasketa-planetan:
+    base_value: 0.875
+    base_year: 2020.0
+    current_value: 0.922
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0131662561
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  12-8-1 / MHH eta GJH zenbateraino barneratzen diren ikasleen ebaluazioan:
+    base_value: 1.0
+    base_year: 2020.0
+    current_value: 1.0
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  12-8-1 / MHH eta GJH zenbateraino barneratzen diren irakasleen prestakuntzan:
+    base_value: 0.95
+    base_year: 2020.0
+    current_value: 0.95
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0
+    score: 0.0
+    sign: 1
+    status: no_progress
+    target: null
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 3.75
   target_variant: sin_target
 12-a-1:
   12-a-1:
@@ -932,8 +984,60 @@
   score: 4.6880566332
   target_variant: mixto
 13-3-1:
-  progress_status: notstarted
-  score: null
+  13-3-1 / MHH eta GJH zenbateraino barneratzen diren hezkuntza-politiketan:
+    base_value: 1.0
+    base_year: 2020.0
+    current_value: 1.0
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  13-3-1 / MHH eta GJH zenbateraino barneratzen diren ikasketa-planetan:
+    base_value: 0.875
+    base_year: 2020.0
+    current_value: 0.922
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0131662561
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  13-3-1 / MHH eta GJH zenbateraino barneratzen diren ikasleen ebaluazioan:
+    base_value: 1.0
+    base_year: 2020.0
+    current_value: 1.0
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  13-3-1 / MHH eta GJH zenbateraino barneratzen diren irakasleen prestakuntzan:
+    base_value: 0.95
+    base_year: 2020.0
+    current_value: 0.95
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0
+    score: 0.0
+    sign: 1
+    status: no_progress
+    target: null
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 3.75
   target_variant: sin_target
 13-a-1:
   progress_status: notapplicable
@@ -1263,8 +1367,21 @@
   score: null
   target_variant: sin_target
 16-10-2:
-  progress_status: notstarted
-  score: null
+  16-10-2:
+    base_value: 8.2
+    base_year: 2016.0
+    current_value: 8.2
+    current_year: 2024.0
+    direction: 1
+    limit: 9
+    progress_value: 0.0
+    score: 0.0
+    sign: 1
+    status: no_progress
+    target: null
+    target_year: 2030.0
+  progress_status: no_progress
+  score: 0.0
   target_variant: sin_target
 16-2-1:
   progress_status: notstarted
@@ -2742,8 +2859,60 @@
   score: 3.2948746375
   target_variant: sin_target
 4-7-1:
-  progress_status: notstarted
-  score: null
+  4-7-1 / MHH eta GJH zenbateraino barneratzen diren hezkuntza-politiketan:
+    base_value: 1.0
+    base_year: 2020.0
+    current_value: 1.0
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  4-7-1 / MHH eta GJH zenbateraino barneratzen diren ikasketa-planetan:
+    base_value: 0.875
+    base_year: 2020.0
+    current_value: 0.922
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0131662561
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  4-7-1 / MHH eta GJH zenbateraino barneratzen diren ikasleen ebaluazioan:
+    base_value: 1.0
+    base_year: 2020.0
+    current_value: 1.0
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  4-7-1 / MHH eta GJH zenbateraino barneratzen diren irakasleen prestakuntzan:
+    base_value: 0.95
+    base_year: 2020.0
+    current_value: 0.95
+    current_year: 2024.0
+    direction: 1
+    limit: 1
+    progress_value: 0.0
+    score: 0.0
+    sign: 1
+    status: no_progress
+    target: null
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 3.75
   target_variant: sin_target
 4-a-1:
   4-a-1 / Bainuak sexuaren arabera bereizita dituzten eskolen proportzioa:
