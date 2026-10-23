@@ -25,19 +25,18 @@ formula:  |
   $P^{t}_{arloa} =$ Arlo bakoitzeko galdetegian lortutako puntuazioa $t$ urtean 
 
   
-desagregacion:  |
+desagregacion:
 
 periodicidad: FUENTE.FREQ_A4
 
 
-observaciones: |
+observaciones:
 
 
-texto_oceca: >- 
+texto_oceca:
 
 
-
- # Metadatos mundiales (Descripción del indicador)  
+# Metadatos mundiales (Descripción del indicador)  
 
 justificacion_global: | 
 

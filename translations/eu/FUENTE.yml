@@ -26,6 +26,8 @@ Euskadi_Bienestar: Ongizate, Gazteria eta Erronka Demografiko Saila
 Euskadi_Movilidad: Mugikortasun Iraunkorreko Departamentua
 Euskadi_Alimentacion: Elikadura, Landa Garapen, Nekazaritza eta Arrantza Saila
 Euskadi_Justicia: Justizia eta Giza Eskubideen Saila
+Euskadi_Educación: Hezkuntza Saila
+Euskadi_Autogobierno: Gobernantza, Administrazio Digital eta Autogobernuaren Saila
 Eustat: Eustat-Euskal Estatistika Erakundea
 GE: Espainiako Gobernua
 GE_Presidencia: Lehendakaritza, Justizia eta Gorteekiko Harremanetarako Ministerioa
@@ -191,6 +193,9 @@ KBA_kba: Key Biodiversity Areas
 ELIKA_xahu: Elikagaien Xahuketaren Analisia Euskadiko Nekazaritzako Elikagaien Katean
 INE_icv: Bizi-kalitatearen adierazleak
 elankidetza_ataria: Euskal lankidetza publikoaren ataria
+Euskadi_Hezkuntza: Hezkuntza Saila
+Euskadi_gardena: Gardentasunaren eta datu-bistaratzeen ataria
+
 
 # URL
 
@@ -325,8 +330,8 @@ INE_icv_url: https://www.ine.es/dynt3/ICV/index.html
 elankidetza_ataria_url: https://euskalankidetza.hegoa.ehu.eus/?locale=eu
 Euskadi_gazte_emantzipazioa_url: https://www.euskadi.eus/planak-egitasmoak-gazteria/web01-a2gazter/eu/
 Euskadi_enplegua_url: https://www.euskadi.eus/planak-txostenak-plangintza-berrikuntza-enpleguan/web01-s2enple/eu/
-
-
+Euskadi_Hezkuntza_url: https://www.euskadi.eus/eusko-jaurlaritza/hezkuntza-saila/
+Euskadi_gardena_url: https://www.gardena.euskadi.eus/hasiera/
 
 
 # LOGOS

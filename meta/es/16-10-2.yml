@@ -22,16 +22,16 @@ formula:  |
   $P^{t} =$ Puntuación obtenida en el cuestionario en el año $t$ 
 
 
-desagregacion:  |
+desagregacion:
 
 periodicidad: FUENTE.FREQ_A2
 
 
-observaciones: |
+observaciones: 
 
-texto_oceca: |
+texto_oceca:
 
- # Metadatos mundiales (Descripción del indicador)  
+# Metadatos mundiales (Descripción del indicador)  
 
 justificacion_global: | 
 

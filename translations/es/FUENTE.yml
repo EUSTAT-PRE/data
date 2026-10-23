@@ -26,6 +26,8 @@ Euskadi_Bienestar: Departamento de Bienestar, Juventud y Reto Demográfico
 Euskadi_Movilidad: Departamento de Movilidad Sostenible
 Euskadi_Alimentacion: Departamento de Alimentación, Desarrollo Rural, Agricultura y Pesca
 Euskadi_Justicia: Departamento de Justicia y Derechos Humanos
+Euskadi_Educación: Departamento de Educación
+Euskadi_Autogobierno: Departamento de Gobernanza, Administración Digital y Autogobierno
 Eustat: Eustat-Instituto Vasco de Estadística
 GE: Gobierno de España
 GE_Presidencia: Ministerio de la Presidencia, Justicia y Relaciones con las Cortes
@@ -193,6 +195,9 @@ KBA_kba: Key Biodiversity Areas
 ELIKA_xahu: Análisis del Desperdicio Alimentario en la Cadena Agroalimentaria de Euskadi
 INE_icv: Indicadores de calidad de vida
 elankidetza_ataria: Portal de la cooperación pública vasca
+Euskadi_Hezkuntza: Departamento de Educación
+Euskadi_gardena: Portal de Transparencia y Visualización de datos
+
 
 
 # URL
@@ -328,6 +333,8 @@ INE_icv_url: https://www.ine.es/dynt3/ICV/index.html
 elankidetza_ataria_url: https://euskalankidetza.hegoa.ehu.eus/es/site
 Euskadi_gazte_emantzipazioa_url: https://www.euskadi.eus/planes-proyectos-juventud/web01-a2gazter/es/
 Euskadi_enplegua_url : https://www.euskadi.eus/planes-informes-planificacion-innovacion-empleo/web01-s2enple/es/
+Euskadi_Hezkuntza_url: https://www.euskadi.eus/gobierno-vasco/departamento-educacion/
+Euskadi_gardena_url: https://www.gardena.euskadi.eus/inicio/
 
 
 

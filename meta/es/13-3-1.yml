@@ -26,16 +26,18 @@ formula:  |
   $P^{t}_{ámbito} =$ Puntuación obtenida en el cuestionario de cada ámbito en el año $t$ 
 
 
-desagregacion:  |
+desagregacion:
 
 periodicidad: FUENTE.FREQ_A4
 
 
-observaciones: |
+observaciones:
 
-texto_oceca: |
 
- # Metadatos mundiales (Descripción del indicador)  
+texto_oceca:
+
+
+# Metadatos mundiales (Descripción del indicador)   
 
 justificacion_global: | 
 
