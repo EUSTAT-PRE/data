@@ -10,7 +10,12 @@ meta_global: meta_largo.16-10-titulo
 
 definicion:  | 
   Puntuación obtenida en el cuestionario de la UNESCO sobre la adopción y aplicación de garantías 
-  constitucionales, legales o normativas para el acceso público a la información.
+  constitucionales, legales o normativas para el acceso público a la información. El cuestionario tiene dos partes:
+
+  - Adopción de garantías (preguntas 1-5): máximo 5 puntos
+  - Aplicación de garantías (preguntas 6-8): máximo 4 puntos
+
+  La puntuación total es de entre 0 y 9 puntos.
 
 
 formula:  |
