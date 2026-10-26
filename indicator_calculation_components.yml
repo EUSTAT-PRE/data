@@ -185,18 +185,18 @@
   1-a-1 / Pobrezia murriztera bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina):
     base_value: 6.13
     base_year: 2015.0
-    current_value: 5.91
-    current_year: 2024.0
+    current_value: 6.82
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: -0.0040527563
-    score: -1.013189075
+    progress_value: 0.0107235618
+    score: 2.68089045
     sign: 1
-    status: moderate_deterioration
+    status: significant_progress
     target: null
     target_year: 2030.0
-  progress_status: moderate_deterioration
-  score: -1.013189075
+  progress_status: significant_progress
+  score: 2.68089045
   target_variant: sin_target
 1-a-2:
   1-a-2:
@@ -2083,18 +2083,18 @@
   2-a-2 / Nekazaritzara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina):
     base_value: 5.61
     base_year: 2015.0
-    current_value: 5.39
-    current_year: 2024.0
+    current_value: 5.43
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: -0.0044351726
-    score: -1.10879315
+    progress_value: -0.0032558468
+    score: -0.8139617
     sign: 1
     status: moderate_deterioration
     target: null
     target_year: 2030.0
   progress_status: moderate_deterioration
-  score: -1.10879315
+  score: -0.8139617
   target_variant: sin_target
 2-b-1:
   progress_status: notstarted
@@ -2585,18 +2585,18 @@
   3-b-2 / Osasun-ikerketara eta oinarrizko osasun-arretara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainke...:
     base_value: 1.16
     base_year: 2015.0
-    current_value: 1.04
-    current_year: 2024.0
+    current_value: 1.93
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: -0.0120599435
-    score: -3.014985875
+    progress_value: 0.0522281883
+    score: 5.0
     sign: 1
-    status: significant_deterioration
+    status: significant_progress
     target: null
     target_year: 2030.0
-  progress_status: significant_deterioration
-  score: -3.014985875
+  progress_status: significant_progress
+  score: 5.0
   target_variant: sin_target
 3-b-3:
   progress_status: notstarted
@@ -2984,8 +2984,21 @@
   score: 5.0
   target_variant: con_target
 4-b-1:
-  progress_status: notstarted
-  score: null
+  4-b-1 / Beketara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina):
+    base_value: 0.35
+    base_year: 2015.0
+    current_value: 0.17
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: -0.069667725
+    score: -5.0
+    sign: 1
+    status: significant_deterioration
+    target: null
+    target_year: 2030.0
+  progress_status: significant_deterioration
+  score: -5.0
   target_variant: sin_target
 4-c-1:
   4-c-1:
@@ -3576,8 +3589,21 @@
   score: -0.1424267904
   target_variant: con_target
 7-a-1:
-  progress_status: notstarted
-  score: null
+  7-a-1 / Garapenerako Laguntza Ofiziala energia garbien ikerketa eta garapena bultzatzeko eta energia berriztagarrien ek...:
+    base_value: 0.001
+    base_year: 2015.0
+    current_value: 0.05
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: 0.4787576366
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 5.0
   target_variant: sin_target
 7-b-1:
   7-b-1:
