@@ -1,27 +1,48 @@
 # Metadatos nacionales (ficha metodológica)
  
-indicador_disponible: GRAFICO.nodisponible
+indicador_disponible: >-
+  GRAFICO.7-a-1-titulo
 
-# objetivo_global: objetivo_largo.7-titulo
-# meta_global: meta_largo.7-a-titulo
+objetivo_global: objetivo_largo.7-titulo
+meta_global: meta_largo.7-a-titulo
 #  indicador_onu_global: indicador_largo.7-a-1-titulo
 
 
-definicion:
+definicion: >-
+  Official Development Assistance from the regional and local 
+  administrations of the Basque Autonomous Community in support of clean energy 
+  research and development and renewable energy production, including in hybrid systems (total gross disbursement)
 
-formula:
+  
+formula: |
+
+  $$ODA_{energy}^{t}$$
+
+  where: 
+
+  $ODA_{energy}^{t} $= amount of Official Development Assistance in support of clean energy 
+  research and development and renewable energy production in year $t$ 
 
 desagregacion: 
 
-periodicidad:  
+periodicidad: FUENTE.FREQ_A
 
-observaciones:
+observaciones: |
+
+  Cooperation projects supporting research and development in clean energy and the production of renewable energy
+  are defined using the following OECD Creditor Reporting System (CRS) purpose codes: 23210 Energy generation from 
+  renewable sources, 23220 Hydroelectric power plants, 23230 Solar energy for centralized grids, 23231 Solar energy 
+  for isolated grids and standalone systems, 23232 Solar energy-thermal applications, 23240 Wind energy, 23250 Marine 
+  energy, 23260 Geothermal energy, 23270 Biofuel-powered power plants, 23410 Hybrid energy power plants, 23631 Electric 
+  power transmission and distribution (isolated mini-grids), 23630 Electric power transmission and distribution 
+  (centralized grids), 23110 Energy policy and administrative management, 23182 Energy research
 
 
  # Metadatos mundiales (Descripción del indicador)  
 
 
 justificacion_global: |
+
   Total Official Development Assistance (ODA) and Other Official flows (OOF) 
   to developing countries quantify the public financial effort (excluding export 
   credits) that donors provide to developing countries for renewable energies. 
@@ -43,9 +64,11 @@ justificacion_global: |
 
 dato_global: |
 
-  <a href="https://unstats.un.org/sdgs/dataportal/analytics/SingleSeries?indicators=7.a.1&seriesCode=EG_IFF_RANDN&areaCode=276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3&table=ALL">International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems (millions of constant 2022 USD) EG_IFF_RANDN</a> UNSTATS
+   <a href="https://unstats.un.org/sdgs/dataportal/analytics/SingleSeries?indicators=7.a.1&seriesCode=EG_IFF_RANDN&areaCode=276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3&table=ALL">International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems (millions of constant 2022 USD) EG_IFF_RANDN</a> UNSTATS
 
-indicador_meta_enlace: >- 
-  <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-07-0a-01.pdf">Metadata 7-a-1.pdf</a>
+comparabilidad: >-
+  The available indicator complies with the United Nations metadata.
+
+indicador_meta_enlace: '<a href="https://unstats.un.org/sdgs/metadata/files/Metadata-07-0a-01.pdf">Metadata 7-a-1.pdf</a>'
 
 
