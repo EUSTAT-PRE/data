@@ -3,8 +3,8 @@
 indicador_disponible: >-
   GRAFICO.1-a-1-titulo
 
-# objetivo_global: objetivo_largo.1-titulo
-# meta_global: meta_largo.1-a-titulo
+objetivo_global: objetivo_largo.1-titulo
+meta_global: meta_largo.1-a-titulo
 #  indicador_onu_global: indicador_largo.1-a-1-titulo
 
 
@@ -23,7 +23,7 @@ formula: |
 
 desagregacion: 
 
-periodicidad:  
+periodicidad: FUENTE.FREQ_A
 
 observaciones: |
 
@@ -51,6 +51,10 @@ justificacion_global: |
 
 indicador_meta_enlace: >- 
   <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-01-0a-01.pdf">Metadatos 1-a-1.pdf</a> (solo en inglés)
+
+comparabilidad: |
+  El indicador disponible no cumple con los metadatos del indicador de Naciones Unidas, pero aporta
+  información complementaria.
 
 dato_global: >- 
 
