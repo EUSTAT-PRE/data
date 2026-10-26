@@ -10,7 +10,12 @@ meta_global: meta_largo.16-10-titulo
 
 definicion:  | 
   Informazioaren eskuragarritasun publikorako konstituzio-, lege- edo arau-bermeen ezarpen eta aplikazioari 
-  buruzko UNESCOren galdetegian lortutako puntuazioa.  
+  buruzko UNESCOren galdetegian lortutako puntuazioa. Galdetegi horrek bi zati ditu:
+
+  - Bermeen ezarpena (1-5 galderak): gehienez 5 puntu
+  - Bermeen aplikazioa (6-8 galderak): gehienez 4 puntu
+
+  Guztirako puntuazioa 0 eta 9 puntu arteko da.  
 
  
 formula:  |
