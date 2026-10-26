@@ -4164,8 +4164,21 @@
   score: 5.0
   target_variant: sin_target
 9-a-1:
-  progress_status: notstarted
-  score: null
+  9-a-1 / Azpiegituretara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina):
+    base_value: 0.04
+    base_year: 2015.0
+    current_value: 0.51
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: 0.2898850775
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 5.0
   target_variant: sin_target
 9-b-1:
   9-b-1:
