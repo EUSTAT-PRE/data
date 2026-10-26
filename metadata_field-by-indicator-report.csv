@@ -66,7 +66,7 @@ eta 1.000 eta 5.000 biztanle arteko udalerrien % 25ek Udal Larrialdi Plan homolo
 
 Udal Larrialdi Planik ez duten udalerriak dagokion lurralde historikoko larrialdi-planaren babespean daude.
 ",EAEn eskuragarri dagoen adierazleak Nazio Batuen metadatuak betetzen ditu.,
-#1-a-1,complete,moderate_deterioration,,line,,2026-06-26,,"
+#1-a-1,complete,significant_progress,,line,,2026-10-26,,"
 Garapenerako oinarrizko gizarte-zerbitzuak eta elikadura-laguntza, pobrezia murriztera bideratuta daudenak, 
 ELGEren Creditor Reporting System-eko (CRS) helburu-kode hauen bidez definitzen dira: 
 Oinarrizko hezkuntza (CRS 112xx kodeak), Oinarrizko osasuna (CRS 122xx kodeak), Ur-hornidura eta saneamendua 
@@ -358,7 +358,7 @@ jarduerei dagozkienak dira: 3B1a, 3B1b, 3B2, 3B3, 3B4a, 3B4d, 3B4e, 3B4f, 3B4gi,
 #2-5-1,notstarted,notstarted,,line,,,,,,
 #2-5-2,notstarted,notstarted,,line,,,,,,
 #2-a-1,complete,noevaluado,True,line,FUENTE.oceca,2026-10-23,,Udal BPGan argitaratutako datuak Kontuen Europako Sisteman (KSE-2010) ezarritako metodologian oinarrituta egindako zenbatespenen bidez egiten dira.,"Eskuragarri dagoen adierazlea Nazio Batuen adierazlearen serieetako bat da, baina ez da adierazle nagusia.",
-#2-a-2,complete,moderate_deterioration,,line,,2026-06-26,,"
+#2-a-2,complete,moderate_deterioration,,line,,2026-10-26,,"
 Nekazaritza-sektoreak ELGEko Creditor Reporting System-eko (CRS) 311 serieko kode sektorial guztiak hartzen ditu. 
 ","EAEn eskuragarri dagoen adierazleak ez ditu betetzen Nazio Batuen adierazlearen metadatuak, baina 
 antzeko informazio ematen du. 
@@ -428,7 +428,7 @@ biztanleriaren jaiotza-kohorteen arabera kalkulatzen dira txertaketa-estaldurak.
 Ez dira sartzen farmazia-bulegoetan erositako txertoak, ezta osasun-sektore pribatuak emandakoak 
 ere. 
 ",Eskuragarri dagoen adierazleak Nazio Batuen metadatuak betetzen ditu.,
-#3-b-2,complete,significant_deterioration,,line,,2026-06-26,,"
+#3-b-2,complete,significant_progress,,line,,2026-10-26,,"
 Ikerketa medikoa ELGEren Creditor Reporting System (CRS) delakoaren 12182 sektoreko kodeari dagokio, 
 eta oinarrizko osasunak 122 serieko kode guztiak hartzen ditu. 
 ","EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu. 
@@ -526,7 +526,11 @@ konplexuak interpretatzeko.
 ",EAEn eskuragarri dagoen adierazleak Nazio Batuen metadatuak betetzen ditu.,
 #4-7-1,complete,significant_progress,,bar,,2026-10-23,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #4-a-1,complete,significant_progress,,line,FUENTE.oceca,2026-09-16,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen metadatuak betetzen ditu.,
-#4-b-1,notstarted,notstarted,,line,,,,,,
+#4-b-1,complete,significant_deterioration,,line,,2026-10-26,,"
+DAC sailkapenaren araberako ondoko instrumentuei dagozkien proiektuak hartzen ditu barne: Bekak/trebakuntza herrialde 
+emailean eta Trebakuntza/ikerkuntza bekak (GBHetan)
+","EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu. 
+",
 #4-c-1,complete,significant_progress,,line,FUENTE.oceca,2026-09-03,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #5-1-1,complete,significant_progress,,line,FUENTE.oceca,2025-04-22,,"
 Nazio Batuek ""BAI/EZ"" motako 42 galderako galdetegi bat ezarri zuten, gobernuek genero-berdintasuna 
@@ -651,7 +655,15 @@ Adierazlearen emaitza % 100 da, udalak baitira giza kontsumorako uraren kalitate
 #7-1-2,complete,significant_progress,,line,,2025-08-14,,,EAEn erabilgarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #7-2-1,complete,significant_progress,,line,FUENTE.oceca,2026-10-23,,,EAEn erabilgarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu,
 #7-3-1,complete,moderate_deterioration,,line,,2026-10-23,,,EAEn erabilgarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
-#7-a-1,notstarted,notstarted,,line,,,,,,
+#7-a-1,complete,significant_progress,,line,,2026-10-26,,"
+Energia garbien ikerketa eta garapena bultzatzeko eta energia berriztagarrien ekoizpenerako garapenerako proiektuak, 
+ELGEren Creditor Reporting System-eko (CRS) helburu-kode hauen bidez definitzen dira: 23210 Energia iturri berriztagarrietatik sortzea, 
+23220 Zentral hidroelektrikoak, 23230 Eguzki-energia sare zentralizatuetarako, 23231 Eguzki-energia sare isolatuetarako eta sistema autonomoetarako, 
+23232 Eguzki-energia: aplikazio termikoak, 23240 Energia eolikoa, 23250 Itsas energia, 23260 Energia geotermikoa, 23270 Bioerregaiekin elikatutako 
+zentral elektrikoak, 23410 Energia hibridoko zentral elektrikoak, 23631 Energia elektrikoaren transmisioa eta banaketa (minisare isolatuak), 23630 Energia 
+elektrikoaren transmisioa eta banaketa (sare zentralizatuak), 23110 Energia-politika eta administrazio-kudeaketa, 23182 Energia-ikerketa
+","EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu. 
+",
 #7-b-1,complete,significant_progress,True,line,FUENTE.oceca,2026-05-18,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #8-1-1,complete,significant_deterioration,,line,FUENTE.oceca,2026-10-23,,,Eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #8-10-1,complete,noevaluado,,line,FUENTE.oceca,2025-11-10,,,"EAEn eskuragarri dagoen adierazleak ez ditu betetzen Nazio Batuen adierazlearen metadatuak, baina antzeko informazioa ematen du.",

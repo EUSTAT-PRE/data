@@ -12,8 +12,30 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ayuda Oficial al Desarrollo destinada al apoyo de la investigación y el desarrollo de energías limpias y la producción de energías renovables, incluidos los sistemas híbridos (desembolso bruto total)",
+                ""
+              ]
+            },
+            "title": "Serie"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Millones de euros",
+                ""
+              ]
+            },
+            "title": "Unidad"
           },
           {
             "name": "Value",

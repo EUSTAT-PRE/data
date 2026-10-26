@@ -12,8 +12,30 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Official Development Assistance in support of clean energy research and development and renewable energy production, including in hybrid systems (total gross disbursement)",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Millions of euros",
+                ""
+              ]
+            },
+            "title": "Unit"
           },
           {
             "name": "Value",

@@ -101,6 +101,7 @@ Indicator,Disaggregations,Number of disaggregations
 #4-6-1,"Series, Sexo",2
 #4-7-1,Series,1
 #4-a-1,Series,1
+#4-b-1,Series,1
 #4-c-1,"Series, Educacion",2
 #5-1-1,Series,1
 #5-2-1,"Territorio, Comarca, Municipio",3
@@ -117,6 +118,7 @@ Indicator,Disaggregations,Number of disaggregations
 #6-3-2,"Series, CategoriaUra",2
 #6-4-2,"Territorio, Uso",2
 #6-b-1,Series,1
+#7-a-1,Series,1
 #7-b-1,"Territorio, Comarca, Municipio, Energia",4
 #8-1-1,Territorio,1
 #8-10-1,"Series, Territorio",2
