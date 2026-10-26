@@ -955,33 +955,33 @@
   target_variant: sin_target
 13-2-2:
   13-2-2 / Berotegi-efektuko gasen isuriak, 1990. urtearekiko:
-    base_value: -6.21
+    base_value: -6.09
     base_year: 2015.0
-    current_value: -21.98
-    current_year: 2023.0
+    current_value: -23.37
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 1.2126558573
-    score: 4.3761132664
+    progress_value: 1.1299281421
+    score: 3.785201015
     sign: -1
     status: significant_progress
     target: -45.0
     target_year: 2030.0
   13-2-2 / Berotegi-efektuko gasen isurketak, guztira, urtearen arabera:
-    base_value: 19467497.86
+    base_value: 19486510.14
     base_year: 2015.0
-    current_value: 16193878.49
-    current_year: 2023.0
+    current_value: 15902119.44
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.0227513198
+    progress_value: 0.0223324156
     score: 5.0
     sign: 1
     status: significant_progress
     target: null
     target_year: 2030.0
   progress_status: significant_progress
-  score: 4.6880566332
+  score: 4.3926005075
   target_variant: mixto
 13-3-1:
   13-3-1 / MHH eta GJH zenbateraino barneratzen diren hezkuntza-politiketan:
@@ -3663,11 +3663,11 @@
   8-4-2 / Materialen bertako kontsumoa BPGarekiko:
     base_value: 311.8
     base_year: 2015.0
-    current_value: 264.1
-    current_year: 2022.0
+    current_value: 249.3
+    current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: 0.0234400741
+    progress_value: 0.0275757716
     score: 5.0
     sign: 1
     status: significant_progress
@@ -4032,14 +4032,14 @@
   target_variant: sin_target
 9-4-1:
   9-4-1 / CO2 isuriak:
-    base_value: 14537114.24
+    base_value: 14539159.08
     base_year: 2015.0
-    current_value: 13605046.24
-    current_year: 2023.0
+    current_value: 13727519.98
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.0082488166
-    score: 2.06220415
+    progress_value: 0.0063622369
+    score: 1.590559225
     sign: 1
     status: moderate_progress
     target: null
@@ -4048,10 +4048,10 @@
     base_value: 0.19
     base_year: 2015.0
     current_value: 0.15
-    current_year: 2023.0
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.0291163058
+    progress_value: 0.0259234839
     score: 5.0
     sign: 1
     status: significant_progress
@@ -4060,18 +4060,18 @@
   9-4-1 / Manufaktura-sektorearen CO2 isuriak, manufaktura-sektorearen balio erantsiaren unitateko:
     base_value: 0.37
     base_year: 2015.0
-    current_value: 0.32
+    current_value: 0.31
     current_year: 2023.0
     direction: -1
     limit: null
-    progress_value: 0.0179840724
-    score: 4.4960181
+    progress_value: 0.0218735654
+    score: 5.0
     sign: 1
     status: significant_progress
     target: null
     target_year: 2030.0
   progress_status: significant_progress
-  score: 3.85274075
+  score: 3.8635197417
   target_variant: sin_target
 9-4-E1:
   9-4-E1 / Manufaktura-industriaren PM10 isuri-intentsitatea:
