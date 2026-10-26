@@ -17,7 +17,7 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.7-a-1-title
+graph_title: GRAFICO.7-a-1-titulo
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.7-a-1-title
@@ -26,8 +26,17 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-progress_status: notstarted
-reporting_status: notstarted
+auto_progress_calculation: true
+progress_calculation_options:
+  - series: EU_ODA_RANDN
+    direction: positive
+reporting_status: complete
 sort: ''
+sources:
+  - organisation: FUENTE.Elankidetza
+    periodicity: FUENTE.FREQ_A
+    url: FUENTE.elankidetza_ataria_url
+    url_text: FUENTE.elankidetza_ataria
+    logo: FUENTE.elankidetza_logo
 standalone: false
-tags: []
+tags: ''
