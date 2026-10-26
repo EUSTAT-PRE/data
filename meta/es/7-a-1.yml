@@ -1,27 +1,49 @@
 # Metadatos nacionales (ficha metodológica)
  
-indicador_disponible: GRAFICO.nodisponible
+indicador_disponible: >-
+  GRAFICO.7-a-1-titulo
 
-# objetivo_global: objetivo_largo.7-titulo
-# meta_global: meta_largo.7-a-titulo
+objetivo_global: objetivo_largo.7-titulo
+meta_global: meta_largo.7-a-titulo
 #  indicador_onu_global: indicador_largo.7-a-1-titulo
 
 
-definicion:
+definicion: >-
+  Ayuda Oficial al Desarrollo de la Administración Autonómica y Local de la CAPV 
+  Asistencia oficial para el desarrollo destinada al apoyo de la investigación y el 
+  desarrollo de energías limpias y la producción de energías renovables, incluidos 
+  los sistemas híbridos (desembolso bruto total) 
 
-formula:
+formula: |
+
+  $$AOD_{energía}^{t}$$
+
+  donde: 
+
+  $AOD_{energía}^{t} $= Cantidad de Ayuda Oficial al Desarrollo destinada a la investigación y el 
+  desarrollo de energías limpias y la producción de energías renovables en el año $t$ 
+
 
 desagregacion: 
 
-periodicidad:  
+periodicidad: FUENTE.FREQ_A
 
-observaciones:
+observaciones: |
+
+  Los proyectos de cooperación para el apoyo a la investigación y el desarrollo de energías limpias y la producción de energías renovables
+  se definen mediante los siguientes códigos de finalidad del Creditor Reporting System (CRS) de la OCDE: 23210 Generación de energía a 
+  partir de fuentes renovables, 23220 Centrales hidroeléctricas, 23230 Energía solar para redes centralizadas, 23231 Energía solar para 
+  redes aisladas y sistemas autónomos, 23232 Energía solar: aplicaciones térmicas, 23240 Energía eólica, 23250 Energía marina, 23260 Energía 
+  geotérmica, 23270 Centrales eléctricas alimentadas con biocombustibles, 23410 Centrales eléctricas de energía híbrida, 23631 Transmisión y 
+  distribución de energía eléctrica (minirredes aisladas), 23630 Transmisión y distribución de energía eléctrica (redes centralizadas), 23110 
+  Política energética y gestión administrativa, 23182 Investigación energética.
 
 
  # Metadatos mundiales (Descripción del indicador)  
 
 
 justificacion_global: |
+
   La Asistencia Oficial para el Desarrollo (AOD) y otros flujos oficiales (FO) totales para 
   los países en desarrollo cuantifican el esfuerzo financiero público (excluidos los créditos 
   a la exportación) que los donantes proporcionan a los países en desarrollo para energías 
@@ -41,10 +63,13 @@ justificacion_global: |
 
   Fuente: División de Estadísticas de las Naciones Unidas
 
+
 dato_global: |
 
   <a href="https://unstats.un.org/sdgs/dataportal/analytics/SingleSeries?indicators=7.a.1&seriesCode=EG_IFF_RANDN&areaCode=276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3&table=ALL">Flujos financieros internacionales hacia países en desarrollo en apoyo de la investigación y el desarrollo de energías limpias y la producción de energías renovables, incluso en sistemas híbridos (millones de dólares estadounidenses constantes de 2022) EG_IFF_RANDN</a> UNSTATS
 
-indicador_meta_enlace: >- 
-  <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-07-0a-01.pdf">Metadatos 7-a-1.pdf</a> (solo en inglés)
+comparabilidad: >- 
+  El indicador disponible cumple con los metadatos del indicador de Naciones Unidas.
+
+indicador_meta_enlace: '<a href="https://unstats.un.org/sdgs/metadata/files/Metadata-07-0a-01.pdf">Metadatos 7-a-1.pdf</a> (solo en inglés)'
 
