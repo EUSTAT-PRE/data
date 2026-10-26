@@ -719,7 +719,11 @@ EAEn eskuragarri dagoen adierazleak ez ditu betetzen Nazio Batuen adierazlearen 
 #9-4-E1,complete,significant_progress,,line,FUENTE.oceca,2026-09-17,,,EAEko adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #9-5-1,complete,significant_progress,,line,FUENTE.oceca,2026-04-22,,,EAEko adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
 #9-5-2,complete,significant_progress,,line,FUENTE.oceca,2026-01-16,,,EAEko adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
-#9-a-1,notstarted,notstarted,,line,,,,,,
+#9-a-1,complete,significant_progress,,line,,2026-10-26,,"
+Azpiegituren sektoreak, ELGEko Creditor Reporting System-eko (CRS) 210, 220, 230, 231, 232, 233, 
+234, 235, 236, 240 eta 250 serieetako kode guztiak hartzen ditu barne.
+","EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu. 
+",
 #9-b-1,complete,moderate_progress,,line,FUENTE.oceca,2025-08-14,,"
 Teknologia ertain-altuko eta altuko manufaktura-jardueratzat hartzen dira JESN-2009ko ondoko jarduerak: 
 

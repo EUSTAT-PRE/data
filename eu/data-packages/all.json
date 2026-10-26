@@ -4480,6 +4480,52 @@
       "title": "Pobreziaren atalase nazionalaren azpitik bizi den biztanleriaren proportzioa, sexuaren eta adinaren arabera banakatuta"
     },
     {
+      "path": "9-a-1/data.csv",
+      "name": "9-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Azpiegituretara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina)",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Milioi euroak",
+                ""
+              ]
+            },
+            "title": "Unitatea"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Balioa"
+          }
+        ]
+      },
+      "title": "Azpiegiturara bideratutako nazioarteko laguntza ofiziala (garapenerako laguntza ofiziala gehi beste baliabide-korronte ofizial batzuk) guztira"
+    },
+    {
       "path": "3-8-1/data.csv",
       "name": "3-8-1",
       "profile": "tabular-data-resource",
@@ -18017,30 +18063,6 @@
         ]
       },
       "title": "Azken bi urteetan eztabaidaren batean inplikatuta egon den eta eztabaidak konpontzeko mekanismo ofizial edo ofiziosoren bat eskuratu duen biztanleriaren proportzioa, mekanismo motaren arabera banakatuta"
-    },
-    {
-      "path": "9-a-1/data.csv",
-      "name": "9-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Urtea"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Balioa"
-          }
-        ]
-      },
-      "title": "Azpiegiturara bideratutako nazioarteko laguntza ofiziala (garapenerako laguntza ofiziala gehi beste baliabide-korronte ofizial batzuk) guztira"
     }
   ]
 }
