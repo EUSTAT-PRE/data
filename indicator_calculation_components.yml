@@ -3162,11 +3162,11 @@
   5-5-1 / Emakumezkoen proportzioa Batzar Nagusietako batzarkideen artean:
     base_value: 51.9
     base_year: 2015.0
-    current_value: 55.6
-    current_year: 2025.0
+    current_value: 54.2
+    current_year: 2026.0
     direction: -1
     limit: null
-    progress_value: -0.7112724478
+    progress_value: -0.4065547137
     score: 5.0
     sign: 1
     status: significant_progress
@@ -3176,10 +3176,10 @@
     base_value: 50.0
     base_year: 2015.0
     current_value: 53.3
-    current_year: 2025.0
+    current_year: 2026.0
     direction: -1
     limit: null
-    progress_value: -0.5243137009
+    progress_value: -0.4765102246
     score: 5.0
     sign: 1
     status: significant_progress
@@ -3188,11 +3188,11 @@
   5-5-1 / Emakumezkoen proportzioa Eusko Legebiltzarreko legebiltzarkideen artean:
     base_value: 50.7
     base_year: 2015.0
-    current_value: 53.3
-    current_year: 2025.0
+    current_value: 52.0
+    current_year: 2026.0
     direction: -1
     limit: null
-    progress_value: -0.4440251851
+    progress_value: -0.204076964
     score: 5.0
     sign: 1
     status: significant_progress
@@ -3202,10 +3202,10 @@
     base_value: 50.0
     base_year: 2015.0
     current_value: 66.7
-    current_year: 2025.0
+    current_year: 2026.0
     direction: -1
     limit: null
-    progress_value: -2.3908414785
+    progress_value: -2.1706339848
     score: -5.0
     sign: 1
     status: significant_deterioration
@@ -3214,12 +3214,12 @@
   5-5-1 / Emakumezkoen proportzioa alkateen artean:
     base_value: 74.8
     base_year: 2015.0
-    current_value: 64.3
-    current_year: 2025.0
+    current_value: 64.0
+    current_year: 2026.0
     direction: -1
     limit: null
-    progress_value: 1.0288727658
-    score: 3.0633768986
+    progress_value: 0.964714327
+    score: 2.6051023357
     sign: 1
     status: significant_progress
     target: 60.0
@@ -3227,18 +3227,18 @@
   5-5-1 / Emakumezkoen proportzioa zinegotzien artean:
     base_value: 58.6
     base_year: 2015.0
-    current_value: 53.2
-    current_year: 2025.0
+    current_value: 53.1
+    current_year: 2026.0
     direction: -1
     limit: null
-    progress_value: 6.1077088264
+    progress_value: 5.6625225464
     score: 5.0
     sign: 1
     status: significant_progress
     target: 60.0
     target_year: 2030.0
   progress_status: significant_progress
-  score: 3.0105628164
+  score: 2.9341837226
   target_variant: con_target
 5-5-2:
   5-5-2 / Emakumeen proportzioa enpresarien artean:
