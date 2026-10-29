@@ -1332,18 +1332,18 @@
   16-1-4:
     base_value: 76.4
     base_year: 2014.0
-    current_value: 69.1
-    current_year: 2024.0
+    current_value: 63.8
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: -0.0099925361
-    score: -2.498134025
+    progress_value: -0.0162510047
+    score: -4.062751175
     sign: 1
-    status: moderate_deterioration
+    status: significant_deterioration
     target: null
     target_year: 2030.0
-  progress_status: moderate_deterioration
-  score: -2.498134025
+  progress_status: significant_deterioration
+  score: -4.062751175
   target_variant: sin_target
 16-1-E1:
   16-1-E1:
@@ -4084,13 +4084,13 @@
     target: null
     target_year: 2030.0
   9-4-1 / Manufaktura-sektorearen CO2 isuriak, manufaktura-sektorearen balio erantsiaren unitateko:
-    base_value: 0.37
+    base_value: 0.38
     base_year: 2015.0
-    current_value: 0.31
-    current_year: 2023.0
+    current_value: 0.28
+    current_year: 2024.0
     direction: -1
     limit: null
-    progress_value: 0.0218735654
+    progress_value: 0.0333620842
     score: 5.0
     sign: 1
     status: significant_progress
