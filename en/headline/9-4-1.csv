@@ -1,45 +1,46 @@
 Year,Value,Units,Series
-2022,15830323.36,Tons,CO2 emissions
-2012,15801954.28,Tons,CO2 emissions
-2015,14539159.08,Tons,CO2 emissions
-2010,16701826.88,Tons,CO2 emissions
-2013,14398729.36,Tons,CO2 emissions
-2024,13727519.98,Tons,CO2 emissions
-2019,15508489.85,Tons,CO2 emissions
-2021,14815984.1,Tons,CO2 emissions
-2014,14254546.52,Tons,CO2 emissions
-2018,14746738.07,Tons,CO2 emissions
 2011,14942048.29,Tons,CO2 emissions
+2015,14539159.08,Tons,CO2 emissions
 2023,13612792.29,Tons,CO2 emissions
-2020,13664501.01,Tons,CO2 emissions
+2012,15801954.28,Tons,CO2 emissions
+2014,14254546.52,Tons,CO2 emissions
+2021,14815984.1,Tons,CO2 emissions
 2016,14506568.67,Tons,CO2 emissions
 2017,15167462.37,Tons,CO2 emissions
+2010,16701826.88,Tons,CO2 emissions
+2024,13727519.98,Tons,CO2 emissions
+2019,15508489.85,Tons,CO2 emissions
+2018,14746738.07,Tons,CO2 emissions
+2022,15830323.36,Tons,CO2 emissions
+2013,14398729.36,Tons,CO2 emissions
+2020,13664501.01,Tons,CO2 emissions
 2010,0.22,Kg of CO2 per euro,CO2 emissions per unit of value added
 2011,0.2,Kg of CO2 per euro,CO2 emissions per unit of value added
-2012,0.21,Kg of CO2 per euro,CO2 emissions per unit of value added
-2013,0.2,Kg of CO2 per euro,CO2 emissions per unit of value added
-2014,0.19,Kg of CO2 per euro,CO2 emissions per unit of value added
-2016,0.18,Kg of CO2 per euro,CO2 emissions per unit of value added
 2015,0.19,Kg of CO2 per euro,CO2 emissions per unit of value added
-2017,0.19,Kg of CO2 per euro,CO2 emissions per unit of value added
+2016,0.18,Kg of CO2 per euro,CO2 emissions per unit of value added
+2013,0.2,Kg of CO2 per euro,CO2 emissions per unit of value added
 2021,0.18,Kg of CO2 per euro,CO2 emissions per unit of value added
+2014,0.19,Kg of CO2 per euro,CO2 emissions per unit of value added
 2019,0.18,Kg of CO2 per euro,CO2 emissions per unit of value added
+2012,0.21,Kg of CO2 per euro,CO2 emissions per unit of value added
 2020,0.18,Kg of CO2 per euro,CO2 emissions per unit of value added
-2018,0.18,Kg of CO2 per euro,CO2 emissions per unit of value added
+2017,0.19,Kg of CO2 per euro,CO2 emissions per unit of value added
 2022,0.18,Kg of CO2 per euro,CO2 emissions per unit of value added
+2018,0.18,Kg of CO2 per euro,CO2 emissions per unit of value added
 2023,0.15,Kg of CO2 per euro,CO2 emissions per unit of value added
 2024,0.15,Kg of CO2 per euro,CO2 emissions per unit of value added
-2010,0.43,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
-2011,0.41,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
-2013,0.41,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
-2014,0.38,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
-2015,0.37,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2010,0.41,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2011,0.38,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2012,0.38,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2014,0.39,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2015,0.38,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
 2016,0.37,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
-2022,0.33,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
-2012,0.4,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
-2017,0.35,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
-2018,0.36,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2013,0.39,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2017,0.36,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2018,0.34,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2022,0.32,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
 2019,0.34,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
-2020,0.37,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
-2021,0.3,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
-2023,0.31,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2020,0.33,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2021,0.34,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2023,0.3,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added
+2024,0.28,Kg of CO2 per euro,CO2 emissions from the manufacturing sector per unit of manufacturing value added

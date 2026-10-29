@@ -1,45 +1,46 @@
 Year,Series,Units,Value
-2022,Emisiones de CO2,Toneladas,15830323.36
-2012,Emisiones de CO2,Toneladas,15801954.28
-2015,Emisiones de CO2,Toneladas,14539159.08
-2010,Emisiones de CO2,Toneladas,16701826.88
-2013,Emisiones de CO2,Toneladas,14398729.36
-2024,Emisiones de CO2,Toneladas,13727519.98
-2019,Emisiones de CO2,Toneladas,15508489.85
-2021,Emisiones de CO2,Toneladas,14815984.1
-2014,Emisiones de CO2,Toneladas,14254546.52
-2018,Emisiones de CO2,Toneladas,14746738.07
 2011,Emisiones de CO2,Toneladas,14942048.29
+2015,Emisiones de CO2,Toneladas,14539159.08
 2023,Emisiones de CO2,Toneladas,13612792.29
-2020,Emisiones de CO2,Toneladas,13664501.01
+2012,Emisiones de CO2,Toneladas,15801954.28
+2014,Emisiones de CO2,Toneladas,14254546.52
+2021,Emisiones de CO2,Toneladas,14815984.1
 2016,Emisiones de CO2,Toneladas,14506568.67
 2017,Emisiones de CO2,Toneladas,15167462.37
+2010,Emisiones de CO2,Toneladas,16701826.88
+2024,Emisiones de CO2,Toneladas,13727519.98
+2019,Emisiones de CO2,Toneladas,15508489.85
+2018,Emisiones de CO2,Toneladas,14746738.07
+2022,Emisiones de CO2,Toneladas,15830323.36
+2013,Emisiones de CO2,Toneladas,14398729.36
+2020,Emisiones de CO2,Toneladas,13664501.01
 2010,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.22
 2011,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.2
-2012,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.21
-2013,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.2
-2014,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.19
-2016,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.18
 2015,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.19
-2017,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.19
+2016,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.18
+2013,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.2
 2021,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.18
+2014,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.19
 2019,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.18
+2012,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.21
 2020,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.18
-2018,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.18
+2017,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.19
 2022,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.18
+2018,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.18
 2023,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.15
 2024,Emisiones de CO2 por unidad de valor añadido,Kg de CO2 por euro,0.15
-2010,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.43
-2011,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.41
-2013,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.41
-2014,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.38
-2015,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.37
+2010,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.41
+2011,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.38
+2012,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.38
+2014,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.39
+2015,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.38
 2016,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.37
-2022,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.33
-2012,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.4
-2017,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.35
-2018,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.36
+2013,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.39
+2017,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.36
+2018,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.34
+2022,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.32
 2019,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.34
-2020,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.37
-2021,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.3
-2023,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.31
+2020,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.33
+2021,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.34
+2023,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.3
+2024,Emisiones de CO2 del sector manufacturero por unidad de valor añadido del sector manufacturero,Kg de CO2 por euro,0.28
