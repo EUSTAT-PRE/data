@@ -1,24 +1,38 @@
 # Metadatos nacionales (ficha metodológica)
  
-indicador_disponible: GRAFICO.nodisponible
+indicador_disponible: >-
+  GRAFICO.8-a-1-titulo
 
-# objetivo_global: objetivo_largo.8-titulo
-# meta_global: meta_largo.8-a-titulo
+objetivo_global: objetivo_largo.8-titulo
+meta_global: meta_largo.8-a-titulo
 #  indicador_onu_global: indicador_largo.8-a-1-titulo
 
 
-definicion:
+definicion: >-
+  Ayuda Oficial al Desarrollo de la Administración Autonómica y Local de la CAPV 
+  dirigida a la ayuda para el comercio (desembolso bruto total) 
 
-formula:
+
+formula: |
+
+  $$AOD_{comercio}^{t}$$
+
+  donde: 
+
+  $AOD_{comercio}^{t} $= Cantidad de Ayuda Oficial al Desarrollo dirigida a la ayuda para el comercio en el año $t$ 
+
 
 desagregacion: 
 
-periodicidad:  
+periodicidad: FUENTE.FREQ_A
 
-observaciones:
+observaciones: |
+
+  La ayuda para el comercio incluye todos los códigos de las series 210, 220, 231, 232, 233, 
+  234, 235, 236, 240, 250, 311, 312, 313, 321, 322, 331 eta 332 del Creditor Reporting System (CRS) de la OCDE.
 
 
- # Metadatos mundiales (Descripción del indicador)  
+# Metadatos mundiales (Descripción del indicador)  
 
 
 justificacion_global: |
@@ -32,6 +46,11 @@ justificacion_global: |
 dato_global: |
 
   <a href="https://unstats.un.org/sdgs/dataportal/analytics/SingleSeries?indicators=8.a.1&seriesCode=DC_TOF_TRDDBML&areaCode=276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3&table=Total">Flujos oficiales totales (desembolsos) de Ayuda para el Comercio, por países receptores (millones de dólares de los Estados Unidos constantes de 2022) DC_TOF_TRDDBML</a> UNSTATS
+
+
+comparabilidad: |
+  El indicador disponible no cumple con los metadatos del indicador de Naciones Unidas, pero aporta información similar. 
+
 
 indicador_meta_enlace: >- 
   <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-08-0a-01.pdf">Metadatos 8-a-1.pdf</a> (solo en inglés)
