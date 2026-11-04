@@ -12,6 +12,7 @@ Indicator,Disaggregations,Number of disaggregations
 #10-3-1,"Sexo, Territorio",2
 #10-4-1,Territorio,1
 #10-4-2,Series,1
+#10-b-1,Series,1
 #11-1-1,Series,1
 #11-4-1,Administracion,1
 #11-5-1,"Sexo, Territorio, Comarca, Municipio",4
@@ -39,6 +40,8 @@ Indicator,Disaggregations,Number of disaggregations
 #15-2-1,Series,1
 #15-3-1,Series,1
 #15-4-1,Territorio,1
+#15-a-1,Series,1
+#15-b-1,Series,1
 #16-1-1,Territorio,1
 #16-1-4,"Sexo, Territorio",2
 #16-2-2,Explotacion,1
@@ -132,6 +135,7 @@ Indicator,Disaggregations,Number of disaggregations
 #8-8-1,"Sexo, Territorio, Series",3
 #8-9-1,"Territorio, Series",2
 #8-9-2,"Sexo, Territorio, Series",3
+#8-a-1,Series,1
 #8-b-1,Series,1
 #9-1-1,Territorio,1
 #9-1-2,"Territorio, Series",2

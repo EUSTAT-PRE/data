@@ -210,6 +210,10 @@ transferentzien kontsolidazioa kontuan hartu gabe.
 Ekonomia Lankidetza eta Garapenerako Antolakundeko (ELGA) Garapenean Laguntzeko Batzordeak  (GLB) ezartzen du garapenerako laguntza ofiziala jaso dezaketen herrialdeen zerrenda.  Diru-sarrera txikiko eta ertaineko herrialdeak dira, Munduko Bankuak argitaratutako per capita  diru-sarrera nazional gordinean oinarrituta, G8ko kideak, EBko kideak eta EBn sartzeko data  irmoa duten herrialdeak izan ezik. ",1
 "
 Ekonomia Lankidetza eta Garapenerako Antolakundeko (ELGA) Garapenean Laguntzeko Batzordeak  (GLB) ezartzen du garapenerako laguntza ofiziala jaso dezaketen herrialdeen zerrenda. Diru-sarrera  txikiko eta ertaineko herrialdeak dira, Munduko Bankuak argitaratutako per capita diru-sarrera  nazional gordinean oinarrituta, G8ko kideak, EBko kideak eta EBn sartzeko data irmoa duten herrialdeak  izan ezik. ",1
+"
+ELGEko Creditor Reporting System-eko (CRS) ondoko kodeak hartzen ditu barne: 41020 Biosferaren babesa, 
+41030 Biodibertsitatea eta 31220 Basoen garapena.
+",2
 "Elikagaien prezioen anomalien adierazlea normaltzat hartzen da -0,5 eta 0,5en artean dagoenean. 
 ",1
 "
@@ -446,6 +450,10 @@ eta NPEtik (nekazaritza-politika erkidea)
 eta ez da interpretatu behar prestazio bat jasotzen duten langabeen proportzio gisa; izan ere, 
 aldizkako langile finkoen bolumen handiak estaldura-tasa handia eragin dezake, baita 100 baino 
 handiagoa ere.
+",1
+"
+Merkataritza sektoreak, ELGEko Creditor Reporting System-eko (CRS) 210, 220, 231, 232, 233, 
+234, 235, 236, 240, 250, 311, 312, 313, 321, 322, 331 eta 332 serieetako kode guztiak hartzen ditu barne. 
 ",1
 "
 Nazio Batuek ""BAI/EZ"" motako 42 galderako galdetegi bat ezarri zuten, gobernuek genero-berdintasuna 

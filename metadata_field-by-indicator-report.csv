@@ -117,7 +117,8 @@ Adierazleak partzialki betetzen ditu Nazio Batuen adierazlearen metadatuak. Zerg
 #10-7-3,notstarted,notstarted,,line,,,,,,
 #10-7-4,complete,significant_deterioration,,line,FUENTE.oceca,2025-06-16,,"Kontuan izan behar da Espainian errefuxiatu-izaera edo antzeko nazioarteko babes-baldintza aitortuta duten pertsonen kopurua autonomiaerkidegoen arabera bereiztea ez dela bizilekuaren arabera egiten, baizik eta izaera hori eragin zuen administrazio-izapidea egin zen lekuaren arabera.",,
 #10-a-1,notstarted,notstarted,,line,,,,,,
-#10-b-1,notstarted,notstarted,,line,,,,,,
+#10-b-1,complete,significant_progress,,line,,2026-11-03,,,"EAEn eskuragarri dagoen adierazleak ez ditu Nazio Batuen adierazlearen metadatuak betetzen, baina antzeko informazioa eskaintzen du. 
+",
 #10-c-1,notstarted,notstarted,,line,,,,,,
 #11-1-1,complete,significant_progress,,line,"
 ""Hezetasun-arazoak dituen etxebizitza batean bizi direnen proportzioa"" seriea autonomia-erkidegoetako estatistika-organo nagusien  arteko metodologia harmonizatua erabiliz kalkulatu da. ",2026-04-22,,,"EAEn eskuragarri dagoen adierazleak ez ditu betetzen Nazio Batuen adierazlearen metadatuak, baina informazio osagarria ematen du.",
@@ -219,8 +220,16 @@ Udal Larrialdi Planik ez duten udalerriak dagokion lurralde historikoko larriald
 #15-7-1,notstarted,notstarted,,line,,,,,,
 #15-8-1,complete,significant_progress,,bar,FUENTE.oceca,2026-01-16,,,EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen serie nagusia (1a) betetzen du.,
 #15-9-1,notstarted,notstarted,,line,,,,,,
-#15-a-1,notstarted,notstarted,,line,,,,,,
-#15-b-1,notstarted,notstarted,,line,,,,,,
+#15-a-1,complete,significant_deterioration,,line,,2026-11-03,,"
+ELGEko Creditor Reporting System-eko (CRS) ondoko kodeak hartzen ditu barne: 41020 Biosferaren babesa, 
+41030 Biodibertsitatea eta 31220 Basoen garapena.
+","EAEn eskuragarri dagoen adierazleak ez ditu Nazio Batuen adierazlearen metadatuak betetzen, baina antzeko informazioa eskaintzen du. 
+",
+#15-b-1,complete,significant_deterioration,,line,,2026-11-03,,"
+ELGEko Creditor Reporting System-eko (CRS) ondoko kodeak hartzen ditu barne: 41020 Biosferaren babesa, 
+41030 Biodibertsitatea eta 31220 Basoen garapena.
+","EAEn eskuragarri dagoen adierazleak ez ditu Nazio Batuen adierazlearen metadatuak betetzen, baina antzeko informazioa eskaintzen du. 
+",
 #15-c-1,notstarted,notstarted,,line,,,,,,
 #16-1-1,complete,significant_deterioration,,line,,2026-06-05,,"Ertzaintzak eta udaltzaingoek bildutako datuak. Datuek 15.000 biztanletik gorako herrietan erregistratutako  dolozko homizidioak baino ez dituzte biltzen. 
 Europar Batasunean ezarritako oinarrizko tipologia komunak erabiltzen dira (EUROSTAT estatistika-bulegoaren  bidez), herrialdeetako polizia-kidegoek ezagutzen dituzten arau-hauste penalei dagokienez. ",EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
@@ -693,7 +702,11 @@ parekatuak (1/2013 Legegintzako Errege Dekretuaren arabera).
 491, 493, 501, 503, 511, 522, 551, 552, 553, 559, 561, 562, 563, 771, 773, 791, 799, 900, 910, 931 edo 932 kodeari
 badagokio
 ",EAEn eskuragarri dagoen adierazleak Nazio Batuen adierazlearen metadatuak betetzen ditu.,
-#8-a-1,notstarted,notstarted,,line,,,,,,
+#8-a-1,complete,significant_progress,,line,,2026-11-03,,"
+Merkataritza sektoreak, ELGEko Creditor Reporting System-eko (CRS) 210, 220, 231, 232, 233, 
+234, 235, 236, 240, 250, 311, 312, 313, 321, 322, 331 eta 332 serieetako kode guztiak hartzen ditu barne. 
+","EAEn eskuragarri dagoen adierazleak ez ditu Nazio Batuen adierazlearen metadatuak betetzen, baina antzeko informazioa eskaintzen du. 
+",
 #8-b-1,complete,moderate_progress,,line,"
 ""Administrazio publiko autonomikoek enplegua sustatzeko egindako gastua"" eta ""Administrazio publiko autonomikoek enplegua sustatzeko egindako gastua, gastu guztiarekiko""  seriak autonomia-erkidegoetako estatistika-organo nagusien arteko metodologia harmonizatua erabiliz kalkulatu dira",2026-09-07,,"
 Lanaren Nazioarteko Erakundeak ezarritako irizpideen araberako puntuazioen deskribapena:
