@@ -359,8 +359,21 @@
   score: null
   target_variant: sin_target
 10-b-1:
-  progress_status: notstarted
-  score: null
+  10-b-1 / Garapenerako Laguntza Ofiziala guztira (ordainketa gordina):
+    base_value: 51.48
+    base_year: 2015.0
+    current_value: 94.74
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: 0.0628928466
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 5.0
   target_variant: sin_target
 10-c-1:
   progress_status: notstarted
@@ -1331,12 +1344,38 @@
   score: null
   target_variant: sin_target
 15-a-1:
-  progress_status: notstarted
-  score: null
+  15-a-1 / Biodibertsitatea eta ekosistemak kontserbatzeko eta modu iraunkorrean erabiltzeko Garapenerako Laguntza Ofizia...:
+    base_value: 0.15
+    base_year: 2015.0
+    current_value: 0.0
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: -1.0
+    score: -5.0
+    sign: 1
+    status: significant_deterioration
+    target: null
+    target_year: 2030.0
+  progress_status: significant_deterioration
+  score: -5.0
   target_variant: sin_target
 15-b-1:
-  progress_status: notstarted
-  score: null
+  15-b-1 / Biodibertsitatea eta ekosistemak kontserbatzeko eta modu iraunkorrean erabiltzeko Garapenerako Laguntza Ofizia...:
+    base_value: 0.15
+    base_year: 2015.0
+    current_value: 0.0
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: -1.0
+    score: -5.0
+    sign: 1
+    status: significant_deterioration
+    target: null
+    target_year: 2030.0
+  progress_status: significant_deterioration
+  score: -5.0
   target_variant: sin_target
 15-c-1:
   progress_status: notstarted
@@ -4012,8 +4051,21 @@
   score: 3.8113308125
   target_variant: sin_target
 8-a-1:
-  progress_status: notstarted
-  score: null
+  8-a-1 / Merkataritzarako laguntzara bideratutako Garapenerako Laguntza Ofiziala (guztizko ordainketa gordina):
+    base_value: 6.23
+    base_year: 2015.0
+    current_value: 7.69
+    current_year: 2025.0
+    direction: 1
+    limit: null
+    progress_value: 0.0212776537
+    score: 5.0
+    sign: 1
+    status: significant_progress
+    target: null
+    target_year: 2030.0
+  progress_status: significant_progress
+  score: 5.0
   target_variant: sin_target
 8-b-1:
   8-b-1 / Administrazio publiko autonomikoek enplegua sustatzeko egiten duten gastua:
