@@ -1,25 +1,39 @@
 # Metadatos nacionales (ficha metodológica)
  
-indicador_disponible: GRAFICO.nodisponible
+indicador_disponible: >-
+  GRAFICO.15-a-1-titulo
 
-# objetivo_global: objetivo_largo.15-titulo
-# meta_global: meta_largo.15-a-titulo
+objetivo_global: objetivo_largo.15-titulo
+meta_global: meta_largo.15-a-titulo
 #  indicador_onu_global: indicador_largo.15-a-1-titulo
 
+definicion: >-
+  EAEko administrazio autonomikoaren eta toki administrazioen Garapenerako 
+  Laguntza Ofiziala, biodibertsitatea eta ekosistemak kontserbatzera eta modu 
+  iraunkorrean erabiltzera bideratutakoa (guztizko ordainketa gordina) 
 
-definicion:
+formula: |
 
-formula:
+  $$GLO_{biodibertsitatea}^{t}$$
+
+  non: 
+
+  $GLO_{biodibertsitatea}^{t} $= biodibertsitatea eta ekosistemak kontserbatzera eta modu 
+  iraunkorrean erabiltzera bideratutako Garapenerako Laguntza Ofizialaren kopurua $t$ urtean
+
 
 desagregacion: 
 
-periodicidad:  
+periodicidad: FUENTE.FREQ_A
 
-observaciones:
+observaciones: |
+
+  ELGEko Creditor Reporting System-eko (CRS) ondoko kodeak hartzen ditu barne: 41020 Biosferaren babesa, 
+  41030 Biodibertsitatea eta 31220 Basoen garapena.
 
 
+# Metadatos mundiales (Descripción del indicador)  
 
- # Metadatos mundiales (Descripción del indicador)  
 
 justificacion_global: |
   a) Garapenerako Laguntza Ofizialaren (GLL) guztizko fluxuek emaileek biodibertsitatearen alde egiten 
@@ -33,11 +47,14 @@ justificacion_global: |
 
   Iturria: Nazio Batuen Estatistika Sekzioa 
 
+
 dato_global: |
   <a href="https://unstats.un.org/sdgs/dataportal/analytics/SingleSeries?indicators=15.a.1&seriesCode=DC_ODA_BDVL&areaCode=276,40,56,100,196,191,208,703,705,724,233,246,250,300,528,348,372,380,428,440,442,470,616,620,203,642,752,1,202,14,17,18,11,747,15,145,62,143,34,753,30,35,419,29,13,5,9,54,57,61,53,513,150,21,432,199,722&period=3&table=Total">
-  Biodibertsitatera bideratutako garapenerako laguntza ofizial osoa, herrialde hartzaileen arabera (2022ko Estatu Batuetako dolar konstante milioiak) DC_ODA_BDVL</a> UNSTATS
+  Biodibertsitatera bideratutako garapenerako laguntza ofizial osoa, herrialde hartzaileen arabera (2024ko Estatu Batuetako dolar konstante milioiak) DC_ODA_BDVL</a> UNSTATS
 
-comparabilidad:
+
+comparabilidad: |
+  EAEn eskuragarri dagoen adierazleak ez ditu Nazio Batuen adierazlearen metadatuak betetzen, baina antzeko informazioa eskaintzen du. 
 
 indicador_meta_enlace: >- 
   <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-15-0a-01.pdf">Metadatuak 15-a-1.pdf</a> (ingelesez bakarrik)
