@@ -1604,37 +1604,37 @@
   16-7-1 / Administrazio publikoko emakumeen proportzioa, biztanleriako emakumeen proportzioari dagokionez:
     base_value: 1.16
     base_year: 2015.0
-    current_value: 1.3
-    current_year: 2024.0
+    current_value: 1.31
+    current_year: 2025.0
     direction: 1
     limit: null
-    progress_value: 1.2940399151
+    progress_value: 1.2426477353
     score: 5.0
     sign: 1
     status: significant_progress
     target: 1.0
     target_year: 2030.0
   16-7-1 / Botere judizialeko emakumeen proportzioa, biztanleriako emakumeen proportzioari dagokionez:
-    base_value: 1.24
+    base_value: 1.25
     base_year: 2015.0
-    current_value: 1.24
-    current_year: 2025.0
+    current_value: 1.27
+    current_year: 2026.0
     direction: 1
     limit: null
-    progress_value: 0.0
+    progress_value: 0.0977963216
     score: 5.0
     sign: 1
     status: significant_progress
     target: 1.0
     target_year: 2030.0
   16-7-1 / Legebiltzarreko emakumeen proportzioa, biztanleriako emakumeen proportzioari dagokionez:
-    base_value: 1.01
+    base_value: 0.99
     base_year: 2015.0
-    current_value: 1.01
-    current_year: 2023.0
+    current_value: 1.04
+    current_year: 2026.0
     direction: 1
     limit: null
-    progress_value: 0.0
+    progress_value: 6.6978792244
     score: 5.0
     sign: 1
     status: significant_progress
