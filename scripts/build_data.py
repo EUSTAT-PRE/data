@@ -404,56 +404,76 @@ class SeriesProgressEustat(SeriesProgress):
             else:
                 return -5
 
+    def get_progress_calculation_components(self):
+        """Override: renombra 'score' → 'score-s' para distinguir del score-i del indicador."""
+        components = super().get_progress_calculation_components()
+        for serie_data in components.values():
+            if isinstance(serie_data, dict) and 'score' in serie_data:
+                serie_data['score-s'] = serie_data.pop('score')
+        return components
+
 
 # Función personalizada: status desde progress_value (nivel serie)
 def get_progress_status_eustat(value, thresholds, target_achieved=False):
     """Eurostat: 5 categorías.
     Método 1 (sin target): high/med/low = 1%/0.1%/-0.1% → 5 niveles con neutral
-    Método 2 (con target): high/med/low = 95%/60%/0% → 4 niveles sin neutral
-    La distinción se hace automáticamente por los umbrales recibidos.
+    Método 2 (con target): high/med/low = 95%/60%/0%    → 4 niveles sin neutral
+    La distinción se hace por low < 0 (Método 1) o low >= 0 (Método 2).
 
-    Umbrales Método 1:
+    Umbrales Método 1 (límites estrictos salvo estancamiento, que es inclusivo en ambos extremos):
       > 0.01                → significant_progress
-      <= 0.01  y > 0.001    → moderate_progress
-      <= 0.001 y >= -0.001  → no_progress (estancamiento)
-      < -0.001 y >= -0.01   → moderate_deterioration
+      > 0.001 y <= 0.01     → moderate_progress
+      >= -0.001 y <= 0.001  → no_progress (estancamiento)
+      >= -0.01 y < -0.001   → moderate_deterioration
       < -0.01               → significant_deterioration
     """
-    x = float(thresholds['high'])
-    y = float(thresholds['med'])
-    z = float(thresholds['low'])
-
     if target_achieved:
         return "significant_progress"
 
-    if value is not None:
-        if value > x:
+    if value is None:
+        return "not_available"
+
+    high = float(thresholds['high'])
+    med  = float(thresholds['med'])
+    low  = float(thresholds['low'])
+
+    # --- MÉTODO 1: banda neutra (low < 0) → 5 niveles ---
+    if low < 0:
+        if value > high:                # > +1%
             return "significant_progress"
-        elif value > y:
+        elif value > med:               # +0.1% a +1%
             return "moderate_progress"
-        elif value >= z:
-            # Método 1: z=-0.001 → estancamiento (entre -0.1% y +0.1%, ambos inclusive)
-            # Método 2: z=0 → moderate_deterioration (entre 0% y 60%)
-            if z < 0:
-                return "no_progress"
-            else:
-                return "moderate_deterioration"
-        elif z < 0 and value >= -abs(x):
-            # Solo método 1: < -0.001 y >= -0.01 → moderate_deterioration
+        elif value >= low:              # -0.1% a +0.1% (banda neutral, ambos inclusive)
+            return "no_progress"
+        elif value >= -high:            # -1% a -0.1%
             return "moderate_deterioration"
-        else:
+        else:                           # < -1%
             return "significant_deterioration"
 
-    return "not_available"
+    # --- MÉTODO 2: con target (low >= 0) → 4 niveles ---
+    else:
+        if value > high:                # > 95%
+            return "significant_progress"
+        elif value > med:               # 60% a 95%
+            return "moderate_progress"
+        elif value >= low:              # 0% a 60%
+            return "moderate_deterioration"
+        else:                           # < 0%
+            return "significant_deterioration"
 
 
 def get_target_variant(opts):
     """Detecta si el indicador es sin_target, con_target o mixto.
     opts: lista de dicts de progress_calculation_options.
+    Los indicadores booleanos (progress_boolean: true) cuentan como con_target
+    porque tienen un target implícito.
     """
     if not opts:
         return 'sin_target'
-    has_target = [bool(o.get('target') is not None) for o in opts if isinstance(o, dict)]
+    has_target = [
+        bool(o.get('target') is not None) or bool(o.get('progress_boolean'))
+        for o in opts if isinstance(o, dict)
+    ]
     if not has_target:
         return 'sin_target'
     if all(has_target):
@@ -487,16 +507,44 @@ def get_indicator_progress_eustat(self):
     de esa serie sin pasar por el score agregado.
     Con múltiples series, usa el flujo normal (media de scores).
     """
+    # Cortocircuito: progress_score manual con auto_progress_calculation: true.
+    # (diferencia "calculado" de "manual") sin que el motor intente el CAGR.
+    # El status se deriva del score para garantizar consistencia.
+    if self.meta is not None and self.meta.get('auto_progress_calculation') is True:
+        manual_score = self.meta.get('progress_score')
+        if manual_score is not None:
+            manual_score = float(manual_score)
+            indicator_status = get_progress_status_from_score_eustat(manual_score)
+            if self.cache_store is None:
+                self.cache_store = {}
+            self.cache_store[self.inid] = {'progress_status': indicator_status, 'score-i': manual_score, 'target_variant': 'sin_target'}
+            # Persistir en scores.json igual que el flujo normal
+            import json as _json
+            scores_path = '_site/scores.json'
+            try:
+                if os.path.exists(scores_path):
+                    with open(scores_path, encoding='utf-8') as _f:
+                        _scores = _json.load(_f)
+                else:
+                    _scores = {}
+                _scores[self.inid] = manual_score
+                _scores[f'{self.inid}::target_variant'] = 'sin_target'
+                with open(scores_path, 'w', encoding='utf-8') as _f:
+                    _json.dump(_scores, _f)
+            except Exception:
+                pass
+            return (manual_score, indicator_status)
+
     if self.meta is None or self.meta.get('auto_progress_calculation') is not True:
         indicator_status = self.meta.get('progress_status', '') if self.meta else ''
         result = (None, indicator_status)
         if self.cache_store is None:
             self.cache_store = {}
-        self.cache_store[self.inid] = {'progress_status': indicator_status, 'score': None, 'target_variant': 'sin_target'}
+        self.cache_store[self.inid] = {'progress_status': indicator_status, 'score-i': None, 'target_variant': 'sin_target'}
         return result
 
     if self.cache_store is not None and self.inid in self.cache_store:
-        return (self.cache_store[self.inid]['score'], self.cache_store[self.inid]['progress_status'])
+        return (self.cache_store[self.inid]['score-i'], self.cache_store[self.inid]['progress_status'])
 
     opts = self.get_progress_calculation_options()
     target_variant = get_target_variant(opts)
@@ -518,7 +566,7 @@ def get_indicator_progress_eustat(self):
     if self.cache_store is None:
         self.cache_store = {}
     PROGRESS_DECIMALS = 10
-    self.cache_store[self.inid] = {'progress_status': indicator_status, 'score': floatNone(round(indicator_score, PROGRESS_DECIMALS) if indicator_score is not None else None), 'target_variant': target_variant}
+    self.cache_store[self.inid] = {'progress_status': indicator_status, 'score-i': floatNone(round(indicator_score, PROGRESS_DECIMALS) if indicator_score is not None else None), 'target_variant': target_variant}
 
     # Redondear progress_value y score en cada serie para eliminar ruido de
     # floating point (ej: 0.010000000000000009 → 0.01, 2.5000000000000002 → 2.5)
@@ -527,8 +575,8 @@ def get_indicator_progress_eustat(self):
         if isinstance(serie_data, dict):
             if serie_data.get('progress_value') is not None:
                 serie_data['progress_value'] = round(serie_data['progress_value'], PROGRESS_DECIMALS)
-            if serie_data.get('score') is not None:
-                serie_data['score'] = round(serie_data['score'], PROGRESS_DECIMALS)
+            if serie_data.get('score-s') is not None:
+                serie_data['score-s'] = round(serie_data['score-s'], PROGRESS_DECIMALS)
 
     self.cache_store[self.inid].update(components)
 
@@ -546,8 +594,8 @@ def get_indicator_progress_eustat(self):
         _scores[self.inid] = floatNone(_rounded_score)
         # Score por serie individual (tag = nombre en euskera generado por sdg-build)
         for tag, serie_components in components.items():
-            if isinstance(serie_components, dict) and 'score' in serie_components:
-                _scores[f'{self.inid}::{tag}'] = serie_components['score']
+            if isinstance(serie_components, dict) and 'score-s' in serie_components:
+                _scores[f'{self.inid}::{tag}'] = serie_components['score-s']
         # target_variant para que el site pueda seleccionar el label correcto
         _scores[f'{self.inid}::target_variant'] = target_variant
         with open(scores_path, 'w', encoding='utf-8') as _f:
@@ -761,11 +809,12 @@ def generate_tabla_resumen(all_meta, config_dir='indicator-config', data_dir='da
     """Genera tabla_resumen.csv: una fila por serie (o por indicador si tiene serie única).
     ...
     """
-    # --- Cargar scores.json generado durante el build ---
-    scores = {}
+    # --- Cargar indicator_calculation_components.yml (nested, generado por build_meta_objetivo_scores) ---
+    # Contiene score-s por serie, score-i por indicador, score-m por meta y score-o por objetivo.
+    components_nested = {}
     try:
-        with open('_site/scores.json', encoding='utf-8') as f:
-            scores = json.load(f)
+        with open('indicator_calculation_components.yml', encoding='utf-8') as f:
+            components_nested = yaml.safe_load(f) or {}
     except Exception:
         pass
 
@@ -783,8 +832,6 @@ def generate_tabla_resumen(all_meta, config_dir='indicator-config', data_dir='da
     t_grafico    = load_yaml(f'{translations_dir}/GRAFICO.yml')
     t_data       = load_yaml(f'{translations_dir}/data.yml')
     t_fuente     = load_yaml(f'{translations_dir}/FUENTE.yml')
-    # data.yml en euskera para resolver nombres de serie (el build usa eu por defecto)
-    t_data_eu    = load_yaml('translations/eu/data.yml')
 
     def goal_name(num):
         """Nombre del objetivo — clave '{num}-title' en global_goals.yml."""
@@ -826,6 +873,60 @@ def generate_tabla_resumen(all_meta, config_dir='indicator-config', data_dir='da
             return t_fuente.get(key[len('FUENTE.'):], key)
         return key or ''
 
+    def get_scores(inid, serie_code, opts_list):
+        """Obtiene score-s/i/m/o desde el YAML nested de components.
+
+        Para score-s: matching por posición entre config opts y YAML series_tags.
+        Esto evita el problema de truncación del nombre (122 chars en get_series_tag).
+        - opts ordenados por su posición en progress_calculation_options
+        - YAML series_tags ordenados en el mismo orden (inserción durante grouped_score)
+        - opts_list[i].series == serie_code → scores[series_tags[i]]['score-s']
+
+        Caso especial: si ningún opt especifica 'series' (cálculo sobre headline/total),
+        se usa el único sub-dict del YAML independientemente del código del CSV.
+        """
+        parts   = inid.split('-')
+        obj     = parts[0]
+        meta    = '-'.join(parts[:2])
+        obj_data  = components_nested.get(obj, {})
+        meta_data = obj_data.get(meta, {})
+        ind_data  = meta_data.get(inid, {})
+
+        score_i = ind_data.get('score-i')
+        score_m = meta_data.get('score-m')
+        score_o = obj_data.get('score-o')
+
+        # Series sub-dicts: claves cuyo valor es un dict (excluye progress_status, score-i, etc.)
+        series_tags = [k for k, v in ind_data.items() if isinstance(v, dict)]
+
+        score_s = None
+        if serie_code is not None:
+            # Multi-serie: encontrar posición del código en los opts
+            series_opts = [o for o in opts_list if isinstance(o, dict) and not o.get('group')]
+            matched = False
+            for i, opt in enumerate(series_opts):
+                if opt.get('series') == serie_code:
+                    if i < len(series_tags):
+                        score_s = ind_data[series_tags[i]].get('score-s')
+                    matched = True
+                    break
+            # Fallback: si NINGÚN opt especifica 'series' (cálculo sobre total/headline),
+            # el YAML tiene un único sub-dict y cualquier código del CSV apunta a él.
+            # No aplicar si algún opt tiene series explícita (ese código del CSV
+            # simplemente no se calcula → vacío es correcto).
+            if not matched and series_tags and all(not o.get('series') for o in series_opts):
+                score_s = ind_data[series_tags[0]].get('score-s')
+        elif series_tags:
+            # Serie única: primer (y único) sub-dict
+            score_s = ind_data[series_tags[0]].get('score-s')
+
+        # Fallback para indicadores con score manual (progress_score en indicator-config):
+        # no generan series sub-dict en el YAML pero score-i = progress_score → score-s = score-i
+        if score_s is None and not series_tags and score_i is not None:
+            score_s = score_i
+
+        return score_s, score_i, score_m, score_o
+
     def bool_val(v):
         if isinstance(v, bool):
             return 'si' if v else 'no'
@@ -865,7 +966,7 @@ def generate_tabla_resumen(all_meta, config_dir='indicator-config', data_dir='da
         'AÑO INICIAL', 'PERIODICIDAD', 'TEXTO OCECA',
         'DIRECCIÓN DESEADA', 'PROGRESO AUTOMÁTICO',
         'AÑO BASE PROGRESO', 'ÚLTIMO AÑO', 'ÚLTIMO DATO',
-        'TARGET', 'LIMIT', 'SCORE',
+        'TARGET', 'LIMIT', 'SCORE-S', 'SCORE-I', 'SCORE-M', 'SCORE-O',
         'FECHA ÚLTIMA ACTUALIZACIÓN DATOS',
     ]
 
@@ -940,6 +1041,13 @@ def generate_tabla_resumen(all_meta, config_dir='indicator-config', data_dir='da
             row = {f: '' for f in FIELDNAMES}
             row.update(base)
             row['REPORTING_STATUS'] = reporting_status
+            # SCORE-M y SCORE-O: aplican a TODAS las series, incluidas notstarted/notapplicable
+            _od_e = components_nested.get(parts[0], {})
+            _md_e = _od_e.get('-'.join(parts[:2]), {})
+            _sm_e = _md_e.get('score-m')
+            _so_e = _od_e.get('score-o')
+            row['SCORE-M'] = '' if _sm_e is None else _sm_e
+            row['SCORE-O'] = '' if _so_e is None else _so_e
             rows.append(row)
             continue
 
@@ -1113,25 +1221,28 @@ def generate_tabla_resumen(all_meta, config_dir='indicator-config', data_dir='da
                 row['ÚLTIMO DATO']         = value_last_prog
                 row['TARGET']              = target_val
                 row['LIMIT']               = limit_val
-                # SCORE: por serie si existe, si no el agregado del indicador.
-                # El tag en scores.json usa "{inid} / {nombre_serie_en_euskera}" (idioma del build).
-                # Resolvemos el código de serie a nombre euskera via data.yml de eu.
-                serie_score = ''
-                if serie_code:
-                    serie_label_eu = t_data_eu.get(serie_code, serie_code)
-                    tag_key = f'{inid_dash}::{inid_dash} / {serie_label_eu}'
-                    serie_score = scores.get(tag_key, '')
-                    # Indicadores booleanos: el tag se construye con el código de serie
-                    # (self.series viene del indicator-config, no del CSV traducido)
-                    # y lleva el sufijo / BOOL_YES_NO añadido por get_series_tag().
-                    if serie_score == '':
-                        tag_key_bool = f'{inid_dash}::{inid_dash} / {serie_code} / BOOL_YES_NO'
-                        serie_score = scores.get(tag_key_bool, '')
-                if serie_score == '':
-                    serie_score = scores.get(inid_dash, '')
-                row['SCORE'] = serie_score
+                # Scores desde indicator_calculation_components.yml (nested).
+                # Matching por posición opts→YAML 
+                score_s, score_i, _, _ = get_scores(inid_dash, serie_code, opts)
+                row['SCORE-S'] = '' if score_s is None else score_s
+                row['SCORE-I'] = '' if score_i is None else score_i
             else:
-                row['PROGRESO AUTOMÁTICO'] = 'no'
+                if auto_prog:
+                    # Indicador no estadístico con score automático (p.ej. progress_score manual):
+                    # no tiene dirección/target/año pero sí score-s y score-i.
+                    row['PROGRESO AUTOMÁTICO'] = 'si'
+                    score_s, score_i, _, _ = get_scores(inid_dash, serie_code, opts)
+                    row['SCORE-S'] = '' if score_s is None else score_s
+                    row['SCORE-I'] = '' if score_i is None else score_i
+                else:
+                    row['PROGRESO AUTOMÁTICO'] = 'no'
+
+            # SCORE-M y SCORE-O: aplican a TODAS las series de un indicador complete,
+            # independientemente de si tienen cálculo automático de progreso.
+            _od_s = components_nested.get(parts[0], {})
+            _md_s = _od_s.get('-'.join(parts[:2]), {})
+            row['SCORE-M'] = '' if _md_s.get('score-m') is None else _md_s.get('score-m')
+            row['SCORE-O'] = '' if _od_s.get('score-o') is None else _od_s.get('score-o')
 
             rows.append(row)
 
@@ -1143,6 +1254,334 @@ def generate_tabla_resumen(all_meta, config_dir='indicator-config', data_dir='da
         writer.writerows(rows)
 
     print(f"[EUSTAT] >>> tabla_resumen.csv generado: {len(rows)} filas <<<")
+
+
+# ---------------------------------------------------------------------------
+# Scores de meta (score-m) y de objetivo (score-o)
+# ---------------------------------------------------------------------------
+
+# Estados que cuentan como "evaluados" en el numerador del umbral del 50%.
+# notapplicable se excluye del denominador por completo.
+# noevaluado, notstarted, not_available, '' están en el denominador pero NO en el numerador.
+_CALCULADOS = frozenset({
+    'significant_progress', 'moderate_progress', 'no_progress',
+    'moderate_deterioration', 'significant_deterioration',
+    # Estados legacy equivalentes (target alcanzado o valoración cualitativa manual)
+    'alcanzado', 'progreso', 'retroceso',
+})
+
+def _meta_id(inid):
+    """'1-5-3' → '1-5'"""
+    parts = inid.split('-')
+    return '-'.join(parts[:2])
+
+def _objetivo_id(inid):
+    """'1-5-3' → '1'"""
+    return inid.split('-')[0]
+
+def _has_recent_data(entry, threshold_year=2021):
+    """True si alguna serie del indicador tiene current_year >= threshold_year."""
+    for v in entry.values():
+        if isinstance(v, dict):
+            cy = v.get('current_year')
+            if cy is not None and float(cy) >= threshold_year:
+                return True
+    return False
+
+def _contributes_to_score_m(entry):
+    """True si el indicador aporta su score-i al cálculo del score-m.
+
+    Condición: score-i disponible Y alguna de estas:
+      - Tiene series con current_year > 2021 (dato reciente)
+      - No tiene series (evaluación manual con progress_score, ej. 1-5-3)
+      - Todas sus series tienen current_year null (indicador no temporal, ej. booleanos)
+    """
+    if entry.get('score-i') is None:
+        return False
+    series = [v for v in entry.values() if isinstance(v, dict)]
+    if not series:
+        # Sin series: evaluación manual activa del ciclo
+        return True
+    # Indicadores no temporales (ej. booleanos): current_year siempre null
+    if all(v.get('current_year') is None for v in series):
+        return True
+    # Con series temporales: exigir al menos un año de dato > 2021
+    return _has_recent_data(entry)
+
+
+def calculate_meta_scores(components):
+    """Calcula score-m y progress_status-m para cada meta ODS.
+
+    Reglas de cortocircuito (se aplican en orden):
+      1. Todos los indicadores de la meta tienen notstarted → progress_status-m = notstarted
+      2. Todos tienen notapplicable                         → progress_status-m = notapplicable
+      3. Solo combinan notstarted y notapplicable           → progress_status-m = notstarted
+
+    Condición del 50% (sobre indicadores aplicables, excluyendo notapplicable):
+      - Si (calculados / aplicables) <= 0.5 → progress_status-m = noevaluado
+
+    Cálculo del score-m:
+      - Media de score-i de los indicadores con _contributes_to_score_m == True
+      - Si no hay ninguno → progress_status-m = noevaluado
+
+    Args:
+        components: dict leído de indicator_calculation_components.yml
+    Returns:
+        dict { meta_id: {'score-m': float|None, 'progress_status-m': str} }
+    """
+    # Agrupar indicadores por meta (solo entradas con formato X-Y-Z)
+    metas = defaultdict(list)
+    for inid, entry in components.items():
+        if not isinstance(entry, dict):
+            continue
+        if inid.count('-') < 2:
+            continue  # es una clave de meta/objetivo añadida anteriormente
+        if not inid[0].isdigit():
+            continue  # excluir indicadores no-ODS (OCECA y similares)
+        meta = _meta_id(inid)
+        metas[meta].append((inid, entry))
+
+    meta_scores = {}
+    for meta, indicadores in sorted(metas.items()):
+        statuses = [entry.get('progress_status', '') for _, entry in indicadores]
+        unique = set(statuses)
+
+        # --- Cortocircuitos ---
+        if unique <= {'notstarted'}:
+            meta_scores[meta] = {'progress_status-m': 'notstarted', 'score-m': None}
+            continue
+        if unique <= {'notapplicable'}:
+            meta_scores[meta] = {'progress_status-m': 'notapplicable', 'score-m': None}
+            continue
+        if unique <= {'notstarted', 'notapplicable'}:
+            meta_scores[meta] = {'progress_status-m': 'notstarted', 'score-m': None}
+            continue
+
+        # --- Condición 50%: excluir notapplicable del denominador ---
+        aplicables = [
+            (inid, entry) for inid, entry in indicadores
+            if entry.get('progress_status') != 'notapplicable'
+        ]
+        if not aplicables:
+            meta_scores[meta] = {'progress_status-m': 'notapplicable', 'score-m': None}
+            continue
+
+        calculados = sum(1 for _, entry in aplicables
+                         if entry.get('progress_status') in _CALCULADOS)
+        pct = calculados / len(aplicables)
+
+        if pct < 0.5:
+            meta_scores[meta] = {'progress_status-m': 'noevaluado', 'score-m': None}
+            continue
+
+        # --- Cálculo de score-m ---
+        scores = [
+            entry['score-i']
+            for _, entry in indicadores
+            if _contributes_to_score_m(entry)
+        ]
+        if not scores:
+            meta_scores[meta] = {'progress_status-m': 'noevaluado', 'score-m': None}
+            continue
+
+        score_m = round(sum(scores) / len(scores), 10)
+        status_m = get_progress_status_from_score_eustat(score_m)
+        meta_scores[meta] = {'progress_status-m': status_m, 'score-m': score_m}
+
+    return meta_scores
+
+
+def calculate_objetivo_scores(meta_scores):
+    """Calcula score-o y progress_status-o para cada objetivo ODS.
+
+    Excluye del promedio las metas con progress_status-m = 'notapplicable' o 'noevaluado'.
+    Si tras la exclusión no quedan metas con score-m → progress_status-o = 'noevaluado'.
+
+    Args:
+        meta_scores: dict { meta_id: {'score-m': ..., 'progress_status-m': ...} }
+    Returns:
+        dict { objetivo_id: {'score-o': float|None, 'progress_status-o': str} }
+    """
+    _EXCLUIDAS_OBJ = {'notapplicable', 'noevaluado'}
+
+    objetivos = defaultdict(list)
+    for meta, data in meta_scores.items():
+        obj = meta.split('-')[0]
+        objetivos[obj].append(data)
+
+    objetivo_scores = {}
+    for obj, metas_data in sorted(objetivos.items()):
+        scores = [
+            d['score-m']
+            for d in metas_data
+            if d.get('score-m') is not None
+            and d.get('progress_status-m') not in _EXCLUIDAS_OBJ
+        ]
+        if not scores:
+            objetivo_scores[obj] = {'progress_status-o': 'noevaluado', 'score-o': None}
+            continue
+        score_o = round(sum(scores) / len(scores), 10)
+        status_o = get_progress_status_from_score_eustat(score_o)
+        objetivo_scores[obj] = {'progress_status-o': status_o, 'score-o': score_o}
+
+    return objetivo_scores
+
+
+def generate_progreso_metas_csv(meta_scores, objetivo_scores):
+    """Genera los CSV de progreso de metas y objetivos en _site/:
+
+    - progreso_metas.csv        → distribución de progress_status-m por objetivo y overall
+                                   (misma estructura que progreso.csv pero contando metas)
+    - progreso_metas_individual.csv → una fila por meta con meta, goal, status_m, score_m
+                                       (misma estructura que progreso_indicadores.csv)
+    - progreso_objetivos.csv    → una fila por objetivo con goal, status_o, score_o
+    """
+    import csv as _csv
+
+    os.makedirs('_site', exist_ok=True)
+
+    # ── progreso_metas.csv ──────────────────────────────────────────────────
+    # Agregar metas por objetivo y estado
+    meta_counts = defaultdict(lambda: defaultdict(int))
+    for meta, data in meta_scores.items():
+        obj   = meta.split('-')[0]
+        stm   = data.get('progress_status-m', 'noevaluado')
+        meta_counts[obj][stm]       += 1
+        meta_counts['overall'][stm] += 1
+
+    rows_metas = []
+    goal_order = ['overall'] + sorted(
+        [g for g in meta_counts if g != 'overall'],
+        key=lambda x: int(x) if x.isdigit() else 999
+    )
+    for goal in goal_order:
+        statuses = meta_counts[goal]
+        total    = sum(statuses.values())
+        for status, count in statuses.items():
+            rows_metas.append({
+                'goal': goal, 'status': status,
+                'count': count, 'percentage': count / total * 100, 'total': total
+            })
+
+    with open('_site/progreso_metas.csv', 'w', newline='', encoding='utf-8') as f:
+        writer = _csv.DictWriter(f, fieldnames=['goal', 'status', 'count', 'percentage', 'total'])
+        writer.writeheader()
+        writer.writerows(rows_metas)
+
+    # ── progreso_metas_individual.csv ───────────────────────────────────────
+    # Una fila por meta ordenada numéricamente
+    def _meta_sort_key(meta_id):
+        try:
+            return tuple((0, int(p)) if p.isdigit() else (1, p) for p in meta_id.split('-'))
+        except Exception:
+            return ((999, meta_id),)
+
+    rows_metas_ind = []
+    for meta, data in sorted(meta_scores.items(), key=lambda x: _meta_sort_key(x[0])):
+        rows_metas_ind.append({
+            'meta':   meta,
+            'goal':   meta.split('-')[0],
+            'status': data.get('progress_status-m', 'noevaluado'),
+            'score':  data.get('score-m'),
+        })
+
+    with open('_site/progreso_metas_individual.csv', 'w', newline='', encoding='utf-8') as f:
+        writer = _csv.DictWriter(f, fieldnames=['meta', 'goal', 'status', 'score'])
+        writer.writeheader()
+        writer.writerows(rows_metas_ind)
+
+    # ── progreso_objetivos.csv ──────────────────────────────────────────────
+    # Una fila por objetivo con su score-o y status-o
+    rows_objs = []
+    for obj, data in sorted(objetivo_scores.items(), key=lambda x: int(x[0]) if x[0].isdigit() else 999):
+        rows_objs.append({
+            'goal':   obj,
+            'status': data.get('progress_status-o', 'noevaluado'),
+            'score':  data.get('score-o'),
+        })
+
+    with open('_site/progreso_objetivos.csv', 'w', newline='', encoding='utf-8') as f:
+        writer = _csv.DictWriter(f, fieldnames=['goal', 'status', 'score'])
+        writer.writeheader()
+        writer.writerows(rows_objs)
+
+    print(f'[EUSTAT] >>> progreso_metas.csv: {len(rows_metas)} filas | '
+          f'progreso_metas_individual.csv: {len(rows_metas_ind)} metas | '
+          f'progreso_objetivos.csv: {len(rows_objs)} objetivos <<<')
+
+
+def build_meta_objetivo_scores():
+    """Post-build: lee indicator_calculation_components.yml (plano), calcula score-m y score-o,
+    y lo reescribe como estructura jerárquica anidada objetivo → meta → indicador:
+
+        '1':
+          progress_status-o: moderate_progress
+          score-o: 1.73
+          '1-3':
+            progress_status-m: significant_progress
+            score-m: 5.0
+            '1-3-1':
+              '1-3-1 / Serie A': {base_value: ..., score-s: ..., ...}
+              progress_status: moderate_progress
+              score-i: 2.4545811875
+              target_variant: sin_target
+    """
+    components_path = 'indicator_calculation_components.yml'
+    if not os.path.exists(components_path):
+        print(f'[EUSTAT] !!! {components_path} no encontrado — saltando cálculo de scores meta/objetivo')
+        return
+
+    with open(components_path, encoding='utf-8') as f:
+        flat = yaml.safe_load(f) or {}
+
+    meta_scores     = calculate_meta_scores(flat)
+    objetivo_scores = calculate_objetivo_scores(meta_scores)
+
+    # Ordenación numérica: '1' < '2' < ... < '10' < '11' (no lexicográfica)
+    def _num_sort(key):
+        try:
+            return tuple(int(p) for p in str(key).split('-'))
+        except ValueError:
+            return (999,)
+
+    # Construir estructura anidada
+    nested = {}
+    for inid, entry in sorted(flat.items(), key=lambda x: _num_sort(x[0])):
+        if not isinstance(entry, dict) or inid.count('-') < 2:
+            continue  # saltar entradas no-indicador que pudieran quedar de builds previos
+        if not inid[0].isdigit():
+            continue  # excluir indicadores no-ODS (OCECA y similares)
+        obj  = _objetivo_id(inid)
+        meta = _meta_id(inid)
+
+        if obj not in nested:
+            obj_data = objetivo_scores.get(obj, {})
+            nested[obj] = {
+                'progress_status-o': obj_data.get('progress_status-o', 'noevaluado'),
+                'score-o':           obj_data.get('score-o'),
+            }
+
+        if meta not in nested[obj]:
+            meta_data = meta_scores.get(meta, {})
+            nested[obj][meta] = {
+                'progress_status-m': meta_data.get('progress_status-m', 'noevaluado'),
+                'score-m':           meta_data.get('score-m'),
+            }
+
+        nested[obj][meta][inid] = entry
+
+    with open(components_path, 'w', encoding='utf-8') as f:
+        yaml.dump(nested, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+
+    # Generar CSVs de progreso de metas y objetivos
+    generate_progreso_metas_csv(meta_scores, objetivo_scores)
+
+    # Log resumen
+    metas_calc = sum(1 for d in meta_scores.values() if d['score-m'] is not None)
+    objs_calc  = sum(1 for d in objetivo_scores.values() if d['score-o'] is not None)
+    print(f'[EUSTAT] >>> Scores meta/objetivo: '
+          f'{metas_calc}/{len(meta_scores)} metas evaluadas, '
+          f'{objs_calc}/{len(objetivo_scores)} objetivos evaluados <<<')
 
 
 # ---------------------------------------------------------------------------
@@ -1245,7 +1684,12 @@ try:
 
     print(f"[EUSTAT] >>> progreso_indicadores.csv generado: {len(indicator_rows_sorted)} filas <<<")
 
+    # Calcular scores de meta y objetivo (post-build) — ANTES de tabla_resumen
+    # para que indicator_calculation_components.yml esté en formato nested cuando se lea
+    build_meta_objetivo_scores()
+
     # Generar tabla_resumen.csv: una fila por serie con todos los campos acordados
+    # Lee scores desde indicator_calculation_components.yml (nested) en lugar de scores.json
     generate_tabla_resumen(all_meta)
 
     # Inyectar tarjeta de descarga de tabla_resumen en el index.html de documentación
