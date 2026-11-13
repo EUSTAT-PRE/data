@@ -17,15 +17,15 @@ disaggregation_status_by_field: 'Desagregazioa %field bidez'
 not_specified: Ez da zehazten
 reported: Informatua
 description: |
-  2030 Agendako adierazleen eta xedeen aurrerapena modu jarraian ebaluatzen da eta jarraipen horren emaitza une oro ikus daiteke 17 Helburuetako bakoitzari dagokion orrian. 
+  2030 Agendako adierazleen eta xedeen aurrerapena modu jarraian ebaluatzen da; jarraipen horren emaitza 17 Helburuetako bakoitzari dagokion orrian ikus daiteke. 
   
-  Atal honetan, ebaluazio jarrai horren emaitzak laburbilduz,  Euskal Autonomia Erkidegoan Garapen Jasangarrirako Helburuak lortzeko egindako aurrerapena deskribatzen da.
+  Atal honetan, ebaluazio jarrai horren emaitzak laburbilduz, Euskal Autonomia Erkidegoan Garapen Jasangarrirako Helburuak betetzeko egindako aurrerapena deskribatzen da.
   
-  "Helburuen aurrerapena" atalak Garapen Jasangarrirako 17 helburuetako bakoitza zein aurrerapen mailatan dagoen aurkezten du, eta helburu bakoitzaren irudian klik eginda, helburuko xede eta adierazleen aurrerapen datuak ikus daitezke.
+  - Helburuen aurrerapena: Garapen Jasangarrirako 17 helburuetako bakoitzaren aurrerapen maila aurkezten da. eta helburu bakoitzaren irudian klik eginda, helburuko xede eta adierazleen aurrerapen datuak ikus daitezke.
   
-  "Xedeen aurrerapena" atalak 2030 Agendako 169 xedeen artean aurrerapen egoera desberdinetan dauden xedeen kopuruak azaltzen ditu eta helburukako datuak ikus daitezke   xehetasunetara jota.
+  - Xedeen aurrerapena: 2030 Agendako 169 xedeen artean aurrerapen egoera desberdinetan dauden xedeen kopuruak azaltzen ditu eta helburukako datuak ikus daitezke xehetasunetara jota.
   
-  "Adierazleen aurrerapena" atalak 2030 Agendan barneratutako adierazle guztien artean aurrerapen egoera desberdinetan dauden adierazleen kopuruak eskaintzen ditu eta helburukako datuak ikus daitezke xehetasunetara jota.
+  - Adierazleen aurrerapena: 2030 Agendan barneratutako adierazle guztien artean aurrerapen egoera desberdinetan dauden adierazleen kopuruak eskaintzen ditu eta helburukako datuak ikus daitezke xehetasunetara jota.
   
   Aurrerapena ebaluatzeko prozedurari buruz gehiago jakiteko, ikus <a href="BASEURL/metodologia/">Garapen Jasangarrirako Helburuen aurrerapenaren neurketa</a>.
 progress_status: <b>Aurrerapena</b>
@@ -67,7 +67,7 @@ download_progress_csv: Aurrerapen estatistiken datuak deskargatu (.csv)
 print_page: Aurrerapen estatistikak inprimatu
 # Helburuaren araberako aurrerapen txostenaren etiketak (progrestatus-objetivos)
 view_goal: Helburua ikusi
-goals_report: Helburuen jarraipen txostena
-indicators_report: Adierazleen jarraipen txostena
-targets_report: Jomugen jarraipen txostena
-detail_by_goal: Helburuen araberako xehetasuna
+goals_report: Helburuen aurrerapena
+indicators_report: Adierazleen aurrerapena
+targets_report: Xedeen aurrerapena
+detail_by_goal: Helburuen araberako xehetasunak
