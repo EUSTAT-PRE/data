@@ -22,11 +22,11 @@ description: |
   
   This section summarizes the results of that evaluation, describing the progress made toward achieving the Sustainable Development Goals in the Autonomous Community of the Basque Country.
   
-  The "Goals progress" section presents the status of each of the 17 Sustainable Development Goals; by clicking on the image for a specific goal, data on the progress of its associated targets and indicators is shown.
+  - Goals progress: the status of each of the 17 Sustainable Development Goals is shown; by clicking on the image for a specific goal, data on the progress of its associated targets and indicators is shown.
   
-  The "Targets progress" section shows how many of the 169 targets that make up the 2030 Agenda fall into each of the progress categories, and allows for a more detailed view of the data by goal.
+  - Targets progress: the number of the 169 targets of the 2030 Agenda that fall into each of the progress categories is shown, and a more detailed view of the data by goal can be reached.
   
-  The "Indicators progress" section shows the number of indicators at different stages of progress and allows for a more detailed view of the data by goal.
+  - Indicators progress: the number of indicators at different stages of progress is shown and a more detailed view of the data by goal can be deployed.
   
   To learn more about the methodology used to assess progress, see <a href="BASEURL/en/metodologia/">Measuring Progress on the Sustainable Development Goals</a>.
 progress_status: <b>Progress</b>
@@ -69,7 +69,7 @@ download_progress_csv: Download progress statistics data (.csv)
 print_page: Print progress statistics
 # Labels for the per-goal progress report (progrestatus-objetivos)
 view_goal: View goal
-goals_report: Goals reporting status
-indicators_report: Indicators reporting status
-targets_report: Targets reporting status
+goals_report: Goals progress
+indicators_report: Indicators progress
+targets_report: Targets progress
 detail_by_goal: Detail by goal

@@ -17,15 +17,15 @@ disaggregation_status_by_field: 'Desagregación por %field'
 not_specified: No se especifica
 reported: Informado
 description: |
-  El progreso de los indicadores y las metas de la Agenda 2030 se evalúa de forma continua y el resultado de este seguimiento está accesible en la página correspondiente a cada uno de los 17 Objetivos.
+  El progreso de los indicadores y las metas de la Agenda 2030 se evalúa de forma continua; el resultado de este seguimiento está accesible en la página correspondiente a cada uno de los 17 Objetivos.
   
-  En este apartado, resumiendo los resultados de esa evaluación continua, se describe el avance realizado en la consecución de los Objetivos de Desarrollo Sostenible en la Comunidad Autónoma del País Vasco.
+  Este apartado resume los resultados de esa evaluación continua, para describir el avance realizado en la consecución de los Objetivos de Desarrollo Sostenible en la Comunidad Autónoma del País Vasco.
   
-  El apartado "Progreso de objetivos" presenta el grado de progreso de cada uno de los 17 Objetivos de Desarrollo Sostenible, y haciendo clic en la imagen de cada objetivo se pueden ver los datos de avance de las metas y los indicadores del objetivo.
+  - Progreso de objetivos: presenta el grado de progreso de cada uno de los 17 Objetivos de Desarrollo Sostenible, y haciendo clic en la imagen de cada objetivo se pueden ver los datos de avance de las metas y los indicadores del objetivo.
   
-  El apartado "Progreso de metas" muestra el número de metas, de entre las 169 que componen la Agenda 2030, que se encuentran en los diferentes estados de progreso y, yendo al detalle, permite visualizar los datos por objetivo.
+  - Progreso de metas: muestra el número de metas, de entre las 169 que componen la Agenda 2030, que se encuentran en los diferentes estados de progreso y, yendo al detalle, permite visualizar los datos por objetivo.
   
-  El apartado "Progreso de indicadores" muestra el número de indicadores que se encuentran en los diferentes estados de progreso y permite visualizar datos por objetivos, yendo al detalle.
+  - Progreso de indicadores: muestra el número de indicadores que se encuentran en los diferentes estados de progreso y permite visualizar datos por objetivos, yendo al detalle.
   
   Para saber más sobre el procedimiento de evaluación del progreso, ver <a href="BASEURL/es/metodologia/">Medición del progreso en los Objetivos de Desarrollo Sostenible</a>.
   
@@ -68,7 +68,7 @@ download_progress_csv: Descargar datos de estadísticas de progreso (.csv)
 print_page: Imprimir estadísticas de progreso
 # Etiquetas del informe de progreso por objetivo (progrestatus-objetivos)
 view_goal: Ver objetivo
-goals_report: Informe de objetivos
-indicators_report: Informe de indicadores
-targets_report: Informe de metas
+goals_report: Progreso de objetivos
+indicators_report: Progreso de indicadores
+targets_report: Progreso de metas
 detail_by_goal: Detalle por objetivo
