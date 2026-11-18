@@ -28,9 +28,11 @@ permalink: ''
 precision: []
 auto_progress_calculation: true
 progress_calculation_options:
-   - series: EU_ODA_GDP
+  - series: EU_ODA_GDP
     direction: positive
     target: 0.7
+- series: EU_ODA_EUR
+    direction: positive
 reporting_status: complete
 sort: ''
 sources:
