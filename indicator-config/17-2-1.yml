@@ -28,19 +28,17 @@ permalink: ''
 precision: []
 auto_progress_calculation: true
 progress_calculation_options:
-  - series: EU_ODA_EUR
-    direction: positive
-  - series: EU_ODA_GDP
+   - series: EU_ODA_GDP
     direction: positive
     target: 0.7
 reporting_status: complete
 sort: ''
 sources:
-  - organisation: FUENTE.GE_Exteriores
+  - organisation: FUENTE.Elankidetza
     periodicity: FUENTE.FREQ_A
-    url: FUENTE.GE_Exteriores_aod_url
-    url_text: FUENTE.GE_Exteriores_aod
-    logo: FUENTE.GE_logo
+    url: FUENTE.elankidetza_ataria_url
+    url_text: FUENTE.elankidetza_ataria
+    logo: FUENTE.elankidetza_logo
   - organisation: FUENTE.Eustat
     periodicity: FUENTE.FREQ_A
     url: FUENTE.Eustat_cpib_url
