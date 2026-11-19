@@ -4475,7 +4475,7 @@
       target_variant: sin_target
 '17':
   progress_status-o: significant_progress
-  score-o: 3.9190873913
+  score-o: 3.905007627
   17-1:
     progress_status-m: moderate_progress
     score-m: 0.7828912937
@@ -4528,36 +4528,36 @@
       target_variant: sin_target
   17-2:
     progress_status-m: moderate_progress
-    score-m: 1.6507204454
+    score-m: 1.5521620956
     17-2-1:
       17-2-1 / Administrazio publiko autonomikoen eta tokiko administrazio publikoen Garapenerako Laguntza Ofizial garbia:
-        base_value: 49.43
+        base_value: 51.48
         base_year: 2015.0
-        current_value: 80.53
-        current_year: 2023.0
+        current_value: 94.74
+        current_year: 2025.0
         direction: 1
         limit: null
-        progress_value: 0.0629085147
+        progress_value: 0.0628928466
         score-s: 5.0
         sign: 1
         status: significant_progress
         target: null
         target_year: 2030.0
       17-2-1 / Administrazio publiko autonomikoen eta tokiko administrazio publikoen Garapenerako Laguntza Ofizial garbia, BP...:
-        base_value: 0.07
+        base_value: 0.08
         base_year: 2015.0
-        current_value: 0.09
-        current_year: 2023.0
+        current_value: 0.1
+        current_year: 2025.0
         direction: 1
         limit: null
-        progress_value: 0.1923458138
-        score-s: -1.6985591092
+        progress_value: 0.1450378059
+        score-s: -1.8956758087
         sign: 1
         status: moderate_deterioration
         target: 0.7
         target_year: 2030.0
       progress_status: moderate_progress
-      score-i: 1.6507204454
+      score-i: 1.5521620956
       target_variant: mixto
   17-3:
     progress_status-m: significant_progress
