@@ -245,7 +245,7 @@
       target_variant: sin_target
 '2':
   progress_status-o: moderate_progress
-  score-o: 0.7458838361
+  score-o: 0.6952368507
   2-1:
     progress_status-m: moderate_progress
     score-m: 1.2625996965
@@ -371,7 +371,7 @@
       target_variant: con_target
   2-4:
     progress_status-m: moderate_progress
-    score-m: 1.6593961621
+    score-m: 1.3555142496
     2-4-1:
       2-4-1 / Hektarea bakoitzeko nekazaritza-ekoizpenaren balio onargarria edo desiragarria lortu duen nekazaritza-azalerare...:
         base_value: 30.21
@@ -423,12 +423,12 @@
       2-4-E2 / Nekazaritza eta abeltzaintzako amoniako-isuriak hektareako:
         base_value: 19.1
         base_year: 2015.0
-        current_value: 16.1
-        current_year: 2023.0
+        current_value: 16.7
+        current_year: 2024.0
         direction: -1
         limit: null
-        progress_value: 0.0211321526
-        score-s: 5.0
+        progress_value: 0.0148092062
+        score-s: 3.70230155
         sign: 1
         status: significant_progress
         target: null
@@ -437,17 +437,17 @@
         base_value: 4.2
         base_year: 2015.0
         current_value: 3.6
-        current_year: 2023.0
+        current_year: 2024.0
         direction: -1
         limit: null
-        progress_value: 0.0190843776
-        score-s: 4.7710944
+        progress_value: 0.0169820055
+        score-s: 4.245501375
         sign: 1
         status: significant_progress
         target: null
         target_year: 2030.0
       progress_status: significant_progress
-      score-i: 4.8855472
+      score-i: 3.9739014625
       target_variant: sin_target
   2-5:
     progress_status-m: notstarted
