@@ -44,7 +44,7 @@ reporting_status: complete
 sort: ''
 sources:
   - organisation: FUENTE.GE_Presidencia
-    periodicity: FUENTE.FREQ_A
+    periodicity: FUENTE.FREQ_A2
     logo: FUENTE.GE_logo
 standalone: false
 tags: []

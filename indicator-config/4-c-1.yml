@@ -40,6 +40,9 @@ progress_calculation_options:
     limit: 100
 reporting_status: complete
 sort: ''
-sources: []
+sources:
+  - organisation: FUENTE.Euskadi_Educación
+    periodicity: FUENTE.FREQ_A
+    logo: FUENTE.Euskadi_logo
 standalone: false
 tags: []
