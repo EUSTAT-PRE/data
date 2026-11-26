@@ -37,15 +37,7 @@ progress_approaching_target: Approaching target
 progress_target_achieved: Target achieved
 progress_help: Measuring Progress on the Sustainable Development Goals
 # Nuevos estados de progreso
-alcanzado: On track or target met
-en_progreso: Fair progress but acceleration needed
-retroceso: Stagnation or regression
 no_evaluado: Not evaluable
-progreso_significativo: Significant progress towards SD objectives
-progreso_moderado: Moderate progress towards SD objectives
-sin_progreso: No progress towards nor movement away from SD objectives
-retroceso_moderado: Moderate movement away from SD objectives
-retroceso_significativo: Significant movement away from SD objectives
 meta_alcanzada: Target achieved
 territorio: 'Province'
 sexo: Sex

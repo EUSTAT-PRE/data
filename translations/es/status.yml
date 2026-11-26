@@ -35,15 +35,7 @@ progress_challenges_remain: Insuficiente
 progress_approaching_target: Moderado
 progress_target_achieved: Objetivo cumplido
 progress_help: Medición del progreso en los Objetivos de Desarrollo Sostenible
-alcanzado: Meta alcanzada o en vías de alcanzarla
-en_progreso: Progreso razonable, pero es necesario acelerarlo
-retroceso: Estancamiento o retroceso
 no_evaluado: No evaluable
-progreso_significativo: Avance significativo hacia los objetivos
-progreso_moderado: Avance moderado hacia los objetivos
-sin_progreso: Sin avance ni retroceso
-retroceso_moderado: Retroceso moderado respecto a los objetivos
-retroceso_significativo: Retroceso significativo respecto a los objetivos
 meta_alcanzada: Meta alcanzada
 territorio: 'Territorio histórico'
 sexo: Sexo
